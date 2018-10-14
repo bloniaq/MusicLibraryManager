@@ -5,9 +5,33 @@ import discogs_client
 import itertools
 from difflib import SequenceMatcher
 import string
+import pickle
+import time
+import logging
 
-inputpath = "/home/kuba/Muzyka"
+log = logging.getLogger()
+log.handlers = []
+
+log = logging.getLogger('DB Builder')
+log.setLevel(logging.DEBUG)
+
+ch = logging.StreamHandler()
+ch.setLevel(logging.DEBUG)
+fh = logging.FileHandler('logfile.log', 'w')
+fh.setLevel(logging.INFO)
+
+formatter = logging.Formatter('%(asctime)s-%(levelname)s: %(message)s',
+                              datefmt='%Y.%m.%d %H:%M:%S')
+
+ch.setFormatter(formatter)
+fh.setFormatter(formatter)
+
+log.addHandler(ch)
+log.addHandler(fh)
+
+inputpath = "D:\\++WORKZONE++"
 extlist = ['.mp3', '.ogg', '.flac', '.wav', '.wma', '.ape']
+ratelimit = 1
 
 con = sqlite3.connect('database.db')
 con.row_factory = sqlite3.Row
@@ -21,7 +45,6 @@ punctuationremover = str.maketrans('', '', string.punctuation)
 
 
 cursor.executescript("""
-    DROP TABLE IF EXISTS katalogi;
     CREATE TABLE IF NOT EXISTS katalogi (
         id INTEGER PRIMARY KEY ASC,
         sciezka varchar(400) NOT NULL,
@@ -30,9 +53,8 @@ cursor.executescript("""
         discogs varchar(250) DEFAULT ''
     )
     """)
-
+# DROP TABLE IF EXISTS katalogi;
 cursor.executescript("""
-    DROP TABLE IF EXISTS pliki;
     CREATE TABLE IF NOT EXISTS pliki (
         id INTEGER PRIMARY KEY ASC,
         sciezka varchar(400) NOT NULL,
@@ -51,20 +73,21 @@ def longestSubstring(str1, str2):
         # print(str1[match.a: match.a + match.size])
         return str1[match.a: match.a + match.size]
     else:
-        print('Nie znaleziono części wspolnych')
+        log.info('Nie znaleziono części wspolnych')
 
 
 def substringFinder(alist):
     comparisionlist = []
     propositions = []
-    # print(alist)
+    log.info('Substring Finder starts')
+    log.info('{0}'.format(alist))
     for i in range(len(alist) - 1):
         match = longestSubstring(alist[i], alist[i + 1])
         # print(
         #     'para ', alist[i], ' i ', alist[i + 1], ' : ', match)
-        if match not in propositions:
+        if match not in propositions and match is not None:
             propositions.append(match)
-    print('Propozycje : ', propositions)
+    log.info('Propositions : {0}'.format(propositions))
     for j in propositions:
         flag = 0
         for k in alist:
@@ -87,88 +110,108 @@ def AudioFile(file):
 
 
 def DiscogsID(artist, album, path):
-    print('\n\n***Łącze się z Discogs dla ', artist, ' - ', album)
+    log.info('\n\n***Searching for {0} - {1}'.format(artist, album))
     token = artist + ' - ' + album
     result = ''
     # ile wyników z zapytania brać pod uwagę
     res_tresh = 50
     try:
+        log.info('\nmetoda Album')
+        log.info('Connecting Discogs\nQuery: {0}'.format(album))
         master_album = d.search(album, type='master')
         for i in itertools.islice(master_album, 0, res_tresh):
             masterlist = i.title.split(' - ')
             martist = masterlist[0]
             malbum = masterlist[1]
+            log.info('Comparing {0} - {1}'.format(martist, malbum))
             if martist == artist and malbum == album:
-                print('Znaleziono ID z listy Album')
-                print(i.id)
+                log.info('Znaleziono ID z listy Album')
+                log.info('{0}'.format(i.id))
                 result = i.id
                 break
+        time.sleep(ratelimit)
         i = 0
         if result == '':
+            log.info('\nmetoda Token')
+            log.info('Connecting Discogs\n Query: {0}'.format(token))
             master_token = d.search(token, type='master')
             for i in itertools.islice(master_token, 0, res_tresh):
-                print(i.title)
+                log.info('{0}'.format(i.title))
                 masterlist = i.title.split(' - ')
                 martist = masterlist[0]
                 malbum = masterlist[1]
+                log.info('Comparing {0} - {1}'.format(martist, malbum))
                 if martist == artist and malbum == album:
-                    print('Znaleziono ID z listy Token')
-                    print(i.id)
+                    log.info('Znaleziono ID z listy Token')
+                    log.info('{0}'.format(i.id))
                     result = i.id
                     break
+        time.sleep(ratelimit)
         i = 0
         if result == '':
-            print('\nmetoda Variations')
+            log.info('\nmetoda Variations')
+            log.info('Connecting Discogs\nQuery: {0}'.format(artist))
             varartist = d.search(artist, type='artist')
             variations = varartist[0].name_variations
-            print(artist[0], ' aliases : ', variations)
+            log.info('{0}  aliases : {1}'.format(varartist[0], variations))
             if variations is not None:
                 for k in variations:
                     if result != '':
                         break
                     tokenvar = k + ' - ' + album
+                    log.info('Connecting Discogs\nQuery: {0}'.format(tokenvar))
                     master_variations = d.search(tokenvar, type='master')
+                    log.info('tried: {0}'.format(tokenvar))
                     for i in itertools.islice(master_variations, 0, res_tresh):
                         masterlist = i.title.split(' - ')
                         martist = masterlist[0].split('*')[0]
+                        martist = martist.split(' (')[0]
                         malbum = masterlist[1]
-                        print(martist, ' - ', malbum)
+                        log.info('Comparing {0} - {1}'.format(martist, malbum))
                         if martist == k and malbum == album:
-                            print('Znaleziono ID z listy Variations')
-                            print(i.id)
+                            log.info('Znaleziono ID z listy Variations')
+                            log.info('{0}'.format(i.id))
                             result = i.id
                             break
+                    time.sleep(ratelimit)
+        time.sleep(ratelimit)
         i = 0
         if result == '':
-            print('\nmetoda Release')
+            log.info('\nmetoda Release')
+            log.info('Connecting Discogs\nQuery: {0}'.format(album))
             release = d.search(album, type='release')
             for i in itertools.islice(release, 0, res_tresh):
                 masterlist = i.title.split(' - ')
                 martist = masterlist[0]
                 malbum = masterlist[1]
+                log.info('Comparing {0} - {1}'.format(martist, malbum))
                 if martist == artist and malbum == album:
-                    print('Znaleziono ID z listy Release')
-                    print(i.id)
+                    log.info('Znaleziono ID z listy Release')
+                    log.info('{0}'.format(i.id))
                     result = i.id
                     break
+        time.sleep(ratelimit)
         if result == '':
-            print('\nmetoda Release2')
+            log.info('\nmetoda Release2')
             token_improved = token
+            log.info('Connecting Discogs\nQuery: {0}'.format(token_improved))
             release2 = d.search(token_improved, type='release')
             for i in itertools.islice(release2, 0, res_tresh):
                 masterlist = i.title.split(' - ')
                 martist = masterlist[0].translate(punctuationremover)
                 malbum = masterlist[1].translate(punctuationremover)
-                print('elo')
                 tranartist = artist.translate(punctuationremover)
                 tranalbum = album.translate(punctuationremover)
+                log.info('Comparing {0} - {1}'.format(martist, malbum))
+                log.info('With {0} - {1}'.format(tranartist, tranalbum))
                 if martist == tranartist and malbum == tranalbum:
-                    print('Znaleziono ID z listy Release2')
-                    print(i.id)
+                    log.info('Znaleziono ID z listy Release2')
+                    log.info('{0}'.format(i.id))
                     result = i.id
                     break
+        time.sleep(ratelimit)
     except IndexError:
-        print('przewano szukanie ID')
+        log.warning('przewano szukanie ID')
 
     return result
 
@@ -177,11 +220,24 @@ def Crawler(path=inputpath):
     '''Lists every catalog path in path which contents at least one audio file
     '''
     result = []
-    for x in os.walk(path):
-        for i in os.listdir(x[0]):
-            if AudioFile(i):
-                result.append(x[0])
-                break
+    log.info('Crawler Starts')
+    if os.path.exists("catalogs.dat"):
+        with open('catalogs.dat', 'rb') as file:
+            result = pickle.load(file)
+    else:
+        log.debug('Nie znaleziono pliku')
+        xcounter = 0
+        for x in os.walk(path):
+            xcounter+=1
+            for i in os.listdir(x[0]):
+                if AudioFile(i):
+                    result.append(x[0])
+                    break
+            if xcounter%100 == 0:
+                log.debug('sprawdzono {0} folderów'.format(xcounter))
+        log.info('Zakończono przeszukwianie dysku')
+        with open('catalogs.dat', 'wb') as file2:
+            pickle.dump(result, file2)
     return result
 
 
@@ -205,16 +261,18 @@ def CatalogWorker(path):
     albumlist = []
     artistlist = []
     filesidlist = []
-    for i in os.listdir(path):
+    log.info('Catalog Worker starts : {0}'.format(path))
+    files = [f for f in os.listdir(path) if os.path.isfile(os.path.join(path,f))]
+    for i in files:
         if AudioFile(i):
-            fileid = FileWorker(path + '/' + i, albumlist, artistlist)
+            fileid = FileWorker(path + '\\' + i, albumlist, artistlist)
             filesidlist.append(fileid)
     token = RecognizeCatalog(albumlist, artistlist, path)
     if (token['artist'] != 'Unknown Artist' and
             token['album'] != 'Unknown Album'):
         discogsid = DiscogsID(token['artist'], token['album'], path)
     else:
-        print('\n\nNie rozpoznano albumu')
+        log.debug('\n\nNie rozpoznano albumu')
         discogsid = ''
     cursor.execute(
         'INSERT INTO katalogi VALUES(NULL, ?, ?, ?, ?);',
@@ -224,37 +282,63 @@ def CatalogWorker(path):
         cursor.execute(
             'UPDATE pliki SET katalog_id=? WHERE id=?', (catalogid, j))
     con.commit()
-    print(
-        'CatalogID: ', catalogid, '\nArtysta: ', token['artist'], '\nAlbum: ',
-        token['album'], '\n\n')
-    # jeśli są jest jedna propozycja - wyszukaj ją na discogs
-    # utwórz rekord w db encja Katalogi
+    log.info(
+        'Worked on :\nCatalogID:\t{0}\nArtysta:\t{1}\nAlbum:\t{2}\nWork done\n\n'.format(
+            catalogid, token['artist'], token['album']))
 
 
 def FileWorker(path, albumlist, artistlist):
     # print('w tej funkcji maja byc wykonywane dzialania nad plikiem')
-    song = taglib.File(path)
+    log.info('\nWorking on file : {0}'.format(path))
+    try:
+        song = taglib.File(path)
+    except OSError:
+        log.warning('OS Error')
+        log.warning(
+            'np nieakceptowalne znaki\
+             - usuniete od pytaglib wersji 1.4.2')
+        albumtag = ''
+        artisttag = ''
+        titletag = ''
+        cursor.execute(
+            'INSERT INTO pliki VALUES(NULL, ?, ?, ?, ?, ?);',
+            (path, artisttag, titletag, albumtag, 0))
+        fileid = cursor.lastrowid
+        con.commit()
+        return fileid
     try:
         albumtag = song.tags['ALBUM'][0]
         if albumtag not in albumlist:
             albumlist.append(albumtag)
     except KeyError as ALBUM:
-        print('\nplik ', path)
-        print('pole ALBUM błędne lub puste')
+        log.warning('KeyError')
+        log.warning('pole ALBUM błędne')
+        albumtag = ''
+    except IndexError:
+        log.warning('IndexError')
+        log.warning('pole ALBUM puste (?)')
         albumtag = ''
     try:
         artisttag = song.tags['ARTIST'][0]
         if artisttag not in artistlist:
             artistlist.append(artisttag)
     except KeyError as ARTIST:
-        print('\nplik ', path)
-        print('pole artist błędne lub puste')
+        log.warning('KeyError')
+        log.warning('pole artist błędne lub puste')
+        artisttag = ''
+    except IndexError:
+        log.warning('IndexError')
+        log.warning('pole ARTIST puste (?)')
         artisttag = ''
     try:
         titletag = song.tags['TITLE'][0]
     except KeyError as TITLE:
-        print('\nplik ', path)
-        print('pole title błędne lub puste')
+        log.warning('KeyError')
+        log.warning('pole title błędne lub puste')
+        titletag = ''
+    except IndexError:
+        log.warning('IndexError')
+        log.warning('pole TITLE puste (?)')
         titletag = ''
     cursor.execute(
         'INSERT INTO pliki VALUES(NULL, ?, ?, ?, ?, ?);',
@@ -267,10 +351,27 @@ def FileWorker(path, albumlist, artistlist):
 
 cataloglist = Crawler()
 
-STEPS = 300
+STEPS = len(cataloglist)
+# STEPS = 10
+
+log.info('Crawler Ends')
 
 try:
     for j in range(STEPS):
-        CatalogWorker(cataloglist[j])
-except IndexError:
-    print('koniec')
+        try:
+            cursor.execute(
+                'SELECT sciezka FROM katalogi WHERE sciezka = ?',
+                (cataloglist[j],))
+            existingrecord = cursor.fetchone()[0]
+            log.info('Skipped {0}'.format(existingrecord))
+            continue
+        except TypeError as NoneType:
+            log.info('None')
+            CatalogWorker(cataloglist[j])
+            time.sleep(ratelimit)
+        except TypeError:
+            log.info('not all arguments converted duriong formatting')
+except SyntaxError:
+    log.warning('SyntaxError')
+# except IndexError:
+#     print('IndexError')
