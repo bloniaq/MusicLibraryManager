@@ -5,8 +5,9 @@ name = "pypi"
 
 [packages]
 requests = "*"
-pytaglib = "==1.4.1"
+pytaglib = "==1.4.2"
 discogs-client = "*"
+cython = "*"
 
 [dev-packages]
 
