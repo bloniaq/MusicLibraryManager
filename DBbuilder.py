@@ -31,7 +31,7 @@ log.addHandler(fh)
 
 inputpath = "D:\\++WORKZONE++"
 extlist = ['.mp3', '.ogg', '.flac', '.wav', '.wma', '.ape']
-ratelimit = 1
+ratelimit = 1.5
 
 con = sqlite3.connect('database.db')
 con.row_factory = sqlite3.Row
