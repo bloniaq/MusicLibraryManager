@@ -321,8 +321,8 @@ def FileWorker(path, albumlist, artistlist):
         albumtag = song.tags['ALBUM'][0]
         if albumtag not in albumlist:
             albumlist.append(albumtag)
-    except KeyError as ALBUM:
-        log.warning('KeyError')
+    except KeyError as e:
+        log.warning('KeyError: {0}'.format(e))
         log.warning('pole ALBUM błędne')
         albumtag = ''
     except IndexError:
@@ -333,8 +333,8 @@ def FileWorker(path, albumlist, artistlist):
         artisttag = song.tags['ARTIST'][0]
         if artisttag not in artistlist:
             artistlist.append(artisttag)
-    except KeyError as ARTIST:
-        log.warning('KeyError')
+    except KeyError as e:
+        log.warning('KeyError: {0}'.format(e))
         log.warning('pole artist błędne lub puste')
         artisttag = ''
     except IndexError:
@@ -343,8 +343,8 @@ def FileWorker(path, albumlist, artistlist):
         artisttag = ''
     try:
         titletag = song.tags['TITLE'][0]
-    except KeyError as TITLE:
-        log.warning('KeyError')
+    except KeyError as e:
+        log.warning('KeyError: {0}'.format(e))
         log.warning('pole title błędne lub puste')
         titletag = ''
     except IndexError:
