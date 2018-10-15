@@ -1,3 +1,4 @@
+from datetime import datetime
 import sqlite3
 import os
 import taglib
@@ -8,6 +9,16 @@ import string
 import pickle
 import time
 import logging
+import signal
+import requests
+
+def signal_handler(signal, frame):
+    global interrupted
+    interrupted = True
+
+signal.signal(signal.SIGINT, signal_handler)
+
+interrupted = False
 
 log = logging.getLogger()
 log.handlers = []
@@ -17,7 +28,7 @@ log.setLevel(logging.DEBUG)
 
 ch = logging.StreamHandler()
 ch.setLevel(logging.DEBUG)
-fh = logging.FileHandler('logfile.log', 'w')
+fh = logging.FileHandler(datetime.now().strftime('logs\\log-%Y.%m.%d-%H.%M.log'), 'w')
 fh.setLevel(logging.INFO)
 
 formatter = logging.Formatter('%(asctime)s-%(levelname)s: %(message)s',
@@ -366,11 +377,26 @@ try:
             log.info('Skipped {0}'.format(existingrecord))
             continue
         except TypeError as NoneType:
-            log.info('None')
-            CatalogWorker(cataloglist[j])
-            time.sleep(ratelimit)
-        except TypeError:
-            log.info('not all arguments converted duriong formatting')
+            while True:
+                try:
+                    log.info('None')
+                    CatalogWorker(cataloglist[j])
+                    if interrupted:
+                        print("Gotta go")
+                        j = range(STEPS)[-1]
+                        break
+                    time.sleep(ratelimit)
+                except requests.exceptions.ConnectionError as e:
+                    log.warning('{}'.format(e))
+                    log.warning('Connection Broken. Trying to connect in 600 seconds')
+                    time.sleep(600)
+                    continue
+            break
+        except TypeError as e:
+            log.warning('{0}\nnot all arguments converted during formatting'.format(e))
+        except  ConnectionError as e:
+            log.warning('{}'.format(e))
+            time.sleep(600)
 except SyntaxError:
     log.warning('SyntaxError')
 # except IndexError:
