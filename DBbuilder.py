@@ -379,19 +379,22 @@ try:
         except TypeError as NoneType:
             while True:
                 try:
-                    log.info('None')
                     CatalogWorker(cataloglist[j])
-                    if interrupted:
-                        print("Gotta go")
-                        j = range(STEPS)[-1]
-                        break
-                    time.sleep(ratelimit)
+                    time.sleep(ratelimit) 
                 except requests.exceptions.ConnectionError as e:
                     log.warning('{}'.format(e))
                     log.warning('Connection Broken. Trying to connect in 600 seconds')
                     time.sleep(600)
+                    if interrupted:
+                        print("Exiting Script")
+                        j = range(STEPS)[-1]
+                        break
                     continue
-            break
+                break
+            if interrupted:
+                print("Exiting Script")
+                j = range(STEPS)[-1]
+                break
         except TypeError as e:
             log.warning('{0}\nnot all arguments converted during formatting'.format(e))
         except  ConnectionError as e:
