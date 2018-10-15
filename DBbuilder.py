@@ -1,6 +1,7 @@
 from datetime import datetime
 import sqlite3
 import os
+import sys
 import taglib
 import discogs_client
 import itertools
@@ -12,13 +13,11 @@ import logging
 import signal
 import requests
 
-def signal_handler(signal, frame):
-    global interrupted
-    interrupted = True
 
-signal.signal(signal.SIGINT, signal_handler)
+#############################################
+# CONFIGURATION SECTION
+#############################################
 
-interrupted = False
 
 log = logging.getLogger()
 log.handlers = []
@@ -28,7 +27,8 @@ log.setLevel(logging.DEBUG)
 
 ch = logging.StreamHandler()
 ch.setLevel(logging.DEBUG)
-fh = logging.FileHandler(datetime.now().strftime('logs\\log-%Y.%m.%d-%H.%M.log'), 'w')
+fh = logging.FileHandler(datetime.now().strftime(
+    'logs\\log-%Y.%m.%d-%H.%M.log'), 'w')
 fh.setLevel(logging.INFO)
 
 formatter = logging.Formatter('%(asctime)s-%(levelname)s: %(message)s',
@@ -40,20 +40,47 @@ fh.setFormatter(formatter)
 log.addHandler(ch)
 log.addHandler(fh)
 
-inputpath = "D:\\++WORKZONE++"
-extlist = ['.mp3', '.ogg', '.flac', '.wav', '.wma', '.ape']
-ratelimit = 1.5
+interrupted = False
 
-con = sqlite3.connect('database.db')
+punctuationremover = str.maketrans('', '', string.punctuation)
+
+if sys.platform == 'linux':
+    log.info('OS : Linux')
+    inputpath = "/home/kuba/Muzyka"
+    slasher = '/'
+    catalogcachefile = 'lin_catalogs.dat'
+    ratelimit = 2
+    databasefilename = 'lin_database.db'
+if sys.platform == 'win32':
+    log.info('OS : Windows')
+    inputpath = "D:\\++WORKZONE++"
+    slasher == '\\'
+    catalogcachefile = 'win_catalogs.dat'
+    ratelimit = 1
+    databasefilename = 'database.db'
+
+extlist = ['.mp3', '.ogg', '.flac', '.wav', '.wma', '.ape']
+
+con = sqlite3.connect(databasefilename)
 con.row_factory = sqlite3.Row
 cursor = con.cursor()
+
+
+def signal_handler(signal, frame):
+    global interrupted
+    interrupted = True
+
+
+signal.signal(signal.SIGINT, signal_handler)
+
 
 d = discogs_client.Client(
     'bloniaqsMusicLibraryManager/0.1',
     user_token="BxpsPOkQpsQzPnUErhoQchKfkTIhGxdnzAHhyybD")
 
-punctuationremover = str.maketrans('', '', string.punctuation)
-
+#############################################
+# DATABASE DEFINITIONS
+#############################################
 
 cursor.executescript("""
     CREATE TABLE IF NOT EXISTS katalogi (
@@ -61,63 +88,240 @@ cursor.executescript("""
         sciezka varchar(400) NOT NULL,
         artysta varchar(250) NOT NULL,
         album varchar(250) NOT NULL,
-        discogs varchar(250) DEFAULT ''
+        data DATE,
+        jakosc INTEGER NOT NULL,
+        katalog varchar(200),
+        discogs varchar(250),
+        metoda varchar(100)
     )
     """)
-# DROP TABLE IF EXISTS katalogi;
 cursor.executescript("""
     CREATE TABLE IF NOT EXISTS pliki (
         id INTEGER PRIMARY KEY ASC,
         sciezka varchar(400) NOT NULL,
-        artysta varchar(250) DEFAULT '',
-        tytul varchar(400) DEFAULT '',
-        album varchar(250) DEFAULT '',
+        artysta varchar(250),
+        tytul varchar(400),
+        album varchar(250),
+        jakosc INTEGER NOT NULL,
         katalog_id INTEGER NOT NULL,
         FOREIGN KEY(katalog_id) REFERENCES katalogi(id)
     )""")
 
 
-def longestSubstring(str1, str2):
-    seqMatch = SequenceMatcher(None, str1, str2)
-    match = seqMatch.find_longest_match(0, len(str1), 0, len(str2))
-    if match.size != 0:
-        # print(str1[match.a: match.a + match.size])
-        return str1[match.a: match.a + match.size]
-    else:
-        log.info('Nie znaleziono części wspolnych')
+#############################################
+# PREPARATIONS FUNCTIONS DEFINITIONS
+#############################################
 
 
-def substringFinder(alist):
-    comparisionlist = []
-    propositions = []
-    log.info('Substring Finder starts')
-    log.info('{0}'.format(alist))
-    for i in range(len(alist) - 1):
-        match = longestSubstring(alist[i], alist[i + 1])
-        # print(
-        #     'para ', alist[i], ' i ', alist[i + 1], ' : ', match)
-        if match not in propositions and match is not None:
-            propositions.append(match)
-    log.info('Propositions : {0}'.format(propositions))
-    for j in propositions:
-        flag = 0
-        for k in alist:
-            if longestSubstring(j, k) != j:
-                flag = 1
-        if flag == 0:
-            comparisionlist.append(j)
-    if len(comparisionlist) == 1:
-        return comparisionlist[0]
+def Crawler(path=inputpath):
+    '''Loads or creates a list od every catalog in path containg audio file
+    '''
+    result = []
+    log.info('Crawler Function starts')
+    if os.path.exists(catalogcachefile):
+        log.debug('Catalog Cache File founded')
+        with open(catalogcachefile, 'rb') as file:
+            result = pickle.load(file)
     else:
-        return 'Various Artist'
+        log.debug('Catalog Cache File not found')
+        log.debug('Starting reading library')
+        xcounter = 0
+        for x in os.walk(path):
+            xcounter += 1
+            for i in os.listdir(x[0]):
+                if AudioFile(i):
+                    result.append(x[0])
+                    break
+            if xcounter % 500 == 0:
+                log.debug('Already checked {0} directories'.format(xcounter))
+        log.info('Library reading ended with {0} directories'.format(xcounter))
+        with open(catalogcachefile, 'wb') as file2:
+            pickle.dump(result, file2)
+    log.info('Crawler Function ended\n\n')
+    return result
 
 
 def AudioFile(file):
+    '''checks if input file has extension caontained on audio file extensions list
+    '''
     filename, extension = os.path.splitext(file)
     if extension in extlist:
         return True
     else:
         return False
+
+
+#############################################
+# CATALOG OPERATIONS FUNCTIONS DEFINITIONS
+#############################################
+
+
+def longestSubstring(str1, str2):
+    '''Getting the longest substring of two inputs strings
+    '''
+    log.debug(
+        'longestSubstring comparing pair: {0} and {1}'.format(str1, str2))
+    seqMatch = SequenceMatcher(None, str1, str2)
+    match = seqMatch.find_longest_match(0, len(str1), 0, len(str2))
+    if match.size != 0:
+        selection = str1[match.a: match.a + match.size]
+        log.debug('Selected : {0}'.format(selection))
+        return selection
+    else:
+        log.debug('Common substring not found\n')
+
+
+def substringFinder(alist):
+    '''Choose the one substring common for all input list elements
+    '''
+    comparisionlist = []
+    substrings = []
+    log.info('Substring Finder Function starts')
+    log.debug('Input : {0}\n'.format(alist))
+    for i in range(len(alist) - 1):
+        match = longestSubstring(alist[i], alist[i + 1])
+        if match not in substrings and match is not None and len(match) > 1:
+            substrings.append(match)
+    log.info('Existing substrings : {0}'.format(substrings))
+    for j in substrings:
+        flag = 0
+        for k in alist:
+            if longestSubstring(j, k) != j:
+                flag = 1
+        if flag == 0:
+            log.info('***Connecting Discogs\nQuery: {0}'.format(match))
+            substringsearch = d.search(match, type='artist')
+            firstshot = substringsearch[0].name
+            log.debug(
+                'Checking if my match {1} fits to {0}'.format(
+                    firstshot, match))
+            if match == firstshot:
+                comparisionlist.append(j)
+            log.debug(
+                'Found match : {0}, that exists on Discogs'.format(match))
+            time.sleep(ratelimit)
+    if len(comparisionlist) == 1:
+        log.info(
+            'Substring Finder found match : {0}\n'.format(comparisionlist[0]))
+        return comparisionlist[0]
+    else:
+        log.info('Substring Finder did not found any match\n')
+        return 'Various Artist'
+
+
+def CatalogWorker(path):
+    # print('w tej funkcji maja sie znaleźć działania nad katalogiem')
+    albumlist = []
+    artistlist = []
+    filesidlist = []
+    log.info('Catalog Worker starts : {0}'.format(path))
+    files = [f for f in os.listdir(path) if (os.path.isfile(os.path.join(path,f)))]
+    for i in files:
+        if AudioFile(i):
+            fileid = FileWorker(path + slasher + i, albumlist, artistlist)
+            filesidlist.append(fileid)
+    token = RecognizeCatalog(albumlist, artistlist, path)
+    if (token['artist'] != 'Unknown Artist' and
+            token['album'] != 'Unknown Album'):
+        discogsid = DiscogsID(token['artist'], token['album'], path)
+    else:
+        log.debug('\n\nNie rozpoznano albumu')
+        discogsid = ''
+    cursor.execute(
+        'INSERT INTO katalogi VALUES(NULL, ?, ?, ?, ?);',
+        (path, token['artist'], token['album'], discogsid))
+    catalogid = cursor.lastrowid
+    for j in filesidlist:
+        cursor.execute(
+            'UPDATE pliki SET katalog_id=? WHERE id=?', (catalogid, j))
+    con.commit()
+    log.info(
+        'Worked on :\nCatalogID:\t{0}\nArtysta:\t{1}\nAlbum:\t{2}\nWork done\
+        \n\n'.format(catalogid, token['artist'], token['album']))
+
+
+def FileWorker(path, albumlist, artistlist):
+    # print('w tej funkcji maja byc wykonywane dzialania nad plikiem')
+    log.info('\nWorking on file : {0}'.format(path))
+    try:
+        song = taglib.File(path)
+    except OSError:
+        log.warning('OS Error')
+        log.warning(
+            'np nieakceptowalne znaki\
+             - usuniete od pytaglib wersji 1.4.2')
+        albumtag = ''
+        artisttag = ''
+        titletag = ''
+        cursor.execute(
+            'INSERT INTO pliki VALUES(NULL, ?, ?, ?, ?, ?);',
+            (path, artisttag, titletag, albumtag, 0))
+        fileid = cursor.lastrowid
+        con.commit()
+        return fileid
+    try:
+        albumtag = song.tags['ALBUM'][0]
+        if albumtag not in albumlist:
+            albumlist.append(albumtag)
+    except KeyError as e:
+        log.warning('KeyError: {0}'.format(e))
+        log.warning('pole ALBUM błędne')
+        albumtag = ''
+    except IndexError:
+        log.warning('IndexError')
+        log.warning('pole ALBUM puste (?)')
+        albumtag = ''
+    try:
+        artisttag = song.tags['ARTIST'][0]
+        if artisttag not in artistlist:
+            artistlist.append(artisttag)
+    except KeyError as e:
+        log.warning('KeyError: {0}'.format(e))
+        log.warning('pole artist błędne lub puste')
+        artisttag = ''
+    except IndexError:
+        log.warning('IndexError')
+        log.warning('pole ARTIST puste (?)')
+        artisttag = ''
+    try:
+        titletag = song.tags['TITLE'][0]
+    except KeyError as e:
+        log.warning('KeyError: {0}'.format(e))
+        log.warning('pole title błędne lub puste')
+        titletag = ''
+    except IndexError:
+        log.warning('IndexError')
+        log.warning('pole TITLE puste (?)')
+        titletag = ''
+    cursor.execute(
+        'INSERT INTO pliki VALUES(NULL, ?, ?, ?, ?, ?);',
+        (path, artisttag, titletag, albumtag, 0))
+    fileid = cursor.lastrowid
+    con.commit()
+    return fileid
+    # utwórz rekord w db encja Pliki
+
+
+def RecognizeCatalog(albumlist, artistlist, path):
+    log.info('Recognize Catalog function starts')
+    result = {}
+    if len(albumlist) == 1:
+        result['album'] = albumlist[0]
+    else:
+        result['album'] = 'Unknown Album'
+    if len(artistlist) == 1:
+        result['artist'] = artistlist[0]
+    elif len(albumlist) == 1:
+        result['artist'] = substringFinder(artistlist)
+    else:
+        result['artist'] = 'Unknown Artist'
+    log.info('Recognize Catalog function ends\n\n')
+    return result
+
+
+#############################################
+# DISCOGS DATABASE HANDLERS DEFINITIONS
+#############################################
 
 
 def DiscogsID(artist, album, path):
@@ -227,145 +431,14 @@ def DiscogsID(artist, album, path):
     return result
 
 
-def Crawler(path=inputpath):
-    '''Lists every catalog path in path which contents at least one audio file
-    '''
-    result = []
-    log.info('Crawler Starts')
-    if os.path.exists("catalogs.dat"):
-        with open('catalogs.dat', 'rb') as file:
-            result = pickle.load(file)
-    else:
-        log.debug('Nie znaleziono pliku')
-        xcounter = 0
-        for x in os.walk(path):
-            xcounter+=1
-            for i in os.listdir(x[0]):
-                if AudioFile(i):
-                    result.append(x[0])
-                    break
-            if xcounter%100 == 0:
-                log.debug('sprawdzono {0} folderów'.format(xcounter))
-        log.info('Zakończono przeszukwianie dysku')
-        with open('catalogs.dat', 'wb') as file2:
-            pickle.dump(result, file2)
-    return result
-
-
-def RecognizeCatalog(albumlist, artistlist, path):
-    result = {}
-    if len(albumlist) == 1:
-        result['album'] = albumlist[0]
-    else:
-        result['album'] = 'Unknown Album'
-    if len(artistlist) == 1:
-        result['artist'] = artistlist[0]
-    elif len(albumlist) == 1:
-        result['artist'] = substringFinder(artistlist)
-    else:
-        result['artist'] = 'Unknown Artist'
-    return result
-
-
-def CatalogWorker(path):
-    # print('w tej funkcji maja sie znaleźć działania nad katalogiem')
-    albumlist = []
-    artistlist = []
-    filesidlist = []
-    log.info('Catalog Worker starts : {0}'.format(path))
-    files = [f for f in os.listdir(path) if os.path.isfile(os.path.join(path,f))]
-    for i in files:
-        if AudioFile(i):
-            fileid = FileWorker(path + '\\' + i, albumlist, artistlist)
-            filesidlist.append(fileid)
-    token = RecognizeCatalog(albumlist, artistlist, path)
-    if (token['artist'] != 'Unknown Artist' and
-            token['album'] != 'Unknown Album'):
-        discogsid = DiscogsID(token['artist'], token['album'], path)
-    else:
-        log.debug('\n\nNie rozpoznano albumu')
-        discogsid = ''
-    cursor.execute(
-        'INSERT INTO katalogi VALUES(NULL, ?, ?, ?, ?);',
-        (path, token['artist'], token['album'], discogsid))
-    catalogid = cursor.lastrowid
-    for j in filesidlist:
-        cursor.execute(
-            'UPDATE pliki SET katalog_id=? WHERE id=?', (catalogid, j))
-    con.commit()
-    log.info(
-        'Worked on :\nCatalogID:\t{0}\nArtysta:\t{1}\nAlbum:\t{2}\nWork done\n\n'.format(
-            catalogid, token['artist'], token['album']))
-
-
-def FileWorker(path, albumlist, artistlist):
-    # print('w tej funkcji maja byc wykonywane dzialania nad plikiem')
-    log.info('\nWorking on file : {0}'.format(path))
-    try:
-        song = taglib.File(path)
-    except OSError:
-        log.warning('OS Error')
-        log.warning(
-            'np nieakceptowalne znaki\
-             - usuniete od pytaglib wersji 1.4.2')
-        albumtag = ''
-        artisttag = ''
-        titletag = ''
-        cursor.execute(
-            'INSERT INTO pliki VALUES(NULL, ?, ?, ?, ?, ?);',
-            (path, artisttag, titletag, albumtag, 0))
-        fileid = cursor.lastrowid
-        con.commit()
-        return fileid
-    try:
-        albumtag = song.tags['ALBUM'][0]
-        if albumtag not in albumlist:
-            albumlist.append(albumtag)
-    except KeyError as e:
-        log.warning('KeyError: {0}'.format(e))
-        log.warning('pole ALBUM błędne')
-        albumtag = ''
-    except IndexError:
-        log.warning('IndexError')
-        log.warning('pole ALBUM puste (?)')
-        albumtag = ''
-    try:
-        artisttag = song.tags['ARTIST'][0]
-        if artisttag not in artistlist:
-            artistlist.append(artisttag)
-    except KeyError as e:
-        log.warning('KeyError: {0}'.format(e))
-        log.warning('pole artist błędne lub puste')
-        artisttag = ''
-    except IndexError:
-        log.warning('IndexError')
-        log.warning('pole ARTIST puste (?)')
-        artisttag = ''
-    try:
-        titletag = song.tags['TITLE'][0]
-    except KeyError as e:
-        log.warning('KeyError: {0}'.format(e))
-        log.warning('pole title błędne lub puste')
-        titletag = ''
-    except IndexError:
-        log.warning('IndexError')
-        log.warning('pole TITLE puste (?)')
-        titletag = ''
-    cursor.execute(
-        'INSERT INTO pliki VALUES(NULL, ?, ?, ?, ?, ?);',
-        (path, artisttag, titletag, albumtag, 0))
-    fileid = cursor.lastrowid
-    con.commit()
-    return fileid
-    # utwórz rekord w db encja Pliki
+#############################################
+# MAIN PROGRAM SECTION
+#############################################
 
 
 cataloglist = Crawler()
 
 STEPS = len(cataloglist)
-# STEPS = 10
-
-log.info('Crawler Ends')
 
 try:
     for j in range(STEPS):
@@ -380,11 +453,12 @@ try:
             while True:
                 try:
                     CatalogWorker(cataloglist[j])
-                    time.sleep(ratelimit) 
+                    time.sleep(ratelimit)
                 except requests.exceptions.ConnectionError as e:
                     log.warning('{}'.format(e))
-                    log.warning('Connection Broken. Trying to connect in 600 seconds')
-                    time.sleep(600)
+                    log.warning(
+                        'Connection Broken. Trying to connect in 120 seconds')
+                    time.sleep(120)
                     if interrupted:
                         print("Exiting Script")
                         j = range(STEPS)[-1]
@@ -396,8 +470,9 @@ try:
                 j = range(STEPS)[-1]
                 break
         except TypeError as e:
-            log.warning('{0}\nnot all arguments converted during formatting'.format(e))
-        except  ConnectionError as e:
+            log.warning(
+                '{0}\nnot all arguments converted during formatting'.format(e))
+        except ConnectionError as e:
             log.warning('{}'.format(e))
             time.sleep(600)
 except SyntaxError:
