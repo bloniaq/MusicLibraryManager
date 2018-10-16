@@ -1,0 +1,729 @@
+2018.10.17 00:33:39-INFO: OS : Linux
+2018.10.17 00:33:39-INFO: catalog_collector Function starts
+2018.10.17 00:33:39-DEBUG: Catalog Cache File founded
+2018.10.17 00:33:39-INFO: catalog_collector Function ended
+
+
+2018.10.17 00:33:39-INFO: Catalog Crawler starts
+2018.10.17 00:33:39-DEBUG: Files found in catalog : ['Chic - Chic (Original album).m3u', "09-Chic - São Paulo (7'' Version).mp3", '03-Chic - You Can Get By.mp3', 'front.jpg', '02-Chic - São Paulo.mp3', 'Chic - Chic (Original album + bonus tracks).m3u', "11-Chic - Everybody Dance (Alternate 7'' Version).mp3", "05-Chic - Est-Ce Que C'est Chic.mp3", '15-Chic - Everybody Dance (Glenn Friscia Hardhouse Mix).mp3', "13-Chic - You Can Get By (7'' Version).mp3", 'side 1.jpg', 'Chic - Everybody Dance (Single).m3u', "12-Chic - Everybody Dance (12'' Version).mp3", "01-Chic-Dance,Dance,Dance(Yowsah,Yowsah,Yowsah)(Album&12''Versio.mp3", '04-Chic - Everybody Dance.mp3', 'back.jpg', '14-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(PalJoeyMix).mp3', 'Chic - Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (Single).m3u', '07-Chic - Strike Up The Band.mp3', "10-Chic - Everybody Dance (7'' Version).mp3", '17-Chic - Strike Up The Band (Hifana Copa Mix).mp3', 'side 2.jpg', '06-Chic - Falling In Love With You.mp3', '16-Chic - Everybody Dance (Motiva Rpl Mix).mp3', "08-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(7''Version).mp3"]
+2018.10.17 00:33:39-INFO: Starting loop through files
+
+2018.10.17 00:33:39-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/09-Chic - São Paulo (7'' Version).mp3
+2018.10.17 00:33:39-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:39-INFO: All file attributes collected correct
+2018.10.17 00:33:39-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/09-Chic - São Paulo (7'' Version).mp3", 'album': 'Chic', 'artist': 'Chic', 'title': "São Paulo (7'' Version)", 'date': '1977', 'length': 195, 'bitrate': 320}
+
+2018.10.17 00:33:39-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/03-Chic - You Can Get By.mp3
+2018.10.17 00:33:39-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:39-INFO: All file attributes collected correct
+2018.10.17 00:33:39-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/03-Chic - You Can Get By.mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'You Can Get By', 'date': '1977', 'length': 336, 'bitrate': 320}
+
+2018.10.17 00:33:39-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/02-Chic - São Paulo.mp3
+2018.10.17 00:33:39-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:39-INFO: All file attributes collected correct
+2018.10.17 00:33:39-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/02-Chic - São Paulo.mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'São Paulo', 'date': '1977', 'length': 301, 'bitrate': 320}
+
+2018.10.17 00:33:39-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/11-Chic - Everybody Dance (Alternate 7'' Version).mp3
+2018.10.17 00:33:39-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:39-WARNING: KeyError: 'DATE'
+2018.10.17 00:33:39-INFO: All file attributes collected correct
+2018.10.17 00:33:39-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/11-Chic - Everybody Dance (Alternate 7'' Version).mp3", 'album': 'Chic', 'artist': 'Chic', 'title': "Everybody Dance (Alternate 7'' Version)", 'date': '__KeyError', 'length': 248, 'bitrate': 320}
+
+2018.10.17 00:33:39-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/05-Chic - Est-Ce Que C'est Chic.mp3
+2018.10.17 00:33:39-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:39-INFO: All file attributes collected correct
+2018.10.17 00:33:39-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/05-Chic - Est-Ce Que C'est Chic.mp3", 'album': 'Chic', 'artist': 'Chic', 'title': "Est-Ce Que C'est Chic", 'date': '1977', 'length': 233, 'bitrate': 320}
+
+2018.10.17 00:33:39-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/15-Chic - Everybody Dance (Glenn Friscia Hardhouse Mix).mp3
+2018.10.17 00:33:39-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:39-INFO: All file attributes collected correct
+2018.10.17 00:33:39-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/15-Chic - Everybody Dance (Glenn Friscia Hardhouse Mix).mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Everybody Dance (Glenn Friscia Hardhouse Mix)', 'date': '1977', 'length': 338, 'bitrate': 320}
+
+2018.10.17 00:33:39-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/13-Chic - You Can Get By (7'' Version).mp3
+2018.10.17 00:33:39-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:39-INFO: All file attributes collected correct
+2018.10.17 00:33:39-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/13-Chic - You Can Get By (7'' Version).mp3", 'album': 'Chic', 'artist': 'Chic', 'title': "You Can Get By (7'' Version)", 'date': '1977', 'length': 242, 'bitrate': 320}
+
+2018.10.17 00:33:39-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/12-Chic - Everybody Dance (12'' Version).mp3
+2018.10.17 00:33:39-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:39-INFO: All file attributes collected correct
+2018.10.17 00:33:39-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/12-Chic - Everybody Dance (12'' Version).mp3", 'album': 'Chic', 'artist': 'Chic', 'title': "Everybody Dance (12'' Version)", 'date': '1977', 'length': 507, 'bitrate': 320}
+
+2018.10.17 00:33:39-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/01-Chic-Dance,Dance,Dance(Yowsah,Yowsah,Yowsah)(Album&12''Versio.mp3
+2018.10.17 00:33:39-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:39-WARNING: KeyError: 'DATE'
+2018.10.17 00:33:39-INFO: All file attributes collected correct
+2018.10.17 00:33:39-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/01-Chic-Dance,Dance,Dance(Yowsah,Yowsah,Yowsah)(Album&12''Versio.mp3", 'album': 'Chic', 'artist': 'Chic', 'title': "Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (Album & 12'' Version)", 'date': '__KeyError', 'length': 502, 'bitrate': 320}
+
+2018.10.17 00:33:39-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/04-Chic - Everybody Dance.mp3
+2018.10.17 00:33:39-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:39-WARNING: KeyError: 'DATE'
+2018.10.17 00:33:39-INFO: All file attributes collected correct
+2018.10.17 00:33:39-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/04-Chic - Everybody Dance.mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Everybody Dance', 'date': '__KeyError', 'length': 401, 'bitrate': 320}
+
+2018.10.17 00:33:39-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/14-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(PalJoeyMix).mp3
+2018.10.17 00:33:39-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:39-INFO: All file attributes collected correct
+2018.10.17 00:33:39-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/14-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(PalJoeyMix).mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (Pal Joey Mix)', 'date': '1977', 'length': 247, 'bitrate': 320}
+
+2018.10.17 00:33:39-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/07-Chic - Strike Up The Band.mp3
+2018.10.17 00:33:39-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:39-INFO: All file attributes collected correct
+2018.10.17 00:33:39-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/07-Chic - Strike Up The Band.mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Strike Up The Band', 'date': '1977', 'length': 272, 'bitrate': 320}
+
+2018.10.17 00:33:39-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/10-Chic - Everybody Dance (7'' Version).mp3
+2018.10.17 00:33:39-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:39-WARNING: KeyError: 'DATE'
+2018.10.17 00:33:39-INFO: All file attributes collected correct
+2018.10.17 00:33:39-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/10-Chic - Everybody Dance (7'' Version).mp3", 'album': 'Chic', 'artist': 'Chic', 'title': "Everybody Dance (7'' Version)", 'date': '__KeyError', 'length': 206, 'bitrate': 320}
+
+2018.10.17 00:33:39-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/17-Chic - Strike Up The Band (Hifana Copa Mix).mp3
+2018.10.17 00:33:39-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:39-INFO: All file attributes collected correct
+2018.10.17 00:33:39-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/17-Chic - Strike Up The Band (Hifana Copa Mix).mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Strike Up The Band (Hifana Copa Mix)', 'date': '1977', 'length': 229, 'bitrate': 320}
+
+2018.10.17 00:33:39-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/06-Chic - Falling In Love With You.mp3
+2018.10.17 00:33:39-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:39-INFO: All file attributes collected correct
+2018.10.17 00:33:39-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/06-Chic - Falling In Love With You.mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Falling In Love With You', 'date': '1977', 'length': 269, 'bitrate': 320}
+
+2018.10.17 00:33:39-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/16-Chic - Everybody Dance (Motiva Rpl Mix).mp3
+2018.10.17 00:33:39-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:39-INFO: All file attributes collected correct
+2018.10.17 00:33:39-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/16-Chic - Everybody Dance (Motiva Rpl Mix).mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Everybody Dance (Motiva Rpl Mix)', 'date': '1977', 'length': 362, 'bitrate': 320}
+
+2018.10.17 00:33:39-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/08-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(7''Version).mp3
+2018.10.17 00:33:39-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:39-WARNING: KeyError: 'DATE'
+2018.10.17 00:33:39-INFO: All file attributes collected correct
+2018.10.17 00:33:39-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/08-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(7''Version).mp3", 'album': 'Chic', 'artist': 'Chic', 'title': "Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (7'' Version)", 'date': '__KeyError', 'length': 218, 'bitrate': 320}
+
+2018.10.17 00:33:39-INFO: 
+
+2018.10.17 00:33:39-INFO: Loop through files ends succesfully
+
+2018.10.17 00:33:39-INFO: Determine Catalog Attributes function starts
+
+2018.10.17 00:33:39-DEBUG: Tries to guess Album name
+2018.10.17 00:33:39-DEBUG: Found 1 proposition(s) : ['Chic']
+2018.10.17 00:33:39-DEBUG: Album found : Chic
+2018.10.17 00:33:39-DEBUG: Tries to guess Artist name
+2018.10.17 00:33:39-DEBUG: Found 1 proposition(s) : ['Chic']
+2018.10.17 00:33:39-DEBUG: Artist found : Chic
+2018.10.17 00:33:39-DEBUG: Tries to guess date of album
+2018.10.17 00:33:39-DEBUG: Date unreckognized
+2018.10.17 00:33:39-DEBUG: Computing average bitrate of files
+2018.10.17 00:33:39-DEBUG: Computing total length of files
+2018.10.17 00:33:39-INFO: reckognized Catalog Attributes:
+Artist: Chic        
+Album: Chic
+Date: 
+AvgBitrate: 320.0
+CatalogSym
+
+
+2018.10.17 00:33:39-DEBUG: returns {'album': 'Chic', 'artist': 'Chic', 'date': '', 'avg_bitrate': 320.0, 'total_length': 5106, 'catalog_mark': '', 'img_count': 4, 'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)'}
+2018.10.17 00:33:39-INFO: Catalog Crawler ends,
+
+2018.10.17 00:33:39-INFO: Finding Album DiscogsID started
+2018.10.17 00:33:39-INFO: Working on /home/kuba/Muzyka/Chic - (1977) Chic (kopia)
+2018.10.17 00:33:39-INFO: metoda Album
+2018.10.17 00:33:39-INFO: Connecting Discogs
+Query: Chic
+2018.10.17 00:33:40-INFO: Comparing Chic - Chic
+2018.10.17 00:33:40-INFO: Znaleziono ID z listy Album
+2018.10.17 00:33:40-INFO: 53188
+2018.10.17 00:33:52-INFO: Save to DB started
+2018.10.17 00:33:52-INFO: Catalog data inserted successfully
+2018.10.17 00:33:52-INFO: Catalog data inserted successfully
+2018.10.17 00:33:52-INFO: Data Commited
+2018.10.17 00:33:52-INFO: Catalog Crawler starts
+2018.10.17 00:33:52-DEBUG: Files found in catalog : ['03 Rhinoceros.wma', '04 Bury Me.wma', '01 I Am One.wma', '06 Suffer.wma', 'AlbumArt_{78A8D776-02E8-40AF-9D5E-14E0BE00649F}_Large.jpg', 'ZuneAlbumArt.jpg', 'Folder.jpg', '09 Window Paine.wma', '02 Siva.wma', '07 Snail.wma', '08 Tristessa.wma', 'AlbumArtSmall.jpg', '10 Daydream.wma', 'AlbumArt_{78A8D776-02E8-40AF-9D5E-14E0BE00649F}_Small.jpg', '05 Crush.wma']
+2018.10.17 00:33:52-INFO: Starting loop through files
+
+2018.10.17 00:33:52-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Gish/03 Rhinoceros.wma
+2018.10.17 00:33:52-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:52-INFO: All file attributes collected correct
+2018.10.17 00:33:52-INFO: {'path': '/home/kuba/Muzyka/Gish/03 Rhinoceros.wma', 'album': 'Gish', 'artist': 'The Smashing Pumpkins', 'title': 'Rhinoceros', 'date': '1991', 'length': 394, 'bitrate': 128}
+
+2018.10.17 00:33:52-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Gish/04 Bury Me.wma
+2018.10.17 00:33:52-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:52-INFO: All file attributes collected correct
+2018.10.17 00:33:52-INFO: {'path': '/home/kuba/Muzyka/Gish/04 Bury Me.wma', 'album': 'Gish', 'artist': 'The Smashing Pumpkins', 'title': 'Bury Me', 'date': '1991', 'length': 290, 'bitrate': 128}
+
+2018.10.17 00:33:52-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Gish/01 I Am One.wma
+2018.10.17 00:33:52-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:52-INFO: All file attributes collected correct
+2018.10.17 00:33:52-INFO: {'path': '/home/kuba/Muzyka/Gish/01 I Am One.wma', 'album': 'Gish', 'artist': 'The Smashing Pumpkins', 'title': 'I Am One', 'date': '1991', 'length': 249, 'bitrate': 128}
+
+2018.10.17 00:33:52-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Gish/06 Suffer.wma
+2018.10.17 00:33:52-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:52-INFO: All file attributes collected correct
+2018.10.17 00:33:52-INFO: {'path': '/home/kuba/Muzyka/Gish/06 Suffer.wma', 'album': 'Gish', 'artist': 'The Smashing Pumpkins', 'title': 'Suffer', 'date': '1991', 'length': 312, 'bitrate': 128}
+
+2018.10.17 00:33:52-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Gish/09 Window Paine.wma
+2018.10.17 00:33:52-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:52-INFO: All file attributes collected correct
+2018.10.17 00:33:52-INFO: {'path': '/home/kuba/Muzyka/Gish/09 Window Paine.wma', 'album': 'Gish', 'artist': 'The Smashing Pumpkins', 'title': 'Window Paine', 'date': '1991', 'length': 353, 'bitrate': 128}
+
+2018.10.17 00:33:52-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Gish/02 Siva.wma
+2018.10.17 00:33:52-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:52-INFO: All file attributes collected correct
+2018.10.17 00:33:52-INFO: {'path': '/home/kuba/Muzyka/Gish/02 Siva.wma', 'album': 'Gish', 'artist': 'The Smashing Pumpkins', 'title': 'Siva', 'date': '1991', 'length': 264, 'bitrate': 128}
+
+2018.10.17 00:33:52-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Gish/07 Snail.wma
+2018.10.17 00:33:52-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:52-INFO: All file attributes collected correct
+2018.10.17 00:33:52-INFO: {'path': '/home/kuba/Muzyka/Gish/07 Snail.wma', 'album': 'Gish', 'artist': 'The Smashing Pumpkins', 'title': 'Snail', 'date': '1991', 'length': 311, 'bitrate': 128}
+
+2018.10.17 00:33:52-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Gish/08 Tristessa.wma
+2018.10.17 00:33:52-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:52-INFO: All file attributes collected correct
+2018.10.17 00:33:52-INFO: {'path': '/home/kuba/Muzyka/Gish/08 Tristessa.wma', 'album': 'Gish', 'artist': 'The Smashing Pumpkins', 'title': 'Tristessa', 'date': '1991', 'length': 215, 'bitrate': 128}
+
+2018.10.17 00:33:52-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Gish/10 Daydream.wma
+2018.10.17 00:33:52-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:52-INFO: All file attributes collected correct
+2018.10.17 00:33:52-INFO: {'path': '/home/kuba/Muzyka/Gish/10 Daydream.wma', 'album': 'Gish', 'artist': 'The Smashing Pumpkins', 'title': 'Daydream', 'date': '1991', 'length': 188, 'bitrate': 128}
+
+2018.10.17 00:33:52-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Gish/05 Crush.wma
+2018.10.17 00:33:52-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:52-INFO: All file attributes collected correct
+2018.10.17 00:33:52-INFO: {'path': '/home/kuba/Muzyka/Gish/05 Crush.wma', 'album': 'Gish', 'artist': 'The Smashing Pumpkins', 'title': 'Crush', 'date': '1991', 'length': 217, 'bitrate': 128}
+
+2018.10.17 00:33:52-INFO: 
+
+2018.10.17 00:33:52-INFO: Loop through files ends succesfully
+
+2018.10.17 00:33:52-INFO: Determine Catalog Attributes function starts
+
+2018.10.17 00:33:52-DEBUG: Tries to guess Album name
+2018.10.17 00:33:52-DEBUG: Found 10 proposition(s) : ['The Smashing Pumpkins', 'The Smashing Pumpkins', 'The Smashing Pumpkins', 'The Smashing Pumpkins', 'The Smashing Pumpkins', 'The Smashing Pumpkins', 'The Smashing Pumpkins', 'The Smashing Pumpkins', 'The Smashing Pumpkins', 'The Smashing Pumpkins']
+2018.10.17 00:33:52-DEBUG: Album unreckognized
+2018.10.17 00:33:52-DEBUG: Tries to guess Artist name
+2018.10.17 00:33:52-DEBUG: Found 1 proposition(s) : ['The Smashing Pumpkins']
+2018.10.17 00:33:52-DEBUG: Artist found : The Smashing Pumpkins
+2018.10.17 00:33:52-DEBUG: Tries to guess date of album
+2018.10.17 00:33:52-DEBUG: Date recognized : 1991
+2018.10.17 00:33:52-DEBUG: Computing average bitrate of files
+2018.10.17 00:33:52-DEBUG: Computing total length of files
+2018.10.17 00:33:52-INFO: reckognized Catalog Attributes:
+Artist: The Smashing Pumpkins        
+Album: Unknown Album
+Date: 1991
+AvgBitrate: 128.0
+CatalogSym
+
+
+2018.10.17 00:33:52-DEBUG: returns {'album': 'Unknown Album', 'artist': 'The Smashing Pumpkins', 'date': '1991', 'avg_bitrate': 128.0, 'total_length': 2793, 'catalog_mark': '', 'img_count': 5, 'path': '/home/kuba/Muzyka/Gish'}
+2018.10.17 00:33:52-INFO: Catalog Crawler ends,
+
+2018.10.17 00:33:52-INFO: Connecting to Discgos API Skipped, too less data
+2018.10.17 00:33:52-INFO: Save to DB started
+2018.10.17 00:33:52-INFO: Catalog data inserted successfully
+2018.10.17 00:33:52-INFO: Catalog data inserted successfully
+2018.10.17 00:33:52-INFO: Data Commited
+2018.10.17 00:33:52-INFO: Catalog Crawler starts
+2018.10.17 00:33:52-DEBUG: Files found in catalog : ['02. Brown Sugar.mp3', '08. Bedroom Thang.mp3', "09. Just Got Back From Baby's.mp3", '01. (Somebody Else Been) Shaking Your Tree.mp3', "04. Goin' Down To Mexico.mp3", '06. Neighbor, Neighbor.mp3', '03. Squank.mp3', '10. Backdoor Love Affair.mp3', '05. Old Man.mp3', '07. Certified Blues.mp3']
+2018.10.17 00:33:52-INFO: Starting loop through files
+
+2018.10.17 00:33:52-INFO: File Crawler for starts for file : /home/kuba/Muzyka/1971 - First Album/02. Brown Sugar.mp3
+2018.10.17 00:33:52-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:52-INFO: All file attributes collected correct
+2018.10.17 00:33:52-INFO: {'path': '/home/kuba/Muzyka/1971 - First Album/02. Brown Sugar.mp3', 'album': 'First Album', 'artist': 'ZZ Top', 'title': 'Brown Sugar', 'date': '1971', 'length': 325, 'bitrate': 320}
+
+2018.10.17 00:33:52-INFO: File Crawler for starts for file : /home/kuba/Muzyka/1971 - First Album/08. Bedroom Thang.mp3
+2018.10.17 00:33:52-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:52-INFO: All file attributes collected correct
+2018.10.17 00:33:52-INFO: {'path': '/home/kuba/Muzyka/1971 - First Album/08. Bedroom Thang.mp3', 'album': 'First Album', 'artist': 'ZZ Top', 'title': 'Bedroom Thang', 'date': '1971', 'length': 280, 'bitrate': 320}
+
+2018.10.17 00:33:52-INFO: File Crawler for starts for file : /home/kuba/Muzyka/1971 - First Album/09. Just Got Back From Baby's.mp3
+2018.10.17 00:33:52-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:52-INFO: All file attributes collected correct
+2018.10.17 00:33:52-INFO: {'path': "/home/kuba/Muzyka/1971 - First Album/09. Just Got Back From Baby's.mp3", 'album': 'First Album', 'artist': 'ZZ Top', 'title': "Just Got Back From Baby's", 'date': '1971', 'length': 251, 'bitrate': 320}
+
+2018.10.17 00:33:52-INFO: File Crawler for starts for file : /home/kuba/Muzyka/1971 - First Album/01. (Somebody Else Been) Shaking Your Tree.mp3
+2018.10.17 00:33:52-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:52-INFO: All file attributes collected correct
+2018.10.17 00:33:52-INFO: {'path': '/home/kuba/Muzyka/1971 - First Album/01. (Somebody Else Been) Shaking Your Tree.mp3', 'album': 'First Album', 'artist': 'ZZ Top', 'title': '(Somebody Else Been) Shaking Your Tree', 'date': '1971', 'length': 159, 'bitrate': 320}
+
+2018.10.17 00:33:52-INFO: File Crawler for starts for file : /home/kuba/Muzyka/1971 - First Album/04. Goin' Down To Mexico.mp3
+2018.10.17 00:33:52-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:52-INFO: All file attributes collected correct
+2018.10.17 00:33:52-INFO: {'path': "/home/kuba/Muzyka/1971 - First Album/04. Goin' Down To Mexico.mp3", 'album': 'First Album', 'artist': 'ZZ Top', 'title': "Goin' Down To Mexico", 'date': '1971', 'length': 202, 'bitrate': 320}
+
+2018.10.17 00:33:52-INFO: File Crawler for starts for file : /home/kuba/Muzyka/1971 - First Album/06. Neighbor, Neighbor.mp3
+2018.10.17 00:33:52-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:52-INFO: All file attributes collected correct
+2018.10.17 00:33:52-INFO: {'path': '/home/kuba/Muzyka/1971 - First Album/06. Neighbor, Neighbor.mp3', 'album': 'First Album', 'artist': 'ZZ Top', 'title': 'Neighbor, Neighbor', 'date': '1971', 'length': 140, 'bitrate': 320}
+
+2018.10.17 00:33:52-INFO: File Crawler for starts for file : /home/kuba/Muzyka/1971 - First Album/03. Squank.mp3
+2018.10.17 00:33:52-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:52-INFO: All file attributes collected correct
+2018.10.17 00:33:52-INFO: {'path': '/home/kuba/Muzyka/1971 - First Album/03. Squank.mp3', 'album': 'First Album', 'artist': 'ZZ Top', 'title': 'Squank', 'date': '1971', 'length': 167, 'bitrate': 320}
+
+2018.10.17 00:33:52-INFO: File Crawler for starts for file : /home/kuba/Muzyka/1971 - First Album/10. Backdoor Love Affair.mp3
+2018.10.17 00:33:52-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:52-INFO: All file attributes collected correct
+2018.10.17 00:33:52-INFO: {'path': '/home/kuba/Muzyka/1971 - First Album/10. Backdoor Love Affair.mp3', 'album': 'First Album', 'artist': 'ZZ Top', 'title': 'Backdoor Love Affair', 'date': '1971', 'length': 201, 'bitrate': 320}
+
+2018.10.17 00:33:52-INFO: File Crawler for starts for file : /home/kuba/Muzyka/1971 - First Album/05. Old Man.mp3
+2018.10.17 00:33:52-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:52-INFO: All file attributes collected correct
+2018.10.17 00:33:52-INFO: {'path': '/home/kuba/Muzyka/1971 - First Album/05. Old Man.mp3', 'album': 'First Album', 'artist': 'ZZ Top', 'title': 'Old Man', 'date': '1971', 'length': 207, 'bitrate': 320}
+
+2018.10.17 00:33:52-INFO: File Crawler for starts for file : /home/kuba/Muzyka/1971 - First Album/07. Certified Blues.mp3
+2018.10.17 00:33:52-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:52-INFO: All file attributes collected correct
+2018.10.17 00:33:52-INFO: {'path': '/home/kuba/Muzyka/1971 - First Album/07. Certified Blues.mp3', 'album': 'First Album', 'artist': 'ZZ Top', 'title': 'Certified Blues', 'date': '1971', 'length': 206, 'bitrate': 320}
+
+2018.10.17 00:33:52-INFO: 
+
+2018.10.17 00:33:52-INFO: Loop through files ends succesfully
+
+2018.10.17 00:33:52-INFO: Determine Catalog Attributes function starts
+
+2018.10.17 00:33:52-DEBUG: Tries to guess Album name
+2018.10.17 00:33:52-DEBUG: Found 10 proposition(s) : ['ZZ Top', 'ZZ Top', 'ZZ Top', 'ZZ Top', 'ZZ Top', 'ZZ Top', 'ZZ Top', 'ZZ Top', 'ZZ Top', 'ZZ Top']
+2018.10.17 00:33:52-DEBUG: Album unreckognized
+2018.10.17 00:33:52-DEBUG: Tries to guess Artist name
+2018.10.17 00:33:52-DEBUG: Found 1 proposition(s) : ['ZZ Top']
+2018.10.17 00:33:52-DEBUG: Artist found : ZZ Top
+2018.10.17 00:33:52-DEBUG: Tries to guess date of album
+2018.10.17 00:33:52-DEBUG: Date recognized : 1971
+2018.10.17 00:33:52-DEBUG: Computing average bitrate of files
+2018.10.17 00:33:52-DEBUG: Computing total length of files
+2018.10.17 00:33:52-INFO: reckognized Catalog Attributes:
+Artist: ZZ Top        
+Album: Unknown Album
+Date: 1971
+AvgBitrate: 320.0
+CatalogSym
+
+
+2018.10.17 00:33:52-DEBUG: returns {'album': 'Unknown Album', 'artist': 'ZZ Top', 'date': '1971', 'avg_bitrate': 320.0, 'total_length': 2138, 'catalog_mark': '', 'img_count': 0, 'path': '/home/kuba/Muzyka/1971 - First Album'}
+2018.10.17 00:33:52-INFO: Catalog Crawler ends,
+
+2018.10.17 00:33:52-INFO: Connecting to Discgos API Skipped, too less data
+2018.10.17 00:33:52-INFO: Save to DB started
+2018.10.17 00:33:52-INFO: Catalog data inserted successfully
+2018.10.17 00:33:52-INFO: Catalog data inserted successfully
+2018.10.17 00:33:52-INFO: Data Commited
+2018.10.17 00:33:52-INFO: Catalog Crawler starts
+2018.10.17 00:33:52-DEBUG: Files found in catalog : ['05 Feel Like Home.ogg', '19 The Hard Way.ogg', '14 Red to Black.ogg', '13 Kenji.ogg', '04 Petrified.ogg', '10 Believe Me.ogg', '12 High Road.ogg', '16 Slip Out the Back.ogg', '07 In Stereo.ogg', '18 There They Go.ogg', "06 Where'd You Go.ogg", '11 Get me Gone.ogg', '09 Cigarettes.ogg', '02 Remember the Name.ogg', '01 Introduction.ogg', '15 The Battle.ogg', '03 Right Now.ogg', '17 Be Somebody.ogg', '08 Back Home.ogg']
+2018.10.17 00:33:52-INFO: Starting loop through files
+
+2018.10.17 00:33:52-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/05 Feel Like Home.ogg
+2018.10.17 00:33:52-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:52-INFO: All file attributes collected correct
+2018.10.17 00:33:52-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/05 Feel Like Home.ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor y Styles of Beyond', 'title': 'Feel Like Home', 'date': '2005', 'length': 233, 'bitrate': 86}
+
+2018.10.17 00:33:52-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/19 The Hard Way.ogg
+2018.10.17 00:33:52-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:52-INFO: All file attributes collected correct
+2018.10.17 00:33:52-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/19 The Hard Way.ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor', 'title': 'The Hard Way', 'date': '2001', 'length': 234, 'bitrate': 93}
+
+2018.10.17 00:33:52-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/14 Red to Black.ogg
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/14 Red to Black.ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor, Kenna, Jonah Matranga y Styles of Beyond', 'title': 'Red To Black', 'date': '2005', 'length': 192, 'bitrate': 81}
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/13 Kenji.ogg
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/13 Kenji.ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor', 'title': 'Kenji', 'date': '2005', 'length': 231, 'bitrate': 77}
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/04 Petrified.ogg
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/04 Petrified.ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor', 'title': 'Petrified', 'date': '2005', 'length': 220, 'bitrate': 84}
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/10 Believe Me.ogg
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/10 Believe Me.ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor, BoBo y Styles of Beyond', 'title': 'Believe Me', 'date': '2005', 'length': 223, 'bitrate': 81}
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/12 High Road.ogg
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/12 High Road.ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor y John Legend', 'title': 'High Road', 'date': '2005', 'length': 196, 'bitrate': 84}
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/16 Slip Out the Back.ogg
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/16 Slip Out the Back.ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor y Mr Hahn', 'title': 'Slip Out the Back', 'date': '2005', 'length': 236, 'bitrate': 82}
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/07 In Stereo.ogg
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/07 In Stereo.ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor', 'title': 'In Stereo', 'date': '2005', 'length': 209, 'bitrate': 88}
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/18 There They Go.ogg
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/18 There They Go.ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor y Sixx John', 'title': 'There They Go', 'date': '2005', 'length': 197, 'bitrate': 84}
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/06 Where'd You Go.ogg
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': "/home/kuba/Muzyka/The Rising Tied/06 Where'd You Go.ogg", 'album': 'The Rising Tied', 'artist': 'Fort Minor, Holly Brook y Jonah Matranga', 'title': "Where'd You Go", 'date': '2005', 'length': 231, 'bitrate': 79}
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/11 Get me Gone.ogg
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/11 Get me Gone.ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor', 'title': 'Get me Gone', 'date': '2005', 'length': 116, 'bitrate': 84}
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/09 Cigarettes.ogg
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/09 Cigarettes.ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor', 'title': 'Cigarettes', 'date': '2005', 'length': 220, 'bitrate': 87}
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/02 Remember the Name.ogg
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/02 Remember the Name.ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor y Styles of Beyond', 'title': 'Remember the Name', 'date': '2005', 'length': 230, 'bitrate': 86}
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/01 Introduction.ogg
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/01 Introduction.ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor', 'title': 'Introduction', 'date': '2005', 'length': 43, 'bitrate': 88}
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/15 The Battle.ogg
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/15 The Battle.ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor y Celph Titled', 'title': 'The Battle', 'date': '2005', 'length': 32, 'bitrate': 83}
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/03 Right Now.ogg
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/03 Right Now.ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor, the Roots y Styles of Beyond', 'title': 'Right Now', 'date': '2005', 'length': 254, 'bitrate': 85}
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/17 Be Somebody.ogg
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/17 Be Somebody.ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor, Lupe Fiasco, Holly Brook y Tak', 'title': 'Be Somebody', 'date': '2005', 'length': 195, 'bitrate': 82}
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/08 Back Home.ogg
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/08 Back Home.ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor, Common y Styles of Beyond', 'title': 'Back Home', 'date': '2005', 'length': 224, 'bitrate': 80}
+
+2018.10.17 00:33:53-INFO: 
+
+2018.10.17 00:33:53-INFO: Loop through files ends succesfully
+
+2018.10.17 00:33:53-INFO: Determine Catalog Attributes function starts
+
+2018.10.17 00:33:53-DEBUG: Tries to guess Album name
+2018.10.17 00:33:53-DEBUG: Found 19 proposition(s) : ['Fort Minor y Styles of Beyond', 'Fort Minor', 'Fort Minor, Kenna, Jonah Matranga y Styles of Beyond', 'Fort Minor', 'Fort Minor', 'Fort Minor, BoBo y Styles of Beyond', 'Fort Minor y John Legend', 'Fort Minor y Mr Hahn', 'Fort Minor', 'Fort Minor y Sixx John', 'Fort Minor, Holly Brook y Jonah Matranga', 'Fort Minor', 'Fort Minor', 'Fort Minor y Styles of Beyond', 'Fort Minor', 'Fort Minor y Celph Titled', 'Fort Minor, the Roots y Styles of Beyond', 'Fort Minor, Lupe Fiasco, Holly Brook y Tak', 'Fort Minor, Common y Styles of Beyond']
+2018.10.17 00:33:53-DEBUG: Album unreckognized
+2018.10.17 00:33:53-DEBUG: Tries to guess Artist name
+2018.10.17 00:33:53-DEBUG: Found 12 proposition(s) : ['Fort Minor y Styles of Beyond', 'Fort Minor', 'Fort Minor, Kenna, Jonah Matranga y Styles of Beyond', 'Fort Minor, BoBo y Styles of Beyond', 'Fort Minor y John Legend', 'Fort Minor y Mr Hahn', 'Fort Minor y Sixx John', 'Fort Minor, Holly Brook y Jonah Matranga', 'Fort Minor y Celph Titled', 'Fort Minor, the Roots y Styles of Beyond', 'Fort Minor, Lupe Fiasco, Holly Brook y Tak', 'Fort Minor, Common y Styles of Beyond']
+2018.10.17 00:33:53-DEBUG: It seems catalog is a container not an album
+2018.10.17 00:33:53-DEBUG: Tries to guess date of album
+2018.10.17 00:33:53-DEBUG: Date unreckognized
+2018.10.17 00:33:53-DEBUG: Computing average bitrate of files
+2018.10.17 00:33:53-DEBUG: Computing total length of files
+2018.10.17 00:33:53-INFO: reckognized Catalog Attributes:
+Artist: Unknown Artist        
+Album: Unknown Album
+Date: 
+AvgBitrate: 83.89473684210526
+CatalogSym
+
+
+2018.10.17 00:33:53-DEBUG: returns {'album': 'Unknown Album', 'artist': 'Unknown Artist', 'date': '', 'avg_bitrate': 83.89473684210526, 'total_length': 3716, 'catalog_mark': '', 'img_count': 0, 'path': '/home/kuba/Muzyka/The Rising Tied'}
+2018.10.17 00:33:53-INFO: Catalog Crawler ends,
+
+2018.10.17 00:33:53-INFO: Connecting to Discgos API Skipped, too less data
+2018.10.17 00:33:53-INFO: Save to DB started
+2018.10.17 00:33:53-INFO: Catalog data inserted successfully
+2018.10.17 00:33:53-INFO: Catalog data inserted successfully
+2018.10.17 00:33:53-INFO: Data Commited
+2018.10.17 00:33:53-INFO: Catalog Crawler starts
+2018.10.17 00:33:53-DEBUG: Files found in catalog : ['Chic - Chic (Original album).m3u', "09-Chic - São Paulo (7'' Version).mp3", '03-Chic - You Can Get By.mp3', 'front.jpg', '02-Chic - São Paulo.mp3', 'Chic - Chic (Original album + bonus tracks).m3u', "11-Chic - Everybody Dance (Alternate 7'' Version).mp3", "05-Chic - Est-Ce Que C'est Chic.mp3", '15-Chic - Everybody Dance (Glenn Friscia Hardhouse Mix).mp3', "13-Chic - You Can Get By (7'' Version).mp3", 'side 1.jpg', 'Chic - Everybody Dance (Single).m3u', "12-Chic - Everybody Dance (12'' Version).mp3", "01-Chic-Dance,Dance,Dance(Yowsah,Yowsah,Yowsah)(Album&12''Versio.mp3", '04-Chic - Everybody Dance.mp3', 'back.jpg', '14-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(PalJoeyMix).mp3', 'Chic - Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (Single).m3u', '07-Chic - Strike Up The Band.mp3', "10-Chic - Everybody Dance (7'' Version).mp3", '17-Chic - Strike Up The Band (Hifana Copa Mix).mp3', 'side 2.jpg', '06-Chic - Falling In Love With You.mp3', '16-Chic - Everybody Dance (Motiva Rpl Mix).mp3', "08-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(7''Version).mp3"]
+2018.10.17 00:33:53-INFO: Starting loop through files
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/09-Chic - São Paulo (7'' Version).mp3
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic/09-Chic - São Paulo (7'' Version).mp3", 'album': 'Chic', 'artist': 'Chic', 'title': "São Paulo (7'' Version)", 'date': '1977', 'length': 195, 'bitrate': 320}
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/03-Chic - You Can Get By.mp3
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic/03-Chic - You Can Get By.mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'You Can Get By', 'date': '1977', 'length': 336, 'bitrate': 320}
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/02-Chic - São Paulo.mp3
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic/02-Chic - São Paulo.mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'São Paulo', 'date': '1977', 'length': 301, 'bitrate': 320}
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/11-Chic - Everybody Dance (Alternate 7'' Version).mp3
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-WARNING: KeyError: 'DATE'
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic/11-Chic - Everybody Dance (Alternate 7'' Version).mp3", 'album': 'Chic', 'artist': 'Chic', 'title': "Everybody Dance (Alternate 7'' Version)", 'date': '__KeyError', 'length': 248, 'bitrate': 320}
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/05-Chic - Est-Ce Que C'est Chic.mp3
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic/05-Chic - Est-Ce Que C'est Chic.mp3", 'album': 'Chic', 'artist': 'Chic', 'title': "Est-Ce Que C'est Chic", 'date': '1977', 'length': 233, 'bitrate': 320}
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/15-Chic - Everybody Dance (Glenn Friscia Hardhouse Mix).mp3
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic/15-Chic - Everybody Dance (Glenn Friscia Hardhouse Mix).mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Everybody Dance (Glenn Friscia Hardhouse Mix)', 'date': '1977', 'length': 338, 'bitrate': 320}
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/13-Chic - You Can Get By (7'' Version).mp3
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic/13-Chic - You Can Get By (7'' Version).mp3", 'album': 'Chic', 'artist': 'Chic', 'title': "You Can Get By (7'' Version)", 'date': '1977', 'length': 242, 'bitrate': 320}
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/12-Chic - Everybody Dance (12'' Version).mp3
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic/12-Chic - Everybody Dance (12'' Version).mp3", 'album': 'Chic', 'artist': 'Chic', 'title': "Everybody Dance (12'' Version)", 'date': '1977', 'length': 507, 'bitrate': 320}
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/01-Chic-Dance,Dance,Dance(Yowsah,Yowsah,Yowsah)(Album&12''Versio.mp3
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-WARNING: KeyError: 'DATE'
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic/01-Chic-Dance,Dance,Dance(Yowsah,Yowsah,Yowsah)(Album&12''Versio.mp3", 'album': 'Chic', 'artist': 'Chic', 'title': "Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (Album & 12'' Version)", 'date': '__KeyError', 'length': 502, 'bitrate': 320}
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/04-Chic - Everybody Dance.mp3
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-WARNING: KeyError: 'DATE'
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic/04-Chic - Everybody Dance.mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Everybody Dance', 'date': '__KeyError', 'length': 401, 'bitrate': 320}
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/14-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(PalJoeyMix).mp3
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic/14-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(PalJoeyMix).mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (Pal Joey Mix)', 'date': '1977', 'length': 247, 'bitrate': 320}
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/07-Chic - Strike Up The Band.mp3
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic/07-Chic - Strike Up The Band.mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Strike Up The Band', 'date': '1977', 'length': 272, 'bitrate': 320}
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/10-Chic - Everybody Dance (7'' Version).mp3
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-WARNING: KeyError: 'DATE'
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic/10-Chic - Everybody Dance (7'' Version).mp3", 'album': 'Chic', 'artist': 'Chic', 'title': "Everybody Dance (7'' Version)", 'date': '__KeyError', 'length': 206, 'bitrate': 320}
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/17-Chic - Strike Up The Band (Hifana Copa Mix).mp3
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic/17-Chic - Strike Up The Band (Hifana Copa Mix).mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Strike Up The Band (Hifana Copa Mix)', 'date': '1977', 'length': 229, 'bitrate': 320}
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/06-Chic - Falling In Love With You.mp3
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic/06-Chic - Falling In Love With You.mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Falling In Love With You', 'date': '1977', 'length': 269, 'bitrate': 320}
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/16-Chic - Everybody Dance (Motiva Rpl Mix).mp3
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic/16-Chic - Everybody Dance (Motiva Rpl Mix).mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Everybody Dance (Motiva Rpl Mix)', 'date': '1977', 'length': 362, 'bitrate': 320}
+
+2018.10.17 00:33:53-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/08-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(7''Version).mp3
+2018.10.17 00:33:53-DEBUG: Handling file by taglib - correct
+2018.10.17 00:33:53-WARNING: KeyError: 'DATE'
+2018.10.17 00:33:53-INFO: All file attributes collected correct
+2018.10.17 00:33:53-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic/08-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(7''Version).mp3", 'album': 'Chic', 'artist': 'Chic', 'title': "Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (7'' Version)", 'date': '__KeyError', 'length': 218, 'bitrate': 320}
+
+2018.10.17 00:33:53-INFO: 
+
+2018.10.17 00:33:53-INFO: Loop through files ends succesfully
+
+2018.10.17 00:33:53-INFO: Determine Catalog Attributes function starts
+
+2018.10.17 00:33:53-DEBUG: Tries to guess Album name
+2018.10.17 00:33:53-DEBUG: Found 1 proposition(s) : ['Chic']
+2018.10.17 00:33:53-DEBUG: Album found : Chic
+2018.10.17 00:33:53-DEBUG: Tries to guess Artist name
+2018.10.17 00:33:53-DEBUG: Found 1 proposition(s) : ['Chic']
+2018.10.17 00:33:53-DEBUG: Artist found : Chic
+2018.10.17 00:33:53-DEBUG: Tries to guess date of album
+2018.10.17 00:33:53-DEBUG: Date unreckognized
+2018.10.17 00:33:53-DEBUG: Computing average bitrate of files
+2018.10.17 00:33:53-DEBUG: Computing total length of files
+2018.10.17 00:33:53-INFO: reckognized Catalog Attributes:
+Artist: Chic        
+Album: Chic
+Date: 
+AvgBitrate: 320.0
+CatalogSym
+
+
+2018.10.17 00:33:53-DEBUG: returns {'album': 'Chic', 'artist': 'Chic', 'date': '', 'avg_bitrate': 320.0, 'total_length': 5106, 'catalog_mark': '', 'img_count': 4, 'path': '/home/kuba/Muzyka/Chic - (1977) Chic'}
+2018.10.17 00:33:53-INFO: Catalog Crawler ends,
+
+2018.10.17 00:33:53-INFO: Finding Album DiscogsID started
+2018.10.17 00:33:53-INFO: Working on /home/kuba/Muzyka/Chic - (1977) Chic
+2018.10.17 00:33:53-INFO: metoda Album
+2018.10.17 00:33:53-INFO: Connecting Discogs
+Query: Chic
+2018.10.17 00:33:54-INFO: Comparing Chic - Chic
+2018.10.17 00:33:54-INFO: Znaleziono ID z listy Album
+2018.10.17 00:33:54-INFO: 53188
+2018.10.17 00:34:06-INFO: Save to DB started
+2018.10.17 00:34:06-INFO: Catalog data inserted successfully
+2018.10.17 00:34:06-INFO: Catalog data inserted successfully
+2018.10.17 00:34:06-INFO: Data Commited
+2018.10.17 00:34:06-INFO: Catalog Crawler starts
+2018.10.17 00:34:06-DEBUG: Files found in catalog : ['03. Krafty Kuts & Featurecast - We Blow Up The Spot.flac', 'Folder.auCDtect.txt', '01. Krafty Kuts & Featurecast - Head Banger.flac', '02. Krafty Kuts & Featurecast - Head Banger (radio edit).flac', 'Krafty Kuts & Featurecast - Insane Bangers Vol 11 (2011).m3u', 'Cover.jpg', "04. Krafty Kuts & Featurecast - Shake 'Em Up.flac"]
+2018.10.17 00:34:06-INFO: Starting loop through files
+
+2018.10.17 00:34:06-INFO: File Crawler for starts for file : /home/kuba/Muzyka/[INSANE 011] Krafty Kuts & Featurecast - Insane Bangers Vol 11 (2011) [flac]/03. Krafty Kuts & Featurecast - We Blow Up The Spot.flac
+2018.10.17 00:34:06-DEBUG: Handling file by taglib - correct
+2018.10.17 00:34:06-INFO: All file attributes collected correct
+2018.10.17 00:34:06-INFO: {'path': '/home/kuba/Muzyka/[INSANE 011] Krafty Kuts & Featurecast - Insane Bangers Vol 11 (2011) [flac]/03. Krafty Kuts & Featurecast - We Blow Up The Spot.flac', 'album': 'Insane Bangers Vol 11', 'artist': 'Krafty Kuts & Featurecast', 'title': 'We Blow Up The Spot', 'date': '2011', 'length': 220, 'bitrate': 935}
+
+2018.10.17 00:34:06-INFO: File Crawler for starts for file : /home/kuba/Muzyka/[INSANE 011] Krafty Kuts & Featurecast - Insane Bangers Vol 11 (2011) [flac]/01. Krafty Kuts & Featurecast - Head Banger.flac
+2018.10.17 00:34:07-DEBUG: Handling file by taglib - correct
+2018.10.17 00:34:07-INFO: All file attributes collected correct
+2018.10.17 00:34:07-INFO: {'path': '/home/kuba/Muzyka/[INSANE 011] Krafty Kuts & Featurecast - Insane Bangers Vol 11 (2011) [flac]/01. Krafty Kuts & Featurecast - Head Banger.flac', 'album': 'Insane Bangers Vol 11', 'artist': 'Krafty Kuts & Featurecast', 'title': 'Head Banger', 'date': '2011', 'length': 255, 'bitrate': 967}
+
+2018.10.17 00:34:07-INFO: File Crawler for starts for file : /home/kuba/Muzyka/[INSANE 011] Krafty Kuts & Featurecast - Insane Bangers Vol 11 (2011) [flac]/02. Krafty Kuts & Featurecast - Head Banger (radio edit).flac
+2018.10.17 00:34:07-DEBUG: Handling file by taglib - correct
+2018.10.17 00:34:07-INFO: All file attributes collected correct
+2018.10.17 00:34:07-INFO: {'path': '/home/kuba/Muzyka/[INSANE 011] Krafty Kuts & Featurecast - Insane Bangers Vol 11 (2011) [flac]/02. Krafty Kuts & Featurecast - Head Banger (radio edit).flac', 'album': 'Insane Bangers Vol 11', 'artist': 'Krafty Kuts & Featurecast', 'title': 'Head Banger (radio edit)', 'date': '2011', 'length': 254, 'bitrate': 974}
+
+2018.10.17 00:34:07-INFO: File Crawler for starts for file : /home/kuba/Muzyka/[INSANE 011] Krafty Kuts & Featurecast - Insane Bangers Vol 11 (2011) [flac]/04. Krafty Kuts & Featurecast - Shake 'Em Up.flac
+2018.10.17 00:34:07-DEBUG: Handling file by taglib - correct
+2018.10.17 00:34:07-INFO: All file attributes collected correct
+2018.10.17 00:34:07-INFO: {'path': "/home/kuba/Muzyka/[INSANE 011] Krafty Kuts & Featurecast - Insane Bangers Vol 11 (2011) [flac]/04. Krafty Kuts & Featurecast - Shake 'Em Up.flac", 'album': 'Insane Bangers Vol 11', 'artist': 'Krafty Kuts & Featurecast', 'title': "Shake 'Em Up", 'date': '2011', 'length': 243, 'bitrate': 1019}
+
+2018.10.17 00:34:07-INFO: 
+
+2018.10.17 00:34:07-INFO: Loop through files ends succesfully
+
+2018.10.17 00:34:07-INFO: Determine Catalog Attributes function starts
+
+2018.10.17 00:34:07-DEBUG: Tries to guess Album name
+2018.10.17 00:34:07-DEBUG: Found 4 proposition(s) : ['Krafty Kuts & Featurecast', 'Krafty Kuts & Featurecast', 'Krafty Kuts & Featurecast', 'Krafty Kuts & Featurecast']
+2018.10.17 00:34:07-DEBUG: Album unreckognized
+2018.10.17 00:34:07-DEBUG: Tries to guess Artist name
+2018.10.17 00:34:07-DEBUG: Found 1 proposition(s) : ['Krafty Kuts & Featurecast']
+2018.10.17 00:34:07-DEBUG: Artist found : Krafty Kuts & Featurecast
+2018.10.17 00:34:07-DEBUG: Tries to guess date of album
+2018.10.17 00:34:07-DEBUG: Date recognized : 2011
+2018.10.17 00:34:07-DEBUG: Computing average bitrate of files
+2018.10.17 00:34:07-DEBUG: Computing total length of files
+2018.10.17 00:34:07-INFO: reckognized Catalog Attributes:
+Artist: Krafty Kuts & Featurecast        
+Album: Unknown Album
+Date: 2011
+AvgBitrate: 973.75
+CatalogSym
+
+
+2018.10.17 00:34:07-DEBUG: returns {'album': 'Unknown Album', 'artist': 'Krafty Kuts & Featurecast', 'date': '2011', 'avg_bitrate': 973.75, 'total_length': 972, 'catalog_mark': '', 'img_count': 1, 'path': '/home/kuba/Muzyka/[INSANE 011] Krafty Kuts & Featurecast - Insane Bangers Vol 11 (2011) [flac]'}
+2018.10.17 00:34:07-INFO: Catalog Crawler ends,
+
+2018.10.17 00:34:07-INFO: Connecting to Discgos API Skipped, too less data
+2018.10.17 00:34:07-INFO: Save to DB started
+2018.10.17 00:34:07-INFO: Catalog data inserted successfully
+2018.10.17 00:34:07-INFO: Catalog data inserted successfully
+2018.10.17 00:34:07-INFO: Data Commited
+2018.10.17 00:34:07-INFO: Catalog Crawler starts
+2018.10.17 00:34:07-DEBUG: Files found in catalog : ['Zakazane piosenki - Deszcz jesienny.mp3', 'Zakazane Piosenki - Czerwone Maki Na Monte Cassino.mp3', 'Zakazane Piosenki - Piechota ta szara piechota.mp3', '! ! folk - zakazane piosenki - 13. marsz mokotowa.mp3', 'Zakazane Piosenki - Serce W Plecaku.mp3', 'Jacek Lech - Partyzancka Ballada.mp3', 'zakazane piosenki - rozszumialy sie wierzby placzace.mp3', 'Krzysztof Daukszewicz, Zakazane Piosenki - Ballada dziadowska.mp3', 'Patriotyczne - Zakazane Piosenki.mp3', 'Zakazane Piosenki - Siekiera motyka.mp3', '! ! folk - zakazane piosenki - 08. gdy w noc wrzesniowa.mp3', 'Zakazane Piosenki - Przybyli ulani.mp3', 'Zakazane Piosenki - O Mój Rozmarynie.mp3']
+2018.10.17 00:34:07-INFO: Starting loop through files
+
+2018.10.17 00:34:07-INFO: File Crawler for starts for file : /home/kuba/Muzyka/zakazane piosenki/Zakazane piosenki - Deszcz jesienny.mp3
+2018.10.17 00:34:07-DEBUG: Handling file by taglib - correct
+2018.10.17 00:34:07-WARNING: KeyError: 'DATE'
+2018.10.17 00:34:07-INFO: All file attributes collected correct
+2018.10.17 00:34:07-INFO: {'path': '/home/kuba/Muzyka/zakazane piosenki/Zakazane piosenki - Deszcz jesienny.mp3', 'album': 'zakazane piosenki', 'artist': '! WWW.POLSKIE-MP3.TK ! folk', 'title': '04. deszcz jesienny', 'date': '__KeyError', 'length': 223, 'bitrate': 128}
+
+2018.10.17 00:34:07-INFO: File Crawler for starts for file : /home/kuba/Muzyka/zakazane piosenki/Zakazane Piosenki - Czerwone Maki Na Monte Cassino.mp3
+2018.10.17 00:34:07-DEBUG: Handling file by taglib - correct
+2018.10.17 00:34:07-WARNING: KeyError: 'ALBUM'
+2018.10.17 00:34:07-WARNING: KeyError: 'DATE'
+2018.10.17 00:34:07-INFO: All file attributes collected correct
+2018.10.17 00:34:07-INFO: {'path': '/home/kuba/Muzyka/zakazane piosenki/Zakazane Piosenki - Czerwone Maki Na Monte Cassino.mp3', 'album': '__KeyError', 'artist': 'Zakazane Piosenki', 'title': 'Czerwone maki', 'date': '__KeyError', 'length': 191, 'bitrate': 192}
+
+2018.10.17 00:34:07-INFO: File Crawler for starts for file : /home/kuba/Muzyka/zakazane piosenki/Zakazane Piosenki - Piechota ta szara piechota.mp3
+2018.10.17 00:34:07-DEBUG: Handling file by taglib - correct
+2018.10.17 00:34:07-WARNING: KeyError: 'ALBUM'
+2018.10.17 00:34:07-WARNING: KeyError: 'DATE'
+2018.10.17 00:34:07-INFO: All file attributes collected correct
+2018.10.17 00:34:07-INFO: {'path': '/home/kuba/Muzyka/zakazane piosenki/Zakazane Piosenki - Piechota ta szara piechota.mp3', 'album': '__KeyError', 'artist': 'Zakazane Piosenki', 'title': 'Szara Piechota', 'date': '__KeyError', 'length': 84, 'bitrate': 128}
+
+2018.10.17 00:34:07-INFO: File Crawler for starts for file : /home/kuba/Muzyka/zakazane piosenki/! ! folk - zakazane piosenki - 13. marsz mokotowa.mp3
+2018.10.17 00:34:07-DEBUG: Handling file by taglib - correct
+2018.10.17 00:34:07-WARNING: KeyError: 'DATE'
+2018.10.17 00:34:07-INFO: All file attributes collected correct
+2018.10.17 00:34:07-INFO: {'path': '/home/kuba/Muzyka/zakazane piosenki/! ! folk - zakazane piosenki - 13. marsz mokotowa.mp3', 'album': 'zakazane piosenki', 'artist': '! WWW.POLSKIE-MP3.TK ! folk', 'title': '13. marsz mokotowa', 'date': '__KeyError', 'length': 194, 'bitrate': 128}
+
+2018.10.17 00:34:07-INFO: File Crawler for starts for file : /home/kuba/Muzyka/zakazane piosenki/Zakazane Piosenki - Serce W Plecaku.mp3
+2018.10.17 00:34:07-DEBUG: Handling file by taglib - correct
+2018.10.17 00:34:07-WARNING: KeyError: 'DATE'
+2018.10.17 00:34:07-INFO: All file attributes collected correct
+2018.10.17 00:34:07-INFO: {'path': '/home/kuba/Muzyka/zakazane piosenki/Zakazane Piosenki - Serce W Plecaku.mp3', 'album': 'zakazane piosenki', 'artist': '! WWW.POLSKIE-MP3.TK ! folk', 'title': '10. serce w plecaku', 'date': '__KeyError', 'length': 164, 'bitrate': 128}
+
+2018.10.17 00:34:07-INFO: File Crawler for starts for file : /home/kuba/Muzyka/zakazane piosenki/Jacek Lech - Partyzancka Ballada.mp3
+2018.10.17 00:34:07-DEBUG: Handling file by taglib - correct
+2018.10.17 00:34:07-WARNING: KeyError: 'DATE'
+2018.10.17 00:34:07-INFO: All file attributes collected correct
+2018.10.17 00:34:07-INFO: {'path': '/home/kuba/Muzyka/zakazane piosenki/Jacek Lech - Partyzancka Ballada.mp3', 'album': 'Nieznany album', 'artist': 'Nieznany wykonawca', 'title': 'Utwór 18', 'date': '__KeyError', 'length': 210, 'bitrate': 218}
+
+2018.10.17 00:34:07-INFO: File Crawler for starts for file : /home/kuba/Muzyka/zakazane piosenki/zakazane piosenki - rozszumialy sie wierzby placzace.mp3
+2018.10.17 00:34:07-DEBUG: Handling file by taglib - correct
+2018.10.17 00:34:07-INFO: All file attributes collected correct
+2018.10.17 00:34:07-INFO: {'path': '/home/kuba/Muzyka/zakazane piosenki/zakazane piosenki - rozszumialy sie wierzby placzace.mp3', 'album': 'Zakazane Piosenki', 'artist': 'Folk', 'title': 'Rozszumialy sie wierzby placza', 'date': '2002', 'length': 222, 'bitrate': 160}
+
+2018.10.17 00:34:07-INFO: File Crawler for starts for file : /home/kuba/Muzyka/zakazane piosenki/Krzysztof Daukszewicz, Zakazane Piosenki - Ballada dziadowska.mp3
+2018.10.17 00:34:07-DEBUG: Handling file by taglib - correct
+2018.10.17 00:34:07-WARNING: KeyError: 'DATE'
+2018.10.17 00:34:07-INFO: All file attributes collected correct
+2018.10.17 00:34:07-INFO: {'path': '/home/kuba/Muzyka/zakazane piosenki/Krzysztof Daukszewicz, Zakazane Piosenki - Ballada dziadowska.mp3', 'album': 'Prosba', 'artist': 'Krzysztof Daukszewicz', 'title': 'Ballada dziadowska', 'date': '__KeyError', 'length': 108, 'bitrate': 146}
+
+2018.10.17 00:34:07-INFO: File Crawler for starts for file : /home/kuba/Muzyka/zakazane piosenki/Patriotyczne - Zakazane Piosenki.mp3
+2018.10.17 00:34:07-DEBUG: Handling file by taglib - correct
+2018.10.17 00:34:07-WARNING: KeyError: 'ARTIST'
+2018.10.17 00:34:07-WARNING: KeyError: 'DATE'
+2018.10.17 00:34:07-INFO: All file attributes collected correct
+2018.10.17 00:34:07-INFO: {'path': '/home/kuba/Muzyka/zakazane piosenki/Patriotyczne - Zakazane Piosenki.mp3', 'album': '__KeyError', 'title': 'Kto handluje ten zyje', 'date': '__KeyError', 'length': 185, 'bitrate': 128}
+
+2018.10.17 00:34:07-INFO: File Crawler for starts for file : /home/kuba/Muzyka/zakazane piosenki/Zakazane Piosenki - Siekiera motyka.mp3
+2018.10.17 00:34:07-DEBUG: Handling file by taglib - correct
+2018.10.17 00:34:07-WARNING: IndexError: list index out of range
+2018.10.17 00:34:07-INFO: All file attributes collected correct
+2018.10.17 00:34:07-INFO: {'path': '/home/kuba/Muzyka/zakazane piosenki/Zakazane Piosenki - Siekiera motyka.mp3', 'album': 'Szemrane Piosenki', 'artist': 'Biesiadne', 'title': 'Siekiera, motyka', 'date': '__IndexError', 'length': 71, 'bitrate': 128}
+
+2018.10.17 00:34:07-INFO: File Crawler for starts for file : /home/kuba/Muzyka/zakazane piosenki/! ! folk - zakazane piosenki - 08. gdy w noc wrzesniowa.mp3
+2018.10.17 00:34:07-DEBUG: Handling file by taglib - correct
+2018.10.17 00:34:07-WARNING: KeyError: 'DATE'
+2018.10.17 00:34:07-INFO: All file attributes collected correct
+2018.10.17 00:34:07-INFO: {'path': '/home/kuba/Muzyka/zakazane piosenki/! ! folk - zakazane piosenki - 08. gdy w noc wrzesniowa.mp3', 'album': 'zakazane piosenki', 'artist': '! WWW.POLSKIE-MP3.TK ! folk', 'title': '08. gdy w noc wrzesniowa', 'date': '__KeyError', 'length': 179, 'bitrate': 128}
+
+2018.10.17 00:34:07-INFO: File Crawler for starts for file : /home/kuba/Muzyka/zakazane piosenki/Zakazane Piosenki - Przybyli ulani.mp3
+2018.10.17 00:34:07-DEBUG: Handling file by taglib - correct
+2018.10.17 00:34:07-WARNING: KeyError: 'ALBUM'
+2018.10.17 00:34:07-WARNING: KeyError: 'DATE'
+2018.10.17 00:34:07-INFO: All file attributes collected correct
+2018.10.17 00:34:07-INFO: {'path': '/home/kuba/Muzyka/zakazane piosenki/Zakazane Piosenki - Przybyli ulani.mp3', 'album': '__KeyError', 'artist': 'Zakazane Piosenki', 'title': 'Przybyli Ulani', 'date': '__KeyError', 'length': 141, 'bitrate': 128}
+
+2018.10.17 00:34:07-INFO: File Crawler for starts for file : /home/kuba/Muzyka/zakazane piosenki/Zakazane Piosenki - O Mój Rozmarynie.mp3
+2018.10.17 00:34:07-DEBUG: Handling file by taglib - correct
+2018.10.17 00:34:07-WARNING: KeyError: 'ALBUM'
+2018.10.17 00:34:07-WARNING: KeyError: 'ARTIST'
+2018.10.17 00:34:07-WARNING: KeyError: 'TITLE'
+2018.10.17 00:34:07-WARNING: KeyError: 'DATE'
+2018.10.17 00:34:07-INFO: All file attributes collected correct
+2018.10.17 00:34:07-INFO: {'path': '/home/kuba/Muzyka/zakazane piosenki/Zakazane Piosenki - O Mój Rozmarynie.mp3', 'album': '__KeyError', 'title': '__KeyError', 'date': '__KeyError', 'length': 263, 'bitrate': 128}
+
+2018.10.17 00:34:07-INFO: 
+
+2018.10.17 00:34:07-INFO: Loop through files ends succesfully
+
+2018.10.17 00:34:07-INFO: Determine Catalog Attributes function starts
+
+2018.10.17 00:34:07-DEBUG: Tries to guess Album name
+2018.10.17 00:34:07-DEBUG: Found 8 proposition(s) : ['! WWW.POLSKIE-MP3.TK ! folk', '! WWW.POLSKIE-MP3.TK ! folk', '! WWW.POLSKIE-MP3.TK ! folk', 'Nieznany wykonawca', 'Folk', 'Krzysztof Daukszewicz', 'Biesiadne', '! WWW.POLSKIE-MP3.TK ! folk']
+2018.10.17 00:34:07-DEBUG: Album unreckognized
+2018.10.17 00:34:07-DEBUG: Tries to guess Artist name

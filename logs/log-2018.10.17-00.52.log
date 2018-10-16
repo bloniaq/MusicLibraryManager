@@ -1,0 +1,132 @@
+2018.10.17 00:52:57-INFO: OS : Linux
+2018.10.17 00:52:57-INFO: catalog_collector Function starts
+2018.10.17 00:52:57-DEBUG: Catalog Cache File founded
+2018.10.17 00:52:57-INFO: catalog_collector Function ended
+
+
+2018.10.17 00:52:57-INFO: Skipped /home/kuba/Muzyka/Chic - (1977) Chic (kopia)
+2018.10.17 00:52:57-INFO: Skipped /home/kuba/Muzyka/Gish
+2018.10.17 00:52:57-INFO: Skipped /home/kuba/Muzyka/1971 - First Album
+2018.10.17 00:52:57-INFO: Skipped /home/kuba/Muzyka/The Rising Tied
+2018.10.17 00:52:57-INFO: Skipped /home/kuba/Muzyka/Chic - (1977) Chic
+2018.10.17 00:52:57-INFO: Skipped /home/kuba/Muzyka/[INSANE 011] Krafty Kuts & Featurecast - Insane Bangers Vol 11 (2011) [flac]
+2018.10.17 00:52:57-INFO: Catalog Crawler starts
+2018.10.17 00:52:57-DEBUG: Files found in catalog : ['Zakazane piosenki - Deszcz jesienny.mp3', 'Zakazane Piosenki - Czerwone Maki Na Monte Cassino.mp3', 'Zakazane Piosenki - Piechota ta szara piechota.mp3', '! ! folk - zakazane piosenki - 13. marsz mokotowa.mp3', 'Zakazane Piosenki - Serce W Plecaku.mp3', 'Jacek Lech - Partyzancka Ballada.mp3', 'zakazane piosenki - rozszumialy sie wierzby placzace.mp3', 'Krzysztof Daukszewicz, Zakazane Piosenki - Ballada dziadowska.mp3', 'Patriotyczne - Zakazane Piosenki.mp3', 'Zakazane Piosenki - Siekiera motyka.mp3', '! ! folk - zakazane piosenki - 08. gdy w noc wrzesniowa.mp3', 'Zakazane Piosenki - Przybyli ulani.mp3', 'Zakazane Piosenki - O Mój Rozmarynie.mp3']
+2018.10.17 00:52:57-INFO: Starting loop through files
+
+2018.10.17 00:52:57-INFO: File Crawler for starts for file : /home/kuba/Muzyka/zakazane piosenki/Zakazane piosenki - Deszcz jesienny.mp3
+2018.10.17 00:52:57-DEBUG: Handling file by taglib - correct
+2018.10.17 00:52:57-WARNING: KeyError: 'DATE'
+2018.10.17 00:52:57-INFO: All file attributes collected correct
+2018.10.17 00:52:57-INFO: {'path': '/home/kuba/Muzyka/zakazane piosenki/Zakazane piosenki - Deszcz jesienny.mp3', 'album': 'zakazane piosenki', 'artist': '! WWW.POLSKIE-MP3.TK ! folk', 'title': '04. deszcz jesienny', 'date': '__KeyError', 'length': 223, 'bitrate': 128}
+
+2018.10.17 00:52:57-INFO: File Crawler for starts for file : /home/kuba/Muzyka/zakazane piosenki/Zakazane Piosenki - Czerwone Maki Na Monte Cassino.mp3
+2018.10.17 00:52:57-DEBUG: Handling file by taglib - correct
+2018.10.17 00:52:57-WARNING: KeyError: 'ALBUM'
+2018.10.17 00:52:57-WARNING: KeyError: 'DATE'
+2018.10.17 00:52:57-INFO: All file attributes collected correct
+2018.10.17 00:52:57-INFO: {'path': '/home/kuba/Muzyka/zakazane piosenki/Zakazane Piosenki - Czerwone Maki Na Monte Cassino.mp3', 'album': '__KeyError', 'artist': 'Zakazane Piosenki', 'title': 'Czerwone maki', 'date': '__KeyError', 'length': 191, 'bitrate': 192}
+
+2018.10.17 00:52:57-INFO: File Crawler for starts for file : /home/kuba/Muzyka/zakazane piosenki/Zakazane Piosenki - Piechota ta szara piechota.mp3
+2018.10.17 00:52:57-DEBUG: Handling file by taglib - correct
+2018.10.17 00:52:57-WARNING: KeyError: 'ALBUM'
+2018.10.17 00:52:57-WARNING: KeyError: 'DATE'
+2018.10.17 00:52:57-INFO: All file attributes collected correct
+2018.10.17 00:52:57-INFO: {'path': '/home/kuba/Muzyka/zakazane piosenki/Zakazane Piosenki - Piechota ta szara piechota.mp3', 'album': '__KeyError', 'artist': 'Zakazane Piosenki', 'title': 'Szara Piechota', 'date': '__KeyError', 'length': 84, 'bitrate': 128}
+
+2018.10.17 00:52:57-INFO: File Crawler for starts for file : /home/kuba/Muzyka/zakazane piosenki/! ! folk - zakazane piosenki - 13. marsz mokotowa.mp3
+2018.10.17 00:52:57-DEBUG: Handling file by taglib - correct
+2018.10.17 00:52:57-WARNING: KeyError: 'DATE'
+2018.10.17 00:52:57-INFO: All file attributes collected correct
+2018.10.17 00:52:57-INFO: {'path': '/home/kuba/Muzyka/zakazane piosenki/! ! folk - zakazane piosenki - 13. marsz mokotowa.mp3', 'album': 'zakazane piosenki', 'artist': '! WWW.POLSKIE-MP3.TK ! folk', 'title': '13. marsz mokotowa', 'date': '__KeyError', 'length': 194, 'bitrate': 128}
+
+2018.10.17 00:52:57-INFO: File Crawler for starts for file : /home/kuba/Muzyka/zakazane piosenki/Zakazane Piosenki - Serce W Plecaku.mp3
+2018.10.17 00:52:57-DEBUG: Handling file by taglib - correct
+2018.10.17 00:52:57-WARNING: KeyError: 'DATE'
+2018.10.17 00:52:57-INFO: All file attributes collected correct
+2018.10.17 00:52:57-INFO: {'path': '/home/kuba/Muzyka/zakazane piosenki/Zakazane Piosenki - Serce W Plecaku.mp3', 'album': 'zakazane piosenki', 'artist': '! WWW.POLSKIE-MP3.TK ! folk', 'title': '10. serce w plecaku', 'date': '__KeyError', 'length': 164, 'bitrate': 128}
+
+2018.10.17 00:52:57-INFO: File Crawler for starts for file : /home/kuba/Muzyka/zakazane piosenki/Jacek Lech - Partyzancka Ballada.mp3
+2018.10.17 00:52:57-DEBUG: Handling file by taglib - correct
+2018.10.17 00:52:57-WARNING: KeyError: 'DATE'
+2018.10.17 00:52:57-INFO: All file attributes collected correct
+2018.10.17 00:52:57-INFO: {'path': '/home/kuba/Muzyka/zakazane piosenki/Jacek Lech - Partyzancka Ballada.mp3', 'album': 'Nieznany album', 'artist': 'Nieznany wykonawca', 'title': 'Utwór 18', 'date': '__KeyError', 'length': 210, 'bitrate': 218}
+
+2018.10.17 00:52:57-INFO: File Crawler for starts for file : /home/kuba/Muzyka/zakazane piosenki/zakazane piosenki - rozszumialy sie wierzby placzace.mp3
+2018.10.17 00:52:57-DEBUG: Handling file by taglib - correct
+2018.10.17 00:52:57-INFO: All file attributes collected correct
+2018.10.17 00:52:57-INFO: {'path': '/home/kuba/Muzyka/zakazane piosenki/zakazane piosenki - rozszumialy sie wierzby placzace.mp3', 'album': 'Zakazane Piosenki', 'artist': 'Folk', 'title': 'Rozszumialy sie wierzby placza', 'date': '2002', 'length': 222, 'bitrate': 160}
+
+2018.10.17 00:52:57-INFO: File Crawler for starts for file : /home/kuba/Muzyka/zakazane piosenki/Krzysztof Daukszewicz, Zakazane Piosenki - Ballada dziadowska.mp3
+2018.10.17 00:52:57-DEBUG: Handling file by taglib - correct
+2018.10.17 00:52:57-WARNING: KeyError: 'DATE'
+2018.10.17 00:52:57-INFO: All file attributes collected correct
+2018.10.17 00:52:57-INFO: {'path': '/home/kuba/Muzyka/zakazane piosenki/Krzysztof Daukszewicz, Zakazane Piosenki - Ballada dziadowska.mp3', 'album': 'Prosba', 'artist': 'Krzysztof Daukszewicz', 'title': 'Ballada dziadowska', 'date': '__KeyError', 'length': 108, 'bitrate': 146}
+
+2018.10.17 00:52:57-INFO: File Crawler for starts for file : /home/kuba/Muzyka/zakazane piosenki/Patriotyczne - Zakazane Piosenki.mp3
+2018.10.17 00:52:57-DEBUG: Handling file by taglib - correct
+2018.10.17 00:52:57-WARNING: KeyError: 'ARTIST'
+2018.10.17 00:52:57-WARNING: KeyError: 'DATE'
+2018.10.17 00:52:57-INFO: All file attributes collected correct
+2018.10.17 00:52:57-INFO: {'path': '/home/kuba/Muzyka/zakazane piosenki/Patriotyczne - Zakazane Piosenki.mp3', 'album': '__KeyError', 'title': 'Kto handluje ten zyje', 'date': '__KeyError', 'length': 185, 'bitrate': 128}
+
+2018.10.17 00:52:57-INFO: File Crawler for starts for file : /home/kuba/Muzyka/zakazane piosenki/Zakazane Piosenki - Siekiera motyka.mp3
+2018.10.17 00:52:57-DEBUG: Handling file by taglib - correct
+2018.10.17 00:52:57-WARNING: IndexError: list index out of range
+2018.10.17 00:52:57-INFO: All file attributes collected correct
+2018.10.17 00:52:57-INFO: {'path': '/home/kuba/Muzyka/zakazane piosenki/Zakazane Piosenki - Siekiera motyka.mp3', 'album': 'Szemrane Piosenki', 'artist': 'Biesiadne', 'title': 'Siekiera, motyka', 'date': '__IndexError', 'length': 71, 'bitrate': 128}
+
+2018.10.17 00:52:57-INFO: File Crawler for starts for file : /home/kuba/Muzyka/zakazane piosenki/! ! folk - zakazane piosenki - 08. gdy w noc wrzesniowa.mp3
+2018.10.17 00:52:57-DEBUG: Handling file by taglib - correct
+2018.10.17 00:52:57-WARNING: KeyError: 'DATE'
+2018.10.17 00:52:57-INFO: All file attributes collected correct
+2018.10.17 00:52:57-INFO: {'path': '/home/kuba/Muzyka/zakazane piosenki/! ! folk - zakazane piosenki - 08. gdy w noc wrzesniowa.mp3', 'album': 'zakazane piosenki', 'artist': '! WWW.POLSKIE-MP3.TK ! folk', 'title': '08. gdy w noc wrzesniowa', 'date': '__KeyError', 'length': 179, 'bitrate': 128}
+
+2018.10.17 00:52:57-INFO: File Crawler for starts for file : /home/kuba/Muzyka/zakazane piosenki/Zakazane Piosenki - Przybyli ulani.mp3
+2018.10.17 00:52:57-DEBUG: Handling file by taglib - correct
+2018.10.17 00:52:57-WARNING: KeyError: 'ALBUM'
+2018.10.17 00:52:57-WARNING: KeyError: 'DATE'
+2018.10.17 00:52:57-INFO: All file attributes collected correct
+2018.10.17 00:52:57-INFO: {'path': '/home/kuba/Muzyka/zakazane piosenki/Zakazane Piosenki - Przybyli ulani.mp3', 'album': '__KeyError', 'artist': 'Zakazane Piosenki', 'title': 'Przybyli Ulani', 'date': '__KeyError', 'length': 141, 'bitrate': 128}
+
+2018.10.17 00:52:57-INFO: File Crawler for starts for file : /home/kuba/Muzyka/zakazane piosenki/Zakazane Piosenki - O Mój Rozmarynie.mp3
+2018.10.17 00:52:57-DEBUG: Handling file by taglib - correct
+2018.10.17 00:52:57-WARNING: KeyError: 'ALBUM'
+2018.10.17 00:52:57-WARNING: KeyError: 'ARTIST'
+2018.10.17 00:52:57-WARNING: KeyError: 'TITLE'
+2018.10.17 00:52:57-WARNING: KeyError: 'DATE'
+2018.10.17 00:52:57-INFO: All file attributes collected correct
+2018.10.17 00:52:57-INFO: {'path': '/home/kuba/Muzyka/zakazane piosenki/Zakazane Piosenki - O Mój Rozmarynie.mp3', 'album': '__KeyError', 'title': '__KeyError', 'date': '__KeyError', 'length': 263, 'bitrate': 128}
+
+2018.10.17 00:52:57-INFO: 
+
+2018.10.17 00:52:57-INFO: Loop through files ends succesfully
+
+2018.10.17 00:52:57-INFO: Determine Catalog Attributes function starts
+
+2018.10.17 00:52:57-DEBUG: Tries to guess Album name
+2018.10.17 00:52:57-DEBUG: Found 5 proposition(s) : ['zakazane piosenki', 'Nieznany album', 'Zakazane Piosenki', 'Prosba', 'Szemrane Piosenki']
+2018.10.17 00:52:57-DEBUG: Album unreckognized
+2018.10.17 00:52:57-DEBUG: Tries to guess Artist name
+2018.10.17 00:52:57-WARNING: KeyError : 'artist'
+2018.10.17 00:52:57-WARNING: KeyError : 'artist'
+2018.10.17 00:52:57-DEBUG: Found 6 proposition(s) : ['! WWW.POLSKIE-MP3.TK ! folk', 'Zakazane Piosenki', 'Nieznany wykonawca', 'Folk', 'Krzysztof Daukszewicz', 'Biesiadne']
+2018.10.17 00:52:57-DEBUG: It seems catalog is a container not an album
+2018.10.17 00:52:57-DEBUG: Tries to guess date of album
+2018.10.17 00:52:57-DEBUG: Date unreckognized
+2018.10.17 00:52:57-DEBUG: Computing average bitrate of files
+2018.10.17 00:52:57-DEBUG: Computing total length of files
+2018.10.17 00:52:57-INFO: reckognized Catalog Attributes:
+Artist: Unknown Artist        
+Album: Unknown Album
+Date: 
+AvgBitrate: 143.69230769230768
+CatalogSym
+
+
+2018.10.17 00:52:57-DEBUG: returns {'album': 'Unknown Album', 'artist': 'Unknown Artist', 'date': '', 'avg_bitrate': 143.69230769230768, 'total_length': 2235, 'catalog_mark': '', 'img_count': 0, 'path': '/home/kuba/Muzyka/zakazane piosenki'}
+2018.10.17 00:52:57-INFO: Catalog Crawler ends,
+
+2018.10.17 00:52:57-INFO: Connecting to Discgos API Skipped, too less data
+2018.10.17 00:52:57-INFO: Save to DB started
+2018.10.17 00:52:57-INFO: Catalog data inserted successfully
