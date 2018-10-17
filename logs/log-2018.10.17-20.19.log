@@ -1,0 +1,91 @@
+2018.10.17 20:19:57-INFO: OS : Linux
+2018.10.17 20:19:57-INFO: catalog_collector Function starts
+2018.10.17 20:19:57-DEBUG: Catalog Cache File not found
+2018.10.17 20:19:57-DEBUG: Starting reading library
+2018.10.17 20:19:57-INFO: Library reading ended with 22 directories
+2018.10.17 20:19:57-INFO: catalog_collector Function ended
+
+
+2018.10.17 20:19:57-INFO: Skipped /home/kuba/Muzyka/Chic - (1977) Chic (kopia)
+2018.10.17 20:19:57-INFO: Skipped /home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans
+2018.10.17 20:19:57-INFO: Skipped /home/kuba/Muzyka/Grażyna Łobaszewska-1989-Brzydcy (Polskie Nagrania Muza SX-2756)Scans
+2018.10.17 20:19:57-INFO: Skipped /home/kuba/Muzyka/Gish
+2018.10.17 20:19:57-INFO: Skipped /home/kuba/Muzyka/1971 - First Album
+2018.10.17 20:19:57-INFO: Skipped /home/kuba/Muzyka/The Rising Tied
+2018.10.17 20:19:57-INFO: Skipped /home/kuba/Muzyka/!!!--INCOMPLETE-- Hey (1994) - Ho!
+2018.10.17 20:19:57-INFO: Skipped /home/kuba/Muzyka/Chic - (1977) Chic
+2018.10.17 20:19:57-INFO: Catalog Crawler starts
+2018.10.17 20:19:57-DEBUG: Files found in catalog : ['02-marusha-touches_me-90946e49.mp3', '00-marusha-rave_satellite-web-2018.jpg', '06-marusha_feat_alexander_knappe-du_(breakbeat_remix)-4a0e65b7.mp3', '00-marusha-rave_satellite-web-2018.nfo', '05-marusha-deep_(dandb_remix)-02a9bf05.mp3', '00-marusha-rave_satellite-web-2018.sfv', '08-marusha-gravity-d8b163ef.mp3', '01-marusha-rave_satellite-85789f12.mp3', '07-marusha-remember_me-5f9560ab.mp3', '00-marusha-rave_satellite-web-2018.m3u', '03-marusha-supernova-1be4c5b1.mp3', '04-marusha_feat_garik_sonic-desolator-b88863ca.mp3']
+2018.10.17 20:19:57-INFO: Starting loop through files
+
+2018.10.17 20:19:57-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/02-marusha-touches_me-90946e49.mp3
+2018.10.17 20:19:57-DEBUG: Handling file by taglib - correct
+2018.10.17 20:19:57-INFO: All file attributes collected correct
+2018.10.17 20:19:57-INFO: {'path': '/home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/02-marusha-touches_me-90946e49.mp3', 'ext': 'mp3', 'album': 'Rave Satellite', 'artist': 'Marusha', 'title': 'Touches Me', 'date': '2018', 'length': 215, 'bitrate': 320}
+
+2018.10.17 20:19:57-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/06-marusha_feat_alexander_knappe-du_(breakbeat_remix)-4a0e65b7.mp3
+2018.10.17 20:19:57-DEBUG: Handling file by taglib - correct
+2018.10.17 20:19:57-INFO: All file attributes collected correct
+2018.10.17 20:19:57-INFO: {'path': '/home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/06-marusha_feat_alexander_knappe-du_(breakbeat_remix)-4a0e65b7.mp3', 'ext': 'mp3', 'album': 'Rave Satellite', 'artist': 'Marusha feat. Alexander Knappe', 'title': 'Du (Breakbeat Remix)', 'date': '2018', 'length': 243, 'bitrate': 320}
+
+2018.10.17 20:19:57-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/05-marusha-deep_(dandb_remix)-02a9bf05.mp3
+2018.10.17 20:19:57-DEBUG: Handling file by taglib - correct
+2018.10.17 20:19:57-INFO: All file attributes collected correct
+2018.10.17 20:19:57-INFO: {'path': '/home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/05-marusha-deep_(dandb_remix)-02a9bf05.mp3', 'ext': 'mp3', 'album': 'Rave Satellite', 'artist': 'Marusha', 'title': 'Deep (D&B Remix)', 'date': '2018', 'length': 336, 'bitrate': 320}
+
+2018.10.17 20:19:57-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/08-marusha-gravity-d8b163ef.mp3
+2018.10.17 20:19:57-DEBUG: Handling file by taglib - correct
+2018.10.17 20:19:57-INFO: All file attributes collected correct
+2018.10.17 20:19:57-INFO: {'path': '/home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/08-marusha-gravity-d8b163ef.mp3', 'ext': 'mp3', 'album': 'Rave Satellite', 'artist': 'Marusha', 'title': 'Gravity', 'date': '2018', 'length': 344, 'bitrate': 320}
+
+2018.10.17 20:19:57-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/01-marusha-rave_satellite-85789f12.mp3
+2018.10.17 20:19:57-DEBUG: Handling file by taglib - correct
+2018.10.17 20:19:57-INFO: All file attributes collected correct
+2018.10.17 20:19:57-INFO: {'path': '/home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/01-marusha-rave_satellite-85789f12.mp3', 'ext': 'mp3', 'album': 'Rave Satellite', 'artist': 'Marusha', 'title': 'Rave Satellite', 'date': '2018', 'length': 329, 'bitrate': 320}
+
+2018.10.17 20:19:57-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/07-marusha-remember_me-5f9560ab.mp3
+2018.10.17 20:19:57-DEBUG: Handling file by taglib - correct
+2018.10.17 20:19:57-INFO: All file attributes collected correct
+2018.10.17 20:19:57-INFO: {'path': '/home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/07-marusha-remember_me-5f9560ab.mp3', 'ext': 'mp3', 'album': 'Rave Satellite', 'artist': 'Marusha', 'title': 'Remember Me', 'date': '2018', 'length': 292, 'bitrate': 320}
+
+2018.10.17 20:19:57-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/03-marusha-supernova-1be4c5b1.mp3
+2018.10.17 20:19:57-DEBUG: Handling file by taglib - correct
+2018.10.17 20:19:57-INFO: All file attributes collected correct
+2018.10.17 20:19:57-INFO: {'path': '/home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/03-marusha-supernova-1be4c5b1.mp3', 'ext': 'mp3', 'album': 'Rave Satellite', 'artist': 'Marusha', 'title': 'Supernova', 'date': '2018', 'length': 264, 'bitrate': 320}
+
+2018.10.17 20:19:57-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/04-marusha_feat_garik_sonic-desolator-b88863ca.mp3
+2018.10.17 20:19:57-DEBUG: Handling file by taglib - correct
+2018.10.17 20:19:57-INFO: All file attributes collected correct
+2018.10.17 20:19:57-INFO: {'path': '/home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/04-marusha_feat_garik_sonic-desolator-b88863ca.mp3', 'ext': 'mp3', 'album': 'Rave Satellite', 'artist': 'Marusha feat. Garik Sonic', 'title': 'Desolator', 'date': '2018', 'length': 237, 'bitrate': 320}
+
+2018.10.17 20:19:57-INFO: 
+
+2018.10.17 20:19:57-INFO: Loop through files ends succesfully
+
+2018.10.17 20:19:57-INFO: Determine Catalog Attributes function starts
+
+2018.10.17 20:19:57-DEBUG: Tries to guess Album name
+2018.10.17 20:19:57-DEBUG: Found 1 proposition(s) : ['Rave Satellite']
+2018.10.17 20:19:57-DEBUG: Album found : Rave Satellite
+2018.10.17 20:19:57-DEBUG: Tries to guess Artist name
+2018.10.17 20:19:57-DEBUG: Found 3 proposition(s) : ['Marusha', 'Marusha feat. Alexander Knappe', 'Marusha feat. Garik Sonic']
+2018.10.17 20:19:57-DEBUG: Many Artists found in this catalog
+2018.10.17 20:19:57-INFO: Substring Finder Function starts
+2018.10.17 20:19:57-DEBUG: Input : ['Marusha', 'Marusha feat. Alexander Knappe', 'Marusha feat. Garik Sonic']
+
+2018.10.17 20:19:57-DEBUG: find_longest_substring comparing pair: Marusha and Marusha feat. Alexander Knappe
+2018.10.17 20:19:57-DEBUG: Selected : Marusha
+2018.10.17 20:19:57-DEBUG: find_longest_substring comparing pair: Marusha feat. Alexander Knappe and Marusha feat. Garik Sonic
+2018.10.17 20:19:57-DEBUG: Selected : Marusha feat. 
+2018.10.17 20:19:57-INFO: Existing substrings : ['Marusha', 'Marusha feat. ']
+2018.10.17 20:19:57-DEBUG: Checking if Marusha has a substring with all
+2018.10.17 20:19:57-DEBUG: find_longest_substring comparing pair: Marusha and Marusha
+2018.10.17 20:19:57-DEBUG: Selected : Marusha
+2018.10.17 20:19:57-DEBUG: find_longest_substring comparing pair: Marusha and Marusha feat. Alexander Knappe
+2018.10.17 20:19:57-DEBUG: Selected : Marusha
+2018.10.17 20:19:57-DEBUG: find_longest_substring comparing pair: Marusha and Marusha feat. Garik Sonic
+2018.10.17 20:19:57-DEBUG: Selected : Marusha
+2018.10.17 20:19:57-DEBUG: Marusha has a match with all files in dir
+2018.10.17 20:19:57-INFO: ***Connecting Discogs	Query: Marusha
+2018.10.17 20:19:57-INFO: substring search : <discogs_client.models.MixedPaginatedList object at 0x7f5475571e80>
+2018.10.17 20:19:57-DEBUG: Found 0 artist in discogs database

@@ -1,0 +1,1055 @@
+2018.10.17 22:48:31-INFO: OS : Linux
+2018.10.17 22:48:31-INFO: catalog_collector Function starts
+2018.10.17 22:48:31-DEBUG: Catalog Cache File not found
+2018.10.17 22:48:31-DEBUG: Starting reading library
+2018.10.17 22:48:31-INFO: Library reading ended with 22 directories
+2018.10.17 22:48:31-INFO: catalog_collector found 16 dirs to check
+
+
+2018.10.17 22:48:31-INFO: Catalog Crawler starts
+2018.10.17 22:48:31-DEBUG: Files found in catalog : ['Chic - Chic (Original album).m3u', "09-Chic - São Paulo (7'' Version).mp3", '03-Chic - You Can Get By.mp3', 'front.jpg', '02-Chic - São Paulo.mp3', 'Chic - Chic (Original album + bonus tracks).m3u', "11-Chic - Everybody Dance (Alternate 7'' Version).mp3", "05-Chic - Est-Ce Que C'est Chic.mp3", '15-Chic - Everybody Dance (Glenn Friscia Hardhouse Mix).mp3', "13-Chic - You Can Get By (7'' Version).mp3", 'side 1.jpg', 'Chic - Everybody Dance (Single).m3u', "12-Chic - Everybody Dance (12'' Version).mp3", "01-Chic-Dance,Dance,Dance(Yowsah,Yowsah,Yowsah)(Album&12''Versio.mp3", '04-Chic - Everybody Dance.mp3', 'back.jpg', '14-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(PalJoeyMix).mp3', 'Chic - Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (Single).m3u', '07-Chic - Strike Up The Band.mp3', "10-Chic - Everybody Dance (7'' Version).mp3", '17-Chic - Strike Up The Band (Hifana Copa Mix).mp3', 'side 2.jpg', '06-Chic - Falling In Love With You.mp3', '16-Chic - Everybody Dance (Motiva Rpl Mix).mp3', "08-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(7''Version).mp3"]
+2018.10.17 22:48:31-INFO: Starting loop through files
+
+2018.10.17 22:48:31-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/09-Chic - São Paulo (7'' Version).mp3
+2018.10.17 22:48:31-DEBUG: Handling file by taglib - correct
+2018.10.17 22:48:31-INFO: All file attributes collected correct
+2018.10.17 22:48:31-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/09-Chic - São Paulo (7'' Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "São Paulo (7'' Version)", 'date': '1977', 'length': 195, 'bitrate': 320}
+
+2018.10.17 22:48:31-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/03-Chic - You Can Get By.mp3
+2018.10.17 22:48:31-DEBUG: Handling file by taglib - correct
+2018.10.17 22:48:31-INFO: All file attributes collected correct
+2018.10.17 22:48:31-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/03-Chic - You Can Get By.mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'You Can Get By', 'date': '1977', 'length': 336, 'bitrate': 320}
+
+2018.10.17 22:48:31-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/02-Chic - São Paulo.mp3
+2018.10.17 22:48:31-DEBUG: Handling file by taglib - correct
+2018.10.17 22:48:31-INFO: All file attributes collected correct
+2018.10.17 22:48:31-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/02-Chic - São Paulo.mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'São Paulo', 'date': '1977', 'length': 301, 'bitrate': 320}
+
+2018.10.17 22:48:31-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/11-Chic - Everybody Dance (Alternate 7'' Version).mp3
+2018.10.17 22:48:31-DEBUG: Handling file by taglib - correct
+2018.10.17 22:48:31-WARNING: Error : 'DATE'
+2018.10.17 22:48:31-INFO: All file attributes collected correct
+2018.10.17 22:48:31-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/11-Chic - Everybody Dance (Alternate 7'' Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Everybody Dance (Alternate 7'' Version)", 'date': '', 'length': 248, 'bitrate': 320}
+
+2018.10.17 22:48:31-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/05-Chic - Est-Ce Que C'est Chic.mp3
+2018.10.17 22:48:31-DEBUG: Handling file by taglib - correct
+2018.10.17 22:48:31-INFO: All file attributes collected correct
+2018.10.17 22:48:31-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/05-Chic - Est-Ce Que C'est Chic.mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Est-Ce Que C'est Chic", 'date': '1977', 'length': 233, 'bitrate': 320}
+
+2018.10.17 22:48:31-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/15-Chic - Everybody Dance (Glenn Friscia Hardhouse Mix).mp3
+2018.10.17 22:48:31-DEBUG: Handling file by taglib - correct
+2018.10.17 22:48:31-INFO: All file attributes collected correct
+2018.10.17 22:48:31-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/15-Chic - Everybody Dance (Glenn Friscia Hardhouse Mix).mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Everybody Dance (Glenn Friscia Hardhouse Mix)', 'date': '1977', 'length': 338, 'bitrate': 320}
+
+2018.10.17 22:48:31-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/13-Chic - You Can Get By (7'' Version).mp3
+2018.10.17 22:48:31-DEBUG: Handling file by taglib - correct
+2018.10.17 22:48:31-INFO: All file attributes collected correct
+2018.10.17 22:48:31-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/13-Chic - You Can Get By (7'' Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "You Can Get By (7'' Version)", 'date': '1977', 'length': 242, 'bitrate': 320}
+
+2018.10.17 22:48:31-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/12-Chic - Everybody Dance (12'' Version).mp3
+2018.10.17 22:48:31-DEBUG: Handling file by taglib - correct
+2018.10.17 22:48:31-INFO: All file attributes collected correct
+2018.10.17 22:48:31-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/12-Chic - Everybody Dance (12'' Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Everybody Dance (12'' Version)", 'date': '1977', 'length': 507, 'bitrate': 320}
+
+2018.10.17 22:48:31-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/01-Chic-Dance,Dance,Dance(Yowsah,Yowsah,Yowsah)(Album&12''Versio.mp3
+2018.10.17 22:48:31-DEBUG: Handling file by taglib - correct
+2018.10.17 22:48:31-WARNING: Error : 'DATE'
+2018.10.17 22:48:31-INFO: All file attributes collected correct
+2018.10.17 22:48:31-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/01-Chic-Dance,Dance,Dance(Yowsah,Yowsah,Yowsah)(Album&12''Versio.mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (Album & 12'' Version)", 'date': '', 'length': 502, 'bitrate': 320}
+
+2018.10.17 22:48:31-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/04-Chic - Everybody Dance.mp3
+2018.10.17 22:48:31-DEBUG: Handling file by taglib - correct
+2018.10.17 22:48:31-WARNING: Error : 'DATE'
+2018.10.17 22:48:31-INFO: All file attributes collected correct
+2018.10.17 22:48:31-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/04-Chic - Everybody Dance.mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Everybody Dance', 'date': '', 'length': 401, 'bitrate': 320}
+
+2018.10.17 22:48:31-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/14-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(PalJoeyMix).mp3
+2018.10.17 22:48:31-DEBUG: Handling file by taglib - correct
+2018.10.17 22:48:31-INFO: All file attributes collected correct
+2018.10.17 22:48:31-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/14-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(PalJoeyMix).mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (Pal Joey Mix)', 'date': '1977', 'length': 247, 'bitrate': 320}
+
+2018.10.17 22:48:31-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/07-Chic - Strike Up The Band.mp3
+2018.10.17 22:48:31-DEBUG: Handling file by taglib - correct
+2018.10.17 22:48:31-INFO: All file attributes collected correct
+2018.10.17 22:48:31-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/07-Chic - Strike Up The Band.mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Strike Up The Band', 'date': '1977', 'length': 272, 'bitrate': 320}
+
+2018.10.17 22:48:31-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/10-Chic - Everybody Dance (7'' Version).mp3
+2018.10.17 22:48:31-DEBUG: Handling file by taglib - correct
+2018.10.17 22:48:31-WARNING: Error : 'DATE'
+2018.10.17 22:48:31-INFO: All file attributes collected correct
+2018.10.17 22:48:31-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/10-Chic - Everybody Dance (7'' Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Everybody Dance (7'' Version)", 'date': '', 'length': 206, 'bitrate': 320}
+
+2018.10.17 22:48:31-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/17-Chic - Strike Up The Band (Hifana Copa Mix).mp3
+2018.10.17 22:48:31-DEBUG: Handling file by taglib - correct
+2018.10.17 22:48:31-INFO: All file attributes collected correct
+2018.10.17 22:48:31-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/17-Chic - Strike Up The Band (Hifana Copa Mix).mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Strike Up The Band (Hifana Copa Mix)', 'date': '1977', 'length': 229, 'bitrate': 320}
+
+2018.10.17 22:48:31-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/06-Chic - Falling In Love With You.mp3
+2018.10.17 22:48:31-DEBUG: Handling file by taglib - correct
+2018.10.17 22:48:31-INFO: All file attributes collected correct
+2018.10.17 22:48:31-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/06-Chic - Falling In Love With You.mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Falling In Love With You', 'date': '1977', 'length': 269, 'bitrate': 320}
+
+2018.10.17 22:48:31-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/16-Chic - Everybody Dance (Motiva Rpl Mix).mp3
+2018.10.17 22:48:31-DEBUG: Handling file by taglib - correct
+2018.10.17 22:48:31-INFO: All file attributes collected correct
+2018.10.17 22:48:31-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/16-Chic - Everybody Dance (Motiva Rpl Mix).mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Everybody Dance (Motiva Rpl Mix)', 'date': '1977', 'length': 362, 'bitrate': 320}
+
+2018.10.17 22:48:31-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/08-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(7''Version).mp3
+2018.10.17 22:48:31-DEBUG: Handling file by taglib - correct
+2018.10.17 22:48:31-WARNING: Error : 'DATE'
+2018.10.17 22:48:31-INFO: All file attributes collected correct
+2018.10.17 22:48:31-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/08-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(7''Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (7'' Version)", 'date': '', 'length': 218, 'bitrate': 320}
+
+2018.10.17 22:48:31-INFO: 
+
+2018.10.17 22:48:31-INFO: Loop through files ends succesfully
+
+2018.10.17 22:48:31-INFO: Determine Catalog Attributes function starts
+
+2018.10.17 22:48:31-DEBUG: Tries to guess Album name
+2018.10.17 22:48:31-DEBUG: Found 1 proposition(s) : ['Chic']
+2018.10.17 22:48:31-DEBUG: Album found : Chic
+2018.10.17 22:48:31-DEBUG: Tries to guess Artist name
+2018.10.17 22:48:31-DEBUG: Found 1 proposition(s) : ['Chic']
+2018.10.17 22:48:31-DEBUG: Artist found : Chic
+2018.10.17 22:48:31-DEBUG: Tries to guess date of album
+2018.10.17 22:48:31-DEBUG: Date unreckognized
+2018.10.17 22:48:31-DEBUG: Computing average bitrate of files
+2018.10.17 22:48:31-DEBUG: Computing total length of files
+2018.10.17 22:48:31-INFO: reckognized Catalog Attributes:
+Artist: Chic        
+Album: Chic
+Date: 
+AvgBitrate: 320.0
+CatalogSym        
+Total Tracks: 17
+Total Length: 1:25:06
+
+
+2018.10.17 22:48:31-DEBUG: returns {'album': 'Chic', 'artist': 'Chic', 'date': '', 'avg_bitrate': 320.0, 'total_length': 5106, 'catalog_mark': '', 'ext': 'mp3', 'total_tracks': 17, 'img_count': 4, 'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)', 'comment': ''}
+2018.10.17 22:48:31-INFO: Catalog Crawler ends,
+
+2018.10.17 22:48:44-INFO: Save to DB started
+2018.10.17 22:48:44-INFO: Catalog data inserted successfully
+2018.10.17 22:48:44-DEBUG: Tries to insert : {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/09-Chic - São Paulo (7'' Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "São Paulo (7'' Version)", 'date': '1977', 'length': 195, 'bitrate': 320}
+2018.10.17 22:48:44-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/03-Chic - You Can Get By.mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'You Can Get By', 'date': '1977', 'length': 336, 'bitrate': 320}
+2018.10.17 22:48:44-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/02-Chic - São Paulo.mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'São Paulo', 'date': '1977', 'length': 301, 'bitrate': 320}
+2018.10.17 22:48:44-DEBUG: Tries to insert : {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/11-Chic - Everybody Dance (Alternate 7'' Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Everybody Dance (Alternate 7'' Version)", 'date': '', 'length': 248, 'bitrate': 320}
+2018.10.17 22:48:44-DEBUG: Tries to insert : {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/05-Chic - Est-Ce Que C'est Chic.mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Est-Ce Que C'est Chic", 'date': '1977', 'length': 233, 'bitrate': 320}
+2018.10.17 22:48:44-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/15-Chic - Everybody Dance (Glenn Friscia Hardhouse Mix).mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Everybody Dance (Glenn Friscia Hardhouse Mix)', 'date': '1977', 'length': 338, 'bitrate': 320}
+2018.10.17 22:48:44-DEBUG: Tries to insert : {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/13-Chic - You Can Get By (7'' Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "You Can Get By (7'' Version)", 'date': '1977', 'length': 242, 'bitrate': 320}
+2018.10.17 22:48:44-DEBUG: Tries to insert : {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/12-Chic - Everybody Dance (12'' Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Everybody Dance (12'' Version)", 'date': '1977', 'length': 507, 'bitrate': 320}
+2018.10.17 22:48:44-DEBUG: Tries to insert : {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/01-Chic-Dance,Dance,Dance(Yowsah,Yowsah,Yowsah)(Album&12''Versio.mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (Album & 12'' Version)", 'date': '', 'length': 502, 'bitrate': 320}
+2018.10.17 22:48:44-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/04-Chic - Everybody Dance.mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Everybody Dance', 'date': '', 'length': 401, 'bitrate': 320}
+2018.10.17 22:48:44-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/14-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(PalJoeyMix).mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (Pal Joey Mix)', 'date': '1977', 'length': 247, 'bitrate': 320}
+2018.10.17 22:48:44-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/07-Chic - Strike Up The Band.mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Strike Up The Band', 'date': '1977', 'length': 272, 'bitrate': 320}
+2018.10.17 22:48:44-DEBUG: Tries to insert : {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/10-Chic - Everybody Dance (7'' Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Everybody Dance (7'' Version)", 'date': '', 'length': 206, 'bitrate': 320}
+2018.10.17 22:48:44-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/17-Chic - Strike Up The Band (Hifana Copa Mix).mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Strike Up The Band (Hifana Copa Mix)', 'date': '1977', 'length': 229, 'bitrate': 320}
+2018.10.17 22:48:44-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/06-Chic - Falling In Love With You.mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Falling In Love With You', 'date': '1977', 'length': 269, 'bitrate': 320}
+2018.10.17 22:48:44-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/16-Chic - Everybody Dance (Motiva Rpl Mix).mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Everybody Dance (Motiva Rpl Mix)', 'date': '1977', 'length': 362, 'bitrate': 320}
+2018.10.17 22:48:44-DEBUG: Tries to insert : {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/08-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(7''Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (7'' Version)", 'date': '', 'length': 218, 'bitrate': 320}
+2018.10.17 22:48:44-INFO: Catalog data inserted successfully
+2018.10.17 22:48:44-INFO: Data Commited
+
+2018.10.17 22:48:44-INFO: Catalog Crawler starts
+2018.10.17 22:48:44-DEBUG: Files found in catalog : ['03 Pomost.flac', '01 Sklejam się.flac', 'Grażyna Łobaszewska - Sklejam się.log', '05 Para-finał.flac', '02 Filozof.flac', '08 Kurkuma.flac', 'Grażyna Łobaszewska - Sklejam się.m3u8', '04 Anglia wita.flac', '07 Rzym płonie.flac', '10 Szpilki.flac', '06 Pełnia szczęść.flac', '11 Pełnoletni.flac', '09 Ole gondola.flac', 'Grażyna Łobaszewska - Sklejam się.cue']
+2018.10.17 22:48:44-INFO: Starting loop through files
+
+2018.10.17 22:48:44-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/03 Pomost.flac
+2018.10.17 22:48:44-DEBUG: Handling file by taglib - correct
+2018.10.17 22:48:44-INFO: All file attributes collected correct
+2018.10.17 22:48:44-INFO: {'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/03 Pomost.flac', 'ext': 'flac', 'album': 'Sklejam się', 'artist': 'Grażyna Łobaszewska', 'title': 'Pomost', 'date': '2016', 'length': 284, 'bitrate': 813}
+
+2018.10.17 22:48:44-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/01 Sklejam się.flac
+2018.10.17 22:48:44-DEBUG: Handling file by taglib - correct
+2018.10.17 22:48:44-INFO: All file attributes collected correct
+2018.10.17 22:48:44-INFO: {'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/01 Sklejam się.flac', 'ext': 'flac', 'album': 'Sklejam się', 'artist': 'Grażyna Łobaszewska', 'title': 'Sklejam się', 'date': '2016', 'length': 209, 'bitrate': 876}
+
+2018.10.17 22:48:44-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/05 Para-finał.flac
+2018.10.17 22:48:44-DEBUG: Handling file by taglib - correct
+2018.10.17 22:48:44-INFO: All file attributes collected correct
+2018.10.17 22:48:44-INFO: {'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/05 Para-finał.flac', 'ext': 'flac', 'album': 'Sklejam się', 'artist': 'Grażyna Łobaszewska', 'title': 'Para-finał', 'date': '2016', 'length': 218, 'bitrate': 872}
+
+2018.10.17 22:48:44-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/02 Filozof.flac
+2018.10.17 22:48:44-DEBUG: Handling file by taglib - correct
+2018.10.17 22:48:44-INFO: All file attributes collected correct
+2018.10.17 22:48:44-INFO: {'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/02 Filozof.flac', 'ext': 'flac', 'album': 'Sklejam się', 'artist': 'Grażyna Łobaszewska', 'title': 'Filozof', 'date': '2016', 'length': 275, 'bitrate': 771}
+
+2018.10.17 22:48:44-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/08 Kurkuma.flac
+2018.10.17 22:48:44-DEBUG: Handling file by taglib - correct
+2018.10.17 22:48:44-INFO: All file attributes collected correct
+2018.10.17 22:48:44-INFO: {'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/08 Kurkuma.flac', 'ext': 'flac', 'album': 'Sklejam się', 'artist': 'Grażyna Łobaszewska', 'title': 'Kurkuma', 'date': '2016', 'length': 273, 'bitrate': 817}
+
+2018.10.17 22:48:44-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/04 Anglia wita.flac
+2018.10.17 22:48:44-DEBUG: Handling file by taglib - correct
+2018.10.17 22:48:44-INFO: All file attributes collected correct
+2018.10.17 22:48:44-INFO: {'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/04 Anglia wita.flac', 'ext': 'flac', 'album': 'Sklejam się', 'artist': 'Grażyna Łobaszewska', 'title': 'Anglia wita', 'date': '2016', 'length': 335, 'bitrate': 773}
+
+2018.10.17 22:48:44-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/07 Rzym płonie.flac
+2018.10.17 22:48:44-DEBUG: Handling file by taglib - correct
+2018.10.17 22:48:44-INFO: All file attributes collected correct
+2018.10.17 22:48:44-INFO: {'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/07 Rzym płonie.flac', 'ext': 'flac', 'album': 'Sklejam się', 'artist': 'Grażyna Łobaszewska', 'title': 'Rzym płonie', 'date': '2016', 'length': 235, 'bitrate': 711}
+
+2018.10.17 22:48:44-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/10 Szpilki.flac
+2018.10.17 22:48:44-DEBUG: Handling file by taglib - correct
+2018.10.17 22:48:44-INFO: All file attributes collected correct
+2018.10.17 22:48:44-INFO: {'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/10 Szpilki.flac', 'ext': 'flac', 'album': 'Sklejam się', 'artist': 'Grażyna Łobaszewska', 'title': 'Szpilki', 'date': '2016', 'length': 204, 'bitrate': 917}
+
+2018.10.17 22:48:44-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/06 Pełnia szczęść.flac
+2018.10.17 22:48:44-DEBUG: Handling file by taglib - correct
+2018.10.17 22:48:44-INFO: All file attributes collected correct
+2018.10.17 22:48:44-INFO: {'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/06 Pełnia szczęść.flac', 'ext': 'flac', 'album': 'Sklejam się', 'artist': 'Grażyna Łobaszewska', 'title': 'Pełnia szczęść', 'date': '2016', 'length': 213, 'bitrate': 931}
+
+2018.10.17 22:48:44-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/11 Pełnoletni.flac
+2018.10.17 22:48:44-DEBUG: Handling file by taglib - correct
+2018.10.17 22:48:44-INFO: All file attributes collected correct
+2018.10.17 22:48:44-INFO: {'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/11 Pełnoletni.flac', 'ext': 'flac', 'album': 'Sklejam się', 'artist': 'Grażyna Łobaszewska', 'title': 'Pełnoletni', 'date': '2016', 'length': 221, 'bitrate': 797}
+
+2018.10.17 22:48:44-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/09 Ole gondola.flac
+2018.10.17 22:48:44-DEBUG: Handling file by taglib - correct
+2018.10.17 22:48:44-INFO: All file attributes collected correct
+2018.10.17 22:48:44-INFO: {'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/09 Ole gondola.flac', 'ext': 'flac', 'album': 'Sklejam się', 'artist': 'Grażyna Łobaszewska', 'title': 'Ole gondola', 'date': '2016', 'length': 237, 'bitrate': 868}
+
+2018.10.17 22:48:44-INFO: 
+
+2018.10.17 22:48:44-INFO: Loop through files ends succesfully
+
+2018.10.17 22:48:44-INFO: Determine Catalog Attributes function starts
+
+2018.10.17 22:48:44-DEBUG: Tries to guess Album name
+2018.10.17 22:48:44-DEBUG: Found 1 proposition(s) : ['Sklejam się']
+2018.10.17 22:48:44-DEBUG: Album found : Sklejam się
+2018.10.17 22:48:44-DEBUG: Tries to guess Artist name
+2018.10.17 22:48:44-DEBUG: Found 1 proposition(s) : ['Grażyna Łobaszewska']
+2018.10.17 22:48:44-DEBUG: Artist found : Grażyna Łobaszewska
+2018.10.17 22:48:44-DEBUG: Tries to guess date of album
+2018.10.17 22:48:44-DEBUG: Date recognized : 2016
+2018.10.17 22:48:44-DEBUG: Computing average bitrate of files
+2018.10.17 22:48:44-DEBUG: Computing total length of files
+2018.10.17 22:48:44-INFO: reckognized Catalog Attributes:
+Artist: Grażyna Łobaszewska        
+Album: Sklejam się
+Date: 2016
+AvgBitrate: 831.5
+CatalogSym        
+Total Tracks: 11
+Total Length: 0:45:04
+
+
+2018.10.17 22:48:44-DEBUG: returns {'album': 'Sklejam się', 'artist': 'Grażyna Łobaszewska', 'date': '2016', 'avg_bitrate': 831.5, 'total_length': 2704, 'catalog_mark': '', 'ext': 'flac', 'total_tracks': 11, 'img_count': 8, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans', 'comment': 'unsupported format'}
+2018.10.17 22:48:44-INFO: Catalog Crawler ends,
+
+2018.10.17 22:49:08-INFO: Save to DB started
+2018.10.17 22:49:08-INFO: Catalog data inserted successfully
+2018.10.17 22:49:08-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/03 Pomost.flac', 'ext': 'flac', 'album': 'Sklejam się', 'artist': 'Grażyna Łobaszewska', 'title': 'Pomost', 'date': '2016', 'length': 284, 'bitrate': 813}
+2018.10.17 22:49:08-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/01 Sklejam się.flac', 'ext': 'flac', 'album': 'Sklejam się', 'artist': 'Grażyna Łobaszewska', 'title': 'Sklejam się', 'date': '2016', 'length': 209, 'bitrate': 876}
+2018.10.17 22:49:08-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/05 Para-finał.flac', 'ext': 'flac', 'album': 'Sklejam się', 'artist': 'Grażyna Łobaszewska', 'title': 'Para-finał', 'date': '2016', 'length': 218, 'bitrate': 872}
+2018.10.17 22:49:08-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/02 Filozof.flac', 'ext': 'flac', 'album': 'Sklejam się', 'artist': 'Grażyna Łobaszewska', 'title': 'Filozof', 'date': '2016', 'length': 275, 'bitrate': 771}
+2018.10.17 22:49:08-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/08 Kurkuma.flac', 'ext': 'flac', 'album': 'Sklejam się', 'artist': 'Grażyna Łobaszewska', 'title': 'Kurkuma', 'date': '2016', 'length': 273, 'bitrate': 817}
+2018.10.17 22:49:08-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/04 Anglia wita.flac', 'ext': 'flac', 'album': 'Sklejam się', 'artist': 'Grażyna Łobaszewska', 'title': 'Anglia wita', 'date': '2016', 'length': 335, 'bitrate': 773}
+2018.10.17 22:49:08-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/07 Rzym płonie.flac', 'ext': 'flac', 'album': 'Sklejam się', 'artist': 'Grażyna Łobaszewska', 'title': 'Rzym płonie', 'date': '2016', 'length': 235, 'bitrate': 711}
+2018.10.17 22:49:08-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/10 Szpilki.flac', 'ext': 'flac', 'album': 'Sklejam się', 'artist': 'Grażyna Łobaszewska', 'title': 'Szpilki', 'date': '2016', 'length': 204, 'bitrate': 917}
+2018.10.17 22:49:08-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/06 Pełnia szczęść.flac', 'ext': 'flac', 'album': 'Sklejam się', 'artist': 'Grażyna Łobaszewska', 'title': 'Pełnia szczęść', 'date': '2016', 'length': 213, 'bitrate': 931}
+2018.10.17 22:49:08-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/11 Pełnoletni.flac', 'ext': 'flac', 'album': 'Sklejam się', 'artist': 'Grażyna Łobaszewska', 'title': 'Pełnoletni', 'date': '2016', 'length': 221, 'bitrate': 797}
+2018.10.17 22:49:08-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/09 Ole gondola.flac', 'ext': 'flac', 'album': 'Sklejam się', 'artist': 'Grażyna Łobaszewska', 'title': 'Ole gondola', 'date': '2016', 'length': 237, 'bitrate': 868}
+2018.10.17 22:49:08-INFO: Catalog data inserted successfully
+2018.10.17 22:49:08-INFO: Data Commited
+
+2018.10.17 22:49:08-INFO: Catalog Crawler starts
+2018.10.17 22:49:08-DEBUG: Files found in catalog : ['foo_dr.txt', 'Discogs.url', 'from.txt', 'Grazyna Lobaczewska - Brzydcy.cue', 'Grazyna Lobaczewska - Brzydcy.flac']
+2018.10.17 22:49:08-INFO: Starting loop through files
+
+2018.10.17 22:49:08-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Grażyna Łobaszewska-1989-Brzydcy (Polskie Nagrania Muza SX-2756)Scans/Grazyna Lobaczewska - Brzydcy.flac
+2018.10.17 22:49:08-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:08-WARNING: Error : 'ALBUM'
+2018.10.17 22:49:08-WARNING: Error : 'ARTIST'
+2018.10.17 22:49:08-WARNING: Error : 'TITLE'
+2018.10.17 22:49:08-WARNING: Error : 'DATE'
+2018.10.17 22:49:08-INFO: All file attributes collected correct
+2018.10.17 22:49:08-INFO: {'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-1989-Brzydcy (Polskie Nagrania Muza SX-2756)Scans/Grazyna Lobaczewska - Brzydcy.flac', 'ext': 'flac', 'album': '', 'artist': '', 'title': '', 'date': '', 'length': 2236, 'bitrate': 803}
+
+2018.10.17 22:49:08-INFO: 
+
+2018.10.17 22:49:08-INFO: Loop through files ends succesfully
+
+2018.10.17 22:49:08-INFO: Determine Catalog Attributes function starts
+
+2018.10.17 22:49:08-DEBUG: Tries to guess Album name
+2018.10.17 22:49:08-DEBUG: Found 0 proposition(s) : []
+2018.10.17 22:49:08-DEBUG: Album unreckognized
+2018.10.17 22:49:08-DEBUG: Tries to guess Artist name
+2018.10.17 22:49:08-DEBUG: Found 0 proposition(s) : []
+2018.10.17 22:49:08-DEBUG: Artist unreckognized
+2018.10.17 22:49:08-DEBUG: Tries to guess date of album
+2018.10.17 22:49:08-DEBUG: Date recognized : 
+2018.10.17 22:49:08-DEBUG: Computing average bitrate of files
+2018.10.17 22:49:08-DEBUG: Computing total length of files
+2018.10.17 22:49:08-INFO: reckognized Catalog Attributes:
+Artist: Unknown Artist        
+Album: Unknown Album
+Date: 
+AvgBitrate: 803.0
+CatalogSym        
+Total Tracks: 1
+Total Length: 0:37:16
+
+
+2018.10.17 22:49:08-DEBUG: returns {'album': 'Unknown Album', 'artist': 'Unknown Artist', 'date': '', 'avg_bitrate': 803.0, 'total_length': 2236, 'catalog_mark': '', 'ext': 'flac', 'total_tracks': 1, 'img_count': 2, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-1989-Brzydcy (Polskie Nagrania Muza SX-2756)Scans', 'comment': 'unsupported format'}
+2018.10.17 22:49:08-INFO: Catalog Crawler ends,
+
+2018.10.17 22:49:08-INFO: Connecting to Discgos API Skipped, too less data
+2018.10.17 22:49:08-INFO: Save to DB started
+2018.10.17 22:49:08-INFO: Catalog data inserted successfully
+2018.10.17 22:49:08-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-1989-Brzydcy (Polskie Nagrania Muza SX-2756)Scans/Grazyna Lobaczewska - Brzydcy.flac', 'ext': 'flac', 'album': '', 'artist': '', 'title': '', 'date': '', 'length': 2236, 'bitrate': 803}
+2018.10.17 22:49:08-INFO: Catalog data inserted successfully
+2018.10.17 22:49:08-INFO: Data Commited
+
+2018.10.17 22:49:08-INFO: Catalog Crawler starts
+2018.10.17 22:49:08-DEBUG: Files found in catalog : ['03 Rhinoceros.wma', '04 Bury Me.wma', '01 I Am One.wma', '06 Suffer.wma', 'AlbumArt_{78A8D776-02E8-40AF-9D5E-14E0BE00649F}_Large.jpg', 'ZuneAlbumArt.jpg', 'Folder.jpg', '09 Window Paine.wma', '02 Siva.wma', '07 Snail.wma', '08 Tristessa.wma', 'AlbumArtSmall.jpg', '10 Daydream.wma', 'AlbumArt_{78A8D776-02E8-40AF-9D5E-14E0BE00649F}_Small.jpg', '05 Crush.wma']
+2018.10.17 22:49:08-INFO: Starting loop through files
+
+2018.10.17 22:49:08-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Gish/03 Rhinoceros.wma
+2018.10.17 22:49:08-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:08-INFO: All file attributes collected correct
+2018.10.17 22:49:08-INFO: {'path': '/home/kuba/Muzyka/Gish/03 Rhinoceros.wma', 'ext': 'wma', 'album': 'Gish', 'artist': 'The Smashing Pumpkins', 'title': 'Rhinoceros', 'date': '1991', 'length': 394, 'bitrate': 128}
+
+2018.10.17 22:49:08-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Gish/04 Bury Me.wma
+2018.10.17 22:49:08-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:08-INFO: All file attributes collected correct
+2018.10.17 22:49:08-INFO: {'path': '/home/kuba/Muzyka/Gish/04 Bury Me.wma', 'ext': 'wma', 'album': 'Gish', 'artist': 'The Smashing Pumpkins', 'title': 'Bury Me', 'date': '1991', 'length': 290, 'bitrate': 128}
+
+2018.10.17 22:49:08-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Gish/01 I Am One.wma
+2018.10.17 22:49:08-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:08-INFO: All file attributes collected correct
+2018.10.17 22:49:08-INFO: {'path': '/home/kuba/Muzyka/Gish/01 I Am One.wma', 'ext': 'wma', 'album': 'Gish', 'artist': 'The Smashing Pumpkins', 'title': 'I Am One', 'date': '1991', 'length': 249, 'bitrate': 128}
+
+2018.10.17 22:49:08-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Gish/06 Suffer.wma
+2018.10.17 22:49:08-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:08-INFO: All file attributes collected correct
+2018.10.17 22:49:08-INFO: {'path': '/home/kuba/Muzyka/Gish/06 Suffer.wma', 'ext': 'wma', 'album': 'Gish', 'artist': 'The Smashing Pumpkins', 'title': 'Suffer', 'date': '1991', 'length': 312, 'bitrate': 128}
+
+2018.10.17 22:49:08-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Gish/09 Window Paine.wma
+2018.10.17 22:49:08-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:08-INFO: All file attributes collected correct
+2018.10.17 22:49:08-INFO: {'path': '/home/kuba/Muzyka/Gish/09 Window Paine.wma', 'ext': 'wma', 'album': 'Gish', 'artist': 'The Smashing Pumpkins', 'title': 'Window Paine', 'date': '1991', 'length': 353, 'bitrate': 128}
+
+2018.10.17 22:49:08-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Gish/02 Siva.wma
+2018.10.17 22:49:08-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:08-INFO: All file attributes collected correct
+2018.10.17 22:49:08-INFO: {'path': '/home/kuba/Muzyka/Gish/02 Siva.wma', 'ext': 'wma', 'album': 'Gish', 'artist': 'The Smashing Pumpkins', 'title': 'Siva', 'date': '1991', 'length': 264, 'bitrate': 128}
+
+2018.10.17 22:49:08-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Gish/07 Snail.wma
+2018.10.17 22:49:08-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:08-INFO: All file attributes collected correct
+2018.10.17 22:49:08-INFO: {'path': '/home/kuba/Muzyka/Gish/07 Snail.wma', 'ext': 'wma', 'album': 'Gish', 'artist': 'The Smashing Pumpkins', 'title': 'Snail', 'date': '1991', 'length': 311, 'bitrate': 128}
+
+2018.10.17 22:49:08-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Gish/08 Tristessa.wma
+2018.10.17 22:49:08-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:08-INFO: All file attributes collected correct
+2018.10.17 22:49:08-INFO: {'path': '/home/kuba/Muzyka/Gish/08 Tristessa.wma', 'ext': 'wma', 'album': 'Gish', 'artist': 'The Smashing Pumpkins', 'title': 'Tristessa', 'date': '1991', 'length': 215, 'bitrate': 128}
+
+2018.10.17 22:49:08-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Gish/10 Daydream.wma
+2018.10.17 22:49:08-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:08-INFO: All file attributes collected correct
+2018.10.17 22:49:08-INFO: {'path': '/home/kuba/Muzyka/Gish/10 Daydream.wma', 'ext': 'wma', 'album': 'Gish', 'artist': 'The Smashing Pumpkins', 'title': 'Daydream', 'date': '1991', 'length': 188, 'bitrate': 128}
+
+2018.10.17 22:49:08-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Gish/05 Crush.wma
+2018.10.17 22:49:08-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:08-INFO: All file attributes collected correct
+2018.10.17 22:49:08-INFO: {'path': '/home/kuba/Muzyka/Gish/05 Crush.wma', 'ext': 'wma', 'album': 'Gish', 'artist': 'The Smashing Pumpkins', 'title': 'Crush', 'date': '1991', 'length': 217, 'bitrate': 128}
+
+2018.10.17 22:49:08-INFO: 
+
+2018.10.17 22:49:08-INFO: Loop through files ends succesfully
+
+2018.10.17 22:49:08-INFO: Determine Catalog Attributes function starts
+
+2018.10.17 22:49:08-DEBUG: Tries to guess Album name
+2018.10.17 22:49:08-DEBUG: Found 1 proposition(s) : ['Gish']
+2018.10.17 22:49:08-DEBUG: Album found : Gish
+2018.10.17 22:49:08-DEBUG: Tries to guess Artist name
+2018.10.17 22:49:08-DEBUG: Found 1 proposition(s) : ['The Smashing Pumpkins']
+2018.10.17 22:49:08-DEBUG: Artist found : The Smashing Pumpkins
+2018.10.17 22:49:08-DEBUG: Tries to guess date of album
+2018.10.17 22:49:08-DEBUG: Date recognized : 1991
+2018.10.17 22:49:08-DEBUG: Computing average bitrate of files
+2018.10.17 22:49:08-DEBUG: Computing total length of files
+2018.10.17 22:49:08-INFO: reckognized Catalog Attributes:
+Artist: The Smashing Pumpkins        
+Album: Gish
+Date: 1991
+AvgBitrate: 128.0
+CatalogSym        
+Total Tracks: 10
+Total Length: 0:46:33
+
+
+2018.10.17 22:49:08-DEBUG: returns {'album': 'Gish', 'artist': 'The Smashing Pumpkins', 'date': '1991', 'avg_bitrate': 128.0, 'total_length': 2793, 'catalog_mark': '', 'ext': 'wma', 'total_tracks': 10, 'img_count': 6, 'path': '/home/kuba/Muzyka/Gish', 'comment': ''}
+2018.10.17 22:49:08-INFO: Catalog Crawler ends,
+
+2018.10.17 22:49:27-INFO: Save to DB started
+2018.10.17 22:49:27-INFO: Catalog data inserted successfully
+2018.10.17 22:49:27-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Gish/03 Rhinoceros.wma', 'ext': 'wma', 'album': 'Gish', 'artist': 'The Smashing Pumpkins', 'title': 'Rhinoceros', 'date': '1991', 'length': 394, 'bitrate': 128}
+2018.10.17 22:49:27-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Gish/04 Bury Me.wma', 'ext': 'wma', 'album': 'Gish', 'artist': 'The Smashing Pumpkins', 'title': 'Bury Me', 'date': '1991', 'length': 290, 'bitrate': 128}
+2018.10.17 22:49:27-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Gish/01 I Am One.wma', 'ext': 'wma', 'album': 'Gish', 'artist': 'The Smashing Pumpkins', 'title': 'I Am One', 'date': '1991', 'length': 249, 'bitrate': 128}
+2018.10.17 22:49:27-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Gish/06 Suffer.wma', 'ext': 'wma', 'album': 'Gish', 'artist': 'The Smashing Pumpkins', 'title': 'Suffer', 'date': '1991', 'length': 312, 'bitrate': 128}
+2018.10.17 22:49:27-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Gish/09 Window Paine.wma', 'ext': 'wma', 'album': 'Gish', 'artist': 'The Smashing Pumpkins', 'title': 'Window Paine', 'date': '1991', 'length': 353, 'bitrate': 128}
+2018.10.17 22:49:27-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Gish/02 Siva.wma', 'ext': 'wma', 'album': 'Gish', 'artist': 'The Smashing Pumpkins', 'title': 'Siva', 'date': '1991', 'length': 264, 'bitrate': 128}
+2018.10.17 22:49:27-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Gish/07 Snail.wma', 'ext': 'wma', 'album': 'Gish', 'artist': 'The Smashing Pumpkins', 'title': 'Snail', 'date': '1991', 'length': 311, 'bitrate': 128}
+2018.10.17 22:49:27-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Gish/08 Tristessa.wma', 'ext': 'wma', 'album': 'Gish', 'artist': 'The Smashing Pumpkins', 'title': 'Tristessa', 'date': '1991', 'length': 215, 'bitrate': 128}
+2018.10.17 22:49:27-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Gish/10 Daydream.wma', 'ext': 'wma', 'album': 'Gish', 'artist': 'The Smashing Pumpkins', 'title': 'Daydream', 'date': '1991', 'length': 188, 'bitrate': 128}
+2018.10.17 22:49:27-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Gish/05 Crush.wma', 'ext': 'wma', 'album': 'Gish', 'artist': 'The Smashing Pumpkins', 'title': 'Crush', 'date': '1991', 'length': 217, 'bitrate': 128}
+2018.10.17 22:49:27-INFO: Catalog data inserted successfully
+2018.10.17 22:49:27-INFO: Data Commited
+
+2018.10.17 22:49:27-INFO: Catalog Crawler starts
+2018.10.17 22:49:27-DEBUG: Files found in catalog : ['02. Brown Sugar.mp3', '08. Bedroom Thang.mp3', "09. Just Got Back From Baby's.mp3", '01. (Somebody Else Been) Shaking Your Tree.mp3', "04. Goin' Down To Mexico.mp3", '06. Neighbor, Neighbor.mp3', '03. Squank.mp3', '10. Backdoor Love Affair.mp3', '05. Old Man.mp3', '07. Certified Blues.mp3']
+2018.10.17 22:49:27-INFO: Starting loop through files
+
+2018.10.17 22:49:27-INFO: File Crawler for starts for file : /home/kuba/Muzyka/1971 - First Album/02. Brown Sugar.mp3
+2018.10.17 22:49:27-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:27-INFO: All file attributes collected correct
+2018.10.17 22:49:27-INFO: {'path': '/home/kuba/Muzyka/1971 - First Album/02. Brown Sugar.mp3', 'ext': 'mp3', 'album': 'First Album', 'artist': 'ZZ Top', 'title': 'Brown Sugar', 'date': '1971', 'length': 325, 'bitrate': 320}
+
+2018.10.17 22:49:27-INFO: File Crawler for starts for file : /home/kuba/Muzyka/1971 - First Album/08. Bedroom Thang.mp3
+2018.10.17 22:49:27-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:27-INFO: All file attributes collected correct
+2018.10.17 22:49:27-INFO: {'path': '/home/kuba/Muzyka/1971 - First Album/08. Bedroom Thang.mp3', 'ext': 'mp3', 'album': 'First Album', 'artist': 'ZZ Top', 'title': 'Bedroom Thang', 'date': '1971', 'length': 280, 'bitrate': 320}
+
+2018.10.17 22:49:27-INFO: File Crawler for starts for file : /home/kuba/Muzyka/1971 - First Album/09. Just Got Back From Baby's.mp3
+2018.10.17 22:49:27-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:27-INFO: All file attributes collected correct
+2018.10.17 22:49:27-INFO: {'path': "/home/kuba/Muzyka/1971 - First Album/09. Just Got Back From Baby's.mp3", 'ext': 'mp3', 'album': 'First Album', 'artist': 'ZZ Top', 'title': "Just Got Back From Baby's", 'date': '1971', 'length': 251, 'bitrate': 320}
+
+2018.10.17 22:49:27-INFO: File Crawler for starts for file : /home/kuba/Muzyka/1971 - First Album/01. (Somebody Else Been) Shaking Your Tree.mp3
+2018.10.17 22:49:27-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:27-INFO: All file attributes collected correct
+2018.10.17 22:49:27-INFO: {'path': '/home/kuba/Muzyka/1971 - First Album/01. (Somebody Else Been) Shaking Your Tree.mp3', 'ext': 'mp3', 'album': 'First Album', 'artist': 'ZZ Top', 'title': '(Somebody Else Been) Shaking Your Tree', 'date': '1971', 'length': 159, 'bitrate': 320}
+
+2018.10.17 22:49:27-INFO: File Crawler for starts for file : /home/kuba/Muzyka/1971 - First Album/04. Goin' Down To Mexico.mp3
+2018.10.17 22:49:27-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:27-INFO: All file attributes collected correct
+2018.10.17 22:49:27-INFO: {'path': "/home/kuba/Muzyka/1971 - First Album/04. Goin' Down To Mexico.mp3", 'ext': 'mp3', 'album': 'First Album', 'artist': 'ZZ Top', 'title': "Goin' Down To Mexico", 'date': '1971', 'length': 202, 'bitrate': 320}
+
+2018.10.17 22:49:27-INFO: File Crawler for starts for file : /home/kuba/Muzyka/1971 - First Album/06. Neighbor, Neighbor.mp3
+2018.10.17 22:49:27-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:27-INFO: All file attributes collected correct
+2018.10.17 22:49:27-INFO: {'path': '/home/kuba/Muzyka/1971 - First Album/06. Neighbor, Neighbor.mp3', 'ext': 'mp3', 'album': 'First Album', 'artist': 'ZZ Top', 'title': 'Neighbor, Neighbor', 'date': '1971', 'length': 140, 'bitrate': 320}
+
+2018.10.17 22:49:27-INFO: File Crawler for starts for file : /home/kuba/Muzyka/1971 - First Album/03. Squank.mp3
+2018.10.17 22:49:27-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:27-INFO: All file attributes collected correct
+2018.10.17 22:49:27-INFO: {'path': '/home/kuba/Muzyka/1971 - First Album/03. Squank.mp3', 'ext': 'mp3', 'album': 'First Album', 'artist': 'ZZ Top', 'title': 'Squank', 'date': '1971', 'length': 167, 'bitrate': 320}
+
+2018.10.17 22:49:27-INFO: File Crawler for starts for file : /home/kuba/Muzyka/1971 - First Album/10. Backdoor Love Affair.mp3
+2018.10.17 22:49:27-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:27-INFO: All file attributes collected correct
+2018.10.17 22:49:27-INFO: {'path': '/home/kuba/Muzyka/1971 - First Album/10. Backdoor Love Affair.mp3', 'ext': 'mp3', 'album': 'First Album', 'artist': 'ZZ Top', 'title': 'Backdoor Love Affair', 'date': '1971', 'length': 201, 'bitrate': 320}
+
+2018.10.17 22:49:27-INFO: File Crawler for starts for file : /home/kuba/Muzyka/1971 - First Album/05. Old Man.mp3
+2018.10.17 22:49:27-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:27-INFO: All file attributes collected correct
+2018.10.17 22:49:27-INFO: {'path': '/home/kuba/Muzyka/1971 - First Album/05. Old Man.mp3', 'ext': 'mp3', 'album': 'First Album', 'artist': 'ZZ Top', 'title': 'Old Man', 'date': '1971', 'length': 207, 'bitrate': 320}
+
+2018.10.17 22:49:27-INFO: File Crawler for starts for file : /home/kuba/Muzyka/1971 - First Album/07. Certified Blues.mp3
+2018.10.17 22:49:27-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:27-INFO: All file attributes collected correct
+2018.10.17 22:49:27-INFO: {'path': '/home/kuba/Muzyka/1971 - First Album/07. Certified Blues.mp3', 'ext': 'mp3', 'album': 'First Album', 'artist': 'ZZ Top', 'title': 'Certified Blues', 'date': '1971', 'length': 206, 'bitrate': 320}
+
+2018.10.17 22:49:27-INFO: 
+
+2018.10.17 22:49:27-INFO: Loop through files ends succesfully
+
+2018.10.17 22:49:27-INFO: Determine Catalog Attributes function starts
+
+2018.10.17 22:49:27-DEBUG: Tries to guess Album name
+2018.10.17 22:49:27-DEBUG: Found 1 proposition(s) : ['First Album']
+2018.10.17 22:49:27-DEBUG: Album found : First Album
+2018.10.17 22:49:27-DEBUG: Tries to guess Artist name
+2018.10.17 22:49:27-DEBUG: Found 1 proposition(s) : ['ZZ Top']
+2018.10.17 22:49:27-DEBUG: Artist found : ZZ Top
+2018.10.17 22:49:27-DEBUG: Tries to guess date of album
+2018.10.17 22:49:27-DEBUG: Date recognized : 1971
+2018.10.17 22:49:27-DEBUG: Computing average bitrate of files
+2018.10.17 22:49:27-DEBUG: Computing total length of files
+2018.10.17 22:49:27-INFO: reckognized Catalog Attributes:
+Artist: ZZ Top        
+Album: First Album
+Date: 1971
+AvgBitrate: 320.0
+CatalogSym        
+Total Tracks: 10
+Total Length: 0:35:38
+
+
+2018.10.17 22:49:27-DEBUG: returns {'album': 'First Album', 'artist': 'ZZ Top', 'date': '1971', 'avg_bitrate': 320.0, 'total_length': 2138, 'catalog_mark': '', 'ext': 'mp3', 'total_tracks': 10, 'img_count': 4, 'path': '/home/kuba/Muzyka/1971 - First Album', 'comment': ''}
+2018.10.17 22:49:27-INFO: Catalog Crawler ends,
+
+2018.10.17 22:49:41-INFO: Save to DB started
+2018.10.17 22:49:41-INFO: Catalog data inserted successfully
+2018.10.17 22:49:41-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/1971 - First Album/02. Brown Sugar.mp3', 'ext': 'mp3', 'album': 'First Album', 'artist': 'ZZ Top', 'title': 'Brown Sugar', 'date': '1971', 'length': 325, 'bitrate': 320}
+2018.10.17 22:49:41-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/1971 - First Album/08. Bedroom Thang.mp3', 'ext': 'mp3', 'album': 'First Album', 'artist': 'ZZ Top', 'title': 'Bedroom Thang', 'date': '1971', 'length': 280, 'bitrate': 320}
+2018.10.17 22:49:41-DEBUG: Tries to insert : {'path': "/home/kuba/Muzyka/1971 - First Album/09. Just Got Back From Baby's.mp3", 'ext': 'mp3', 'album': 'First Album', 'artist': 'ZZ Top', 'title': "Just Got Back From Baby's", 'date': '1971', 'length': 251, 'bitrate': 320}
+2018.10.17 22:49:41-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/1971 - First Album/01. (Somebody Else Been) Shaking Your Tree.mp3', 'ext': 'mp3', 'album': 'First Album', 'artist': 'ZZ Top', 'title': '(Somebody Else Been) Shaking Your Tree', 'date': '1971', 'length': 159, 'bitrate': 320}
+2018.10.17 22:49:41-DEBUG: Tries to insert : {'path': "/home/kuba/Muzyka/1971 - First Album/04. Goin' Down To Mexico.mp3", 'ext': 'mp3', 'album': 'First Album', 'artist': 'ZZ Top', 'title': "Goin' Down To Mexico", 'date': '1971', 'length': 202, 'bitrate': 320}
+2018.10.17 22:49:41-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/1971 - First Album/06. Neighbor, Neighbor.mp3', 'ext': 'mp3', 'album': 'First Album', 'artist': 'ZZ Top', 'title': 'Neighbor, Neighbor', 'date': '1971', 'length': 140, 'bitrate': 320}
+2018.10.17 22:49:41-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/1971 - First Album/03. Squank.mp3', 'ext': 'mp3', 'album': 'First Album', 'artist': 'ZZ Top', 'title': 'Squank', 'date': '1971', 'length': 167, 'bitrate': 320}
+2018.10.17 22:49:41-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/1971 - First Album/10. Backdoor Love Affair.mp3', 'ext': 'mp3', 'album': 'First Album', 'artist': 'ZZ Top', 'title': 'Backdoor Love Affair', 'date': '1971', 'length': 201, 'bitrate': 320}
+2018.10.17 22:49:41-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/1971 - First Album/05. Old Man.mp3', 'ext': 'mp3', 'album': 'First Album', 'artist': 'ZZ Top', 'title': 'Old Man', 'date': '1971', 'length': 207, 'bitrate': 320}
+2018.10.17 22:49:41-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/1971 - First Album/07. Certified Blues.mp3', 'ext': 'mp3', 'album': 'First Album', 'artist': 'ZZ Top', 'title': 'Certified Blues', 'date': '1971', 'length': 206, 'bitrate': 320}
+2018.10.17 22:49:41-INFO: Catalog data inserted successfully
+2018.10.17 22:49:41-INFO: Data Commited
+
+2018.10.17 22:49:41-INFO: Catalog Crawler starts
+2018.10.17 22:49:41-DEBUG: Files found in catalog : ['05 Feel Like Home.ogg', '19 The Hard Way.ogg', '14 Red to Black.ogg', '13 Kenji.ogg', '04 Petrified.ogg', '10 Believe Me.ogg', '12 High Road.ogg', '16 Slip Out the Back.ogg', '07 In Stereo.ogg', '18 There They Go.ogg', "06 Where'd You Go.ogg", '11 Get me Gone.ogg', '09 Cigarettes.ogg', '02 Remember the Name.ogg', '01 Introduction.ogg', '15 The Battle.ogg', '03 Right Now.ogg', '17 Be Somebody.ogg', '08 Back Home.ogg']
+2018.10.17 22:49:41-INFO: Starting loop through files
+
+2018.10.17 22:49:41-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/05 Feel Like Home.ogg
+2018.10.17 22:49:41-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:41-INFO: All file attributes collected correct
+2018.10.17 22:49:41-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/05 Feel Like Home.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor y Styles of Beyond', 'title': 'Feel Like Home', 'date': '2005', 'length': 233, 'bitrate': 86}
+
+2018.10.17 22:49:41-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/19 The Hard Way.ogg
+2018.10.17 22:49:41-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:41-INFO: All file attributes collected correct
+2018.10.17 22:49:41-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/19 The Hard Way.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor', 'title': 'The Hard Way', 'date': '2001', 'length': 234, 'bitrate': 93}
+
+2018.10.17 22:49:41-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/14 Red to Black.ogg
+2018.10.17 22:49:41-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:41-INFO: All file attributes collected correct
+2018.10.17 22:49:41-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/14 Red to Black.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor, Kenna, Jonah Matranga y Styles of Beyond', 'title': 'Red To Black', 'date': '2005', 'length': 192, 'bitrate': 81}
+
+2018.10.17 22:49:41-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/13 Kenji.ogg
+2018.10.17 22:49:41-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:41-INFO: All file attributes collected correct
+2018.10.17 22:49:41-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/13 Kenji.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor', 'title': 'Kenji', 'date': '2005', 'length': 231, 'bitrate': 77}
+
+2018.10.17 22:49:41-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/04 Petrified.ogg
+2018.10.17 22:49:41-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:41-INFO: All file attributes collected correct
+2018.10.17 22:49:41-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/04 Petrified.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor', 'title': 'Petrified', 'date': '2005', 'length': 220, 'bitrate': 84}
+
+2018.10.17 22:49:41-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/10 Believe Me.ogg
+2018.10.17 22:49:41-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:41-INFO: All file attributes collected correct
+2018.10.17 22:49:41-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/10 Believe Me.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor, BoBo y Styles of Beyond', 'title': 'Believe Me', 'date': '2005', 'length': 223, 'bitrate': 81}
+
+2018.10.17 22:49:41-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/12 High Road.ogg
+2018.10.17 22:49:41-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:41-INFO: All file attributes collected correct
+2018.10.17 22:49:41-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/12 High Road.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor y John Legend', 'title': 'High Road', 'date': '2005', 'length': 196, 'bitrate': 84}
+
+2018.10.17 22:49:41-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/16 Slip Out the Back.ogg
+2018.10.17 22:49:41-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:41-INFO: All file attributes collected correct
+2018.10.17 22:49:41-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/16 Slip Out the Back.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor y Mr Hahn', 'title': 'Slip Out the Back', 'date': '2005', 'length': 236, 'bitrate': 82}
+
+2018.10.17 22:49:41-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/07 In Stereo.ogg
+2018.10.17 22:49:41-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:41-INFO: All file attributes collected correct
+2018.10.17 22:49:41-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/07 In Stereo.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor', 'title': 'In Stereo', 'date': '2005', 'length': 209, 'bitrate': 88}
+
+2018.10.17 22:49:41-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/18 There They Go.ogg
+2018.10.17 22:49:41-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:41-INFO: All file attributes collected correct
+2018.10.17 22:49:41-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/18 There They Go.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor y Sixx John', 'title': 'There They Go', 'date': '2005', 'length': 197, 'bitrate': 84}
+
+2018.10.17 22:49:41-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/06 Where'd You Go.ogg
+2018.10.17 22:49:41-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:41-INFO: All file attributes collected correct
+2018.10.17 22:49:41-INFO: {'path': "/home/kuba/Muzyka/The Rising Tied/06 Where'd You Go.ogg", 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor, Holly Brook y Jonah Matranga', 'title': "Where'd You Go", 'date': '2005', 'length': 231, 'bitrate': 79}
+
+2018.10.17 22:49:41-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/11 Get me Gone.ogg
+2018.10.17 22:49:41-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:41-INFO: All file attributes collected correct
+2018.10.17 22:49:41-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/11 Get me Gone.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor', 'title': 'Get me Gone', 'date': '2005', 'length': 116, 'bitrate': 84}
+
+2018.10.17 22:49:41-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/09 Cigarettes.ogg
+2018.10.17 22:49:41-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:41-INFO: All file attributes collected correct
+2018.10.17 22:49:41-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/09 Cigarettes.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor', 'title': 'Cigarettes', 'date': '2005', 'length': 220, 'bitrate': 87}
+
+2018.10.17 22:49:41-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/02 Remember the Name.ogg
+2018.10.17 22:49:41-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:41-INFO: All file attributes collected correct
+2018.10.17 22:49:41-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/02 Remember the Name.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor y Styles of Beyond', 'title': 'Remember the Name', 'date': '2005', 'length': 230, 'bitrate': 86}
+
+2018.10.17 22:49:41-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/01 Introduction.ogg
+2018.10.17 22:49:41-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:41-INFO: All file attributes collected correct
+2018.10.17 22:49:41-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/01 Introduction.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor', 'title': 'Introduction', 'date': '2005', 'length': 43, 'bitrate': 88}
+
+2018.10.17 22:49:41-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/15 The Battle.ogg
+2018.10.17 22:49:41-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:41-INFO: All file attributes collected correct
+2018.10.17 22:49:41-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/15 The Battle.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor y Celph Titled', 'title': 'The Battle', 'date': '2005', 'length': 32, 'bitrate': 83}
+
+2018.10.17 22:49:41-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/03 Right Now.ogg
+2018.10.17 22:49:41-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:41-INFO: All file attributes collected correct
+2018.10.17 22:49:41-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/03 Right Now.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor, the Roots y Styles of Beyond', 'title': 'Right Now', 'date': '2005', 'length': 254, 'bitrate': 85}
+
+2018.10.17 22:49:41-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/17 Be Somebody.ogg
+2018.10.17 22:49:41-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:41-INFO: All file attributes collected correct
+2018.10.17 22:49:41-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/17 Be Somebody.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor, Lupe Fiasco, Holly Brook y Tak', 'title': 'Be Somebody', 'date': '2005', 'length': 195, 'bitrate': 82}
+
+2018.10.17 22:49:41-INFO: File Crawler for starts for file : /home/kuba/Muzyka/The Rising Tied/08 Back Home.ogg
+2018.10.17 22:49:41-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:41-INFO: All file attributes collected correct
+2018.10.17 22:49:41-INFO: {'path': '/home/kuba/Muzyka/The Rising Tied/08 Back Home.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor, Common y Styles of Beyond', 'title': 'Back Home', 'date': '2005', 'length': 224, 'bitrate': 80}
+
+2018.10.17 22:49:41-INFO: 
+
+2018.10.17 22:49:41-INFO: Loop through files ends succesfully
+
+2018.10.17 22:49:41-INFO: Determine Catalog Attributes function starts
+
+2018.10.17 22:49:41-DEBUG: Tries to guess Album name
+2018.10.17 22:49:41-DEBUG: Found 1 proposition(s) : ['The Rising Tied']
+2018.10.17 22:49:41-DEBUG: Album found : The Rising Tied
+2018.10.17 22:49:41-DEBUG: Tries to guess Artist name
+2018.10.17 22:49:41-DEBUG: Found 12 proposition(s) : ['Fort Minor y Styles of Beyond', 'Fort Minor', 'Fort Minor, Kenna, Jonah Matranga y Styles of Beyond', 'Fort Minor, BoBo y Styles of Beyond', 'Fort Minor y John Legend', 'Fort Minor y Mr Hahn', 'Fort Minor y Sixx John', 'Fort Minor, Holly Brook y Jonah Matranga', 'Fort Minor y Celph Titled', 'Fort Minor, the Roots y Styles of Beyond', 'Fort Minor, Lupe Fiasco, Holly Brook y Tak', 'Fort Minor, Common y Styles of Beyond']
+2018.10.17 22:49:41-DEBUG: Many Artists found in this catalog
+2018.10.17 22:49:41-INFO: Substring Finder Function starts
+2018.10.17 22:49:41-DEBUG: Input : ['Fort Minor y Styles of Beyond', 'Fort Minor', 'Fort Minor, Kenna, Jonah Matranga y Styles of Beyond', 'Fort Minor, BoBo y Styles of Beyond', 'Fort Minor y John Legend', 'Fort Minor y Mr Hahn', 'Fort Minor y Sixx John', 'Fort Minor, Holly Brook y Jonah Matranga', 'Fort Minor y Celph Titled', 'Fort Minor, the Roots y Styles of Beyond', 'Fort Minor, Lupe Fiasco, Holly Brook y Tak', 'Fort Minor, Common y Styles of Beyond']
+
+2018.10.17 22:49:41-DEBUG: find_longest_substring comparing pair: Fort Minor y Styles of Beyond and Fort Minor
+2018.10.17 22:49:41-DEBUG: Selected : Fort Minor
+2018.10.17 22:49:41-DEBUG: find_longest_substring comparing pair: Fort Minor and Fort Minor, Kenna, Jonah Matranga y Styles of Beyond
+2018.10.17 22:49:41-DEBUG: Selected : Fort Minor
+2018.10.17 22:49:41-DEBUG: find_longest_substring comparing pair: Fort Minor, Kenna, Jonah Matranga y Styles of Beyond and Fort Minor, BoBo y Styles of Beyond
+2018.10.17 22:49:41-DEBUG: Selected :  y Styles of Beyond
+2018.10.17 22:49:41-DEBUG: find_longest_substring comparing pair: Fort Minor, BoBo y Styles of Beyond and Fort Minor y John Legend
+2018.10.17 22:49:41-DEBUG: Selected : Fort Minor
+2018.10.17 22:49:41-DEBUG: find_longest_substring comparing pair: Fort Minor y John Legend and Fort Minor y Mr Hahn
+2018.10.17 22:49:41-DEBUG: Selected : Fort Minor y 
+2018.10.17 22:49:41-DEBUG: find_longest_substring comparing pair: Fort Minor y Mr Hahn and Fort Minor y Sixx John
+2018.10.17 22:49:41-DEBUG: Selected : Fort Minor y 
+2018.10.17 22:49:41-DEBUG: find_longest_substring comparing pair: Fort Minor y Sixx John and Fort Minor, Holly Brook y Jonah Matranga
+2018.10.17 22:49:41-DEBUG: Selected : Fort Minor
+2018.10.17 22:49:41-DEBUG: find_longest_substring comparing pair: Fort Minor, Holly Brook y Jonah Matranga and Fort Minor y Celph Titled
+2018.10.17 22:49:41-DEBUG: Selected : Fort Minor
+2018.10.17 22:49:41-DEBUG: find_longest_substring comparing pair: Fort Minor y Celph Titled and Fort Minor, the Roots y Styles of Beyond
+2018.10.17 22:49:41-DEBUG: Selected : Fort Minor
+2018.10.17 22:49:41-DEBUG: find_longest_substring comparing pair: Fort Minor, the Roots y Styles of Beyond and Fort Minor, Lupe Fiasco, Holly Brook y Tak
+2018.10.17 22:49:41-DEBUG: Selected : Fort Minor, 
+2018.10.17 22:49:41-DEBUG: find_longest_substring comparing pair: Fort Minor, Lupe Fiasco, Holly Brook y Tak and Fort Minor, Common y Styles of Beyond
+2018.10.17 22:49:41-DEBUG: Selected : Fort Minor, 
+2018.10.17 22:49:41-INFO: Existing substrings : ['Fort Minor', ' y Styles of Beyond', 'Fort Minor y ', 'Fort Minor, ']
+2018.10.17 22:49:41-DEBUG: Checking if Fort Minor has a substring with all
+2018.10.17 22:49:41-DEBUG: find_longest_substring comparing pair: Fort Minor and Fort Minor y Styles of Beyond
+2018.10.17 22:49:41-DEBUG: Selected : Fort Minor
+2018.10.17 22:49:41-DEBUG: find_longest_substring comparing pair: Fort Minor and Fort Minor
+2018.10.17 22:49:41-DEBUG: Selected : Fort Minor
+2018.10.17 22:49:41-DEBUG: find_longest_substring comparing pair: Fort Minor and Fort Minor, Kenna, Jonah Matranga y Styles of Beyond
+2018.10.17 22:49:41-DEBUG: Selected : Fort Minor
+2018.10.17 22:49:41-DEBUG: find_longest_substring comparing pair: Fort Minor and Fort Minor, BoBo y Styles of Beyond
+2018.10.17 22:49:41-DEBUG: Selected : Fort Minor
+2018.10.17 22:49:41-DEBUG: find_longest_substring comparing pair: Fort Minor and Fort Minor y John Legend
+2018.10.17 22:49:41-DEBUG: Selected : Fort Minor
+2018.10.17 22:49:41-DEBUG: find_longest_substring comparing pair: Fort Minor and Fort Minor y Mr Hahn
+2018.10.17 22:49:41-DEBUG: Selected : Fort Minor
+2018.10.17 22:49:41-DEBUG: find_longest_substring comparing pair: Fort Minor and Fort Minor y Sixx John
+2018.10.17 22:49:41-DEBUG: Selected : Fort Minor
+2018.10.17 22:49:41-DEBUG: find_longest_substring comparing pair: Fort Minor and Fort Minor, Holly Brook y Jonah Matranga
+2018.10.17 22:49:41-DEBUG: Selected : Fort Minor
+2018.10.17 22:49:41-DEBUG: find_longest_substring comparing pair: Fort Minor and Fort Minor y Celph Titled
+2018.10.17 22:49:41-DEBUG: Selected : Fort Minor
+2018.10.17 22:49:41-DEBUG: find_longest_substring comparing pair: Fort Minor and Fort Minor, the Roots y Styles of Beyond
+2018.10.17 22:49:41-DEBUG: Selected : Fort Minor
+2018.10.17 22:49:41-DEBUG: find_longest_substring comparing pair: Fort Minor and Fort Minor, Lupe Fiasco, Holly Brook y Tak
+2018.10.17 22:49:41-DEBUG: Selected : Fort Minor
+2018.10.17 22:49:41-DEBUG: find_longest_substring comparing pair: Fort Minor and Fort Minor, Common y Styles of Beyond
+2018.10.17 22:49:41-DEBUG: Selected : Fort Minor
+2018.10.17 22:49:41-DEBUG: Fort Minor has a match with all files in dir
+2018.10.17 22:49:41-INFO: ***Connecting Discogs			Query: <Fort Minor>
+2018.10.17 22:49:42-DEBUG: Found an artist in discogs database : Fort Minor
+2018.10.17 22:49:42-DEBUG: Checking if my match Fort Minor fits to Fort Minor
+2018.10.17 22:49:42-DEBUG: Found match : Fort Minor, , that exists on Discogs
+2018.10.17 22:49:44-DEBUG: Checking if  y Styles of Beyond has a substring with all
+2018.10.17 22:49:44-DEBUG: find_longest_substring comparing pair:  y Styles of Beyond and Fort Minor y Styles of Beyond
+2018.10.17 22:49:44-DEBUG: Selected :  y Styles of Beyond
+2018.10.17 22:49:44-DEBUG: find_longest_substring comparing pair:  y Styles of Beyond and Fort Minor
+2018.10.17 22:49:44-DEBUG: Selected :  
+2018.10.17 22:49:44-DEBUG:  y Styles of Beyond is not a match
+2018.10.17 22:49:44-DEBUG: Checking if Fort Minor y  has a substring with all
+2018.10.17 22:49:44-DEBUG: find_longest_substring comparing pair: Fort Minor y  and Fort Minor y Styles of Beyond
+2018.10.17 22:49:44-DEBUG: Selected : Fort Minor y 
+2018.10.17 22:49:44-DEBUG: find_longest_substring comparing pair: Fort Minor y  and Fort Minor
+2018.10.17 22:49:44-DEBUG: Selected : Fort Minor
+2018.10.17 22:49:44-DEBUG: Fort Minor y  is not a match
+2018.10.17 22:49:44-DEBUG: Checking if Fort Minor,  has a substring with all
+2018.10.17 22:49:44-DEBUG: find_longest_substring comparing pair: Fort Minor,  and Fort Minor y Styles of Beyond
+2018.10.17 22:49:44-DEBUG: Selected : Fort Minor
+2018.10.17 22:49:44-DEBUG: Fort Minor,  is not a match
+2018.10.17 22:49:44-INFO: Substring Finder found match : Fort Minor
+
+2018.10.17 22:49:44-DEBUG: Identified Fort Minor as an artist
+2018.10.17 22:49:44-DEBUG: Tries to guess date of album
+2018.10.17 22:49:44-DEBUG: Date unreckognized
+2018.10.17 22:49:44-DEBUG: Computing average bitrate of files
+2018.10.17 22:49:44-DEBUG: Computing total length of files
+2018.10.17 22:49:44-INFO: reckognized Catalog Attributes:
+Artist: Fort Minor        
+Album: The Rising Tied
+Date: 
+AvgBitrate: 83.9
+CatalogSym        
+Total Tracks: 19
+Total Length: 1:01:56
+
+
+2018.10.17 22:49:44-DEBUG: returns {'album': 'The Rising Tied', 'artist': 'Fort Minor', 'date': '', 'avg_bitrate': 83.9, 'total_length': 3716, 'catalog_mark': '', 'ext': 'ogg', 'total_tracks': 19, 'img_count': 0, 'path': '/home/kuba/Muzyka/The Rising Tied', 'comment': ''}
+2018.10.17 22:49:44-INFO: Catalog Crawler ends,
+
+2018.10.17 22:49:57-INFO: Save to DB started
+2018.10.17 22:49:57-INFO: Catalog data inserted successfully
+2018.10.17 22:49:57-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/The Rising Tied/05 Feel Like Home.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor y Styles of Beyond', 'title': 'Feel Like Home', 'date': '2005', 'length': 233, 'bitrate': 86}
+2018.10.17 22:49:57-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/The Rising Tied/19 The Hard Way.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor', 'title': 'The Hard Way', 'date': '2001', 'length': 234, 'bitrate': 93}
+2018.10.17 22:49:57-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/The Rising Tied/14 Red to Black.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor, Kenna, Jonah Matranga y Styles of Beyond', 'title': 'Red To Black', 'date': '2005', 'length': 192, 'bitrate': 81}
+2018.10.17 22:49:57-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/The Rising Tied/13 Kenji.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor', 'title': 'Kenji', 'date': '2005', 'length': 231, 'bitrate': 77}
+2018.10.17 22:49:57-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/The Rising Tied/04 Petrified.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor', 'title': 'Petrified', 'date': '2005', 'length': 220, 'bitrate': 84}
+2018.10.17 22:49:57-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/The Rising Tied/10 Believe Me.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor, BoBo y Styles of Beyond', 'title': 'Believe Me', 'date': '2005', 'length': 223, 'bitrate': 81}
+2018.10.17 22:49:57-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/The Rising Tied/12 High Road.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor y John Legend', 'title': 'High Road', 'date': '2005', 'length': 196, 'bitrate': 84}
+2018.10.17 22:49:57-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/The Rising Tied/16 Slip Out the Back.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor y Mr Hahn', 'title': 'Slip Out the Back', 'date': '2005', 'length': 236, 'bitrate': 82}
+2018.10.17 22:49:57-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/The Rising Tied/07 In Stereo.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor', 'title': 'In Stereo', 'date': '2005', 'length': 209, 'bitrate': 88}
+2018.10.17 22:49:57-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/The Rising Tied/18 There They Go.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor y Sixx John', 'title': 'There They Go', 'date': '2005', 'length': 197, 'bitrate': 84}
+2018.10.17 22:49:57-DEBUG: Tries to insert : {'path': "/home/kuba/Muzyka/The Rising Tied/06 Where'd You Go.ogg", 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor, Holly Brook y Jonah Matranga', 'title': "Where'd You Go", 'date': '2005', 'length': 231, 'bitrate': 79}
+2018.10.17 22:49:57-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/The Rising Tied/11 Get me Gone.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor', 'title': 'Get me Gone', 'date': '2005', 'length': 116, 'bitrate': 84}
+2018.10.17 22:49:57-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/The Rising Tied/09 Cigarettes.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor', 'title': 'Cigarettes', 'date': '2005', 'length': 220, 'bitrate': 87}
+2018.10.17 22:49:57-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/The Rising Tied/02 Remember the Name.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor y Styles of Beyond', 'title': 'Remember the Name', 'date': '2005', 'length': 230, 'bitrate': 86}
+2018.10.17 22:49:57-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/The Rising Tied/01 Introduction.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor', 'title': 'Introduction', 'date': '2005', 'length': 43, 'bitrate': 88}
+2018.10.17 22:49:57-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/The Rising Tied/15 The Battle.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor y Celph Titled', 'title': 'The Battle', 'date': '2005', 'length': 32, 'bitrate': 83}
+2018.10.17 22:49:57-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/The Rising Tied/03 Right Now.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor, the Roots y Styles of Beyond', 'title': 'Right Now', 'date': '2005', 'length': 254, 'bitrate': 85}
+2018.10.17 22:49:57-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/The Rising Tied/17 Be Somebody.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor, Lupe Fiasco, Holly Brook y Tak', 'title': 'Be Somebody', 'date': '2005', 'length': 195, 'bitrate': 82}
+2018.10.17 22:49:57-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/The Rising Tied/08 Back Home.ogg', 'ext': 'ogg', 'album': 'The Rising Tied', 'artist': 'Fort Minor, Common y Styles of Beyond', 'title': 'Back Home', 'date': '2005', 'length': 224, 'bitrate': 80}
+2018.10.17 22:49:57-INFO: Catalog data inserted successfully
+2018.10.17 22:49:57-INFO: Data Commited
+
+2018.10.17 22:49:57-INFO: Catalog Crawler starts
+2018.10.17 22:49:57-DEBUG: Files found in catalog : ['12. Hey - What about me.mp3', "09. Hey - That's a lie.mp3", '11. Hey - Maliny się kończą.mp3', '10. Hey - Chyba.mp3', 'Hey - Ho - Cover - Front.jpg', 'Hey - Ho - Cover - Back.jpg', '13. Hey - Ho.mp3']
+2018.10.17 22:49:57-INFO: Starting loop through files
+
+2018.10.17 22:49:57-INFO: File Crawler for starts for file : /home/kuba/Muzyka/!!!--INCOMPLETE-- Hey (1994) - Ho!/12. Hey - What about me.mp3
+2018.10.17 22:49:57-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:57-INFO: All file attributes collected correct
+2018.10.17 22:49:57-INFO: {'path': '/home/kuba/Muzyka/!!!--INCOMPLETE-- Hey (1994) - Ho!/12. Hey - What about me.mp3', 'ext': 'mp3', 'album': 'Ho', 'artist': 'Hey', 'title': 'What about me', 'date': '1994', 'length': 260, 'bitrate': 128}
+
+2018.10.17 22:49:57-INFO: File Crawler for starts for file : /home/kuba/Muzyka/!!!--INCOMPLETE-- Hey (1994) - Ho!/09. Hey - That's a lie.mp3
+2018.10.17 22:49:57-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:57-INFO: All file attributes collected correct
+2018.10.17 22:49:57-INFO: {'path': "/home/kuba/Muzyka/!!!--INCOMPLETE-- Hey (1994) - Ho!/09. Hey - That's a lie.mp3", 'ext': 'mp3', 'album': 'Ho', 'artist': 'Hey', 'title': "That's a lie", 'date': '1994', 'length': 238, 'bitrate': 128}
+
+2018.10.17 22:49:57-INFO: File Crawler for starts for file : /home/kuba/Muzyka/!!!--INCOMPLETE-- Hey (1994) - Ho!/11. Hey - Maliny się kończą.mp3
+2018.10.17 22:49:57-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:57-INFO: All file attributes collected correct
+2018.10.17 22:49:57-INFO: {'path': '/home/kuba/Muzyka/!!!--INCOMPLETE-- Hey (1994) - Ho!/11. Hey - Maliny się kończą.mp3', 'ext': 'mp3', 'album': 'Ho', 'artist': 'Hey', 'title': 'Maliny siê koñcz¹', 'date': '1994', 'length': 319, 'bitrate': 128}
+
+2018.10.17 22:49:57-INFO: File Crawler for starts for file : /home/kuba/Muzyka/!!!--INCOMPLETE-- Hey (1994) - Ho!/10. Hey - Chyba.mp3
+2018.10.17 22:49:57-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:57-INFO: All file attributes collected correct
+2018.10.17 22:49:57-INFO: {'path': '/home/kuba/Muzyka/!!!--INCOMPLETE-- Hey (1994) - Ho!/10. Hey - Chyba.mp3', 'ext': 'mp3', 'album': 'Ho', 'artist': 'Hey', 'title': 'Chyba', 'date': '1994', 'length': 64, 'bitrate': 128}
+
+2018.10.17 22:49:57-INFO: File Crawler for starts for file : /home/kuba/Muzyka/!!!--INCOMPLETE-- Hey (1994) - Ho!/13. Hey - Ho.mp3
+2018.10.17 22:49:57-DEBUG: Handling file by taglib - correct
+2018.10.17 22:49:57-INFO: All file attributes collected correct
+2018.10.17 22:49:57-INFO: {'path': '/home/kuba/Muzyka/!!!--INCOMPLETE-- Hey (1994) - Ho!/13. Hey - Ho.mp3', 'ext': 'mp3', 'album': 'Ho', 'artist': 'Hey', 'title': 'Ho', 'date': '1994', 'length': 247, 'bitrate': 128}
+
+2018.10.17 22:49:57-INFO: 
+
+2018.10.17 22:49:57-INFO: Loop through files ends succesfully
+
+2018.10.17 22:49:57-INFO: Determine Catalog Attributes function starts
+
+2018.10.17 22:49:57-DEBUG: Tries to guess Album name
+2018.10.17 22:49:57-DEBUG: Found 1 proposition(s) : ['Ho']
+2018.10.17 22:49:57-DEBUG: Album found : Ho
+2018.10.17 22:49:57-DEBUG: Tries to guess Artist name
+2018.10.17 22:49:57-DEBUG: Found 1 proposition(s) : ['Hey']
+2018.10.17 22:49:57-DEBUG: Artist found : Hey
+2018.10.17 22:49:57-DEBUG: Tries to guess date of album
+2018.10.17 22:49:57-DEBUG: Date recognized : 1994
+2018.10.17 22:49:57-DEBUG: Computing average bitrate of files
+2018.10.17 22:49:57-DEBUG: Computing total length of files
+2018.10.17 22:49:57-INFO: reckognized Catalog Attributes:
+Artist: Hey        
+Album: Ho
+Date: 1994
+AvgBitrate: 128.0
+CatalogSym        
+Total Tracks: 5
+Total Length: 0:18:48
+
+
+2018.10.17 22:49:57-DEBUG: returns {'album': 'Ho', 'artist': 'Hey', 'date': '1994', 'avg_bitrate': 128.0, 'total_length': 1128, 'catalog_mark': '', 'ext': 'mp3', 'total_tracks': 5, 'img_count': 2, 'path': '/home/kuba/Muzyka/!!!--INCOMPLETE-- Hey (1994) - Ho!', 'comment': ''}
+2018.10.17 22:49:57-INFO: Catalog Crawler ends,
+
+2018.10.17 22:50:56-INFO: Save to DB started
+2018.10.17 22:50:56-INFO: Catalog data inserted successfully
+2018.10.17 22:50:56-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/!!!--INCOMPLETE-- Hey (1994) - Ho!/12. Hey - What about me.mp3', 'ext': 'mp3', 'album': 'Ho', 'artist': 'Hey', 'title': 'What about me', 'date': '1994', 'length': 260, 'bitrate': 128}
+2018.10.17 22:50:56-DEBUG: Tries to insert : {'path': "/home/kuba/Muzyka/!!!--INCOMPLETE-- Hey (1994) - Ho!/09. Hey - That's a lie.mp3", 'ext': 'mp3', 'album': 'Ho', 'artist': 'Hey', 'title': "That's a lie", 'date': '1994', 'length': 238, 'bitrate': 128}
+2018.10.17 22:50:56-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/!!!--INCOMPLETE-- Hey (1994) - Ho!/11. Hey - Maliny się kończą.mp3', 'ext': 'mp3', 'album': 'Ho', 'artist': 'Hey', 'title': 'Maliny siê koñcz¹', 'date': '1994', 'length': 319, 'bitrate': 128}
+2018.10.17 22:50:56-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/!!!--INCOMPLETE-- Hey (1994) - Ho!/10. Hey - Chyba.mp3', 'ext': 'mp3', 'album': 'Ho', 'artist': 'Hey', 'title': 'Chyba', 'date': '1994', 'length': 64, 'bitrate': 128}
+2018.10.17 22:50:56-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/!!!--INCOMPLETE-- Hey (1994) - Ho!/13. Hey - Ho.mp3', 'ext': 'mp3', 'album': 'Ho', 'artist': 'Hey', 'title': 'Ho', 'date': '1994', 'length': 247, 'bitrate': 128}
+2018.10.17 22:50:56-INFO: Catalog data inserted successfully
+2018.10.17 22:50:56-INFO: Data Commited
+
+2018.10.17 22:50:56-INFO: Catalog Crawler starts
+2018.10.17 22:50:56-DEBUG: Files found in catalog : ['Chic - Chic (Original album).m3u', "09-Chic - São Paulo (7'' Version).mp3", '03-Chic - You Can Get By.mp3', 'front.jpg', '02-Chic - São Paulo.mp3', 'Chic - Chic (Original album + bonus tracks).m3u', "11-Chic - Everybody Dance (Alternate 7'' Version).mp3", "05-Chic - Est-Ce Que C'est Chic.mp3", '15-Chic - Everybody Dance (Glenn Friscia Hardhouse Mix).mp3', "13-Chic - You Can Get By (7'' Version).mp3", 'side 1.jpg', 'Chic - Everybody Dance (Single).m3u', "12-Chic - Everybody Dance (12'' Version).mp3", "01-Chic-Dance,Dance,Dance(Yowsah,Yowsah,Yowsah)(Album&12''Versio.mp3", '04-Chic - Everybody Dance.mp3', 'back.jpg', '14-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(PalJoeyMix).mp3', 'Chic - Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (Single).m3u', '07-Chic - Strike Up The Band.mp3', "10-Chic - Everybody Dance (7'' Version).mp3", '17-Chic - Strike Up The Band (Hifana Copa Mix).mp3', 'side 2.jpg', '06-Chic - Falling In Love With You.mp3', '16-Chic - Everybody Dance (Motiva Rpl Mix).mp3', "08-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(7''Version).mp3"]
+2018.10.17 22:50:56-INFO: Starting loop through files
+
+2018.10.17 22:50:56-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/09-Chic - São Paulo (7'' Version).mp3
+2018.10.17 22:50:56-DEBUG: Handling file by taglib - correct
+2018.10.17 22:50:56-INFO: All file attributes collected correct
+2018.10.17 22:50:56-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic/09-Chic - São Paulo (7'' Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "São Paulo (7'' Version)", 'date': '1977', 'length': 195, 'bitrate': 320}
+
+2018.10.17 22:50:56-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/03-Chic - You Can Get By.mp3
+2018.10.17 22:50:56-DEBUG: Handling file by taglib - correct
+2018.10.17 22:50:56-INFO: All file attributes collected correct
+2018.10.17 22:50:56-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic/03-Chic - You Can Get By.mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'You Can Get By', 'date': '1977', 'length': 336, 'bitrate': 320}
+
+2018.10.17 22:50:56-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/02-Chic - São Paulo.mp3
+2018.10.17 22:50:56-DEBUG: Handling file by taglib - correct
+2018.10.17 22:50:56-INFO: All file attributes collected correct
+2018.10.17 22:50:56-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic/02-Chic - São Paulo.mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'São Paulo', 'date': '1977', 'length': 301, 'bitrate': 320}
+
+2018.10.17 22:50:56-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/11-Chic - Everybody Dance (Alternate 7'' Version).mp3
+2018.10.17 22:50:56-DEBUG: Handling file by taglib - correct
+2018.10.17 22:50:56-WARNING: Error : 'DATE'
+2018.10.17 22:50:56-INFO: All file attributes collected correct
+2018.10.17 22:50:56-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic/11-Chic - Everybody Dance (Alternate 7'' Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Everybody Dance (Alternate 7'' Version)", 'date': '', 'length': 248, 'bitrate': 320}
+
+2018.10.17 22:50:56-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/05-Chic - Est-Ce Que C'est Chic.mp3
+2018.10.17 22:50:56-DEBUG: Handling file by taglib - correct
+2018.10.17 22:50:56-INFO: All file attributes collected correct
+2018.10.17 22:50:56-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic/05-Chic - Est-Ce Que C'est Chic.mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Est-Ce Que C'est Chic", 'date': '1977', 'length': 233, 'bitrate': 320}
+
+2018.10.17 22:50:56-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/15-Chic - Everybody Dance (Glenn Friscia Hardhouse Mix).mp3
+2018.10.17 22:50:56-DEBUG: Handling file by taglib - correct
+2018.10.17 22:50:56-INFO: All file attributes collected correct
+2018.10.17 22:50:56-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic/15-Chic - Everybody Dance (Glenn Friscia Hardhouse Mix).mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Everybody Dance (Glenn Friscia Hardhouse Mix)', 'date': '1977', 'length': 338, 'bitrate': 320}
+
+2018.10.17 22:50:56-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/13-Chic - You Can Get By (7'' Version).mp3
+2018.10.17 22:50:56-DEBUG: Handling file by taglib - correct
+2018.10.17 22:50:56-INFO: All file attributes collected correct
+2018.10.17 22:50:56-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic/13-Chic - You Can Get By (7'' Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "You Can Get By (7'' Version)", 'date': '1977', 'length': 242, 'bitrate': 320}
+
+2018.10.17 22:50:56-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/12-Chic - Everybody Dance (12'' Version).mp3
+2018.10.17 22:50:56-DEBUG: Handling file by taglib - correct
+2018.10.17 22:50:56-INFO: All file attributes collected correct
+2018.10.17 22:50:56-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic/12-Chic - Everybody Dance (12'' Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Everybody Dance (12'' Version)", 'date': '1977', 'length': 507, 'bitrate': 320}
+
+2018.10.17 22:50:56-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/01-Chic-Dance,Dance,Dance(Yowsah,Yowsah,Yowsah)(Album&12''Versio.mp3
+2018.10.17 22:50:56-DEBUG: Handling file by taglib - correct
+2018.10.17 22:50:56-WARNING: Error : 'DATE'
+2018.10.17 22:50:56-INFO: All file attributes collected correct
+2018.10.17 22:50:56-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic/01-Chic-Dance,Dance,Dance(Yowsah,Yowsah,Yowsah)(Album&12''Versio.mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (Album & 12'' Version)", 'date': '', 'length': 502, 'bitrate': 320}
+
+2018.10.17 22:50:56-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/04-Chic - Everybody Dance.mp3
+2018.10.17 22:50:56-DEBUG: Handling file by taglib - correct
+2018.10.17 22:50:56-WARNING: Error : 'DATE'
+2018.10.17 22:50:56-INFO: All file attributes collected correct
+2018.10.17 22:50:56-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic/04-Chic - Everybody Dance.mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Everybody Dance', 'date': '', 'length': 401, 'bitrate': 320}
+
+2018.10.17 22:50:56-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/14-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(PalJoeyMix).mp3
+2018.10.17 22:50:56-DEBUG: Handling file by taglib - correct
+2018.10.17 22:50:56-INFO: All file attributes collected correct
+2018.10.17 22:50:56-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic/14-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(PalJoeyMix).mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (Pal Joey Mix)', 'date': '1977', 'length': 247, 'bitrate': 320}
+
+2018.10.17 22:50:56-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/07-Chic - Strike Up The Band.mp3
+2018.10.17 22:50:56-DEBUG: Handling file by taglib - correct
+2018.10.17 22:50:56-INFO: All file attributes collected correct
+2018.10.17 22:50:56-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic/07-Chic - Strike Up The Band.mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Strike Up The Band', 'date': '1977', 'length': 272, 'bitrate': 320}
+
+2018.10.17 22:50:56-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/10-Chic - Everybody Dance (7'' Version).mp3
+2018.10.17 22:50:56-DEBUG: Handling file by taglib - correct
+2018.10.17 22:50:56-WARNING: Error : 'DATE'
+2018.10.17 22:50:56-INFO: All file attributes collected correct
+2018.10.17 22:50:56-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic/10-Chic - Everybody Dance (7'' Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Everybody Dance (7'' Version)", 'date': '', 'length': 206, 'bitrate': 320}
+
+2018.10.17 22:50:56-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/17-Chic - Strike Up The Band (Hifana Copa Mix).mp3
+2018.10.17 22:50:56-DEBUG: Handling file by taglib - correct
+2018.10.17 22:50:56-INFO: All file attributes collected correct
+2018.10.17 22:50:56-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic/17-Chic - Strike Up The Band (Hifana Copa Mix).mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Strike Up The Band (Hifana Copa Mix)', 'date': '1977', 'length': 229, 'bitrate': 320}
+
+2018.10.17 22:50:56-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/06-Chic - Falling In Love With You.mp3
+2018.10.17 22:50:56-DEBUG: Handling file by taglib - correct
+2018.10.17 22:50:56-INFO: All file attributes collected correct
+2018.10.17 22:50:56-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic/06-Chic - Falling In Love With You.mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Falling In Love With You', 'date': '1977', 'length': 269, 'bitrate': 320}
+
+2018.10.17 22:50:56-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/16-Chic - Everybody Dance (Motiva Rpl Mix).mp3
+2018.10.17 22:50:56-DEBUG: Handling file by taglib - correct
+2018.10.17 22:50:56-INFO: All file attributes collected correct
+2018.10.17 22:50:56-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic/16-Chic - Everybody Dance (Motiva Rpl Mix).mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Everybody Dance (Motiva Rpl Mix)', 'date': '1977', 'length': 362, 'bitrate': 320}
+
+2018.10.17 22:50:56-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic/08-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(7''Version).mp3
+2018.10.17 22:50:56-DEBUG: Handling file by taglib - correct
+2018.10.17 22:50:56-WARNING: Error : 'DATE'
+2018.10.17 22:50:56-INFO: All file attributes collected correct
+2018.10.17 22:50:56-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic/08-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(7''Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (7'' Version)", 'date': '', 'length': 218, 'bitrate': 320}
+
+2018.10.17 22:50:56-INFO: 
+
+2018.10.17 22:50:56-INFO: Loop through files ends succesfully
+
+2018.10.17 22:50:56-INFO: Determine Catalog Attributes function starts
+
+2018.10.17 22:50:56-DEBUG: Tries to guess Album name
+2018.10.17 22:50:56-DEBUG: Found 1 proposition(s) : ['Chic']
+2018.10.17 22:50:56-DEBUG: Album found : Chic
+2018.10.17 22:50:56-DEBUG: Tries to guess Artist name
+2018.10.17 22:50:56-DEBUG: Found 1 proposition(s) : ['Chic']
+2018.10.17 22:50:56-DEBUG: Artist found : Chic
+2018.10.17 22:50:56-DEBUG: Tries to guess date of album
+2018.10.17 22:50:56-DEBUG: Date unreckognized
+2018.10.17 22:50:56-DEBUG: Computing average bitrate of files
+2018.10.17 22:50:56-DEBUG: Computing total length of files
+2018.10.17 22:50:56-INFO: reckognized Catalog Attributes:
+Artist: Chic        
+Album: Chic
+Date: 
+AvgBitrate: 320.0
+CatalogSym        
+Total Tracks: 17
+Total Length: 1:25:06
+
+
+2018.10.17 22:50:56-DEBUG: returns {'album': 'Chic', 'artist': 'Chic', 'date': '', 'avg_bitrate': 320.0, 'total_length': 5106, 'catalog_mark': '', 'ext': 'mp3', 'total_tracks': 17, 'img_count': 4, 'path': '/home/kuba/Muzyka/Chic - (1977) Chic', 'comment': ''}
+2018.10.17 22:50:56-INFO: Catalog Crawler ends,
+
+2018.10.17 22:51:09-INFO: Save to DB started
+2018.10.17 22:51:09-INFO: Catalog data inserted successfully
+2018.10.17 22:51:09-DEBUG: Tries to insert : {'path': "/home/kuba/Muzyka/Chic - (1977) Chic/09-Chic - São Paulo (7'' Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "São Paulo (7'' Version)", 'date': '1977', 'length': 195, 'bitrate': 320}
+2018.10.17 22:51:09-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Chic - (1977) Chic/03-Chic - You Can Get By.mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'You Can Get By', 'date': '1977', 'length': 336, 'bitrate': 320}
+2018.10.17 22:51:09-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Chic - (1977) Chic/02-Chic - São Paulo.mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'São Paulo', 'date': '1977', 'length': 301, 'bitrate': 320}
+2018.10.17 22:51:09-DEBUG: Tries to insert : {'path': "/home/kuba/Muzyka/Chic - (1977) Chic/11-Chic - Everybody Dance (Alternate 7'' Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Everybody Dance (Alternate 7'' Version)", 'date': '', 'length': 248, 'bitrate': 320}
+2018.10.17 22:51:09-DEBUG: Tries to insert : {'path': "/home/kuba/Muzyka/Chic - (1977) Chic/05-Chic - Est-Ce Que C'est Chic.mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Est-Ce Que C'est Chic", 'date': '1977', 'length': 233, 'bitrate': 320}
+2018.10.17 22:51:09-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Chic - (1977) Chic/15-Chic - Everybody Dance (Glenn Friscia Hardhouse Mix).mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Everybody Dance (Glenn Friscia Hardhouse Mix)', 'date': '1977', 'length': 338, 'bitrate': 320}
+2018.10.17 22:51:09-DEBUG: Tries to insert : {'path': "/home/kuba/Muzyka/Chic - (1977) Chic/13-Chic - You Can Get By (7'' Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "You Can Get By (7'' Version)", 'date': '1977', 'length': 242, 'bitrate': 320}
+2018.10.17 22:51:09-DEBUG: Tries to insert : {'path': "/home/kuba/Muzyka/Chic - (1977) Chic/12-Chic - Everybody Dance (12'' Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Everybody Dance (12'' Version)", 'date': '1977', 'length': 507, 'bitrate': 320}
+2018.10.17 22:51:09-DEBUG: Tries to insert : {'path': "/home/kuba/Muzyka/Chic - (1977) Chic/01-Chic-Dance,Dance,Dance(Yowsah,Yowsah,Yowsah)(Album&12''Versio.mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (Album & 12'' Version)", 'date': '', 'length': 502, 'bitrate': 320}
+2018.10.17 22:51:09-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Chic - (1977) Chic/04-Chic - Everybody Dance.mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Everybody Dance', 'date': '', 'length': 401, 'bitrate': 320}
+2018.10.17 22:51:09-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Chic - (1977) Chic/14-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(PalJoeyMix).mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (Pal Joey Mix)', 'date': '1977', 'length': 247, 'bitrate': 320}
+2018.10.17 22:51:09-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Chic - (1977) Chic/07-Chic - Strike Up The Band.mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Strike Up The Band', 'date': '1977', 'length': 272, 'bitrate': 320}
+2018.10.17 22:51:09-DEBUG: Tries to insert : {'path': "/home/kuba/Muzyka/Chic - (1977) Chic/10-Chic - Everybody Dance (7'' Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Everybody Dance (7'' Version)", 'date': '', 'length': 206, 'bitrate': 320}
+2018.10.17 22:51:09-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Chic - (1977) Chic/17-Chic - Strike Up The Band (Hifana Copa Mix).mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Strike Up The Band (Hifana Copa Mix)', 'date': '1977', 'length': 229, 'bitrate': 320}
+2018.10.17 22:51:09-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Chic - (1977) Chic/06-Chic - Falling In Love With You.mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Falling In Love With You', 'date': '1977', 'length': 269, 'bitrate': 320}
+2018.10.17 22:51:09-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Chic - (1977) Chic/16-Chic - Everybody Dance (Motiva Rpl Mix).mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Everybody Dance (Motiva Rpl Mix)', 'date': '1977', 'length': 362, 'bitrate': 320}
+2018.10.17 22:51:09-DEBUG: Tries to insert : {'path': "/home/kuba/Muzyka/Chic - (1977) Chic/08-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(7''Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (7'' Version)", 'date': '', 'length': 218, 'bitrate': 320}
+2018.10.17 22:51:09-INFO: Catalog data inserted successfully
+2018.10.17 22:51:09-INFO: Data Commited
+
+2018.10.17 22:51:09-INFO: Catalog Crawler starts
+2018.10.17 22:51:09-DEBUG: Files found in catalog : ['02-marusha-touches_me-90946e49.mp3', '00-marusha-rave_satellite-web-2018.jpg', '06-marusha_feat_alexander_knappe-du_(breakbeat_remix)-4a0e65b7.mp3', '00-marusha-rave_satellite-web-2018.nfo', '05-marusha-deep_(dandb_remix)-02a9bf05.mp3', '00-marusha-rave_satellite-web-2018.sfv', '08-marusha-gravity-d8b163ef.mp3', '01-marusha-rave_satellite-85789f12.mp3', '07-marusha-remember_me-5f9560ab.mp3', '00-marusha-rave_satellite-web-2018.m3u', '03-marusha-supernova-1be4c5b1.mp3', '04-marusha_feat_garik_sonic-desolator-b88863ca.mp3']
+2018.10.17 22:51:09-INFO: Starting loop through files
+
+2018.10.17 22:51:09-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/02-marusha-touches_me-90946e49.mp3
+2018.10.17 22:51:09-DEBUG: Handling file by taglib - correct
+2018.10.17 22:51:09-INFO: All file attributes collected correct
+2018.10.17 22:51:09-INFO: {'path': '/home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/02-marusha-touches_me-90946e49.mp3', 'ext': 'mp3', 'album': 'Rave Satellite', 'artist': 'Marusha', 'title': 'Touches Me', 'date': '2018', 'length': 215, 'bitrate': 320}
+
+2018.10.17 22:51:09-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/06-marusha_feat_alexander_knappe-du_(breakbeat_remix)-4a0e65b7.mp3
+2018.10.17 22:51:09-DEBUG: Handling file by taglib - correct
+2018.10.17 22:51:09-INFO: All file attributes collected correct
+2018.10.17 22:51:09-INFO: {'path': '/home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/06-marusha_feat_alexander_knappe-du_(breakbeat_remix)-4a0e65b7.mp3', 'ext': 'mp3', 'album': 'Rave Satellite', 'artist': 'Marusha feat. Alexander Knappe', 'title': 'Du (Breakbeat Remix)', 'date': '2018', 'length': 243, 'bitrate': 320}
+
+2018.10.17 22:51:09-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/05-marusha-deep_(dandb_remix)-02a9bf05.mp3
+2018.10.17 22:51:09-DEBUG: Handling file by taglib - correct
+2018.10.17 22:51:09-INFO: All file attributes collected correct
+2018.10.17 22:51:09-INFO: {'path': '/home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/05-marusha-deep_(dandb_remix)-02a9bf05.mp3', 'ext': 'mp3', 'album': 'Rave Satellite', 'artist': 'Marusha', 'title': 'Deep (D&B Remix)', 'date': '2018', 'length': 336, 'bitrate': 320}
+
+2018.10.17 22:51:09-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/08-marusha-gravity-d8b163ef.mp3
+2018.10.17 22:51:09-DEBUG: Handling file by taglib - correct
+2018.10.17 22:51:09-INFO: All file attributes collected correct
+2018.10.17 22:51:09-INFO: {'path': '/home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/08-marusha-gravity-d8b163ef.mp3', 'ext': 'mp3', 'album': 'Rave Satellite', 'artist': 'Marusha', 'title': 'Gravity', 'date': '2018', 'length': 344, 'bitrate': 320}
+
+2018.10.17 22:51:09-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/01-marusha-rave_satellite-85789f12.mp3
+2018.10.17 22:51:09-DEBUG: Handling file by taglib - correct
+2018.10.17 22:51:09-INFO: All file attributes collected correct
+2018.10.17 22:51:09-INFO: {'path': '/home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/01-marusha-rave_satellite-85789f12.mp3', 'ext': 'mp3', 'album': 'Rave Satellite', 'artist': 'Marusha', 'title': 'Rave Satellite', 'date': '2018', 'length': 329, 'bitrate': 320}
+
+2018.10.17 22:51:09-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/07-marusha-remember_me-5f9560ab.mp3
+2018.10.17 22:51:09-DEBUG: Handling file by taglib - correct
+2018.10.17 22:51:09-INFO: All file attributes collected correct
+2018.10.17 22:51:09-INFO: {'path': '/home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/07-marusha-remember_me-5f9560ab.mp3', 'ext': 'mp3', 'album': 'Rave Satellite', 'artist': 'Marusha', 'title': 'Remember Me', 'date': '2018', 'length': 292, 'bitrate': 320}
+
+2018.10.17 22:51:09-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/03-marusha-supernova-1be4c5b1.mp3
+2018.10.17 22:51:09-DEBUG: Handling file by taglib - correct
+2018.10.17 22:51:09-INFO: All file attributes collected correct
+2018.10.17 22:51:09-INFO: {'path': '/home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/03-marusha-supernova-1be4c5b1.mp3', 'ext': 'mp3', 'album': 'Rave Satellite', 'artist': 'Marusha', 'title': 'Supernova', 'date': '2018', 'length': 264, 'bitrate': 320}
+
+2018.10.17 22:51:09-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/04-marusha_feat_garik_sonic-desolator-b88863ca.mp3
+2018.10.17 22:51:09-DEBUG: Handling file by taglib - correct
+2018.10.17 22:51:09-INFO: All file attributes collected correct
+2018.10.17 22:51:09-INFO: {'path': '/home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/04-marusha_feat_garik_sonic-desolator-b88863ca.mp3', 'ext': 'mp3', 'album': 'Rave Satellite', 'artist': 'Marusha feat. Garik Sonic', 'title': 'Desolator', 'date': '2018', 'length': 237, 'bitrate': 320}
+
+2018.10.17 22:51:09-INFO: 
+
+2018.10.17 22:51:09-INFO: Loop through files ends succesfully
+
+2018.10.17 22:51:09-INFO: Determine Catalog Attributes function starts
+
+2018.10.17 22:51:09-DEBUG: Tries to guess Album name
+2018.10.17 22:51:09-DEBUG: Found 1 proposition(s) : ['Rave Satellite']
+2018.10.17 22:51:09-DEBUG: Album found : Rave Satellite
+2018.10.17 22:51:09-DEBUG: Tries to guess Artist name
+2018.10.17 22:51:09-DEBUG: Found 3 proposition(s) : ['Marusha', 'Marusha feat. Alexander Knappe', 'Marusha feat. Garik Sonic']
+2018.10.17 22:51:09-DEBUG: Many Artists found in this catalog
+2018.10.17 22:51:09-INFO: Substring Finder Function starts
+2018.10.17 22:51:09-DEBUG: Input : ['Marusha', 'Marusha feat. Alexander Knappe', 'Marusha feat. Garik Sonic']
+
+2018.10.17 22:51:09-DEBUG: find_longest_substring comparing pair: Marusha and Marusha feat. Alexander Knappe
+2018.10.17 22:51:09-DEBUG: Selected : Marusha
+2018.10.17 22:51:09-DEBUG: find_longest_substring comparing pair: Marusha feat. Alexander Knappe and Marusha feat. Garik Sonic
+2018.10.17 22:51:09-DEBUG: Selected : Marusha feat. 
+2018.10.17 22:51:09-INFO: Existing substrings : ['Marusha', 'Marusha feat. ']
+2018.10.17 22:51:09-DEBUG: Checking if Marusha has a substring with all
+2018.10.17 22:51:09-DEBUG: find_longest_substring comparing pair: Marusha and Marusha
+2018.10.17 22:51:09-DEBUG: Selected : Marusha
+2018.10.17 22:51:09-DEBUG: find_longest_substring comparing pair: Marusha and Marusha feat. Alexander Knappe
+2018.10.17 22:51:09-DEBUG: Selected : Marusha
+2018.10.17 22:51:09-DEBUG: find_longest_substring comparing pair: Marusha and Marusha feat. Garik Sonic
+2018.10.17 22:51:09-DEBUG: Selected : Marusha
+2018.10.17 22:51:09-DEBUG: Marusha has a match with all files in dir
+2018.10.17 22:51:09-INFO: ***Connecting Discogs			Query: <Marusha>
+2018.10.17 22:51:10-DEBUG: Found an artist in discogs database : Marusha
+2018.10.17 22:51:10-DEBUG: Checking if my match Marusha fits to Marusha
+2018.10.17 22:51:10-DEBUG: Found match : Marusha feat. , that exists on Discogs
+2018.10.17 22:51:12-DEBUG: Checking if Marusha feat.  has a substring with all
+2018.10.17 22:51:12-DEBUG: find_longest_substring comparing pair: Marusha feat.  and Marusha
+2018.10.17 22:51:12-DEBUG: Selected : Marusha
+2018.10.17 22:51:12-DEBUG: Marusha feat.  is not a match
+2018.10.17 22:51:12-INFO: Substring Finder found match : Marusha
+
+2018.10.17 22:51:12-DEBUG: Identified Marusha as an artist
+2018.10.17 22:51:12-DEBUG: Tries to guess date of album
+2018.10.17 22:51:12-DEBUG: Date recognized : 2018
+2018.10.17 22:51:12-DEBUG: Computing average bitrate of files
+2018.10.17 22:51:12-DEBUG: Computing total length of files
+2018.10.17 22:51:12-INFO: reckognized Catalog Attributes:
+Artist: Marusha        
+Album: Rave Satellite
+Date: 2018
+AvgBitrate: 320.0
+CatalogSym        
+Total Tracks: 8
+Total Length: 0:37:40
+
+
+2018.10.17 22:51:12-DEBUG: returns {'album': 'Rave Satellite', 'artist': 'Marusha', 'date': '2018', 'avg_bitrate': 320.0, 'total_length': 2260, 'catalog_mark': '', 'ext': 'mp3', 'total_tracks': 8, 'img_count': 1, 'path': '/home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE', 'comment': ''}
+2018.10.17 22:51:12-INFO: Catalog Crawler ends,
+
+2018.10.17 22:51:38-INFO: Save to DB started
+2018.10.17 22:51:38-INFO: Catalog data inserted successfully
+2018.10.17 22:51:38-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/02-marusha-touches_me-90946e49.mp3', 'ext': 'mp3', 'album': 'Rave Satellite', 'artist': 'Marusha', 'title': 'Touches Me', 'date': '2018', 'length': 215, 'bitrate': 320}
+2018.10.17 22:51:38-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/06-marusha_feat_alexander_knappe-du_(breakbeat_remix)-4a0e65b7.mp3', 'ext': 'mp3', 'album': 'Rave Satellite', 'artist': 'Marusha feat. Alexander Knappe', 'title': 'Du (Breakbeat Remix)', 'date': '2018', 'length': 243, 'bitrate': 320}
+2018.10.17 22:51:38-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/05-marusha-deep_(dandb_remix)-02a9bf05.mp3', 'ext': 'mp3', 'album': 'Rave Satellite', 'artist': 'Marusha', 'title': 'Deep (D&B Remix)', 'date': '2018', 'length': 336, 'bitrate': 320}
+2018.10.17 22:51:38-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/08-marusha-gravity-d8b163ef.mp3', 'ext': 'mp3', 'album': 'Rave Satellite', 'artist': 'Marusha', 'title': 'Gravity', 'date': '2018', 'length': 344, 'bitrate': 320}
+2018.10.17 22:51:38-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/01-marusha-rave_satellite-85789f12.mp3', 'ext': 'mp3', 'album': 'Rave Satellite', 'artist': 'Marusha', 'title': 'Rave Satellite', 'date': '2018', 'length': 329, 'bitrate': 320}
+2018.10.17 22:51:38-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/07-marusha-remember_me-5f9560ab.mp3', 'ext': 'mp3', 'album': 'Rave Satellite', 'artist': 'Marusha', 'title': 'Remember Me', 'date': '2018', 'length': 292, 'bitrate': 320}
+2018.10.17 22:51:38-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/03-marusha-supernova-1be4c5b1.mp3', 'ext': 'mp3', 'album': 'Rave Satellite', 'artist': 'Marusha', 'title': 'Supernova', 'date': '2018', 'length': 264, 'bitrate': 320}
+2018.10.17 22:51:38-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Marusha-Rave_Satellite-WEB-2018-ENSLAVE/04-marusha_feat_garik_sonic-desolator-b88863ca.mp3', 'ext': 'mp3', 'album': 'Rave Satellite', 'artist': 'Marusha feat. Garik Sonic', 'title': 'Desolator', 'date': '2018', 'length': 237, 'bitrate': 320}
+2018.10.17 22:51:38-INFO: Catalog data inserted successfully
+2018.10.17 22:51:38-INFO: Data Commited
+
