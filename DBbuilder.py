@@ -20,6 +20,7 @@ slasher = config.slasher
 ratelimit = config.ratelimit
 refresh_catalogs_list = config.refresh_catalogs_list
 refresh_database = config.refresh_database
+checklist = config.discogs_checklist
 
 log = logging.getLogger()
 log.handlers = []
@@ -88,17 +89,15 @@ for j in range(STEPS):
                 cataloglist[j])
             if (crawl_res_c['artist'] != 'Unknown Artist' and
                     crawl_res_c['album'] != 'Unknown Album'):
-                req_res_c = discogs_con.find_album_d_master(
-                    crawl_res_c, crawl_res_f)
+                req_res_c = discogs_con.query_discogs(crawl_res_c, crawl_res_f)
                 dynamic_ratelimit = 2
                 time.sleep(dynamic_ratelimit)
             else:
                 log.info(
                     'Connecting to Discgos API Skipped, too less data')
                 req_res_c = crawl_res_c
-                req_res_c['d_master'] = ''
-                req_res_c['metoda_did'] = ''
-                req_res_c['d_release'] = ''
+                for i in checklist:
+                    cat_attrs.get(i, '')
         except requests.exceptions.ConnectionError as e:
             dynamic_ratelimit = dynamic_ratelimit**2
             if dynamic_ratelimit > 10600:

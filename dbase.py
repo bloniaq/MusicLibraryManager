@@ -44,7 +44,8 @@ def create_tables():
             uwagi varchar(400),
             format varchar(20),
             katalog varchar(200),
-            metoda_did varchar(100),
+            metoda_master varchar(100),
+            metoda_release varchar(100),
             obrazki INTEGER
         )
         """)
@@ -68,7 +69,7 @@ def save_to_db(cat_attrs, f_attrs_list):
     mod_log.info('Save to DB started')
     cursor.execute("""
         INSERT INTO katalogi
-        VALUES(NULL, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);""",
+        VALUES(NULL, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);""",
         (cat_attrs['path'],
          cat_attrs['artist'],
          cat_attrs['album'],
@@ -81,7 +82,8 @@ def save_to_db(cat_attrs, f_attrs_list):
          cat_attrs['comment'],
          cat_attrs['ext'],
          cat_attrs['catalog_mark'],
-         cat_attrs['metoda_did'],
+         cat_attrs['metoda_master'],
+         cat_attrs['metoda_release'],
          cat_attrs['img_count']))
     mod_log.info('Catalog data inserted successfully')
     catalogid = cursor.lastrowid

@@ -20,3 +20,4 @@ if sys.platform == 'win32':
 supported_list = ['mp3', 'ogg', 'flac', 'wav', 'wma', 'ape']
 img_ext_list = ['jpg', 'jpeg', 'png']
 unsupported_list = ['cue']
+discogs_checklist = ['d_master', 'd_release', 'metoda_master', 'metoda_release']
