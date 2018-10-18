@@ -1,15 +1,15 @@
 import sqlite3
 import logging
 
-import mlm_config
+import config
 
-databasefilename = mlm_config.databasefilename
+databasefilename = config.databasefilename
 
 con = sqlite3.connect(databasefilename)
 con.row_factory = sqlite3.Row
 cursor = con.cursor()
 
-mod_log = logging.getLogger('DB Builder.dbase')
+mod_log = logging.getLogger('main.dbase')
 
 
 def clear_db():
@@ -74,7 +74,7 @@ def save_to_db(cat_attrs, f_attrs_list):
          cat_attrs['album'],
          cat_attrs['date'],
          cat_attrs['d_master'],
-         '',
+         cat_attrs['d_release'],
          cat_attrs['avg_bitrate'],
          cat_attrs['total_length'],
          cat_attrs['total_tracks'],

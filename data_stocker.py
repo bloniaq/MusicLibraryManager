@@ -8,19 +8,19 @@ import pickle
 import time
 from difflib import SequenceMatcher
 
-import mlm_config
+import config
 
-inputpath = mlm_config.inputpath
-catalog_cache_file = mlm_config.catalog_cache_file
-refresh = mlm_config.refresh_catalogs_list
-supported_list = mlm_config.supported_list
-unsupported_list = mlm_config.unsupported_list
-img_ext_list = mlm_config.img_ext_list
-slasher = mlm_config.slasher
-ratelimit = mlm_config.ratelimit
+inputpath = config.inputpath
+catalog_cache_file = config.catalog_cache_file
+refresh = config.refresh_catalogs_list
+supported_list = config.supported_list
+unsupported_list = config.unsupported_list
+img_ext_list = config.img_ext_list
+slasher = config.slasher
+ratelimit = config.ratelimit
 
 
-log = logging.getLogger('DBbuilder.stocker')
+log = logging.getLogger('main.stocker')
 
 d = discogs_client.Client(
     'bloniaqsMusicLibraryManager/0.1',
@@ -117,12 +117,13 @@ def handle_multiple_artist(alist):
             log.debug('{0} has a match with all files in dir'.format(j))
             log.info('***Connecting Discogs\t\t\tQuery: <{0}>'.format(j))
             try:
-                substringsearch = d.search(j, type='artist')[0].name
+                firstshot = d.search(j, type='artist')[0].name
             except IndexError as e:
                 log.warning('no artist {0} found'.format(match))
-            log.debug('Found an artist in discogs database : {0}'.format(
-                substringsearch))
-            firstshot = substringsearch
+                firstshot = ''
+            else:
+                log.debug('Found an artist in discogs database : {0}'.format(
+                firstshot))
             log.debug(
                 'Checking if my match {0} fits to {1}'.format(
                     j, firstshot))
