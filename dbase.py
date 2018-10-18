@@ -21,11 +21,28 @@ def clear_db():
 
 
 def check_if_r_exist(iterator, cat_list):
+    flag = False
     cursor.execute(
         'SELECT sciezka FROM katalogi WHERE sciezka = ?',
         (cat_list[iterator],))
     existingrecord = cursor.fetchone()
-    return existingrecord
+    if existingrecord is not None:
+        flag = True
+    return flag
+
+def check_if_ids_exist(iterator, cat_list):
+    flag = True
+    cursor.execute(
+        'SELECT discogs_master FROM katalogi WHERE sciezka = ?',
+        (cat_list[iterator],))
+    if cursor.fetchone() is None:
+        flag = False
+    cursor.execute(
+        'SELECT discogs_release FROM katalogi WHERE sciezka = ?',
+        (cat_list[iterator],))
+    if cursor.fetchone() is None:
+        flag = False
+    return flag
 
 
 def create_tables():

@@ -30,8 +30,10 @@ def is_found(key):
 def query_discogs(cat_attrs, f_attrs_list):
     log.info('Query Discogs Func started')
     log.info('Working on {0}'.format(cat_attrs['path']))
-    cat_attrs = find_a_master(cat_attrs, f_attrs_list)
-    cat_attrs = find_a_release(cat_attrs, f_attrs_list)
+    if not is_found('d_master'):
+        cat_attrs = find_a_master(cat_attrs, f_attrs_list)
+    if not is_found('d_release'):
+        cat_attrs = find_a_release(cat_attrs, f_attrs_list)
     for i in checklist:
         cat_attrs.get(i, '')
     return cat_attrs

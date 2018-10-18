@@ -21,6 +21,7 @@ ratelimit = config.ratelimit
 refresh_catalogs_list = config.refresh_catalogs_list
 refresh_database = config.refresh_database
 checklist = config.discogs_checklist
+update_ids = config.update_ids:
 
 log = logging.getLogger()
 log.handlers = []
@@ -78,9 +79,12 @@ if refresh_database:
 
 for j in range(STEPS):
     if not refresh_database:
-        existingrecord = dbase.check_if_r_exist(j, cataloglist)
-        if existingrecord is not None:
-            log.info('Skipped {0}'.format(existingrecord))
+        if dbase.check_if_r_exist(j, cataloglist):
+            log.info('Skipped {0} - it exist in DB'.format(j))
+            continue
+    if not update_ids
+        if dbase.check_if_ids_exist(j, cataloglist):
+            log.info('Skipped {0} - it contains IDs'.format(j))
             continue
     while True:
         dynamic_ratelimit = 2

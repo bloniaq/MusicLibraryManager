@@ -17,6 +17,8 @@ if sys.platform == 'win32':
     refresh_catalogs_list = False
     refresh_database = False
 
+update_ids = True
+
 supported_list = ['mp3', 'ogg', 'flac', 'wav', 'wma', 'ape']
 img_ext_list = ['jpg', 'jpeg', 'png']
 unsupported_list = ['cue']
