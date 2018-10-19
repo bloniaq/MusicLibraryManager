@@ -1,0 +1,111 @@
+2018.10.18 17:47:31-main-INFO: OS : Windows
+2018.10.18 17:47:31-main.stocker-INFO: catalog_collector Function starts
+2018.10.18 17:47:31-main.stocker-DEBUG: Catalog Cache File founded
+2018.10.18 17:47:31-main.stocker-INFO: catalog_collector found 31435 dirs to check
+
+
+2018.10.18 17:47:31-main-INFO: Skipped 0 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 1 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 2 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 3 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 4 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 5 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 6 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 7 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 8 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 9 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 10 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 11 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 12 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 13 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 14 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 15 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 16 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 17 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 18 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 19 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 20 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 21 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 22 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 23 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 24 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 25 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 26 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 27 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 28 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 29 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 30 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 31 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 32 - it exist in DB
+2018.10.18 17:47:31-main-INFO: Skipped 33 - it exist in DB
+2018.10.18 17:47:31-main.stocker-INFO: Catalog Crawler starts
+2018.10.18 17:47:31-main.stocker-DEBUG: Files found in catalog : ['01. Grillz & The Cancel - Everyday.mp3', '02. Alexjazz, СП, Іра Швайдак, The Cancel - Вокзали.mp3', '03. Ngan & The Cancel - New York.mp3', '04. Screw & The Cancel - No More.mp3', "05. Melodiq & The Cancel - It's No Surprise.mp3", '06. Alexjazz - Купе feat. Zombo (prod. by The Cancel & DJ Shon).mp3', '07. Alexjazz - Нас (prod. by The Cancel).mp3', '08. Kickit Crew - Musician (feat. Mike Russell & Mfa Kera as Black Heritage).mp3', '09. Lorisoul & The Cancel - Blessings Over Problems.mp3', '10. Linoskiii & The Cancel - Redefine.mp3', '11. Kickit Crew - Everytime.mp3', 'cover.jpg']
+2018.10.18 17:47:31-main.stocker-INFO: Starting loop through files
+
+2018.10.18 17:47:31-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Collaboration\01. Grillz & The Cancel - Everyday.mp3
+2018.10.18 17:47:31-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:47:31-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:47:31-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\01. Grillz & The Cancel - Everyday.mp3', 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Grillz & The Cancel', 'title': 'Everyday', 'date': '2013', 'length': 212, 'bitrate': 320}
+
+2018.10.18 17:47:31-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Collaboration\02. Alexjazz, СП, Іра Швайдак, The Cancel - Вокзали.mp3
+2018.10.18 17:47:31-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:47:31-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:47:31-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\02. Alexjazz, СП, Іра Швайдак, The Cancel - Вокзали.mp3', 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Alexjazz, СП, Іра Швайдак, The Cancel', 'title': 'Вокзали', 'date': '2013', 'length': 216, 'bitrate': 320}
+
+2018.10.18 17:47:31-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Collaboration\03. Ngan & The Cancel - New York.mp3
+2018.10.18 17:47:31-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:47:31-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:47:31-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\03. Ngan & The Cancel - New York.mp3', 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Ngan & The Cancel', 'title': 'New York', 'date': '2013', 'length': 171, 'bitrate': 320}
+
+2018.10.18 17:47:31-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Collaboration\04. Screw & The Cancel - No More.mp3
+2018.10.18 17:47:31-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:47:31-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:47:31-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\04. Screw & The Cancel - No More.mp3', 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Screw & The Cancel', 'title': 'No More', 'date': '2013', 'length': 176, 'bitrate': 320}
+
+2018.10.18 17:47:31-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Collaboration\05. Melodiq & The Cancel - It's No Surprise.mp3
+2018.10.18 17:47:31-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:47:31-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:47:31-main.stocker-INFO: {'path': "D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\05. Melodiq & The Cancel - It's No Surprise.mp3", 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Melodiq & The Cancel', 'title': "It's No Surprise", 'date': '2013', 'length': 197, 'bitrate': 320}
+
+2018.10.18 17:47:31-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Collaboration\06. Alexjazz - Купе feat. Zombo (prod. by The Cancel & DJ Shon).mp3
+2018.10.18 17:47:31-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:47:31-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:47:31-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\06. Alexjazz - Купе feat. Zombo (prod. by The Cancel & DJ Shon).mp3', 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Alexjazz', 'title': 'Купе feat. Zombo (prod. by The Cancel & DJ Shon)', 'date': '2013', 'length': 216, 'bitrate': 320}
+
+2018.10.18 17:47:31-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Collaboration\07. Alexjazz - Нас (prod. by The Cancel).mp3
+2018.10.18 17:47:32-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:47:32-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:47:32-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\07. Alexjazz - Нас (prod. by The Cancel).mp3', 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Alexjazz', 'title': 'Нас (prod. by The Cancel)', 'date': '2013', 'length': 228, 'bitrate': 320}
+
+2018.10.18 17:47:32-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Collaboration\08. Kickit Crew - Musician (feat. Mike Russell & Mfa Kera as Black Heritage).mp3
+2018.10.18 17:47:32-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:47:32-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:47:32-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\08. Kickit Crew - Musician (feat. Mike Russell & Mfa Kera as Black Heritage).mp3', 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Kickit Crew', 'title': 'Musician (feat. Mike Russell & Mfa Kera as Black Heritage)', 'date': '2013', 'length': 269, 'bitrate': 320}
+
+2018.10.18 17:47:32-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Collaboration\09. Lorisoul & The Cancel - Blessings Over Problems.mp3
+2018.10.18 17:47:32-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:47:32-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:47:32-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\09. Lorisoul & The Cancel - Blessings Over Problems.mp3', 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Lorisoul & The Cancel', 'title': 'Blessings Over Problems', 'date': '2013', 'length': 175, 'bitrate': 320}
+
+2018.10.18 17:47:32-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Collaboration\10. Linoskiii & The Cancel - Redefine.mp3
+2018.10.18 17:47:32-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:47:32-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:47:32-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\10. Linoskiii & The Cancel - Redefine.mp3', 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Linoskiii & The Cancel', 'title': 'Redefine', 'date': '2013', 'length': 151, 'bitrate': 320}
+
+2018.10.18 17:47:32-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Collaboration\11. Kickit Crew - Everytime.mp3
+2018.10.18 17:47:32-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:47:32-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:47:32-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\11. Kickit Crew - Everytime.mp3', 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Kickit Crew', 'title': 'Everytime', 'date': '2013', 'length': 277, 'bitrate': 320}
+
+2018.10.18 17:47:32-main.stocker-INFO: 
+
+2018.10.18 17:47:32-main.stocker-INFO: Loop through files ends succesfully
+
+2018.10.18 17:47:32-main.stocker-INFO: Determine Catalog Attributes function starts
+
+2018.10.18 17:47:32-main.stocker-DEBUG: Tries to guess Album name
+2018.10.18 17:47:32-main.stocker-DEBUG: Found 1 proposition(s) : ['Collaboration']
+2018.10.18 17:47:32-main.stocker-DEBUG: Album found : Collaboration
+2018.10.18 17:47:32-main.stocker-DEBUG: Tries to guess Artist name
+2018.10.18 17:47:32-main.stocker-DEBUG: Found 9 proposition(s) : ['Grillz & The Cancel', 'Alexjazz, СП, Іра Швайдак, The Cancel', 'Ngan & The Cancel', 'Screw & The Cancel', 'Melodiq & The Cancel', 'Alexjazz', 'Kickit Crew', 'Lorisoul & The Cancel', 'Linoskiii & The Cancel']
+2018.10.18 17:47:32-main.stocker-DEBUG: Many Artists found in this catalog

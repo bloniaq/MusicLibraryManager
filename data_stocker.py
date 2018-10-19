@@ -56,6 +56,18 @@ def catalog_collector(refresh, path=inputpath):
         'catalog_collector found {0} dirs to check\n\n'.format(len(result)))
     return result
 
+'''
+dirs = []
+for _, x, _ in os.walk(path):
+dirs[:] = [di for di in x if di not in ['$RECYCLE.BIN']]
+xcounter += 1
+log.info(dirs)
+for j in dirs:
+    for i in os.listdir(os.path.normpath(x[0])):
+        if extension_check(i, supported_list):
+            result.append(x)
+            break
+'''
 
 def get_extension(file):
     filename, tail = os.path.splitext(file)

@@ -1,0 +1,1245 @@
+2018.10.18 17:48:02-main-INFO: OS : Windows
+2018.10.18 17:48:02-main.stocker-INFO: catalog_collector Function starts
+2018.10.18 17:48:02-main.stocker-DEBUG: Catalog Cache File founded
+2018.10.18 17:48:02-main.stocker-INFO: catalog_collector found 31435 dirs to check
+
+
+2018.10.18 17:48:02-main-INFO: Skipped 0 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 1 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 2 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 3 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 4 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 5 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 6 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 7 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 8 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 9 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 10 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 11 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 12 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 13 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 14 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 15 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 16 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 17 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 18 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 19 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 20 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 21 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 22 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 23 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 24 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 25 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 26 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 27 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 28 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 29 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 30 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 31 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 32 - it exist in DB
+2018.10.18 17:48:02-main-INFO: Skipped 33 - it exist in DB
+2018.10.18 17:48:02-main.stocker-INFO: Catalog Crawler starts
+2018.10.18 17:48:02-main.stocker-DEBUG: Files found in catalog : ['01. Grillz & The Cancel - Everyday.mp3', '02. Alexjazz, СП, Іра Швайдак, The Cancel - Вокзали.mp3', '03. Ngan & The Cancel - New York.mp3', '04. Screw & The Cancel - No More.mp3', "05. Melodiq & The Cancel - It's No Surprise.mp3", '06. Alexjazz - Купе feat. Zombo (prod. by The Cancel & DJ Shon).mp3', '07. Alexjazz - Нас (prod. by The Cancel).mp3', '08. Kickit Crew - Musician (feat. Mike Russell & Mfa Kera as Black Heritage).mp3', '09. Lorisoul & The Cancel - Blessings Over Problems.mp3', '10. Linoskiii & The Cancel - Redefine.mp3', '11. Kickit Crew - Everytime.mp3', 'cover.jpg']
+2018.10.18 17:48:02-main.stocker-INFO: Starting loop through files
+
+2018.10.18 17:48:02-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Collaboration\01. Grillz & The Cancel - Everyday.mp3
+2018.10.18 17:48:02-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:48:02-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:48:02-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\01. Grillz & The Cancel - Everyday.mp3', 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Grillz & The Cancel', 'title': 'Everyday', 'date': '2013', 'length': 212, 'bitrate': 320}
+
+2018.10.18 17:48:02-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Collaboration\02. Alexjazz, СП, Іра Швайдак, The Cancel - Вокзали.mp3
+2018.10.18 17:48:02-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:48:02-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:48:02-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\02. Alexjazz, СП, Іра Швайдак, The Cancel - Вокзали.mp3', 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Alexjazz, СП, Іра Швайдак, The Cancel', 'title': 'Вокзали', 'date': '2013', 'length': 216, 'bitrate': 320}
+
+2018.10.18 17:48:02-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Collaboration\03. Ngan & The Cancel - New York.mp3
+2018.10.18 17:48:02-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:48:02-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:48:02-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\03. Ngan & The Cancel - New York.mp3', 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Ngan & The Cancel', 'title': 'New York', 'date': '2013', 'length': 171, 'bitrate': 320}
+
+2018.10.18 17:48:02-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Collaboration\04. Screw & The Cancel - No More.mp3
+2018.10.18 17:48:02-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:48:02-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:48:02-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\04. Screw & The Cancel - No More.mp3', 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Screw & The Cancel', 'title': 'No More', 'date': '2013', 'length': 176, 'bitrate': 320}
+
+2018.10.18 17:48:02-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Collaboration\05. Melodiq & The Cancel - It's No Surprise.mp3
+2018.10.18 17:48:02-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:48:02-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:48:02-main.stocker-INFO: {'path': "D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\05. Melodiq & The Cancel - It's No Surprise.mp3", 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Melodiq & The Cancel', 'title': "It's No Surprise", 'date': '2013', 'length': 197, 'bitrate': 320}
+
+2018.10.18 17:48:02-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Collaboration\06. Alexjazz - Купе feat. Zombo (prod. by The Cancel & DJ Shon).mp3
+2018.10.18 17:48:02-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:48:02-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:48:02-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\06. Alexjazz - Купе feat. Zombo (prod. by The Cancel & DJ Shon).mp3', 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Alexjazz', 'title': 'Купе feat. Zombo (prod. by The Cancel & DJ Shon)', 'date': '2013', 'length': 216, 'bitrate': 320}
+
+2018.10.18 17:48:02-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Collaboration\07. Alexjazz - Нас (prod. by The Cancel).mp3
+2018.10.18 17:48:02-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:48:02-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:48:02-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\07. Alexjazz - Нас (prod. by The Cancel).mp3', 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Alexjazz', 'title': 'Нас (prod. by The Cancel)', 'date': '2013', 'length': 228, 'bitrate': 320}
+
+2018.10.18 17:48:02-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Collaboration\08. Kickit Crew - Musician (feat. Mike Russell & Mfa Kera as Black Heritage).mp3
+2018.10.18 17:48:02-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:48:02-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:48:02-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\08. Kickit Crew - Musician (feat. Mike Russell & Mfa Kera as Black Heritage).mp3', 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Kickit Crew', 'title': 'Musician (feat. Mike Russell & Mfa Kera as Black Heritage)', 'date': '2013', 'length': 269, 'bitrate': 320}
+
+2018.10.18 17:48:02-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Collaboration\09. Lorisoul & The Cancel - Blessings Over Problems.mp3
+2018.10.18 17:48:02-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:48:02-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:48:02-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\09. Lorisoul & The Cancel - Blessings Over Problems.mp3', 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Lorisoul & The Cancel', 'title': 'Blessings Over Problems', 'date': '2013', 'length': 175, 'bitrate': 320}
+
+2018.10.18 17:48:02-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Collaboration\10. Linoskiii & The Cancel - Redefine.mp3
+2018.10.18 17:48:02-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:48:02-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:48:02-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\10. Linoskiii & The Cancel - Redefine.mp3', 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Linoskiii & The Cancel', 'title': 'Redefine', 'date': '2013', 'length': 151, 'bitrate': 320}
+
+2018.10.18 17:48:02-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Collaboration\11. Kickit Crew - Everytime.mp3
+2018.10.18 17:48:02-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:48:02-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:48:02-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\11. Kickit Crew - Everytime.mp3', 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Kickit Crew', 'title': 'Everytime', 'date': '2013', 'length': 277, 'bitrate': 320}
+
+2018.10.18 17:48:02-main.stocker-INFO: 
+
+2018.10.18 17:48:02-main.stocker-INFO: Loop through files ends succesfully
+
+2018.10.18 17:48:02-main.stocker-INFO: Determine Catalog Attributes function starts
+
+2018.10.18 17:48:02-main.stocker-DEBUG: Tries to guess Album name
+2018.10.18 17:48:02-main.stocker-DEBUG: Found 1 proposition(s) : ['Collaboration']
+2018.10.18 17:48:02-main.stocker-DEBUG: Album found : Collaboration
+2018.10.18 17:48:02-main.stocker-DEBUG: Tries to guess Artist name
+2018.10.18 17:48:02-main.stocker-DEBUG: Found 9 proposition(s) : ['Grillz & The Cancel', 'Alexjazz, СП, Іра Швайдак, The Cancel', 'Ngan & The Cancel', 'Screw & The Cancel', 'Melodiq & The Cancel', 'Alexjazz', 'Kickit Crew', 'Lorisoul & The Cancel', 'Linoskiii & The Cancel']
+2018.10.18 17:48:02-main.stocker-DEBUG: Many Artists found in this catalog
+2018.10.18 17:48:02-main.txttools-INFO: Substring Finder Function starts
+2018.10.18 17:48:02-main.txttools-DEBUG: Input : ['Grillz & The Cancel', 'Alexjazz, СП, Іра Швайдак, The Cancel', 'Ngan & The Cancel', 'Screw & The Cancel', 'Melodiq & The Cancel', 'Alexjazz', 'Kickit Crew', 'Lorisoul & The Cancel', 'Linoskiii & The Cancel']
+
+2018.10.18 17:48:02-main.txttools-DEBUG: find_longest_substring comparing pair: Grillz & The Cancel and Alexjazz, СП, Іра Швайдак, The Cancel
+2018.10.18 17:48:02-main.txttools-DEBUG: Selected :  The Cancel
+2018.10.18 17:48:02-main.txttools-DEBUG: find_longest_substring comparing pair: Alexjazz, СП, Іра Швайдак, The Cancel and Ngan & The Cancel
+2018.10.18 17:48:02-main.txttools-DEBUG: Selected :  The Cancel
+2018.10.18 17:48:02-main.txttools-DEBUG: find_longest_substring comparing pair: Ngan & The Cancel and Screw & The Cancel
+2018.10.18 17:48:02-main.txttools-DEBUG: Selected :  & The Cancel
+2018.10.18 17:48:02-main.txttools-DEBUG: find_longest_substring comparing pair: Screw & The Cancel and Melodiq & The Cancel
+2018.10.18 17:48:02-main.txttools-DEBUG: Selected :  & The Cancel
+2018.10.18 17:48:02-main.txttools-DEBUG: find_longest_substring comparing pair: Melodiq & The Cancel and Alexjazz
+2018.10.18 17:48:02-main.txttools-DEBUG: Selected : e
+2018.10.18 17:48:02-main.txttools-DEBUG: find_longest_substring comparing pair: Alexjazz and Kickit Crew
+2018.10.18 17:48:02-main.txttools-DEBUG: Selected : e
+2018.10.18 17:48:02-main.txttools-DEBUG: find_longest_substring comparing pair: Kickit Crew and Lorisoul & The Cancel
+2018.10.18 17:48:02-main.txttools-DEBUG: Selected :  C
+2018.10.18 17:48:02-main.txttools-DEBUG: find_longest_substring comparing pair: Lorisoul & The Cancel and Linoskiii & The Cancel
+2018.10.18 17:48:02-main.txttools-DEBUG: Selected :  & The Cancel
+2018.10.18 17:48:02-main.txttools-INFO: Existing substrings : [' The Cancel', ' & The Cancel', ' C']
+2018.10.18 17:48:02-main.txttools-DEBUG: Checking if  The Cancel has a substring with all
+2018.10.18 17:48:02-main.txttools-DEBUG: find_longest_substring comparing pair:  The Cancel and Grillz & The Cancel
+2018.10.18 17:48:02-main.txttools-DEBUG: Selected :  The Cancel
+2018.10.18 17:48:02-main.txttools-DEBUG: find_longest_substring comparing pair:  The Cancel and Alexjazz, СП, Іра Швайдак, The Cancel
+2018.10.18 17:48:02-main.txttools-DEBUG: Selected :  The Cancel
+2018.10.18 17:48:02-main.txttools-DEBUG: find_longest_substring comparing pair:  The Cancel and Ngan & The Cancel
+2018.10.18 17:48:02-main.txttools-DEBUG: Selected :  The Cancel
+2018.10.18 17:48:02-main.txttools-DEBUG: find_longest_substring comparing pair:  The Cancel and Screw & The Cancel
+2018.10.18 17:48:02-main.txttools-DEBUG: Selected :  The Cancel
+2018.10.18 17:48:02-main.txttools-DEBUG: find_longest_substring comparing pair:  The Cancel and Melodiq & The Cancel
+2018.10.18 17:48:02-main.txttools-DEBUG: Selected :  The Cancel
+2018.10.18 17:48:02-main.txttools-DEBUG: find_longest_substring comparing pair:  The Cancel and Alexjazz
+2018.10.18 17:48:02-main.txttools-DEBUG: Selected : e
+2018.10.18 17:48:02-main.txttools-DEBUG:  The Cancel is not a match
+2018.10.18 17:48:02-main.txttools-DEBUG: Checking if  & The Cancel has a substring with all
+2018.10.18 17:48:02-main.txttools-DEBUG: find_longest_substring comparing pair:  & The Cancel and Grillz & The Cancel
+2018.10.18 17:48:02-main.txttools-DEBUG: Selected :  & The Cancel
+2018.10.18 17:48:02-main.txttools-DEBUG: find_longest_substring comparing pair:  & The Cancel and Alexjazz, СП, Іра Швайдак, The Cancel
+2018.10.18 17:48:02-main.txttools-DEBUG: Selected :  The Cancel
+2018.10.18 17:48:02-main.txttools-DEBUG:  & The Cancel is not a match
+2018.10.18 17:48:02-main.txttools-DEBUG: Checking if  C has a substring with all
+2018.10.18 17:48:02-main.txttools-DEBUG: find_longest_substring comparing pair:  C and Grillz & The Cancel
+2018.10.18 17:48:02-main.txttools-DEBUG: Selected :  C
+2018.10.18 17:48:02-main.txttools-DEBUG: find_longest_substring comparing pair:  C and Alexjazz, СП, Іра Швайдак, The Cancel
+2018.10.18 17:48:02-main.txttools-DEBUG: Selected :  C
+2018.10.18 17:48:02-main.txttools-DEBUG: find_longest_substring comparing pair:  C and Ngan & The Cancel
+2018.10.18 17:48:02-main.txttools-DEBUG: Selected :  C
+2018.10.18 17:48:02-main.txttools-DEBUG: find_longest_substring comparing pair:  C and Screw & The Cancel
+2018.10.18 17:48:02-main.txttools-DEBUG: Selected :  C
+2018.10.18 17:48:02-main.txttools-DEBUG: find_longest_substring comparing pair:  C and Melodiq & The Cancel
+2018.10.18 17:48:02-main.txttools-DEBUG: Selected :  C
+2018.10.18 17:48:02-main.txttools-DEBUG: find_longest_substring comparing pair:  C and Alexjazz
+2018.10.18 17:48:02-main.txttools-DEBUG: Common substring not found
+
+2018.10.18 17:48:02-main.txttools-DEBUG:  C is not a match
+2018.10.18 17:48:02-main.txttools-INFO: Substring Finder did not found any match
+
+2018.10.18 17:48:02-main.stocker-DEBUG: Identified Various Artist as an artist
+2018.10.18 17:48:02-main.stocker-DEBUG: Tries to guess date of album
+2018.10.18 17:48:02-main.stocker-DEBUG: Date recognized : 2013
+2018.10.18 17:48:02-main.stocker-DEBUG: Computing average bitrate of files
+2018.10.18 17:48:02-main.stocker-DEBUG: Computing total length of files
+2018.10.18 17:48:02-main.stocker-INFO: reckognized Catalog Attributes:
+Artist: Various Artist        
+Album: Collaboration
+Date: 2013
+AvgBitrate: 320.0
+CatalogSym        
+Total Tracks: 11
+Total Length: 0:38:08
+
+
+2018.10.18 17:48:02-main.stocker-DEBUG: returns {'album': 'Collaboration', 'artist': 'Various Artist', 'date': '2013', 'avg_bitrate': 320.0, 'total_length': 2288, 'catalog_mark': '', 'ext': 'mp3', 'total_tracks': 11, 'img_count': 1, 'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration', 'comment': ''}
+2018.10.18 17:48:02-main.stocker-INFO: Catalog Crawler ends,
+
+2018.10.18 17:48:02-main.dgs_con-INFO: Query Discogs Func started
+2018.10.18 17:48:02-main.dgs_con-INFO: Working on D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Collaboration
+2018.10.18 17:48:02-main.dgs_con-INFO: Master: Album
+2018.10.18 17:48:02-main.dgs_con-INFO: Connecting Discogs	Query: Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing George Benson / Earl Klugh - Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing The Modern Jazz Quartet With Laurindo Almeida - Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Shawn Phillips (2) - Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Shorty Rogers / André Previn - Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing K2 / Putrefier - Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Masabumi Kikuchi Sextet With Sadao Watanabe Quartet - Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Strict / Pain Jerk - Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Der Blutharsch And The Infinite Church Of The Leading Hand + Aluk Todolo - A Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Molten Salt Breeder Reactor* & Speculum Fight - Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Helen Merrill - Gil Evans to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Iron Lung // Hatred Surge - Broken: A Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Various - Collaboration Part 1 to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing The Album Leaf / Bright Eyes - Collaboration Series No. 1 to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Veprisuicida* & Organomehanizm - Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Merzbow, Kapotte Muziek - Documentation / Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Suppression With Facialmess - Collaboration EP to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Sore Throat / Bizarre Uproar / Facialmess - Collaboration EP to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Teddy Charles / Shorty Rogers / Shelley Manne* / Jimmy Giuffre - Collaboration West to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Dark By Design - Collaboration E.P 3 to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Michael Quatro - In Collaboration With The Gods to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing The Great Jazz Trio - Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Mark With A K - Collaboration EP to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Various - Collaboration Part 2 to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Half Man Half Biscuit - Eno Collaboration EP to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Saturn Form Essence & Mists Of Poveglia - Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Various - Collaboration Part 3 to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Various - The Collaboration E.P. to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Various - Collaboration 2 to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Various - Collaboration Part 5 to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Charlie Shoemake / Bill Holman With The Voice Of Sandi Shoemake - Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing DarkbyDesign* - DarkbyDesign Collaboration E.P to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Dark By Design - Collaboration E.P 2 to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Street Talk (6) = ストリート・トーク* - Collaboration = コラボレーション to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Various - Collaboration Part 4 to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Yousef - Friends (A Collaboration Of Beats) to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Various - Collaboration 2 to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Culver / La Mancha Del Pecado - Collaboration 6 to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Astro / Nundata - Split / Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing JP & Jukesy vs. Eufex / Masmada vs Eufex - Eufex Collaboration EP to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Mark Pritchard x Kaitlyn Aurelia Smith - Now:Now (Absolut Collaboration) to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Stan Kenton And His Orchestra - Machito / Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Phil York & Nick Rowland / Greg Brookman & Kevin Energy - Tranzlation Collaboration E.P.1 to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing [ B O L T ] + Ewaldt - Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Catena Collapse and Sinaloa - A Trøndelag / Massachusetts Transatlantic Split Seven Inch Record Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Amon Tobin - Verbal Remixes & Collaborations to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Access 58 - Collaborations & Remixes Volume 2. to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Paul McCartney And Elvis Costello - The McCartney/MacManus Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Justin Timberlake - Greatest Hits & Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Genetic Transmission / Moan - Collaboration 1 to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-INFO: Comparing Sinéad O'Connor - Collaborations to Various Artist - Collaboration
+2018.10.18 17:48:05-main.dgs_con-DEBUG: no values on output, error: 'metoda_master'
+
+2018.10.18 17:48:06-main.dgs_con-INFO: Master: Token
+2018.10.18 17:48:06-main.dgs_con-INFO: Connecting Discogs	Query: Various Artist - Collaboration
+2018.10.18 17:48:07-main.dgs_con-INFO: Various - Black Disco Vol. 10
+2018.10.18 17:48:07-main.dgs_con-INFO: Comparing Various - Black Disco Vol. 10 to Various Artist - Collaboration
+2018.10.18 17:48:07-main.dgs_con-INFO: Various - Brazilian Explosion
+2018.10.18 17:48:07-main.dgs_con-INFO: Comparing Various - Brazilian Explosion to Various Artist - Collaboration
+2018.10.18 17:48:07-main.dgs_con-INFO: Various - DJs Unite Vol. 3 - The Happy Selection!
+2018.10.18 17:48:07-main.dgs_con-INFO: Comparing Various - DJs Unite Vol. 3 to Various Artist - Collaboration
+2018.10.18 17:48:07-main.dgs_con-INFO: Various - LAFMS: The Lowest Form Of Music
+2018.10.18 17:48:07-main.dgs_con-INFO: Comparing Various - LAFMS: The Lowest Form Of Music to Various Artist - Collaboration
+2018.10.18 17:48:07-main.dgs_con-INFO: Various - Portugal
+2018.10.18 17:48:07-main.dgs_con-INFO: Comparing Various - Portugal to Various Artist - Collaboration
+2018.10.18 17:48:07-main.dgs_con-INFO: Various - The Story Of Mowax
+2018.10.18 17:48:07-main.dgs_con-INFO: Comparing Various - The Story Of Mowax to Various Artist - Collaboration
+2018.10.18 17:48:07-main.dgs_con-INFO: Various - Louisville Is For Lovers 2009
+2018.10.18 17:48:07-main.dgs_con-INFO: Comparing Various - Louisville Is For Lovers 2009 to Various Artist - Collaboration
+2018.10.18 17:48:07-main.dgs_con-INFO: Various - Voices Of The Civil Rights Movement (Black American Freedom Songs 1960-1966)
+2018.10.18 17:48:07-main.dgs_con-INFO: Comparing Various - Voices Of The Civil Rights Movement (Black American Freedom Songs 1960-1966) to Various Artist - Collaboration
+2018.10.18 17:48:07-main.dgs_con-INFO: Various - Antologia Muzicii Populare Românești Vol. I / Anthology Of Romanian Folk Music Vol. I
+2018.10.18 17:48:07-main.dgs_con-INFO: Comparing Various - Antologia Muzicii Populare Românești Vol. I / Anthology Of Romanian Folk Music Vol. I to Various Artist - Collaboration
+2018.10.18 17:48:07-main.dgs_con-INFO: Various - Legends Of Hip Hop
+2018.10.18 17:48:07-main.dgs_con-INFO: Comparing Various - Legends Of Hip Hop to Various Artist - Collaboration
+2018.10.18 17:48:07-main.dgs_con-INFO: Various - The-Zone Beginning EP
+2018.10.18 17:48:07-main.dgs_con-INFO: Comparing Various - The-Zone Beginning EP to Various Artist - Collaboration
+2018.10.18 17:48:07-main.dgs_con-INFO: Various - Fluxus Anthology 30th Anniversary 1962-1992 Sound Events
+2018.10.18 17:48:07-main.dgs_con-INFO: Comparing Various - Fluxus Anthology 30th Anniversary 1962-1992 Sound Events to Various Artist - Collaboration
+2018.10.18 17:48:07-main.dgs_con-INFO: Various - Antologia Muzicii Populare Românești Vol. II
+2018.10.18 17:48:07-main.dgs_con-INFO: Comparing Various - Antologia Muzicii Populare Românești Vol. II to Various Artist - Collaboration
+2018.10.18 17:48:07-main.dgs_con-INFO: Various - الأغاني والموسيقى الشعبية المصرية = The Folk Music Of Egypt
+2018.10.18 17:48:07-main.dgs_con-INFO: Comparing Various - الأغاني والموسيقى الشعبية المصرية = The Folk Music Of Egypt to Various Artist - Collaboration
+2018.10.18 17:48:07-main.dgs_con-INFO: Various - Two Moon July
+2018.10.18 17:48:07-main.dgs_con-INFO: Comparing Various - Two Moon July to Various Artist - Collaboration
+2018.10.18 17:48:07-main.dgs_con-DEBUG: no values on output, error: 'metoda_master'
+
+2018.10.18 17:48:08-main.dgs_con-INFO: Master: Variations
+2018.10.18 17:48:08-main.dgs_con-INFO: Connecting Discogs	Query: Various Artist
+2018.10.18 17:48:10-main.dgs_con-INFO: Found <Artist 35584 'Various Artists (3)'> aliases : ['V/A']
+2018.10.18 17:48:10-main.dgs_con-INFO: Connecting Discogs	Query: V/A - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Stan Kenton And His Orchestra - Machito / Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Various - Collaboration 2 to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Like A Tim & Gina V. D'Orio - Bass Girl to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Ravi Shankar / George Harrison - Collaborations to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Various - Panorama Des Musiques Expérimentales to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Theo Parrish - Parallel Dimensions to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Berio*  /  Maderna*  /  Ferrari*  /  Xenakis*  /  Dufrène* - Baronnet* to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Devo - Total Devo to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Artifacts - That's Them to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Nothing. Existed. - No Future to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing SBB - SBB to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Katapult (4) - Katapult to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Jean Michel Jarre* - En Concert Houston / Lyon to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Tigran Hamasyan / Arve Henriksen / Eivind Aarset / Jan Bang - Atmosphères to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Boulez* - Alain Damiens, Ensemble InterContemporain to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Alojz Bouda - Synthesizer Sound to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing iN sCissorS* - The Veratrine Evangelicum to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Jiří Stivín - Zvěrokruh to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Gattch - Gattch to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Umberto Tozzi - Notte Rosa to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Olympic (2) - Ulice to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Braňo Hronec - Braňo Hronec Uvádza • Presents to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing C & K Vocal* - Generace to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Emil Viklický, Bill Frisell, Kermit Driscoll, Vinton Johnson* - Okno to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Discobolos - Discobolos to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing O. K. Band* - Už Mi Nevolej / Bydlím Na Závětrné Straně Továrního Komína to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Milan Svoboda & Pražský Big Band* - Reminiscence to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Jiří Válek, Konstelace Josefa Vobruby - Jiří Válek to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Barnodaj - Mauglí to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Various - R&B Collaborations to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Various - Jazz In The House 7 to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Beethoven*, Sviatoslav Richter - Diabelli-Variationen to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing The Progress Organization - Barnodaj to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Various - Elektronenklänge Aus Dem Radioland to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Corvina - Corvina to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Various - 2. Československý Beat-festival to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Chime - Disco to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Petr Spálený & Apollobeat - Zvon Šílencův to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Marika Gombitová - Dievča Do Dažďa to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Eva Pilarová - Eva to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Christ. - Liveleventwelve to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Jiří Suchý & Jiří Šlitr - Divadlo Semafor 1959 to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Jean Michel Jarre* - Téo & Téa to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Maurice Blackburn, Norman McLaren, Gabriel Charpentier, Eldon Rathburn, Pierre Mercure, Gilles Tremblay, Alain Clavier - Musiques De L'O.N.F. / Music Of The N.F.B. to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Vladimír Mišík / Etc… - Vladimír Mišík to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Ladislav Gerhardt - Prečo Sme Sa Oženili? to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Václav Zahradník Big Band - Jazz Goes To Beat to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Psykopharmaka - Chlorpromazine "Sandoz" to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Eva Kostolányiová - Eva Kostolányiová to Various Artist - Collaboration
+2018.10.18 17:48:12-main.dgs_con-INFO: Comparing Various - Antologia Muzicii Populare Românești Vol. I / Anthology Of Romanian Folk Music Vol. I to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Linha Singers - Linha Singers to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Don Cherry - Eternal Rhythm to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Pierre Boulez - Jean-Guihen Queyras, Hae-Sun Kang*, Ensemble Intercontemporain to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Various - Give Peace A Dance: A CND Compilation to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Citron - Tvých Sedmnáct / Pantomima Reklam  to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Brahms* – Ulf Hoelscher, Klaus Tennstedt, NDR-Sinfonieorchester* - Violinkonzert to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing François Couturier, Tarkovsky Quartet - Nuit Blanche to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Various - Discodance to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Marilyn Crispell - Vignettes to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Various - Summer In The City to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Josef Vobruba Orchestra* - Opus Club 02 to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Various - Star 69 Extended Mixes Vol. 3 to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Various - Antologia Muzicii Populare Românești Vol. II to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Mathias Grassow - Electric Bowls to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Various - Disco Story to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Various - Buddha-Bar Ten Years to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Peanut Butter Wolf - Chrome Children to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Stan Kenton - The Complete Capitol Studio Recordings Of Stan Kenton 1943-47 to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Jello Biafra With The Melvins - Sieg Howdy! to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Continuum (2) - Continuum to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Ray Gelato Meets The Good Fellas (2) - Gelato All'Italiana to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Various - Infact Your Mind to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Mina (3) - Colección Latina to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Foreigner - Original Album Series to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Deltamorphon - Oblivion Cages to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Müllstation - ...Ich Bin Der Punk Rock König Vom Mansfelder Land... to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Händel* - Deborah to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing I Pooh* - Dammi Solo Un Minuto to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Highko - 2nd Dose to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing The Microphones / Golden Boots / Bishop Allen / Paleo - Collaborate With A 1940's Wire Recorder to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Surachai - Asymmetry Codex / Temple Of The Weakening Sun to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing John Wiese / Lasse Marhaug / Kalong - Rip Torn Goes To Warsaw / Mi Fydd Y Sychedig Rai Yma to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Charles Gounod - Choeurs Du Festival D'Aix-En-Provence, Elisabeth Brasseur, Orchestre De La Société Des Concerts Du Conservatoire, André Cluytens to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing PinioL - Bran Coucou to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing John Kirby (4) - Listen The Birds 8 = Hoor De Vogels 8 to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Ravi Shankar - In Celebration to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Lonnie Johnson (2) - Another Night To Cry to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Unknown Artist - Classic 2000 to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Pitreleh - Pitreleh to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing John Kirby (4) - Listen The Birds 7 = Hoor De Vogels 7 to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Various - Zlatý Slavík 1971 to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Igor Stravinsky - Plays & Conducts to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Various - At The Villa Laurence to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Homo Homini Lupus / Aggrenation - Payback / Untitled to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Piropo - Russians to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Judy Garland - The One & Only to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing T.A.G.C.* - Meontological Research Recording Record 2 Teste Tones to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Gut - Pimps Of Gore to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Grégory Lemarchal - Je Deviens Moi to Various Artist - Collaboration
+2018.10.18 17:48:14-main.dgs_con-INFO: Comparing Éva* - A Sárkány Éve to Various Artist - Collaboration
+2018.10.18 17:48:15-main.dgs_con-DEBUG: no values on output, error: 'metoda_master'
+
+2018.10.18 17:48:16-main.dgs_con-INFO: Release: Album
+2018.10.18 17:48:16-main.dgs_con-INFO: Connecting Discogs	Query: Collaboration
+2018.10.18 17:48:17-main.dgs_con-DEBUG: there is more than one artist in current release
+2018.10.18 17:48:17-main.dgs_con-INFO: Comparing <Artist 2266 'George Benson'> - Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:18-main.dgs_con-DEBUG: there is more than one artist in current release
+2018.10.18 17:48:18-main.dgs_con-INFO: Comparing <Artist 2266 'George Benson'> - Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:19-main.dgs_con-INFO: Comparing <Artist 276176 'Shawn Phillips (2)'> - Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:20-main.dgs_con-DEBUG: there is more than one artist in current release
+2018.10.18 17:48:20-main.dgs_con-INFO: Comparing <Artist 254990 'The Modern Jazz Quartet'> - Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:21-main.dgs_con-DEBUG: there is more than one artist in current release
+2018.10.18 17:48:21-main.dgs_con-INFO: Comparing <Artist 254990 'The Modern Jazz Quartet'> - Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:22-main.dgs_con-DEBUG: there is more than one artist in current release
+2018.10.18 17:48:22-main.dgs_con-INFO: Comparing <Artist 2266 'George Benson'> - Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:22-main.dgs_con-DEBUG: there is more than one artist in current release
+2018.10.18 17:48:22-main.dgs_con-INFO: Comparing <Artist 212478 'The Rita'> - Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:23-main.dgs_con-DEBUG: there is more than one artist in current release
+2018.10.18 17:48:23-main.dgs_con-INFO: Comparing <Artist 84265 'Richard Ramirez'> - Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:24-main.dgs_con-DEBUG: there is more than one artist in current release
+2018.10.18 17:48:24-main.dgs_con-INFO: Comparing <Artist 377439 'Strict'> - Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:25-main.dgs_con-DEBUG: there is more than one artist in current release
+2018.10.18 17:48:25-main.dgs_con-INFO: Comparing <Artist 2266 'George Benson'> - Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:26-main.dgs_con-DEBUG: there is more than one artist in current release
+2018.10.18 17:48:26-main.dgs_con-INFO: Comparing <Artist 254990 'The Modern Jazz Quartet'> - Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:27-main.dgs_con-DEBUG: there is more than one artist in current release
+2018.10.18 17:48:27-main.dgs_con-INFO: Comparing <Artist 2266 'George Benson'> - Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:27-main.dgs_con-DEBUG: there is more than one artist in current release
+2018.10.18 17:48:27-main.dgs_con-INFO: Comparing <Artist 211192 'Sewer Election'> - Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:28-main.dgs_con-INFO: Comparing <Artist 194 'Various'> - Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:29-main.dgs_con-DEBUG: there is more than one artist in current release
+2018.10.18 17:48:29-main.dgs_con-INFO: Comparing <Artist 2266 'George Benson'> - Collaboration to Various Artist - Collaboration
+2018.10.18 17:48:29-main.dgs_con-DEBUG: no values on output, error: 'metoda_release'
+
+2018.10.18 17:48:30-main.dgs_con-INFO: Release: Token
+2018.10.18 17:48:30-main.dgs_con-INFO: Connecting Discogs	Query: Various Artist - Collaboration
+2018.10.18 17:48:32-main.dgs_con-INFO: Comparing Artist 194 Various - LAFMS The Lowest Form Of Music  Artist Edition to Various Artist - Collaboration
+2018.10.18 17:48:33-main.dgs_con-INFO: Comparing Artist 194 Various - Super Eurobeat Vol 199  Collaboration Of Eurobeat to Various Artist - Collaboration
+2018.10.18 17:48:34-main.dgs_con-INFO: Comparing Artist 194 Various - Black Disco Vol 10 to Various Artist - Collaboration
+2018.10.18 17:48:35-main.dgs_con-INFO: Comparing Artist 194 Various - Collaboration 2  Homage EP to Various Artist - Collaboration
+2018.10.18 17:48:35-main.dgs_con-INFO: Comparing Artist 194 Various - Blood Sweat  Vinyl DIY In The 21st Century to Various Artist - Collaboration
+2018.10.18 17:48:36-main.dgs_con-INFO: Comparing Artist 194 Various - Lo Recordings Vol 2 Collaborations to Various Artist - Collaboration
+2018.10.18 17:48:37-main.dgs_con-INFO: Comparing Artist 194 Various - The Real Megamix to Various Artist - Collaboration
+2018.10.18 17:48:38-main.dgs_con-INFO: Comparing Artist 194 Various - The Melting Point EP to Various Artist - Collaboration
+2018.10.18 17:48:39-main.dgs_con-INFO: Comparing Artist 194 Various - Brazilian Explosion to Various Artist - Collaboration
+2018.10.18 17:48:40-main.dgs_con-INFO: Comparing Artist 194 Various - Myths  Masks Of Karol Szymanowski Music By Ukrainian Sound Artists to Various Artist - Collaboration
+2018.10.18 17:48:41-main.dgs_con-INFO: Comparing Artist 194 Various - Project Mooncircle Wisdom In Chains Liberation From This Insanity 3055 to Various Artist - Collaboration
+2018.10.18 17:48:41-main.dgs_con-INFO: Comparing Artist 194 Various - ΠΡ to Various Artist - Collaboration
+2018.10.18 17:48:42-main.dgs_con-INFO: Comparing Artist 194 Various - Basisgleiche Verschiedenheiten to Various Artist - Collaboration
+2018.10.18 17:48:43-main.dgs_con-INFO: Comparing Artist 194 Various - Mono No Aware to Various Artist - Collaboration
+2018.10.18 17:48:44-main.dgs_con-INFO: Comparing Artist 194 Various - Rwanda III Musique De Danse  Dansmuziek to Various Artist - Collaboration
+2018.10.18 17:48:44-main.dgs_con-DEBUG: no values on output, error: 'metoda_release'
+
+2018.10.18 17:48:45-main.dgs_con-INFO: Finshed querying Discogs, results are: , , , 
+2018.10.18 17:48:47-main.dbase-INFO: Save to DB started
+2018.10.18 17:48:47-main.dbase-INFO: Catalog data inserted successfully
+2018.10.18 17:48:47-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\01. Grillz & The Cancel - Everyday.mp3', 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Grillz & The Cancel', 'title': 'Everyday', 'date': '2013', 'length': 212, 'bitrate': 320}
+2018.10.18 17:48:47-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\02. Alexjazz, СП, Іра Швайдак, The Cancel - Вокзали.mp3', 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Alexjazz, СП, Іра Швайдак, The Cancel', 'title': 'Вокзали', 'date': '2013', 'length': 216, 'bitrate': 320}
+2018.10.18 17:48:47-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\03. Ngan & The Cancel - New York.mp3', 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Ngan & The Cancel', 'title': 'New York', 'date': '2013', 'length': 171, 'bitrate': 320}
+2018.10.18 17:48:47-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\04. Screw & The Cancel - No More.mp3', 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Screw & The Cancel', 'title': 'No More', 'date': '2013', 'length': 176, 'bitrate': 320}
+2018.10.18 17:48:47-main.dbase-DEBUG: Tries to insert : {'path': "D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\05. Melodiq & The Cancel - It's No Surprise.mp3", 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Melodiq & The Cancel', 'title': "It's No Surprise", 'date': '2013', 'length': 197, 'bitrate': 320}
+2018.10.18 17:48:47-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\06. Alexjazz - Купе feat. Zombo (prod. by The Cancel & DJ Shon).mp3', 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Alexjazz', 'title': 'Купе feat. Zombo (prod. by The Cancel & DJ Shon)', 'date': '2013', 'length': 216, 'bitrate': 320}
+2018.10.18 17:48:47-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\07. Alexjazz - Нас (prod. by The Cancel).mp3', 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Alexjazz', 'title': 'Нас (prod. by The Cancel)', 'date': '2013', 'length': 228, 'bitrate': 320}
+2018.10.18 17:48:47-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\08. Kickit Crew - Musician (feat. Mike Russell & Mfa Kera as Black Heritage).mp3', 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Kickit Crew', 'title': 'Musician (feat. Mike Russell & Mfa Kera as Black Heritage)', 'date': '2013', 'length': 269, 'bitrate': 320}
+2018.10.18 17:48:47-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\09. Lorisoul & The Cancel - Blessings Over Problems.mp3', 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Lorisoul & The Cancel', 'title': 'Blessings Over Problems', 'date': '2013', 'length': 175, 'bitrate': 320}
+2018.10.18 17:48:47-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\10. Linoskiii & The Cancel - Redefine.mp3', 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Linoskiii & The Cancel', 'title': 'Redefine', 'date': '2013', 'length': 151, 'bitrate': 320}
+2018.10.18 17:48:47-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Collaboration\\11. Kickit Crew - Everytime.mp3', 'ext': 'mp3', 'album': 'Collaboration', 'artist': 'Kickit Crew', 'title': 'Everytime', 'date': '2013', 'length': 277, 'bitrate': 320}
+2018.10.18 17:48:47-main.dbase-INFO: Catalog data inserted successfully
+2018.10.18 17:48:47-main.dbase-INFO: Data Commited
+
+2018.10.18 17:48:47-main.stocker-INFO: Catalog Crawler starts
+2018.10.18 17:48:47-main.stocker-DEBUG: Files found in catalog : ['01 - Apollo.mp3', '02 - I Need You.mp3', '03 - Evening.mp3', '04 - Keep Me.mp3', '05 - Space Call.mp3', '06 - Last Days.mp3', '07 - Everybody.mp3', '08 - Eternal.mp3', '09 - Rainy Day.mp3', '10 - Losing You.mp3', '11 - Better Live.mp3', '12 - Travel.mp3', '13 - Harmony.mp3', "14 - When He's Gone.mp3", 'cover.jpg']
+2018.10.18 17:48:47-main.stocker-INFO: Starting loop through files
+
+2018.10.18 17:48:47-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Daybreak\01 - Apollo.mp3
+2018.10.18 17:48:47-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:48:47-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:48:47-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Daybreak\\01 - Apollo.mp3', 'ext': 'mp3', 'album': 'Daybreak', 'artist': 'The Cancel', 'title': 'Apollo', 'date': '2013', 'length': 128, 'bitrate': 320}
+
+2018.10.18 17:48:47-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Daybreak\02 - I Need You.mp3
+2018.10.18 17:48:47-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:48:47-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:48:47-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Daybreak\\02 - I Need You.mp3', 'ext': 'mp3', 'album': 'Daybreak', 'artist': 'The Cancel', 'title': 'I Need You', 'date': '2013', 'length': 133, 'bitrate': 320}
+
+2018.10.18 17:48:47-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Daybreak\03 - Evening.mp3
+2018.10.18 17:48:48-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:48:48-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:48:48-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Daybreak\\03 - Evening.mp3', 'ext': 'mp3', 'album': 'Daybreak', 'artist': 'The Cancel', 'title': 'Evening', 'date': '2013', 'length': 128, 'bitrate': 320}
+
+2018.10.18 17:48:48-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Daybreak\04 - Keep Me.mp3
+2018.10.18 17:48:48-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:48:48-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:48:48-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Daybreak\\04 - Keep Me.mp3', 'ext': 'mp3', 'album': 'Daybreak', 'artist': 'The Cancel', 'title': 'Keep Me', 'date': '2013', 'length': 160, 'bitrate': 320}
+
+2018.10.18 17:48:48-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Daybreak\05 - Space Call.mp3
+2018.10.18 17:48:48-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:48:48-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:48:48-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Daybreak\\05 - Space Call.mp3', 'ext': 'mp3', 'album': 'Daybreak', 'artist': 'The Cancel', 'title': 'Space Call', 'date': '2013', 'length': 194, 'bitrate': 320}
+
+2018.10.18 17:48:48-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Daybreak\06 - Last Days.mp3
+2018.10.18 17:48:48-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:48:48-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:48:48-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Daybreak\\06 - Last Days.mp3', 'ext': 'mp3', 'album': 'Daybreak', 'artist': 'The Cancel', 'title': 'Last Days', 'date': '2013', 'length': 146, 'bitrate': 320}
+
+2018.10.18 17:48:48-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Daybreak\07 - Everybody.mp3
+2018.10.18 17:48:48-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:48:48-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:48:48-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Daybreak\\07 - Everybody.mp3', 'ext': 'mp3', 'album': 'Daybreak', 'artist': 'The Cancel', 'title': 'Everybody', 'date': '2013', 'length': 150, 'bitrate': 320}
+
+2018.10.18 17:48:48-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Daybreak\08 - Eternal.mp3
+2018.10.18 17:48:49-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:48:49-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:48:49-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Daybreak\\08 - Eternal.mp3', 'ext': 'mp3', 'album': 'Daybreak', 'artist': 'The Cancel', 'title': 'Eternal', 'date': '2013', 'length': 158, 'bitrate': 320}
+
+2018.10.18 17:48:49-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Daybreak\09 - Rainy Day.mp3
+2018.10.18 17:48:49-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:48:49-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:48:49-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Daybreak\\09 - Rainy Day.mp3', 'ext': 'mp3', 'album': 'Daybreak', 'artist': 'The Cancel', 'title': 'Rainy Day', 'date': '2013', 'length': 137, 'bitrate': 320}
+
+2018.10.18 17:48:49-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Daybreak\10 - Losing You.mp3
+2018.10.18 17:48:49-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:48:49-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:48:49-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Daybreak\\10 - Losing You.mp3', 'ext': 'mp3', 'album': 'Daybreak', 'artist': 'The Cancel', 'title': 'Losing You', 'date': '2013', 'length': 136, 'bitrate': 320}
+
+2018.10.18 17:48:49-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Daybreak\11 - Better Live.mp3
+2018.10.18 17:48:49-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:48:49-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:48:49-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Daybreak\\11 - Better Live.mp3', 'ext': 'mp3', 'album': 'Daybreak', 'artist': 'The Cancel', 'title': 'Better Live', 'date': '2013', 'length': 212, 'bitrate': 320}
+
+2018.10.18 17:48:49-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Daybreak\12 - Travel.mp3
+2018.10.18 17:48:50-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:48:50-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:48:50-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Daybreak\\12 - Travel.mp3', 'ext': 'mp3', 'album': 'Daybreak', 'artist': 'The Cancel', 'title': 'Travel', 'date': '2013', 'length': 158, 'bitrate': 320}
+
+2018.10.18 17:48:50-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Daybreak\13 - Harmony.mp3
+2018.10.18 17:48:50-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:48:50-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:48:50-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Daybreak\\13 - Harmony.mp3', 'ext': 'mp3', 'album': 'Daybreak', 'artist': 'The Cancel', 'title': 'Harmony', 'date': '2013', 'length': 162, 'bitrate': 320}
+
+2018.10.18 17:48:50-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Daybreak\14 - When He's Gone.mp3
+2018.10.18 17:48:50-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:48:50-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:48:50-main.stocker-INFO: {'path': "D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Daybreak\\14 - When He's Gone.mp3", 'ext': 'mp3', 'album': 'Daybreak', 'artist': 'The Cancel', 'title': "When He's Gone", 'date': '2013', 'length': 114, 'bitrate': 320}
+
+2018.10.18 17:48:50-main.stocker-INFO: 
+
+2018.10.18 17:48:50-main.stocker-INFO: Loop through files ends succesfully
+
+2018.10.18 17:48:50-main.stocker-INFO: Determine Catalog Attributes function starts
+
+2018.10.18 17:48:50-main.stocker-DEBUG: Tries to guess Album name
+2018.10.18 17:48:50-main.stocker-DEBUG: Found 1 proposition(s) : ['Daybreak']
+2018.10.18 17:48:50-main.stocker-DEBUG: Album found : Daybreak
+2018.10.18 17:48:50-main.stocker-DEBUG: Tries to guess Artist name
+2018.10.18 17:48:50-main.stocker-DEBUG: Found 1 proposition(s) : ['The Cancel']
+2018.10.18 17:48:50-main.stocker-DEBUG: Artist found : The Cancel
+2018.10.18 17:48:50-main.stocker-DEBUG: Tries to guess date of album
+2018.10.18 17:48:50-main.stocker-DEBUG: Date recognized : 2013
+2018.10.18 17:48:50-main.stocker-DEBUG: Computing average bitrate of files
+2018.10.18 17:48:50-main.stocker-DEBUG: Computing total length of files
+2018.10.18 17:48:50-main.stocker-INFO: reckognized Catalog Attributes:
+Artist: The Cancel        
+Album: Daybreak
+Date: 2013
+AvgBitrate: 320.0
+CatalogSym        
+Total Tracks: 14
+Total Length: 0:35:16
+
+
+2018.10.18 17:48:50-main.stocker-DEBUG: returns {'album': 'Daybreak', 'artist': 'The Cancel', 'date': '2013', 'avg_bitrate': 320.0, 'total_length': 2116, 'catalog_mark': '', 'ext': 'mp3', 'total_tracks': 14, 'img_count': 1, 'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Daybreak', 'comment': ''}
+2018.10.18 17:48:50-main.stocker-INFO: Catalog Crawler ends,
+
+2018.10.18 17:48:50-main.dgs_con-INFO: Query Discogs Func started
+2018.10.18 17:48:50-main.dgs_con-INFO: Working on D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Daybreak
+2018.10.18 17:48:50-main.dgs_con-INFO: Master: Album
+2018.10.18 17:48:50-main.dgs_con-INFO: Connecting Discogs	Query: Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Saves The Day - Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Up Front (2) - Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Nilsson* - Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Joe And Bing - Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Daybreak (25) - Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Chet Baker Trio - Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Barry Manilow - Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Mirror (11) - Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Herbert Joos - Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Epizootic - Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Next Evidence - Daybreak EP to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Lauge & Baba Gnohm - Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Mezzoforte - Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Daso - Daybreak (Remixe) to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing D.J. Panik* - Daybreak / Revelation to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Paul Hardcastle - You're The One For Me / Daybreak / A.M. to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Duke Ellington - Daybreak Express to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Tritonal Featuring Cristina Soto - Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Ayumi Hamasaki - Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Formula 7 & Ray Keith - Daybreak / Religion (Ray Keith Remix) to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing S&D* - Blue Mantra / Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Beth Orton - The Other Side Of Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Al Hibbler - Unchained Melody / Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing The Gloomys - Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing The Ganjas - Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Architects (2) - Daybreaker to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Mark Reeve - Daybreak On Mars EP to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Niels Lan Doky - Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Timberwall - Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing The Gloomys - Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Blasterhead - Ere Daybreak-E.P. to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Sierra Hull - Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Now It's Overhead - Dark Light Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Long John Baldry - Hold Back The Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Not One Word - Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Steve Giordano - Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Beth Orton - Daybreaker to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Survival Kit / Bobby McClure - Daybreak / You Bring Out The Love In Me to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Ken Ishii - Daybreak Reprise -Sunriser Remixed- to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Tommy Dorsey And His Orchestra - There Are Such Things / Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Jack Dupree* And Mr. Bear / Mr. Bear - Walking The Blues / Daybreak Rock to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Mark Iliffe Feat. The Digital Blonde - Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Indecent Noise - Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Freddie Fresh* / Mike Henk - Freddie Fresh / Mike Henk to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Toneshifterz - Till Daybreak Meets... to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Daybreak - Everything Man / I Need Love to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Howlin' Wolf - Passing By Blues / Crying At Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Back Street Band - This Ain't The Road / Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Daybreak - Everybody Get Off to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-INFO: Comparing Country Ramblers - Daybreak to The Cancel - Daybreak
+2018.10.18 17:48:52-main.dgs_con-DEBUG: no values on output, error: 'metoda_master'
+
+2018.10.18 17:48:53-main.dgs_con-INFO: Master: Token
+2018.10.18 17:48:53-main.dgs_con-INFO: Connecting Discogs	Query: The Cancel - Daybreak
+2018.10.18 17:48:53-main.dgs_con-DEBUG: no values on output, error: 'metoda_master'
+
+2018.10.18 17:48:54-main.dgs_con-INFO: Master: Variations
+2018.10.18 17:48:54-main.dgs_con-INFO: Connecting Discogs	Query: The Cancel
+2018.10.18 17:48:56-main.dgs_con-WARNING: No variations of <Artist 3514943 'The Cancel'> found - Check LOG
+2018.10.18 17:48:56-main.dgs_con-DEBUG: no values on output, error: 'metoda_master'
+
+2018.10.18 17:48:57-main.dgs_con-INFO: Release: Album
+2018.10.18 17:48:57-main.dgs_con-INFO: Connecting Discogs	Query: Daybreak
+2018.10.18 17:48:59-main.dgs_con-DEBUG: there is more than one artist in current release
+2018.10.18 17:48:59-main.dgs_con-INFO: Comparing <Artist 17743 'Paul Hardcastle'> - Daybreak to The Cancel - Daybreak
+2018.10.18 17:49:00-main.dgs_con-INFO: Comparing <Artist 325981 'Daso'> - Daybreak to The Cancel - Daybreak
+2018.10.18 17:49:01-main.dgs_con-INFO: Comparing <Artist 157870 'Daybreak (2)'> - Daybreak to The Cancel - Daybreak
+2018.10.18 17:49:02-main.dgs_con-INFO: Comparing <Artist 5279191 'Daybreak (25)'> - Daybreak to The Cancel - Daybreak
+2018.10.18 17:49:02-main.dgs_con-INFO: Comparing <Artist 1801406 'The Nassauvians'> - Daybreak to The Cancel - Daybreak
+2018.10.18 17:49:03-main.dgs_con-INFO: Comparing <Artist 371751 'Up Front (2)'> - Daybreak to The Cancel - Daybreak
+2018.10.18 17:49:04-main.dgs_con-INFO: Comparing <Artist 377259 'Saves The Day'> - Daybreak to The Cancel - Daybreak
+2018.10.18 17:49:05-main.dgs_con-INFO: Comparing <Artist 4020111 'Group Meeting'> - Daybreak to The Cancel - Daybreak
+2018.10.18 17:49:06-main.dgs_con-INFO: Comparing <Artist 194 'Various'> - Daybreak to The Cancel - Daybreak
+2018.10.18 17:49:06-main.dgs_con-INFO: Comparing <Artist 3332803 'Best Of Friends'> - Daybreak to The Cancel - Daybreak
+2018.10.18 17:49:07-main.dgs_con-INFO: Comparing <Artist 1207566 'Chet Baker Trio'> - Daybreak to The Cancel - Daybreak
+2018.10.18 17:49:08-main.dgs_con-INFO: Comparing <Artist 377259 'Saves The Day'> - Daybreak to The Cancel - Daybreak
+2018.10.18 17:49:09-main.dgs_con-DEBUG: there is more than one artist in current release
+2018.10.18 17:49:09-main.dgs_con-INFO: Comparing <Artist 83740 'Eumir Deodato'> - Daybreak to The Cancel - Daybreak
+2018.10.18 17:49:10-main.dgs_con-INFO: Comparing <Artist 3545665 'Epizootic'> - Daybreak to The Cancel - Daybreak
+2018.10.18 17:49:11-main.dgs_con-INFO: Comparing <Artist 2955673 'Joe And Bing'> - Daybreak to The Cancel - Daybreak
+2018.10.18 17:49:11-main.dgs_con-DEBUG: no values on output, error: 'metoda_release'
+
+2018.10.18 17:49:12-main.dgs_con-INFO: Release: Token
+2018.10.18 17:49:12-main.dgs_con-INFO: Connecting Discogs	Query: The Cancel - Daybreak
+2018.10.18 17:49:13-main.dgs_con-INFO: Comparing Artist 3514943 The Cancel - Daybreak to The Cancel - Daybreak
+2018.10.18 17:49:13-main.dgs_con-DEBUG: no values on output, error: 'metoda_release'
+
+2018.10.18 17:49:14-main.dgs_con-INFO: Finshed querying Discogs, results are: , , , 
+2018.10.18 17:49:16-main.dbase-INFO: Save to DB started
+2018.10.18 17:49:16-main.dbase-INFO: Catalog data inserted successfully
+2018.10.18 17:49:16-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Daybreak\\01 - Apollo.mp3', 'ext': 'mp3', 'album': 'Daybreak', 'artist': 'The Cancel', 'title': 'Apollo', 'date': '2013', 'length': 128, 'bitrate': 320}
+2018.10.18 17:49:16-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Daybreak\\02 - I Need You.mp3', 'ext': 'mp3', 'album': 'Daybreak', 'artist': 'The Cancel', 'title': 'I Need You', 'date': '2013', 'length': 133, 'bitrate': 320}
+2018.10.18 17:49:16-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Daybreak\\03 - Evening.mp3', 'ext': 'mp3', 'album': 'Daybreak', 'artist': 'The Cancel', 'title': 'Evening', 'date': '2013', 'length': 128, 'bitrate': 320}
+2018.10.18 17:49:16-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Daybreak\\04 - Keep Me.mp3', 'ext': 'mp3', 'album': 'Daybreak', 'artist': 'The Cancel', 'title': 'Keep Me', 'date': '2013', 'length': 160, 'bitrate': 320}
+2018.10.18 17:49:16-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Daybreak\\05 - Space Call.mp3', 'ext': 'mp3', 'album': 'Daybreak', 'artist': 'The Cancel', 'title': 'Space Call', 'date': '2013', 'length': 194, 'bitrate': 320}
+2018.10.18 17:49:16-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Daybreak\\06 - Last Days.mp3', 'ext': 'mp3', 'album': 'Daybreak', 'artist': 'The Cancel', 'title': 'Last Days', 'date': '2013', 'length': 146, 'bitrate': 320}
+2018.10.18 17:49:16-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Daybreak\\07 - Everybody.mp3', 'ext': 'mp3', 'album': 'Daybreak', 'artist': 'The Cancel', 'title': 'Everybody', 'date': '2013', 'length': 150, 'bitrate': 320}
+2018.10.18 17:49:16-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Daybreak\\08 - Eternal.mp3', 'ext': 'mp3', 'album': 'Daybreak', 'artist': 'The Cancel', 'title': 'Eternal', 'date': '2013', 'length': 158, 'bitrate': 320}
+2018.10.18 17:49:16-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Daybreak\\09 - Rainy Day.mp3', 'ext': 'mp3', 'album': 'Daybreak', 'artist': 'The Cancel', 'title': 'Rainy Day', 'date': '2013', 'length': 137, 'bitrate': 320}
+2018.10.18 17:49:16-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Daybreak\\10 - Losing You.mp3', 'ext': 'mp3', 'album': 'Daybreak', 'artist': 'The Cancel', 'title': 'Losing You', 'date': '2013', 'length': 136, 'bitrate': 320}
+2018.10.18 17:49:16-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Daybreak\\11 - Better Live.mp3', 'ext': 'mp3', 'album': 'Daybreak', 'artist': 'The Cancel', 'title': 'Better Live', 'date': '2013', 'length': 212, 'bitrate': 320}
+2018.10.18 17:49:16-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Daybreak\\12 - Travel.mp3', 'ext': 'mp3', 'album': 'Daybreak', 'artist': 'The Cancel', 'title': 'Travel', 'date': '2013', 'length': 158, 'bitrate': 320}
+2018.10.18 17:49:16-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Daybreak\\13 - Harmony.mp3', 'ext': 'mp3', 'album': 'Daybreak', 'artist': 'The Cancel', 'title': 'Harmony', 'date': '2013', 'length': 162, 'bitrate': 320}
+2018.10.18 17:49:16-main.dbase-DEBUG: Tries to insert : {'path': "D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Daybreak\\14 - When He's Gone.mp3", 'ext': 'mp3', 'album': 'Daybreak', 'artist': 'The Cancel', 'title': "When He's Gone", 'date': '2013', 'length': 114, 'bitrate': 320}
+2018.10.18 17:49:16-main.dbase-INFO: Catalog data inserted successfully
+2018.10.18 17:49:16-main.dbase-INFO: Data Commited
+
+2018.10.18 17:49:16-main.stocker-INFO: Catalog Crawler starts
+2018.10.18 17:49:16-main.stocker-DEBUG: Files found in catalog : ['01 - Night Intro.mp3', '02 - Old Time.mp3', '03 - Love Is.mp3', '04 - Together.mp3', '05 - Go Slowly.mp3', '06 - Light.mp3', '07 - Feel Love.mp3', '08 - Melody.mp3', '09 - Urban.mp3', '10 - This Day.mp3', '11 - Night Interlude.mp3', '12 - Tonight.mp3', '13 - Tear.mp3', '14 - Records.mp3', '15 - O.N.E.mp3', '16 - Night Outro.mp3', 'cover.jpg']
+2018.10.18 17:49:16-main.stocker-INFO: Starting loop through files
+
+2018.10.18 17:49:16-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Night Light\01 - Night Intro.mp3
+2018.10.18 17:49:17-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:17-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:17-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light\\01 - Night Intro.mp3', 'ext': 'mp3', 'album': 'Night Light', 'artist': 'The Cancel', 'title': 'Night Intro', 'date': '2013', 'length': 72, 'bitrate': 320}
+
+2018.10.18 17:49:17-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Night Light\02 - Old Time.mp3
+2018.10.18 17:49:17-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:17-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:17-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light\\02 - Old Time.mp3', 'ext': 'mp3', 'album': 'Night Light', 'artist': 'The Cancel', 'title': 'Old Time', 'date': '2013', 'length': 192, 'bitrate': 320}
+
+2018.10.18 17:49:17-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Night Light\03 - Love Is.mp3
+2018.10.18 17:49:17-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:17-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:17-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light\\03 - Love Is.mp3', 'ext': 'mp3', 'album': 'Night Light', 'artist': 'The Cancel', 'title': 'Love Is', 'date': '2013', 'length': 163, 'bitrate': 320}
+
+2018.10.18 17:49:17-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Night Light\04 - Together.mp3
+2018.10.18 17:49:17-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:17-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:17-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light\\04 - Together.mp3', 'ext': 'mp3', 'album': 'Night Light', 'artist': 'The Cancel', 'title': 'Together', 'date': '2013', 'length': 148, 'bitrate': 320}
+
+2018.10.18 17:49:17-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Night Light\05 - Go Slowly.mp3
+2018.10.18 17:49:18-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:18-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:18-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light\\05 - Go Slowly.mp3', 'ext': 'mp3', 'album': 'Night Light', 'artist': 'The Cancel', 'title': 'Go Slowly', 'date': '2013', 'length': 158, 'bitrate': 320}
+
+2018.10.18 17:49:18-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Night Light\06 - Light.mp3
+2018.10.18 17:49:18-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:18-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:18-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light\\06 - Light.mp3', 'ext': 'mp3', 'album': 'Night Light', 'artist': 'The Cancel', 'title': 'Light', 'date': '2013', 'length': 125, 'bitrate': 320}
+
+2018.10.18 17:49:18-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Night Light\07 - Feel Love.mp3
+2018.10.18 17:49:18-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:18-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:18-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light\\07 - Feel Love.mp3', 'ext': 'mp3', 'album': 'Night Light', 'artist': 'The Cancel', 'title': 'Feel Love', 'date': '2013', 'length': 180, 'bitrate': 320}
+
+2018.10.18 17:49:18-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Night Light\08 - Melody.mp3
+2018.10.18 17:49:18-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:18-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:18-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light\\08 - Melody.mp3', 'ext': 'mp3', 'album': 'Night Light', 'artist': 'The Cancel', 'title': 'Melody', 'date': '2013', 'length': 135, 'bitrate': 320}
+
+2018.10.18 17:49:18-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Night Light\09 - Urban.mp3
+2018.10.18 17:49:19-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:19-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:19-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light\\09 - Urban.mp3', 'ext': 'mp3', 'album': 'Night Light', 'artist': 'The Cancel', 'title': 'Urban', 'date': '2013', 'length': 182, 'bitrate': 320}
+
+2018.10.18 17:49:19-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Night Light\10 - This Day.mp3
+2018.10.18 17:49:19-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:19-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:19-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light\\10 - This Day.mp3', 'ext': 'mp3', 'album': 'Night Light', 'artist': 'The Cancel', 'title': 'This Day', 'date': '2013', 'length': 198, 'bitrate': 320}
+
+2018.10.18 17:49:19-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Night Light\11 - Night Interlude.mp3
+2018.10.18 17:49:19-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:19-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:19-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light\\11 - Night Interlude.mp3', 'ext': 'mp3', 'album': 'Night Light', 'artist': 'The Cancel', 'title': 'Night Interlude', 'date': '2013', 'length': 64, 'bitrate': 320}
+
+2018.10.18 17:49:19-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Night Light\12 - Tonight.mp3
+2018.10.18 17:49:19-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:19-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:19-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light\\12 - Tonight.mp3', 'ext': 'mp3', 'album': 'Night Light', 'artist': 'The Cancel', 'title': 'Tonight', 'date': '2013', 'length': 120, 'bitrate': 320}
+
+2018.10.18 17:49:19-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Night Light\13 - Tear.mp3
+2018.10.18 17:49:20-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:20-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:20-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light\\13 - Tear.mp3', 'ext': 'mp3', 'album': 'Night Light', 'artist': 'The Cancel', 'title': 'Tear', 'date': '2013', 'length': 158, 'bitrate': 320}
+
+2018.10.18 17:49:20-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Night Light\14 - Records.mp3
+2018.10.18 17:49:20-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:20-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:20-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light\\14 - Records.mp3', 'ext': 'mp3', 'album': 'Night Light', 'artist': 'The Cancel', 'title': 'Records', 'date': '2013', 'length': 138, 'bitrate': 320}
+
+2018.10.18 17:49:20-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Night Light\15 - O.N.E.mp3
+2018.10.18 17:49:20-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:20-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:20-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light\\15 - O.N.E.mp3', 'ext': 'mp3', 'album': 'Night Light', 'artist': 'The Cancel', 'title': 'O.N.E', 'date': '2013', 'length': 178, 'bitrate': 320}
+
+2018.10.18 17:49:20-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Night Light\16 - Night Outro.mp3
+2018.10.18 17:49:20-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:20-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:20-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light\\16 - Night Outro.mp3', 'ext': 'mp3', 'album': 'Night Light', 'artist': 'The Cancel', 'title': 'Night Outro', 'date': '2013', 'length': 201, 'bitrate': 320}
+
+2018.10.18 17:49:20-main.stocker-INFO: 
+
+2018.10.18 17:49:20-main.stocker-INFO: Loop through files ends succesfully
+
+2018.10.18 17:49:20-main.stocker-INFO: Determine Catalog Attributes function starts
+
+2018.10.18 17:49:20-main.stocker-DEBUG: Tries to guess Album name
+2018.10.18 17:49:20-main.stocker-DEBUG: Found 1 proposition(s) : ['Night Light']
+2018.10.18 17:49:20-main.stocker-DEBUG: Album found : Night Light
+2018.10.18 17:49:20-main.stocker-DEBUG: Tries to guess Artist name
+2018.10.18 17:49:20-main.stocker-DEBUG: Found 1 proposition(s) : ['The Cancel']
+2018.10.18 17:49:20-main.stocker-DEBUG: Artist found : The Cancel
+2018.10.18 17:49:20-main.stocker-DEBUG: Tries to guess date of album
+2018.10.18 17:49:20-main.stocker-DEBUG: Date recognized : 2013
+2018.10.18 17:49:20-main.stocker-DEBUG: Computing average bitrate of files
+2018.10.18 17:49:20-main.stocker-DEBUG: Computing total length of files
+2018.10.18 17:49:20-main.stocker-INFO: reckognized Catalog Attributes:
+Artist: The Cancel        
+Album: Night Light
+Date: 2013
+AvgBitrate: 320.0
+CatalogSym        
+Total Tracks: 16
+Total Length: 0:40:12
+
+
+2018.10.18 17:49:20-main.stocker-DEBUG: returns {'album': 'Night Light', 'artist': 'The Cancel', 'date': '2013', 'avg_bitrate': 320.0, 'total_length': 2412, 'catalog_mark': '', 'ext': 'mp3', 'total_tracks': 16, 'img_count': 1, 'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light', 'comment': ''}
+2018.10.18 17:49:20-main.stocker-INFO: Catalog Crawler ends,
+
+2018.10.18 17:49:20-main.dgs_con-INFO: Query Discogs Func started
+2018.10.18 17:49:20-main.dgs_con-INFO: Working on D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2013 - Night Light
+2018.10.18 17:49:20-main.dgs_con-INFO: Master: Album
+2018.10.18 17:49:20-main.dgs_con-INFO: Connecting Discogs	Query: Night Light
+2018.10.18 17:49:22-main.dgs_con-INFO: Comparing The Brothers Johnson* - Light Up The Night to The Cancel - Night Light
+2018.10.18 17:49:22-main.dgs_con-INFO: Comparing Brothers Johnson, The* - Light Up The Night to The Cancel - Night Light
+2018.10.18 17:49:22-main.dgs_con-INFO: Comparing Au Revoir Simone - Still Night, Still Light to The Cancel - Night Light
+2018.10.18 17:49:22-main.dgs_con-INFO: Comparing Ginormous - At Night, Under Artificial Light to The Cancel - Night Light
+2018.10.18 17:49:22-main.dgs_con-INFO: Comparing Various - Night Light EP to The Cancel - Night Light
+2018.10.18 17:49:22-main.dgs_con-INFO: Comparing Electric Light Orchestra - The Night The Light Went On In Long Beach to The Cancel - Night Light
+2018.10.18 17:49:22-main.dgs_con-INFO: Comparing Gerry Mulligan - Night Lights to The Cancel - Night Light
+2018.10.18 17:49:22-main.dgs_con-INFO: Comparing Clear Light (2) - Clear Light to The Cancel - Night Light
+2018.10.18 17:49:22-main.dgs_con-INFO: Comparing Au Revoir Simone - Night Light to The Cancel - Night Light
+2018.10.18 17:49:22-main.dgs_con-INFO: Comparing Hermitude - Dark Night Sweet Light to The Cancel - Night Light
+2018.10.18 17:49:22-main.dgs_con-INFO: Comparing Electric Light Orchestra - The Electric Light Orchestra to The Cancel - Night Light
+2018.10.18 17:49:22-main.dgs_con-INFO: Comparing The Beat Broker - Light Up The Night to The Cancel - Night Light
+2018.10.18 17:49:22-main.dgs_con-INFO: Comparing The 2nd Chapter Of Acts* - Night Light to The Cancel - Night Light
+2018.10.18 17:49:22-main.dgs_con-INFO: Comparing Four Tops - Night Lights Harmony to The Cancel - Night Light
+2018.10.18 17:49:22-main.dgs_con-INFO: Comparing Ghost Truck - The Light Of The Night to The Cancel - Night Light
+2018.10.18 17:49:22-main.dgs_con-INFO: Comparing The Cancel - Night Light to The Cancel - Night Light
+2018.10.18 17:49:22-main.dgs_con-INFO: Found ID : 1223710 by a Album method
+
+2018.10.18 17:49:22-main.dgs_con-DEBUG: values on output: Album, 1223710
+
+2018.10.18 17:49:23-main.dgs_con-INFO: Release: Album
+2018.10.18 17:49:23-main.dgs_con-INFO: Connecting Discogs	Query: Night Light
+2018.10.18 17:49:25-main.dgs_con-INFO: Comparing <Artist 88606 'Brothers Johnson'> - Light Up The Night to The Cancel - Night Light
+2018.10.18 17:49:26-main.dgs_con-INFO: Comparing <Artist 88606 'Brothers Johnson'> - Light Up The Night to The Cancel - Night Light
+2018.10.18 17:49:27-main.dgs_con-INFO: Comparing <Artist 124169 'Peter Mergener & Michael Weisser'> - Night-Light to The Cancel - Night Light
+2018.10.18 17:49:28-main.dgs_con-INFO: Comparing <Artist 168602 'Ginormous'> - At Night, Under Artificial Light to The Cancel - Night Light
+2018.10.18 17:49:29-main.dgs_con-INFO: Comparing <Artist 790581 'Adolfo Rivero'> - Night Light to The Cancel - Night Light
+2018.10.18 17:49:30-main.dgs_con-INFO: Comparing <Artist 194 'Various'> - Night Light EP to The Cancel - Night Light
+2018.10.18 17:49:30-main.dgs_con-INFO: Comparing <Artist 356550 'Au Revoir Simone'> - Still Night, Still Light to The Cancel - Night Light
+2018.10.18 17:49:31-main.dgs_con-INFO: Comparing <Artist 88606 'Brothers Johnson'> - Light Up The Night to The Cancel - Night Light
+2018.10.18 17:49:32-main.dgs_con-INFO: Comparing <Artist 3514943 'The Cancel'> - Night Light to The Cancel - Night Light
+2018.10.18 17:49:33-main.dgs_con-INFO: Comparing <Artist 356550 'Au Revoir Simone'> - Night Light to The Cancel - Night Light
+2018.10.18 17:49:34-main.dgs_con-INFO: Comparing <Artist 88606 'Brothers Johnson'> - Light Up The Night to The Cancel - Night Light
+2018.10.18 17:49:35-main.dgs_con-INFO: Comparing <Artist 147632 'Supernal'> - Light As Night to The Cancel - Night Light
+2018.10.18 17:49:35-main.dgs_con-INFO: Comparing <Artist 169298 'Hermitude'> - Dark Night Sweet Light to The Cancel - Night Light
+2018.10.18 17:49:36-main.dgs_con-INFO: Comparing <Artist 88606 'Brothers Johnson'> - Light Up The Night to The Cancel - Night Light
+2018.10.18 17:49:37-main.dgs_con-INFO: Comparing <Artist 116760 'The Beat Broker'> - Light Up The Night to The Cancel - Night Light
+2018.10.18 17:49:37-main.dgs_con-DEBUG: no values on output, error: 'metoda_release'
+
+2018.10.18 17:49:38-main.dgs_con-INFO: Release: Token
+2018.10.18 17:49:38-main.dgs_con-INFO: Connecting Discogs	Query: The Cancel - Night Light
+2018.10.18 17:49:40-main.dgs_con-INFO: Comparing Artist 3514943 The Cancel - Night Light to The Cancel - Night Light
+2018.10.18 17:49:41-main.dgs_con-INFO: Comparing Artist 3514943 The Cancel - Night Light to The Cancel - Night Light
+2018.10.18 17:49:41-main.dgs_con-INFO: Comparing Artist 194 Various - Snuff Trax For Japan to The Cancel - Night Light
+2018.10.18 17:49:42-main.dgs_con-INFO: Comparing Artist 843362 Ron Jones 2 - Star Trek The Next Generation  The Ron Jones Project Original Television Soundtracks to The Cancel - Night Light
+2018.10.18 17:49:43-main.dgs_con-INFO: Comparing Artist 194 Various - Snuff Trax For Japan to The Cancel - Night Light
+2018.10.18 17:49:44-main.dgs_con-INFO: Comparing Artist 13608 Kylie Minogue - MP3 Collection to The Cancel - Night Light
+2018.10.18 17:49:44-main.dgs_con-DEBUG: no values on output, error: 'metoda_release'
+
+2018.10.18 17:49:45-main.dgs_con-INFO: Finshed querying Discogs, results are: 1223710, Album, , 
+2018.10.18 17:49:47-main.dbase-INFO: Save to DB started
+2018.10.18 17:49:47-main.dbase-INFO: Catalog data inserted successfully
+2018.10.18 17:49:47-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light\\01 - Night Intro.mp3', 'ext': 'mp3', 'album': 'Night Light', 'artist': 'The Cancel', 'title': 'Night Intro', 'date': '2013', 'length': 72, 'bitrate': 320}
+2018.10.18 17:49:47-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light\\02 - Old Time.mp3', 'ext': 'mp3', 'album': 'Night Light', 'artist': 'The Cancel', 'title': 'Old Time', 'date': '2013', 'length': 192, 'bitrate': 320}
+2018.10.18 17:49:47-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light\\03 - Love Is.mp3', 'ext': 'mp3', 'album': 'Night Light', 'artist': 'The Cancel', 'title': 'Love Is', 'date': '2013', 'length': 163, 'bitrate': 320}
+2018.10.18 17:49:47-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light\\04 - Together.mp3', 'ext': 'mp3', 'album': 'Night Light', 'artist': 'The Cancel', 'title': 'Together', 'date': '2013', 'length': 148, 'bitrate': 320}
+2018.10.18 17:49:47-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light\\05 - Go Slowly.mp3', 'ext': 'mp3', 'album': 'Night Light', 'artist': 'The Cancel', 'title': 'Go Slowly', 'date': '2013', 'length': 158, 'bitrate': 320}
+2018.10.18 17:49:47-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light\\06 - Light.mp3', 'ext': 'mp3', 'album': 'Night Light', 'artist': 'The Cancel', 'title': 'Light', 'date': '2013', 'length': 125, 'bitrate': 320}
+2018.10.18 17:49:47-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light\\07 - Feel Love.mp3', 'ext': 'mp3', 'album': 'Night Light', 'artist': 'The Cancel', 'title': 'Feel Love', 'date': '2013', 'length': 180, 'bitrate': 320}
+2018.10.18 17:49:47-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light\\08 - Melody.mp3', 'ext': 'mp3', 'album': 'Night Light', 'artist': 'The Cancel', 'title': 'Melody', 'date': '2013', 'length': 135, 'bitrate': 320}
+2018.10.18 17:49:47-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light\\09 - Urban.mp3', 'ext': 'mp3', 'album': 'Night Light', 'artist': 'The Cancel', 'title': 'Urban', 'date': '2013', 'length': 182, 'bitrate': 320}
+2018.10.18 17:49:47-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light\\10 - This Day.mp3', 'ext': 'mp3', 'album': 'Night Light', 'artist': 'The Cancel', 'title': 'This Day', 'date': '2013', 'length': 198, 'bitrate': 320}
+2018.10.18 17:49:47-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light\\11 - Night Interlude.mp3', 'ext': 'mp3', 'album': 'Night Light', 'artist': 'The Cancel', 'title': 'Night Interlude', 'date': '2013', 'length': 64, 'bitrate': 320}
+2018.10.18 17:49:47-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light\\12 - Tonight.mp3', 'ext': 'mp3', 'album': 'Night Light', 'artist': 'The Cancel', 'title': 'Tonight', 'date': '2013', 'length': 120, 'bitrate': 320}
+2018.10.18 17:49:47-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light\\13 - Tear.mp3', 'ext': 'mp3', 'album': 'Night Light', 'artist': 'The Cancel', 'title': 'Tear', 'date': '2013', 'length': 158, 'bitrate': 320}
+2018.10.18 17:49:47-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light\\14 - Records.mp3', 'ext': 'mp3', 'album': 'Night Light', 'artist': 'The Cancel', 'title': 'Records', 'date': '2013', 'length': 138, 'bitrate': 320}
+2018.10.18 17:49:47-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light\\15 - O.N.E.mp3', 'ext': 'mp3', 'album': 'Night Light', 'artist': 'The Cancel', 'title': 'O.N.E', 'date': '2013', 'length': 178, 'bitrate': 320}
+2018.10.18 17:49:47-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2013 - Night Light\\16 - Night Outro.mp3', 'ext': 'mp3', 'album': 'Night Light', 'artist': 'The Cancel', 'title': 'Night Outro', 'date': '2013', 'length': 201, 'bitrate': 320}
+2018.10.18 17:49:47-main.dbase-INFO: Catalog data inserted successfully
+2018.10.18 17:49:47-main.dbase-INFO: Data Commited
+
+2018.10.18 17:49:47-main.stocker-INFO: Catalog Crawler starts
+2018.10.18 17:49:47-main.stocker-DEBUG: Files found in catalog : ['01 - Ghetto.mp3', '02 - Time.mp3', '03 - Hood.mp3', '04 - Street Life.mp3', '05 - Uncontrol.mp3', '06 - Graffiti Is Not A Crime.mp3', '07 - Chase.mp3', '08 - Police Department.mp3', '09 - Fight.mp3', '10 - Crime Interlude.mp3', '11 - Nobody.mp3', '12 - Trouble.mp3', '13 - Another.mp3', '14 - Sexy.mp3', '15 - 5 AM.mp3', '16 - Full Moon.mp3', '17 - Get Down.mp3', '18 - Sliding.mp3', '19 - VHS.mp3', 'cover.jpg']
+2018.10.18 17:49:47-main.stocker-INFO: Starting loop through files
+
+2018.10.18 17:49:47-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Criminal\01 - Ghetto.mp3
+2018.10.18 17:49:47-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:47-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:47-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\01 - Ghetto.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Ghetto', 'date': '2014', 'length': 155, 'bitrate': 320}
+
+2018.10.18 17:49:47-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Criminal\02 - Time.mp3
+2018.10.18 17:49:48-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:48-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:48-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\02 - Time.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Time', 'date': '2014', 'length': 144, 'bitrate': 320}
+
+2018.10.18 17:49:48-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Criminal\03 - Hood.mp3
+2018.10.18 17:49:48-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:48-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:48-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\03 - Hood.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Hood', 'date': '2014', 'length': 152, 'bitrate': 320}
+
+2018.10.18 17:49:48-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Criminal\04 - Street Life.mp3
+2018.10.18 17:49:48-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:48-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:48-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\04 - Street Life.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Street Life', 'date': '2014', 'length': 155, 'bitrate': 320}
+
+2018.10.18 17:49:48-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Criminal\05 - Uncontrol.mp3
+2018.10.18 17:49:48-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:48-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:48-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\05 - Uncontrol.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Uncontrol', 'date': '2014', 'length': 163, 'bitrate': 320}
+
+2018.10.18 17:49:48-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Criminal\06 - Graffiti Is Not A Crime.mp3
+2018.10.18 17:49:48-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:48-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:48-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\06 - Graffiti Is Not A Crime.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Graffiti Is Not A Crime', 'date': '2014', 'length': 135, 'bitrate': 320}
+
+2018.10.18 17:49:48-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Criminal\07 - Chase.mp3
+2018.10.18 17:49:49-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:49-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:49-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\07 - Chase.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Chase', 'date': '2014', 'length': 169, 'bitrate': 320}
+
+2018.10.18 17:49:49-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Criminal\08 - Police Department.mp3
+2018.10.18 17:49:49-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:49-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:49-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\08 - Police Department.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Police Department', 'date': '2014', 'length': 163, 'bitrate': 320}
+
+2018.10.18 17:49:49-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Criminal\09 - Fight.mp3
+2018.10.18 17:49:49-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:49-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:49-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\09 - Fight.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Fight', 'date': '2014', 'length': 152, 'bitrate': 320}
+
+2018.10.18 17:49:49-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Criminal\10 - Crime Interlude.mp3
+2018.10.18 17:49:49-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:49-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:49-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\10 - Crime Interlude.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Crime Interlude', 'date': '2014', 'length': 72, 'bitrate': 320}
+
+2018.10.18 17:49:49-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Criminal\11 - Nobody.mp3
+2018.10.18 17:49:49-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:49-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:49-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\11 - Nobody.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Nobody', 'date': '2014', 'length': 122, 'bitrate': 320}
+
+2018.10.18 17:49:49-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Criminal\12 - Trouble.mp3
+2018.10.18 17:49:50-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:50-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:50-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\12 - Trouble.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Trouble', 'date': '2014', 'length': 163, 'bitrate': 320}
+
+2018.10.18 17:49:50-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Criminal\13 - Another.mp3
+2018.10.18 17:49:50-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:50-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:50-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\13 - Another.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Another', 'date': '2014', 'length': 105, 'bitrate': 320}
+
+2018.10.18 17:49:50-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Criminal\14 - Sexy.mp3
+2018.10.18 17:49:50-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:50-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:50-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\14 - Sexy.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Sexy', 'date': '2014', 'length': 156, 'bitrate': 320}
+
+2018.10.18 17:49:50-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Criminal\15 - 5 AM.mp3
+2018.10.18 17:49:50-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:50-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:50-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\15 - 5 AM.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': '5 AM', 'date': '2014', 'length': 117, 'bitrate': 320}
+
+2018.10.18 17:49:50-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Criminal\16 - Full Moon.mp3
+2018.10.18 17:49:51-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:51-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:51-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\16 - Full Moon.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Full Moon', 'date': '2014', 'length': 180, 'bitrate': 320}
+
+2018.10.18 17:49:51-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Criminal\17 - Get Down.mp3
+2018.10.18 17:49:51-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:51-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:51-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\17 - Get Down.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Get Down', 'date': '2014', 'length': 163, 'bitrate': 320}
+
+2018.10.18 17:49:51-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Criminal\18 - Sliding.mp3
+2018.10.18 17:49:51-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:51-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:51-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\18 - Sliding.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Sliding', 'date': '2014', 'length': 126, 'bitrate': 320}
+
+2018.10.18 17:49:51-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Criminal\19 - VHS.mp3
+2018.10.18 17:49:51-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:49:51-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:49:51-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\19 - VHS.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'VHS', 'date': '2014', 'length': 174, 'bitrate': 320}
+
+2018.10.18 17:49:51-main.stocker-INFO: 
+
+2018.10.18 17:49:51-main.stocker-INFO: Loop through files ends succesfully
+
+2018.10.18 17:49:51-main.stocker-INFO: Determine Catalog Attributes function starts
+
+2018.10.18 17:49:51-main.stocker-DEBUG: Tries to guess Album name
+2018.10.18 17:49:51-main.stocker-DEBUG: Found 1 proposition(s) : ['Criminal']
+2018.10.18 17:49:51-main.stocker-DEBUG: Album found : Criminal
+2018.10.18 17:49:51-main.stocker-DEBUG: Tries to guess Artist name
+2018.10.18 17:49:51-main.stocker-DEBUG: Found 1 proposition(s) : ['The Cancel']
+2018.10.18 17:49:51-main.stocker-DEBUG: Artist found : The Cancel
+2018.10.18 17:49:51-main.stocker-DEBUG: Tries to guess date of album
+2018.10.18 17:49:51-main.stocker-DEBUG: Date recognized : 2014
+2018.10.18 17:49:51-main.stocker-DEBUG: Computing average bitrate of files
+2018.10.18 17:49:51-main.stocker-DEBUG: Computing total length of files
+2018.10.18 17:49:51-main.stocker-INFO: reckognized Catalog Attributes:
+Artist: The Cancel        
+Album: Criminal
+Date: 2014
+AvgBitrate: 320.0
+CatalogSym        
+Total Tracks: 19
+Total Length: 0:46:06
+
+
+2018.10.18 17:49:51-main.stocker-DEBUG: returns {'album': 'Criminal', 'artist': 'The Cancel', 'date': '2014', 'avg_bitrate': 320.0, 'total_length': 2766, 'catalog_mark': '', 'ext': 'mp3', 'total_tracks': 19, 'img_count': 1, 'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal', 'comment': ''}
+2018.10.18 17:49:51-main.stocker-INFO: Catalog Crawler ends,
+
+2018.10.18 17:49:51-main.dgs_con-INFO: Query Discogs Func started
+2018.10.18 17:49:51-main.dgs_con-INFO: Working on D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Criminal
+2018.10.18 17:49:51-main.dgs_con-INFO: Master: Album
+2018.10.18 17:49:51-main.dgs_con-INFO: Connecting Discogs	Query: Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Scientifik - Criminal to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Boogie Down Productions - Criminal Minded to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing The Soft Moon - Criminal to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing The Criminal Minds - The Criminal to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Tommyknocker - Criminal to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Michael Jackson - Smooth Criminal (Extended Dance Mix) to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Fiona Apple - Criminal to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Automanic* and Person Unknown - Criminal to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Criminal Damage (3) - Criminal Damage to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Alien Ant Farm - Smooth Criminal to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Manfred Mann's Earth Band With Chris Thompson - Criminal Tango to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Rick Wakeman - Rick Wakeman's Criminal Record to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Public Enemy - Hazy Shade Of Criminal to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Lexis - Criminal Elements / Hypnotise to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Britney Spears - Criminal (Remixes) to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing J.T.C.* - Sonic Criminal to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Adam F - Criminal Active to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing DNA (20) - Bronx Criminal County to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing T.N.T. - Criminal Mind to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Head Trip - I Mean A... (Like A Criminal) to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Criminal Element (2) - Career Criminal to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing The Execute - Criminal Flowers to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Continuous Mode - Criminal Funk to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Brigada Criminal - Brigada Criminal to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Fun Lovin' Criminals - The Fun Lovin' Criminal to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Various - µ Allstars to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing D*Note - Criminal Justice to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing The Old Firm Casuals - Born Criminal to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing D*Note - Criminal Justice to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Lightning Raiders - Criminal World to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Gowan - A Criminal Mind to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Various - Tru Criminal Records EP to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Metro (6) - Criminal World  to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing The Slackers - International War Criminal to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Joneses - Criminal History to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Leo Laker - Criminal Mind to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Violent Arrest - Criminal Record to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Nyctophobic - War Criminal Views to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing The Microphone Prince - Smooth Criminal to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Adam X - Criminal Mischief EP to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Hooligan (5) - Criminal Damage to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing The Icepick - Phenomenal Criminal to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Criminal Intent - Criminal Intent to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Criminal Element (2) - Criminal Crime Time to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing M.C. Pooh* - Life Of A Criminal to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Epilepsy (2) - Criminal Trance to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing F.U.B.A.R. (2) - Justification Of Criminal Behaviour to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Criminal Class - Blood On The Streets (The Criminal Class Oi! Collection) to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Wild Horses - Criminal Tendencies to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-INFO: Comparing Hot Gossip - Criminal World to The Cancel - Criminal
+2018.10.18 17:49:53-main.dgs_con-DEBUG: no values on output, error: 'metoda_master'
+
+2018.10.18 17:49:54-main.dgs_con-INFO: Master: Token
+2018.10.18 17:49:54-main.dgs_con-INFO: Connecting Discogs	Query: The Cancel - Criminal
+2018.10.18 17:49:55-main.dgs_con-DEBUG: no values on output, error: 'metoda_master'
+
+2018.10.18 17:49:56-main.dgs_con-INFO: Master: Variations
+2018.10.18 17:49:56-main.dgs_con-INFO: Connecting Discogs	Query: The Cancel
+2018.10.18 17:49:58-main.dgs_con-WARNING: No variations of <Artist 3514943 'The Cancel'> found - Check LOG
+2018.10.18 17:49:58-main.dgs_con-DEBUG: no values on output, error: 'metoda_master'
+
+2018.10.18 17:49:59-main.dgs_con-INFO: Release: Album
+2018.10.18 17:49:59-main.dgs_con-INFO: Connecting Discogs	Query: Criminal
+2018.10.18 17:50:00-main.dgs_con-INFO: Comparing <Artist 194742 'Scientifik'> - Criminal to The Cancel - Criminal
+2018.10.18 17:50:01-main.dgs_con-INFO: Comparing <Artist 20226 'Tommyknocker'> - Criminal to The Cancel - Criminal
+2018.10.18 17:50:02-main.dgs_con-INFO: Comparing <Artist 137627 'The Criminal Minds'> - The Criminal to The Cancel - Criminal
+2018.10.18 17:50:03-main.dgs_con-DEBUG: there is more than one artist in current release
+2018.10.18 17:50:03-main.dgs_con-INFO: Comparing <Artist 54405 'Automanic Josh'> - Criminal to The Cancel - Criminal
+2018.10.18 17:50:04-main.dgs_con-INFO: Comparing <Artist 255740 'Fiona Apple'> - Criminal to The Cancel - Criminal
+2018.10.18 17:50:05-main.dgs_con-INFO: Comparing <Artist 194742 'Scientifik'> - Criminal to The Cancel - Criminal
+2018.10.18 17:50:05-main.dgs_con-INFO: Comparing <Artist 15885 'Michael Jackson'> - Smooth Criminal to The Cancel - Criminal
+2018.10.18 17:50:06-main.dgs_con-INFO: Comparing <Artist 1775650 'The Soft Moon'> - Criminal to The Cancel - Criminal
+2018.10.18 17:50:07-main.dgs_con-INFO: Comparing <Artist 1123932 'Criminal Damage (3)'> - Criminal Damage to The Cancel - Criminal
+2018.10.18 17:50:08-main.dgs_con-INFO: Comparing <Artist 1775650 'The Soft Moon'> - Criminal to The Cancel - Criminal
+2018.10.18 17:50:09-main.dgs_con-INFO: Comparing <Artist 194742 'Scientifik'> - Criminal to The Cancel - Criminal
+2018.10.18 17:50:10-main.dgs_con-INFO: Comparing <Artist 15885 'Michael Jackson'> - Smooth Criminal to The Cancel - Criminal
+2018.10.18 17:50:10-main.dgs_con-INFO: Comparing <Artist 17101 'Boogie Down Productions'> - Criminal Minded to The Cancel - Criminal
+2018.10.18 17:50:11-main.dgs_con-INFO: Comparing <Artist 17101 'Boogie Down Productions'> - Criminal Minded to The Cancel - Criminal
+2018.10.18 17:50:12-main.dgs_con-INFO: Comparing <Artist 1775650 'The Soft Moon'> - Criminal to The Cancel - Criminal
+2018.10.18 17:50:12-main.dgs_con-DEBUG: no values on output, error: 'metoda_release'
+
+2018.10.18 17:50:13-main.dgs_con-INFO: Release: Token
+2018.10.18 17:50:13-main.dgs_con-INFO: Connecting Discogs	Query: The Cancel - Criminal
+2018.10.18 17:50:15-main.dgs_con-INFO: Comparing Artist 3514943 The Cancel - Criminal to The Cancel - Criminal
+2018.10.18 17:50:15-main.dgs_con-DEBUG: no values on output, error: 'metoda_release'
+
+2018.10.18 17:50:16-main.dgs_con-INFO: Finshed querying Discogs, results are: , , , 
+2018.10.18 17:50:18-main.dbase-INFO: Save to DB started
+2018.10.18 17:50:18-main.dbase-INFO: Catalog data inserted successfully
+2018.10.18 17:50:18-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\01 - Ghetto.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Ghetto', 'date': '2014', 'length': 155, 'bitrate': 320}
+2018.10.18 17:50:18-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\02 - Time.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Time', 'date': '2014', 'length': 144, 'bitrate': 320}
+2018.10.18 17:50:18-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\03 - Hood.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Hood', 'date': '2014', 'length': 152, 'bitrate': 320}
+2018.10.18 17:50:18-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\04 - Street Life.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Street Life', 'date': '2014', 'length': 155, 'bitrate': 320}
+2018.10.18 17:50:18-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\05 - Uncontrol.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Uncontrol', 'date': '2014', 'length': 163, 'bitrate': 320}
+2018.10.18 17:50:18-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\06 - Graffiti Is Not A Crime.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Graffiti Is Not A Crime', 'date': '2014', 'length': 135, 'bitrate': 320}
+2018.10.18 17:50:18-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\07 - Chase.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Chase', 'date': '2014', 'length': 169, 'bitrate': 320}
+2018.10.18 17:50:18-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\08 - Police Department.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Police Department', 'date': '2014', 'length': 163, 'bitrate': 320}
+2018.10.18 17:50:18-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\09 - Fight.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Fight', 'date': '2014', 'length': 152, 'bitrate': 320}
+2018.10.18 17:50:18-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\10 - Crime Interlude.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Crime Interlude', 'date': '2014', 'length': 72, 'bitrate': 320}
+2018.10.18 17:50:18-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\11 - Nobody.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Nobody', 'date': '2014', 'length': 122, 'bitrate': 320}
+2018.10.18 17:50:18-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\12 - Trouble.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Trouble', 'date': '2014', 'length': 163, 'bitrate': 320}
+2018.10.18 17:50:18-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\13 - Another.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Another', 'date': '2014', 'length': 105, 'bitrate': 320}
+2018.10.18 17:50:18-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\14 - Sexy.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Sexy', 'date': '2014', 'length': 156, 'bitrate': 320}
+2018.10.18 17:50:18-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\15 - 5 AM.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': '5 AM', 'date': '2014', 'length': 117, 'bitrate': 320}
+2018.10.18 17:50:18-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\16 - Full Moon.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Full Moon', 'date': '2014', 'length': 180, 'bitrate': 320}
+2018.10.18 17:50:18-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\17 - Get Down.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Get Down', 'date': '2014', 'length': 163, 'bitrate': 320}
+2018.10.18 17:50:18-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\18 - Sliding.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'Sliding', 'date': '2014', 'length': 126, 'bitrate': 320}
+2018.10.18 17:50:18-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Criminal\\19 - VHS.mp3', 'ext': 'mp3', 'album': 'Criminal', 'artist': 'The Cancel', 'title': 'VHS', 'date': '2014', 'length': 174, 'bitrate': 320}
+2018.10.18 17:50:18-main.dbase-INFO: Catalog data inserted successfully
+2018.10.18 17:50:18-main.dbase-INFO: Data Commited
+
+2018.10.18 17:50:18-main.stocker-INFO: Catalog Crawler starts
+2018.10.18 17:50:18-main.stocker-DEBUG: Files found in catalog : ['01 - 0 Degrees.mp3', '02 - Вокзали (feat. Сашко Положинський, Іра Швайдак).mp3', '03 - Молоко.mp3', '04 - Правда (ft. Антон Чілібі).mp3', '05 - Радіо.mp3', '06 - 180 degrees.mp3', '07 - Розряди.mp3', '08 - Аеростат.mp3', '09 - Peace (ft. Drud).mp3', '10 - Голод (ft. Shon).mp3', '11 - 360 degrees.mp3', 'cover.jpg']
+2018.10.18 17:50:18-main.stocker-INFO: Starting loop through files
+
+2018.10.18 17:50:18-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Panorama\01 - 0 Degrees.mp3
+2018.10.18 17:50:18-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:50:18-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:50:18-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Panorama\\01 - 0 Degrees.mp3', 'ext': 'mp3', 'album': 'Panorama', 'artist': 'Alexjazz & The Cancel', 'title': '0 Degrees', 'date': '2014', 'length': 128, 'bitrate': 320}
+
+2018.10.18 17:50:18-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Panorama\02 - Вокзали (feat. Сашко Положинський, Іра Швайдак).mp3
+2018.10.18 17:50:18-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:50:18-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:50:18-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Panorama\\02 - Вокзали (feat. Сашко Положинський, Іра Швайдак).mp3', 'ext': 'mp3', 'album': 'Panorama', 'artist': 'Alexjazz & The Cancel', 'title': 'Вокзали (feat. Сашко Положинський, Іра Швайдак)', 'date': '2014', 'length': 216, 'bitrate': 320}
+
+2018.10.18 17:50:18-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Panorama\03 - Молоко.mp3
+2018.10.18 17:50:19-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:50:19-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:50:19-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Panorama\\03 - Молоко.mp3', 'ext': 'mp3', 'album': 'Panorama', 'artist': 'Alexjazz & The Cancel', 'title': 'Молоко', 'date': '2014', 'length': 177, 'bitrate': 320}
+
+2018.10.18 17:50:19-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Panorama\04 - Правда (ft. Антон Чілібі).mp3
+2018.10.18 17:50:19-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:50:19-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:50:19-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Panorama\\04 - Правда (ft. Антон Чілібі).mp3', 'ext': 'mp3', 'album': 'Panorama', 'artist': 'Alexjazz & The Cancel', 'title': 'Правда (ft. Антон Чілібі)', 'date': '2014', 'length': 182, 'bitrate': 320}
+
+2018.10.18 17:50:19-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Panorama\05 - Радіо.mp3
+2018.10.18 17:50:19-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:50:19-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:50:19-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Panorama\\05 - Радіо.mp3', 'ext': 'mp3', 'album': 'Panorama', 'artist': 'Alexjazz & The Cancel', 'title': 'Радіо', 'date': '2014', 'length': 186, 'bitrate': 320}
+
+2018.10.18 17:50:19-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Panorama\06 - 180 degrees.mp3
+2018.10.18 17:50:19-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:50:19-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:50:19-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Panorama\\06 - 180 degrees.mp3', 'ext': 'mp3', 'album': 'Panorama', 'artist': 'Alexjazz & The Cancel', 'title': '180 degrees', 'date': '2014', 'length': 136, 'bitrate': 320}
+
+2018.10.18 17:50:19-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Panorama\07 - Розряди.mp3
+2018.10.18 17:50:20-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:50:20-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:50:20-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Panorama\\07 - Розряди.mp3', 'ext': 'mp3', 'album': 'Panorama', 'artist': 'Alexjazz & The Cancel', 'title': 'Розряди', 'date': '2014', 'length': 207, 'bitrate': 320}
+
+2018.10.18 17:50:20-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Panorama\08 - Аеростат.mp3
+2018.10.18 17:50:20-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:50:20-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:50:20-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Panorama\\08 - Аеростат.mp3', 'ext': 'mp3', 'album': 'Panorama', 'artist': 'Alexjazz & The Cancel', 'title': 'Аеростат', 'date': '2014', 'length': 182, 'bitrate': 320}
+
+2018.10.18 17:50:20-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Panorama\09 - Peace (ft. Drud).mp3
+2018.10.18 17:50:20-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:50:20-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:50:20-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Panorama\\09 - Peace (ft. Drud).mp3', 'ext': 'mp3', 'album': 'Panorama', 'artist': 'Alexjazz & The Cancel', 'title': 'Peace (ft. Drud)', 'date': '2014', 'length': 194, 'bitrate': 320}
+
+2018.10.18 17:50:20-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Panorama\10 - Голод (ft. Shon).mp3
+2018.10.18 17:50:21-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:50:21-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:50:21-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Panorama\\10 - Голод (ft. Shon).mp3', 'ext': 'mp3', 'album': 'Panorama', 'artist': 'Alexjazz & The Cancel', 'title': 'Голод (ft. Shon)', 'date': '2014', 'length': 163, 'bitrate': 320}
+
+2018.10.18 17:50:21-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Panorama\11 - 360 degrees.mp3
+2018.10.18 17:50:21-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:50:21-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:50:21-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Panorama\\11 - 360 degrees.mp3', 'ext': 'mp3', 'album': 'Panorama', 'artist': 'Alexjazz & The Cancel', 'title': '360 degrees', 'date': '2014', 'length': 167, 'bitrate': 320}
+
+2018.10.18 17:50:21-main.stocker-INFO: 
+
+2018.10.18 17:50:21-main.stocker-INFO: Loop through files ends succesfully
+
+2018.10.18 17:50:21-main.stocker-INFO: Determine Catalog Attributes function starts
+
+2018.10.18 17:50:21-main.stocker-DEBUG: Tries to guess Album name
+2018.10.18 17:50:21-main.stocker-DEBUG: Found 1 proposition(s) : ['Panorama']
+2018.10.18 17:50:21-main.stocker-DEBUG: Album found : Panorama
+2018.10.18 17:50:21-main.stocker-DEBUG: Tries to guess Artist name
+2018.10.18 17:50:21-main.stocker-DEBUG: Found 1 proposition(s) : ['Alexjazz & The Cancel']
+2018.10.18 17:50:21-main.stocker-DEBUG: Artist found : Alexjazz & The Cancel
+2018.10.18 17:50:21-main.stocker-DEBUG: Tries to guess date of album
+2018.10.18 17:50:21-main.stocker-DEBUG: Date recognized : 2014
+2018.10.18 17:50:21-main.stocker-DEBUG: Computing average bitrate of files
+2018.10.18 17:50:21-main.stocker-DEBUG: Computing total length of files
+2018.10.18 17:50:21-main.stocker-INFO: reckognized Catalog Attributes:
+Artist: Alexjazz & The Cancel        
+Album: Panorama
+Date: 2014
+AvgBitrate: 320.0
+CatalogSym        
+Total Tracks: 11
+Total Length: 0:32:18
+
+
+2018.10.18 17:50:21-main.stocker-DEBUG: returns {'album': 'Panorama', 'artist': 'Alexjazz & The Cancel', 'date': '2014', 'avg_bitrate': 320.0, 'total_length': 1938, 'catalog_mark': '', 'ext': 'mp3', 'total_tracks': 11, 'img_count': 1, 'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Panorama', 'comment': ''}
+2018.10.18 17:50:21-main.stocker-INFO: Catalog Crawler ends,
+
+2018.10.18 17:50:21-main.dgs_con-INFO: Query Discogs Func started
+2018.10.18 17:50:21-main.dgs_con-INFO: Working on D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Panorama
+2018.10.18 17:50:21-main.dgs_con-INFO: Master: Album
+2018.10.18 17:50:21-main.dgs_con-INFO: Connecting Discogs	Query: Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing The Cars - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Monika Kruse @ Voodooamt - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Tuccillo* - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Braintax - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Electric Birds - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Levon Vincent / Steffi (8) - Panorama Bar 02 | Part II to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Zoinks! - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Laibach - Panorama / Decree to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing La Buena Vida - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Møme - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing The Mole / Dexter / Matthew Styles / Jon McMillion - Panorama Bar 04 to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Thelonious Monk - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Laibach - Panorama / Die Liebe to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Cosmic Rough Riders - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing FCL - It’s You (San Soda's Panorama Bar Acca Version) to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing The Micronaut* - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Various - Panorama Des Musiques Expérimentales to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Cassy - Panorama Bar 01 to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Various - Electronic Panorama: Paris, Tokyo, Utrecht, Warszawa to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Basic Soul Unit / Lerosa - Panorama Bar 02 | Part I to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing A Vision of Panorama - A Vision of Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Dippy Site - Panorama Astratto (Softly Changing) to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Logh - A Sunset Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Tama Sumo - Panorama Bar 02 to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Prosumer - Panorama Bar 03 to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing LA4 (2) & DJ Wich - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Various - Jazz Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Steffi (8) - Panorama Bar 05 to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Satin Jackets - Panorama Pacifico to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Velojet - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Birds & Batteries - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Various - Panorama De Musique Concrète to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing The Nits - The Panorama Man to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Nick Höppner - Panorama Bar 04 to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Various - 2e Panorama De Musique Concrète to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Treponem Pal - Panorama Remixes to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Various - Panorama Électronique: Electronic Experimental Music to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing George Coleman - Manhattan Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Eddy Mitchell - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Chor Und Orchester George Martin (10) - Percussion Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Various - Panorama N° 3 to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Tire Le Coyote - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Duke Ellington And His Famous Orchestra* - A Duke Ellington Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Various - 1er Panorama De Musique Concrète to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Ferrin&Morris* - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing The Kai Winding Septet* - Trombone Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Icone - Panorama EP to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Cala Vento - Fruto Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing Amanaska - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-INFO: Comparing August Engkilde Presents EPO (3) - Electronic Panorama Orchestra to Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:22-main.dgs_con-DEBUG: no values on output, error: 'metoda_master'
+
+2018.10.18 17:50:23-main.dgs_con-INFO: Master: Token
+2018.10.18 17:50:23-main.dgs_con-INFO: Connecting Discogs	Query: Alexjazz & The Cancel - Panorama
+2018.10.18 17:50:24-main.dgs_con-DEBUG: no values on output, error: 'metoda_master'
+
+2018.10.18 17:50:25-main.dgs_con-INFO: Master: Variations
+2018.10.18 17:50:25-main.dgs_con-INFO: Connecting Discogs	Query: Alexjazz & The Cancel

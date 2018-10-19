@@ -21,7 +21,7 @@ ratelimit = config.ratelimit
 refresh_catalogs_list = config.refresh_catalogs_list
 refresh_database = config.refresh_database
 checklist = config.discogs_checklist
-update_ids = config.update_ids:
+update_ids = config.update_ids
 
 log = logging.getLogger()
 log.handlers = []
@@ -78,11 +78,11 @@ if refresh_database:
 
 
 for j in range(STEPS):
-    if not refresh_database:
+    if not refresh_database and not update_ids:
         if dbase.check_if_r_exist(j, cataloglist):
             log.info('Skipped {0} - it exist in DB'.format(j))
             continue
-    if not update_ids
+    if not update_ids: 
         if dbase.check_if_ids_exist(j, cataloglist):
             log.info('Skipped {0} - it contains IDs'.format(j))
             continue
@@ -101,13 +101,15 @@ for j in range(STEPS):
                     'Connecting to Discgos API Skipped, too less data')
                 req_res_c = crawl_res_c
                 for i in checklist:
-                    cat_attrs.get(i, '')
-        except requests.exceptions.ConnectionError as e:
+                    req_res_c[i] = ''
+        except (
+            requests.exceptions.ConnectionError,
+            discogs_client.exceptions.HTTPError) as e:
             dynamic_ratelimit = dynamic_ratelimit**2
             if dynamic_ratelimit > 10600:
                 interrupted = True
                 log.warning(
-                'Check your connection. Closing script')
+                'Check your connection. Closing script {0}'.format(e))
             else:
                 log.warning('{}'.format(e))
                 log.warning(

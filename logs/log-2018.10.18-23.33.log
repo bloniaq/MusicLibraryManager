@@ -1,0 +1,173 @@
+2018.10.18 23:33:46-main-INFO: OS : Windows
+2018.10.18 23:33:46-main.stocker-INFO: catalog_collector Function starts
+2018.10.18 23:33:46-main.stocker-DEBUG: Catalog Cache File founded
+2018.10.18 23:33:46-main.stocker-INFO: catalog_collector found 31435 dirs to check
+
+
+2018.10.18 23:33:46-main-INFO: Skipped 0 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 1 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 2 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 3 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 4 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 5 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 6 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 7 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 8 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 9 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 10 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 11 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 12 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 13 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 14 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 15 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 16 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 17 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 18 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 19 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 20 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 21 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 22 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 23 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 24 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 25 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 26 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 27 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 28 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 29 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 30 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 31 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 32 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 33 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 34 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 35 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 36 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 37 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 38 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 39 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 40 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 41 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 42 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 43 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 44 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 45 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 46 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 47 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 48 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 49 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 50 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 51 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 52 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 53 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 54 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 55 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 56 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 57 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 58 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 59 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 60 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 61 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 62 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 63 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 64 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 65 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 66 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 67 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 68 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 69 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 70 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 71 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 72 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 73 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 74 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 75 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 76 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 77 - it exist in DB
+2018.10.18 23:33:46-main-INFO: Skipped 78 - it exist in DB
+2018.10.18 23:33:46-main.stocker-INFO: Catalog Crawler starts
+2018.10.18 23:33:46-main.stocker-DEBUG: Files found in catalog : ['01. Intro.mp3', '02. With Love On You.mp3', '03. Fatal Morning.mp3', '04. Flying Figh.mp3', '05. For Love.mp3', '06. Relax.mp3', '07. Story.mp3', '08. Mirage.mp3', '09. In Love.mp3', '10 Classic.mp3', 'Мой Допинг.jpg']
+2018.10.18 23:33:46-main.stocker-INFO: Starting loop through files
+
+2018.10.18 23:33:46-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\Дискография Dee Mac 2010-2011\Dee-MAC-Мой допинг(Лирические минуса) - 2010\01. Intro.mp3
+2018.10.18 23:33:46-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 23:33:46-main.stocker-WARNING: Error : 'DATE'
+2018.10.18 23:33:46-main.stocker-INFO: All file attributes collected correct
+2018.10.18 23:33:46-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\Дискография Dee Mac 2010-2011\\Dee-MAC-Мой допинг(Лирические минуса) - 2010\\01. Intro.mp3', 'ext': 'mp3', 'album': 'Мой Допинг', 'artist': 'Prod. by Dee-MAС', 'title': 'Intro', 'date': '', 'length': 77, 'bitrate': 320}
+
+2018.10.18 23:33:46-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\Дискография Dee Mac 2010-2011\Dee-MAC-Мой допинг(Лирические минуса) - 2010\02. With Love On You.mp3
+2018.10.18 23:33:46-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 23:33:46-main.stocker-INFO: All file attributes collected correct
+2018.10.18 23:33:46-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\Дискография Dee Mac 2010-2011\\Dee-MAC-Мой допинг(Лирические минуса) - 2010\\02. With Love On You.mp3', 'ext': 'mp3', 'album': 'Мой Допинг', 'artist': 'Prod. By Dee-MAC', 'title': 'With Love On You', 'date': '2010', 'length': 277, 'bitrate': 320}
+
+2018.10.18 23:33:46-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\Дискография Dee Mac 2010-2011\Dee-MAC-Мой допинг(Лирические минуса) - 2010\03. Fatal Morning.mp3
+2018.10.18 23:33:46-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 23:33:46-main.stocker-WARNING: Error : 'DATE'
+2018.10.18 23:33:46-main.stocker-INFO: All file attributes collected correct
+2018.10.18 23:33:46-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\Дискография Dee Mac 2010-2011\\Dee-MAC-Мой допинг(Лирические минуса) - 2010\\03. Fatal Morning.mp3', 'ext': 'mp3', 'album': 'Мой Допинг', 'artist': 'Prod. By Dee-MAC', 'title': 'Fatal Morning', 'date': '', 'length': 192, 'bitrate': 320}
+
+2018.10.18 23:33:46-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\Дискография Dee Mac 2010-2011\Dee-MAC-Мой допинг(Лирические минуса) - 2010\04. Flying Figh.mp3
+2018.10.18 23:33:46-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 23:33:46-main.stocker-INFO: All file attributes collected correct
+2018.10.18 23:33:46-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\Дискография Dee Mac 2010-2011\\Dee-MAC-Мой допинг(Лирические минуса) - 2010\\04. Flying Figh.mp3', 'ext': 'mp3', 'album': 'Мой Допинг', 'artist': 'Prod. By Dee-MAC', 'title': 'Flying Figh', 'date': '2010', 'length': 262, 'bitrate': 320}
+
+2018.10.18 23:33:46-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\Дискография Dee Mac 2010-2011\Dee-MAC-Мой допинг(Лирические минуса) - 2010\05. For Love.mp3
+2018.10.18 23:33:46-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 23:33:46-main.stocker-INFO: All file attributes collected correct
+2018.10.18 23:33:46-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\Дискография Dee Mac 2010-2011\\Dee-MAC-Мой допинг(Лирические минуса) - 2010\\05. For Love.mp3', 'ext': 'mp3', 'album': 'Мой Допинг', 'artist': 'Prod. By Dee-MAC', 'title': 'For Love', 'date': '2010', 'length': 170, 'bitrate': 256}
+
+2018.10.18 23:33:46-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\Дискография Dee Mac 2010-2011\Dee-MAC-Мой допинг(Лирические минуса) - 2010\06. Relax.mp3
+2018.10.18 23:33:46-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 23:33:46-main.stocker-INFO: All file attributes collected correct
+2018.10.18 23:33:46-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\Дискография Dee Mac 2010-2011\\Dee-MAC-Мой допинг(Лирические минуса) - 2010\\06. Relax.mp3', 'ext': 'mp3', 'album': 'Мой Допинг', 'artist': 'Prod. by Dee-MAC', 'title': 'RelaX', 'date': '2010', 'length': 156, 'bitrate': 320}
+
+2018.10.18 23:33:46-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\Дискография Dee Mac 2010-2011\Dee-MAC-Мой допинг(Лирические минуса) - 2010\07. Story.mp3
+2018.10.18 23:33:46-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 23:33:46-main.stocker-INFO: All file attributes collected correct
+2018.10.18 23:33:46-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\Дискография Dee Mac 2010-2011\\Dee-MAC-Мой допинг(Лирические минуса) - 2010\\07. Story.mp3', 'ext': 'mp3', 'album': 'Мой Допинг', 'artist': 'Prod. by Dee-MAC', 'title': 'Story', 'date': '2010', 'length': 163, 'bitrate': 320}
+
+2018.10.18 23:33:46-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\Дискография Dee Mac 2010-2011\Dee-MAC-Мой допинг(Лирические минуса) - 2010\08. Mirage.mp3
+2018.10.18 23:33:47-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 23:33:47-main.stocker-INFO: All file attributes collected correct
+2018.10.18 23:33:47-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\Дискография Dee Mac 2010-2011\\Dee-MAC-Мой допинг(Лирические минуса) - 2010\\08. Mirage.mp3', 'ext': 'mp3', 'album': 'Мой Допинг', 'artist': 'Prod. by Dee-MAC', 'title': 'Mirage', 'date': '2010', 'length': 274, 'bitrate': 320}
+
+2018.10.18 23:33:47-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\Дискография Dee Mac 2010-2011\Dee-MAC-Мой допинг(Лирические минуса) - 2010\09. In Love.mp3
+2018.10.18 23:33:47-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 23:33:47-main.stocker-INFO: All file attributes collected correct
+2018.10.18 23:33:47-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\Дискография Dee Mac 2010-2011\\Dee-MAC-Мой допинг(Лирические минуса) - 2010\\09. In Love.mp3', 'ext': 'mp3', 'album': 'Мой Допинг', 'artist': 'Prod. by Dee-MAC', 'title': 'In Love', 'date': '2010', 'length': 245, 'bitrate': 320}
+
+2018.10.18 23:33:47-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\Дискография Dee Mac 2010-2011\Dee-MAC-Мой допинг(Лирические минуса) - 2010\10 Classic.mp3
+2018.10.18 23:33:47-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 23:33:47-main.stocker-INFO: All file attributes collected correct
+2018.10.18 23:33:47-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\Дискография Dee Mac 2010-2011\\Dee-MAC-Мой допинг(Лирические минуса) - 2010\\10 Classic.mp3', 'ext': 'mp3', 'album': 'Мой Допинг', 'artist': 'Prod. by Dee-MAC', 'title': 'Classic', 'date': '2010', 'length': 182, 'bitrate': 320}
+
+2018.10.18 23:33:47-main.stocker-INFO: 
+
+2018.10.18 23:33:47-main.stocker-INFO: Loop through files ends succesfully
+
+2018.10.18 23:33:47-main.stocker-INFO: Determine Catalog Attributes function starts
+
+2018.10.18 23:33:47-main.stocker-DEBUG: Tries to guess Album name
+2018.10.18 23:33:47-main.stocker-DEBUG: Found 1 proposition(s) : ['Мой Допинг']
+2018.10.18 23:33:47-main.stocker-DEBUG: Album found : Мой Допинг
+2018.10.18 23:33:47-main.stocker-DEBUG: Tries to guess Artist name
+2018.10.18 23:33:47-main.stocker-DEBUG: Found 3 proposition(s) : ['Prod. by Dee-MAС', 'Prod. By Dee-MAC', 'Prod. by Dee-MAC']
+2018.10.18 23:33:47-main.stocker-DEBUG: Many Artists found in this catalog
+2018.10.18 23:33:47-main.txttools-INFO: Substring Finder Function starts
+2018.10.18 23:33:47-main.txttools-DEBUG: Input : ['Prod. by Dee-MAС', 'Prod. By Dee-MAC', 'Prod. by Dee-MAC']
+
+2018.10.18 23:33:47-main.txttools-DEBUG: find_longest_substring comparing pair: Prod. by Dee-MAС and Prod. By Dee-MAC
+2018.10.18 23:33:47-main.txttools-DEBUG: Selected : y Dee-MA
+2018.10.18 23:33:47-main.txttools-DEBUG: find_longest_substring comparing pair: Prod. By Dee-MAC and Prod. by Dee-MAC
+2018.10.18 23:33:47-main.txttools-DEBUG: Selected : y Dee-MAC
+2018.10.18 23:33:47-main.txttools-INFO: Existing substrings : ['y Dee-MA', 'y Dee-MAC']
+2018.10.18 23:33:47-main.txttools-DEBUG: Checking if y Dee-MA has a substring with all
+2018.10.18 23:33:47-main.txttools-DEBUG: find_longest_substring comparing pair: y Dee-MA and Prod. by Dee-MAС
+2018.10.18 23:33:47-main.txttools-DEBUG: Selected : y Dee-MA
+2018.10.18 23:33:47-main.txttools-DEBUG: find_longest_substring comparing pair: y Dee-MA and Prod. By Dee-MAC
+2018.10.18 23:33:47-main.txttools-DEBUG: Selected : y Dee-MA
+2018.10.18 23:33:47-main.txttools-DEBUG: find_longest_substring comparing pair: y Dee-MA and Prod. by Dee-MAC
+2018.10.18 23:33:47-main.txttools-DEBUG: Selected : y Dee-MA
+2018.10.18 23:33:47-main.txttools-DEBUG: y Dee-MA has a match with all files in dir
+2018.10.18 23:33:47-main.txttools-INFO: ***Connecting Discogs			Query: <y Dee-MA>
+2018.10.18 23:33:48-main.txttools-WARNING: no artist y Dee-MAC found
+2018.10.18 23:33:48-main.txttools-DEBUG: Checking if my match y Dee-MA fits to 
+2018.10.18 23:33:48-main.txttools-DEBUG: Found match : y Dee-MAC, that exists on Discogs

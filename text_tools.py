@@ -1,3 +1,17 @@
+import logging
+import discogs_client
+import time
+from difflib import SequenceMatcher
+
+import config
+
+log = logging.getLogger('main.txttools')
+ratelimit = config.ratelimit
+
+d = discogs_client.Client(
+    'bloniaqsMusicLibraryManager/0.1',
+    user_token="BxpsPOkQpsQzPnUErhoQchKfkTIhGxdnzAHhyybD")
+
 def find_longest_substring(str1, str2):
     '''Getting the longest substring of two inputs strings
     '''

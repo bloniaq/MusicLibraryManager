@@ -1,0 +1,109 @@
+2018.10.18 17:13:59-main-INFO: OS : Windows
+2018.10.18 17:13:59-main.stocker-INFO: catalog_collector Function starts
+2018.10.18 17:13:59-main.stocker-DEBUG: Catalog Cache File founded
+2018.10.18 17:13:59-main.stocker-INFO: catalog_collector found 31435 dirs to check
+
+
+2018.10.18 17:13:59-main.stocker-INFO: Catalog Crawler starts
+2018.10.18 17:14:06-main.stocker-DEBUG: Files found in catalog : ['.0435457190c6a91c58735abe00c79671578c4276.parts', '.88c946955960e78c48dde24a94a4918bbeed0b38.parts', '.d85ab942869b067baa4835897a9c3c761c1a0b02.parts', '.f38e7ced5bbb9249832b8f49a025df7d37f9208a.parts', '00 The Royal Philharmonic Orchestra - Plays ABBA [1992].zip', '01-01-Muse-The_Dark_Side-SMR.flac', '11. Abel Ramos - Aquarius (Randy Katana Rmx).pk', '1975 Biała sowa, biała dama, biały kruk @FLAC.rar', '33 najpopularniejsze piosenki cypisa.rar', 'AlbumArtSmall.jpg', 'AlbumArt_{80E7DD37-C498-4E10-B791-D382121C4119}_Large.jpg', 'AlbumArt_{80E7DD37-C498-4E10-B791-D382121C4119}_Small.jpg', 'AlbumArt_{A00808B8-2006-4140-AEA5-F53EC8755966}_Large.jpg', 'AlbumArt_{A00808B8-2006-4140-AEA5-F53EC8755966}_Small.jpg', 'art.rar', 'az_magia_to_ja_final.mp3', 'Bisz - Piękno I Bestia EP (2017) [VBR].rar', 'Bisz_and_Kosa-Zimy-EP-PL-2007.rar', 'Blackout-1967-Blackout (with Special Bonus)-Scans.rar', 'Blackout-2003-Studnia bez wody (Niepokonani)-NoScans.rar', 'Blackout-2009-Wraca do domu - Krajowy Festiwal Polskiej Piosenki w Opolu 1966.rar', 'Blackout-2014-Gwiazdy polskiego big beatu-Scans.rar', 'Breakout - Za siódmą górą (2016) (KAMCD 42).rar', 'Breakout-1969-Na Drugim Brzegu Teczy-Scans.rar', 'Breakout-1970-70a-Scans.rar', 'Breakout-1971-Blues-Scans.rar', 'Breakout-1971-Mira-Scans.rar', 'Breakout-1972-Karate-Scans.rar', 'Breakout-1974 Kamienie-Scans.rar', 'Breakout-1976-NOL (1976) 2005-Scans.rar', 'Breakout-1979-Zagiel Ziemi-Scans.rar', 'Breakout-1979-ZOL (1979)Scans.rar', 'Breakout-1995-Ballady-NoScans.rar', 'Breakout-2001-Oni zaraz przyjda tu (Zlota Kolekcja)NoScans.rar', 'Breakout-2011-Poszlabym za toba-Scans.rar', 'Bu-Nadgryziony_Zebem_Czasu-PL-2018-WGM.rar', 'Cafe Fogg 2 (bezstratny).rar', 'Desktop.ini', 'DJ Trakmajster - Gzyms (2014).rar', 'Dj Twister - Bangers & The Breaks Megamix.mp3', "DJ_600V_-_Since_'94_(2014)_(album)_[FLAC].zip", 'DJ_600V_and_Jack_the_Ripper-Since_94-PL-2014.rar', 'Dr. Motte & Westbam - Love Parade 2000 (One World One Love Parade).vob', 'Dwa_Slawy-Cos_Przerywa-PL-2018-EMPiK.rar', 'Elemer-Nadejdzie_Na_Swit.rar', 'Elemer_-_Poszlo_W_Biznes-2001.rar', 'FALCON1 & DJ KEBS - ELEMENTARZ.mp3', 'Folder.jpg', 'Funkloopy - Radiofrendli [2009].rar', 'Gedz - 247365 (2018).rar', 'hhir_samples_of_the_year_2014.zip', 'Kali- V8T (2018).rar', 'Karramba-R.V.L._V2.0-PL-2015.rar', 'king floyd groove me.rar', 'Kultowa 500 EskaRock - lista.txt', 'Magiera_-_L.A.__WhiteHouse_-Kodex_5_Elements-2CD-Deluxe_Edition-PL-2014-K1X_INT.rar', 'Mauro Picotto - (2001.02.17) - Trance Energy.mp3', 'Metro - MetroVille MP3v200.zip', 'Mielzky_And_BennCart-Umrzec_W_Super_Butach-PL-2006-WGM.rar', 'Mira Kubasinska & Breakout-1973-Ogien-Scans.rar', 'MoraL-Gano-Przeminelo_Z_Dymem.rar', 'NOON-ALGORYTM-2018-WGM.rar', 'Onar - Czyste buty, brudne serce (2018) ^Rap,Hip Hop^.rar', 'Onar_-_Autodestrukcja_(2014).rar', 'Ortega Cartel - Paskowy Duel (2005).rar', 'Ortega_Cartel-Nic_Sie_Nie_Dzieje-Bootleg-PL-2007.rar', 'Ortega_Cartel-Podziemne_Disco-Bootleg-PL-2006-BZzYK.rar', 'Ortega_Cartel-Zakazany_Owoc-Bootleg-PL-2004.rar', 'Oxon - Ktoś ZupełNie Zwykły (Deluxe Edition).rar', 'Oxon - OneTake Mixtape.rar', 'Parzel-Siodmy-LOT_1.7-PL-2018-WGM.rar', 'Pawbeats-Out-PL-2018-WGM.rar', 'Praktik-Dobra_Czestotliwosc.rar', 'Proceente-Znaki_Zapytania.rar', 'Proceente_-_Moklok_Mixtape_(2015).rar', 'Rappers_Delight_MP3.rar', 'Rufus featuring Chaka Khan - Tell Me Something Good 320cbr (Big Papi Single) 1974 Funk Porn Groove.mp3', 'Slizg.eu - Ostatni mikstejp.zip', 'Smarki Smark - [2005] - Moda na epk (Najebawszy)[320].rar', 'Smarki_Smark-Smarki_Smark_(Blends_by_Menciu2sty)_09-Bootleg_EP-PL-2009.rar', 'Sokolowa-Podlaskiego.pdf', 'Starszy_Fanatycy_Flow_-_Zaraz_Zwariuja_Mixtape.rar', "Tadeusz Nalepa' Blackout-2-1967-Scans.rar", 'Ten_Typ_Mes_-_Rapersampler__2018___album_.rar', 'The Sprout ALPHA.mp3', 'The_Game-Streets_Of_Compton-2016-H3X.rar', 'The_Returners-Nu_Blend_Order_(Mixtape.rar', 'Thumbs.db', 'Tomas More & Troy Pierce ITEMS & THINGS London [23 Dec. 2014].mp3', 'Tomcraft - For The Queen (2007) - Trance [www.torrentazos.com].rar', 'Troy Pierce - Treehouse Miami (28.10.2011) Troy Pierce - Treehouse Miami (28.10.2012).mp3', 'VA - Asfalt Wiosna 2000 EP Asfalt Records  26 kwietnia 2000.rar', 'VA – Asfalt, Wiosna 99 EP  Asfalt Records  23 kwietnia 1999.rar', 'VA-Breakout Festiwal 2007 (2009)-NoScans.rar', 'VA-Hip-Hopowy_Raport_3_Osiedla_W_Najlepszym_Wykonaniu-PL-1999-WGM.rar', 'Vox - Największe przeboje.rar', 'Vox-Bananowy Song-Złiota Kolekcja(OK).rar', 'Wu-Tang Clan - (The Acapella Album).rar', 'WWO-Moda-Vinyl-PL-2002-B3S.rar', 'WWO_-_Obejrzyj_Sobie_Wiadomo_ci_[Maxi_Singiel]_(2000).rar', 'Wzgorze_Ya-Pa-3-Trzy-PL-1998-WGM.rar', 'Yoji_Biomehanika_-_Special_Radio_Set_-_28.11.2009.mp3', 'Ziolo_-_Cokolwiek_(2015).rar', 'Ziolo_-_Twin_Peaks_EP_(2015).rar', 'Zio__o_-_Hip_Hop__2012_.rar', 'Zio__o_-_Siema_LP__2010_.rar']
+2018.10.18 17:14:06-main.stocker-INFO: Starting loop through files
+
+2018.10.18 17:14:06-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\01-01-Muse-The_Dark_Side-SMR.flac
+2018.10.18 17:14:06-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:14:06-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:14:06-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\01-01-Muse-The_Dark_Side-SMR.flac', 'ext': 'flac', 'album': 'The Dark Side', 'artist': 'Muse', 'title': 'The Dark Side', 'date': '2018', 'length': 227, 'bitrate': 1896}
+
+2018.10.18 17:14:06-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\az_magia_to_ja_final.mp3
+2018.10.18 17:14:07-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:14:07-main.stocker-WARNING: Error : list index out of range
+2018.10.18 17:14:07-main.stocker-WARNING: Error : list index out of range
+2018.10.18 17:14:07-main.stocker-WARNING: Error : list index out of range
+2018.10.18 17:14:07-main.stocker-WARNING: Error : list index out of range
+2018.10.18 17:14:07-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:14:07-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\az_magia_to_ja_final.mp3', 'ext': 'mp3', 'album': '', 'artist': '', 'title': '', 'date': '', 'length': 4766, 'bitrate': 320}
+
+2018.10.18 17:14:07-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\Dj Twister - Bangers & The Breaks Megamix.mp3
+2018.10.18 17:14:07-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:14:07-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:14:07-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\Dj Twister - Bangers & The Breaks Megamix.mp3', 'ext': 'mp3', 'album': 'Bangers & The Breaks Megamix', 'artist': 'Dj Twister aka Vinyl Cat', 'title': 'Bangers & The Breaks Megamix', 'date': '2012', 'length': 4431, 'bitrate': 320}
+
+2018.10.18 17:14:07-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\FALCON1 & DJ KEBS - ELEMENTARZ.mp3
+2018.10.18 17:14:08-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:14:08-main.stocker-WARNING: Error : 'DATE'
+2018.10.18 17:14:08-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:14:08-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\FALCON1 & DJ KEBS - ELEMENTARZ.mp3', 'ext': 'mp3', 'album': 'ELEMENTARZ', 'artist': 'FALCON1 & DJ KEBS', 'title': 'ELEMENTARZ', 'date': '', 'length': 3128, 'bitrate': 320}
+
+2018.10.18 17:14:08-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\Mauro Picotto - (2001.02.17) - Trance Energy.mp3
+2018.10.18 17:14:10-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:14:10-main.stocker-WARNING: Error : 'ALBUM'
+2018.10.18 17:14:10-main.stocker-WARNING: Error : 'ARTIST'
+2018.10.18 17:14:10-main.stocker-WARNING: Error : 'TITLE'
+2018.10.18 17:14:10-main.stocker-WARNING: Error : 'DATE'
+2018.10.18 17:14:10-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:14:10-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\Mauro Picotto - (2001.02.17) - Trance Energy.mp3', 'ext': 'mp3', 'album': '', 'artist': '', 'title': '', 'date': '', 'length': 0, 'bitrate': 0}
+
+2018.10.18 17:14:10-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\Rufus featuring Chaka Khan - Tell Me Something Good 320cbr (Big Papi Single) 1974 Funk Porn Groove.mp3
+2018.10.18 17:14:10-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:14:10-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:14:10-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\Rufus featuring Chaka Khan - Tell Me Something Good 320cbr (Big Papi Single) 1974 Funk Porn Groove.mp3', 'ext': 'mp3', 'album': 'LoveSongs', 'artist': 'Rufus featuring Chaka Khan', 'title': 'Tell Me Something Good', 'date': '2000', 'length': 281, 'bitrate': 320}
+
+2018.10.18 17:14:10-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\The Sprout ALPHA.mp3
+2018.10.18 17:14:10-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:14:10-main.stocker-WARNING: Error : 'ALBUM'
+2018.10.18 17:14:10-main.stocker-WARNING: Error : 'ARTIST'
+2018.10.18 17:14:10-main.stocker-WARNING: Error : 'TITLE'
+2018.10.18 17:14:10-main.stocker-WARNING: Error : 'DATE'
+2018.10.18 17:14:10-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:14:10-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\The Sprout ALPHA.mp3', 'ext': 'mp3', 'album': '', 'artist': '', 'title': '', 'date': '', 'length': 51, 'bitrate': 320}
+
+2018.10.18 17:14:10-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\Tomas More & Troy Pierce ITEMS & THINGS London [23 Dec. 2014].mp3
+2018.10.18 17:14:11-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:14:11-main.stocker-WARNING: Error : 'ALBUM'
+2018.10.18 17:14:11-main.stocker-WARNING: Error : 'ARTIST'
+2018.10.18 17:14:11-main.stocker-WARNING: Error : 'DATE'
+2018.10.18 17:14:11-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:14:11-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\Tomas More & Troy Pierce ITEMS & THINGS London [23 Dec. 2014].mp3', 'ext': 'mp3', 'album': '', 'artist': '', 'title': 'london i&t t & t MIX', 'date': '', 'length': 11670, 'bitrate': 320}
+
+2018.10.18 17:14:11-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\Troy Pierce - Treehouse Miami (28.10.2011) Troy Pierce - Treehouse Miami (28.10.2012).mp3
+2018.10.18 17:14:11-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:14:11-main.stocker-WARNING: Error : 'ALBUM'
+2018.10.18 17:14:11-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:14:11-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\Troy Pierce - Treehouse Miami (28.10.2011) Troy Pierce - Treehouse Miami (28.10.2012).mp3', 'ext': 'mp3', 'album': '', 'artist': 'Troy Pierce', 'title': 'Treehouse Miami (28.10.2011)', 'date': '2012', 'length': 10033, 'bitrate': 320}
+
+2018.10.18 17:14:11-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\Yoji_Biomehanika_-_Special_Radio_Set_-_28.11.2009.mp3
+2018.10.18 17:14:12-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:14:12-main.stocker-WARNING: Error : list index out of range
+2018.10.18 17:14:12-main.stocker-WARNING: Error : list index out of range
+2018.10.18 17:14:12-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:14:12-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\Yoji_Biomehanika_-_Special_Radio_Set_-_28.11.2009.mp3', 'ext': 'mp3', 'album': '', 'artist': 'Yoji Biomehanika', 'title': 'Special Radio Set', 'date': '', 'length': 3630, 'bitrate': 256}
+
+2018.10.18 17:14:12-main.stocker-INFO: 
+
+2018.10.18 17:14:12-main.stocker-INFO: Loop through files ends succesfully
+
+2018.10.18 17:14:12-main.stocker-INFO: Determine Catalog Attributes function starts
+
+2018.10.18 17:14:12-main.stocker-DEBUG: Tries to guess Album name
+2018.10.18 17:14:12-main.stocker-DEBUG: Found 4 proposition(s) : ['The Dark Side', 'Bangers & The Breaks Megamix', 'ELEMENTARZ', 'LoveSongs']
+2018.10.18 17:14:12-main.stocker-DEBUG: Album unreckognized
+2018.10.18 17:14:12-main.stocker-DEBUG: Tries to guess Artist name
+2018.10.18 17:14:12-main.stocker-DEBUG: Found 6 proposition(s) : ['Muse', 'Dj Twister aka Vinyl Cat', 'FALCON1 & DJ KEBS', 'Rufus featuring Chaka Khan', 'Troy Pierce', 'Yoji Biomehanika']
+2018.10.18 17:14:12-main.stocker-DEBUG: It seems catalog is a container not an album
+2018.10.18 17:14:12-main.stocker-DEBUG: Tries to guess date of album
+2018.10.18 17:14:12-main.stocker-DEBUG: Date unreckognized
+2018.10.18 17:14:12-main.stocker-DEBUG: Computing average bitrate of files
+2018.10.18 17:14:12-main.stocker-DEBUG: Computing total length of files
+2018.10.18 17:14:12-main.stocker-INFO: reckognized Catalog Attributes:
+Artist: Unknown Artist        
+Album: Unknown Album
+Date: 
+AvgBitrate: 439.2
+CatalogSym        
+Total Tracks: 10
+Total Length: 10:36:57
+
+
+2018.10.18 17:19:10-main.stocker-DEBUG: returns {'album': 'Unknown Album', 'artist': 'Unknown Artist', 'date': '', 'avg_bitrate': 439.2, 'total_length': 38217, 'catalog_mark': '', 'ext': 'various', 'total_tracks': 10, 'img_count': 72628, 'path': 'D:\\++WORKZONE++', 'comment': ''}
+2018.10.18 17:19:10-main.stocker-INFO: Catalog Crawler ends,
+
+2018.10.18 17:19:10-main-INFO: Connecting to Discgos API Skipped, too less data

@@ -1,0 +1,195 @@
+2018.10.18 17:52:58-main-INFO: OS : Windows
+2018.10.18 17:52:58-main.stocker-INFO: catalog_collector Function starts
+2018.10.18 17:52:58-main.stocker-DEBUG: Catalog Cache File founded
+2018.10.18 17:52:58-main.stocker-INFO: catalog_collector found 31435 dirs to check
+
+
+2018.10.18 17:52:58-main-INFO: Skipped 0 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 1 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 2 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 3 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 4 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 5 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 6 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 7 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 8 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 9 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 10 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 11 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 12 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 13 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 14 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 15 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 16 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 17 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 18 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 19 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 20 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 21 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 22 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 23 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 24 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 25 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 26 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 27 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 28 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 29 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 30 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 31 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 32 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 33 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 34 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 35 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 36 - it exist in DB
+2018.10.18 17:52:58-main-INFO: Skipped 37 - it exist in DB
+2018.10.18 17:52:58-main.stocker-INFO: Catalog Crawler starts
+2018.10.18 17:52:58-main.stocker-DEBUG: Files found in catalog : ['01 - 0 Degrees.mp3', '02 - Вокзали (feat. Сашко Положинський, Іра Швайдак).mp3', '03 - Молоко.mp3', '04 - Правда (ft. Антон Чілібі).mp3', '05 - Радіо.mp3', '06 - 180 degrees.mp3', '07 - Розряди.mp3', '08 - Аеростат.mp3', '09 - Peace (ft. Drud).mp3', '10 - Голод (ft. Shon).mp3', '11 - 360 degrees.mp3', 'cover.jpg']
+2018.10.18 17:52:58-main.stocker-INFO: Starting loop through files
+
+2018.10.18 17:52:58-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Panorama\01 - 0 Degrees.mp3
+2018.10.18 17:52:58-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:52:58-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:52:58-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Panorama\\01 - 0 Degrees.mp3', 'ext': 'mp3', 'album': 'Panorama', 'artist': 'Alexjazz & The Cancel', 'title': '0 Degrees', 'date': '2014', 'length': 128, 'bitrate': 320}
+
+2018.10.18 17:52:58-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Panorama\02 - Вокзали (feat. Сашко Положинський, Іра Швайдак).mp3
+2018.10.18 17:52:58-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:52:58-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:52:58-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Panorama\\02 - Вокзали (feat. Сашко Положинський, Іра Швайдак).mp3', 'ext': 'mp3', 'album': 'Panorama', 'artist': 'Alexjazz & The Cancel', 'title': 'Вокзали (feat. Сашко Положинський, Іра Швайдак)', 'date': '2014', 'length': 216, 'bitrate': 320}
+
+2018.10.18 17:52:58-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Panorama\03 - Молоко.mp3
+2018.10.18 17:52:58-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:52:58-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:52:58-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Panorama\\03 - Молоко.mp3', 'ext': 'mp3', 'album': 'Panorama', 'artist': 'Alexjazz & The Cancel', 'title': 'Молоко', 'date': '2014', 'length': 177, 'bitrate': 320}
+
+2018.10.18 17:52:58-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Panorama\04 - Правда (ft. Антон Чілібі).mp3
+2018.10.18 17:52:58-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:52:58-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:52:58-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Panorama\\04 - Правда (ft. Антон Чілібі).mp3', 'ext': 'mp3', 'album': 'Panorama', 'artist': 'Alexjazz & The Cancel', 'title': 'Правда (ft. Антон Чілібі)', 'date': '2014', 'length': 182, 'bitrate': 320}
+
+2018.10.18 17:52:58-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Panorama\05 - Радіо.mp3
+2018.10.18 17:52:58-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:52:58-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:52:58-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Panorama\\05 - Радіо.mp3', 'ext': 'mp3', 'album': 'Panorama', 'artist': 'Alexjazz & The Cancel', 'title': 'Радіо', 'date': '2014', 'length': 186, 'bitrate': 320}
+
+2018.10.18 17:52:58-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Panorama\06 - 180 degrees.mp3
+2018.10.18 17:52:58-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:52:58-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:52:58-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Panorama\\06 - 180 degrees.mp3', 'ext': 'mp3', 'album': 'Panorama', 'artist': 'Alexjazz & The Cancel', 'title': '180 degrees', 'date': '2014', 'length': 136, 'bitrate': 320}
+
+2018.10.18 17:52:58-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Panorama\07 - Розряди.mp3
+2018.10.18 17:52:58-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:52:58-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:52:58-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Panorama\\07 - Розряди.mp3', 'ext': 'mp3', 'album': 'Panorama', 'artist': 'Alexjazz & The Cancel', 'title': 'Розряди', 'date': '2014', 'length': 207, 'bitrate': 320}
+
+2018.10.18 17:52:58-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Panorama\08 - Аеростат.mp3
+2018.10.18 17:52:58-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:52:58-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:52:58-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Panorama\\08 - Аеростат.mp3', 'ext': 'mp3', 'album': 'Panorama', 'artist': 'Alexjazz & The Cancel', 'title': 'Аеростат', 'date': '2014', 'length': 182, 'bitrate': 320}
+
+2018.10.18 17:52:58-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Panorama\09 - Peace (ft. Drud).mp3
+2018.10.18 17:52:59-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:52:59-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:52:59-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Panorama\\09 - Peace (ft. Drud).mp3', 'ext': 'mp3', 'album': 'Panorama', 'artist': 'Alexjazz & The Cancel', 'title': 'Peace (ft. Drud)', 'date': '2014', 'length': 194, 'bitrate': 320}
+
+2018.10.18 17:52:59-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Panorama\10 - Голод (ft. Shon).mp3
+2018.10.18 17:52:59-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:52:59-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:52:59-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Panorama\\10 - Голод (ft. Shon).mp3', 'ext': 'mp3', 'album': 'Panorama', 'artist': 'Alexjazz & The Cancel', 'title': 'Голод (ft. Shon)', 'date': '2014', 'length': 163, 'bitrate': 320}
+
+2018.10.18 17:52:59-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Panorama\11 - 360 degrees.mp3
+2018.10.18 17:52:59-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.18 17:52:59-main.stocker-INFO: All file attributes collected correct
+2018.10.18 17:52:59-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Panorama\\11 - 360 degrees.mp3', 'ext': 'mp3', 'album': 'Panorama', 'artist': 'Alexjazz & The Cancel', 'title': '360 degrees', 'date': '2014', 'length': 167, 'bitrate': 320}
+
+2018.10.18 17:52:59-main.stocker-INFO: 
+
+2018.10.18 17:52:59-main.stocker-INFO: Loop through files ends succesfully
+
+2018.10.18 17:52:59-main.stocker-INFO: Determine Catalog Attributes function starts
+
+2018.10.18 17:52:59-main.stocker-DEBUG: Tries to guess Album name
+2018.10.18 17:52:59-main.stocker-DEBUG: Found 1 proposition(s) : ['Panorama']
+2018.10.18 17:52:59-main.stocker-DEBUG: Album found : Panorama
+2018.10.18 17:52:59-main.stocker-DEBUG: Tries to guess Artist name
+2018.10.18 17:52:59-main.stocker-DEBUG: Found 1 proposition(s) : ['Alexjazz & The Cancel']
+2018.10.18 17:52:59-main.stocker-DEBUG: Artist found : Alexjazz & The Cancel
+2018.10.18 17:52:59-main.stocker-DEBUG: Tries to guess date of album
+2018.10.18 17:52:59-main.stocker-DEBUG: Date recognized : 2014
+2018.10.18 17:52:59-main.stocker-DEBUG: Computing average bitrate of files
+2018.10.18 17:52:59-main.stocker-DEBUG: Computing total length of files
+2018.10.18 17:52:59-main.stocker-INFO: reckognized Catalog Attributes:
+Artist: Alexjazz & The Cancel        
+Album: Panorama
+Date: 2014
+AvgBitrate: 320.0
+CatalogSym        
+Total Tracks: 11
+Total Length: 0:32:18
+
+
+2018.10.18 17:52:59-main.stocker-DEBUG: returns {'album': 'Panorama', 'artist': 'Alexjazz & The Cancel', 'date': '2014', 'avg_bitrate': 320.0, 'total_length': 1938, 'catalog_mark': '', 'ext': 'mp3', 'total_tracks': 11, 'img_count': 1, 'path': 'D:\\++WORKZONE++\\!!! Instrumentals NEW\\1 part DLded\\The Cancel\\2014 - Panorama', 'comment': ''}
+2018.10.18 17:52:59-main.stocker-INFO: Catalog Crawler ends,
+
+2018.10.18 17:52:59-main.dgs_con-INFO: Query Discogs Func started
+2018.10.18 17:52:59-main.dgs_con-INFO: Working on D:\++WORKZONE++\!!! Instrumentals NEW\1 part DLded\The Cancel\2014 - Panorama
+2018.10.18 17:52:59-main.dgs_con-INFO: Master: Album
+2018.10.18 17:52:59-main.dgs_con-INFO: Connecting Discogs	Query: Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing The Cars - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Monika Kruse @ Voodooamt - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Tuccillo* - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Braintax - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Electric Birds - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Levon Vincent / Steffi (8) - Panorama Bar 02 | Part II to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Zoinks! - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Laibach - Panorama / Decree to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing La Buena Vida - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Møme - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing The Mole / Dexter / Matthew Styles / Jon McMillion - Panorama Bar 04 to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Thelonious Monk - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Laibach - Panorama / Die Liebe to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Cosmic Rough Riders - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing FCL - It’s You (San Soda's Panorama Bar Acca Version) to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing The Micronaut* - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Various - Panorama Des Musiques Expérimentales to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Cassy - Panorama Bar 01 to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Various - Electronic Panorama: Paris, Tokyo, Utrecht, Warszawa to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Basic Soul Unit / Lerosa - Panorama Bar 02 | Part I to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing A Vision of Panorama - A Vision of Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Dippy Site - Panorama Astratto (Softly Changing) to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Logh - A Sunset Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Tama Sumo - Panorama Bar 02 to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Prosumer - Panorama Bar 03 to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing LA4 (2) & DJ Wich - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Various - Jazz Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Steffi (8) - Panorama Bar 05 to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Satin Jackets - Panorama Pacifico to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Velojet - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Birds & Batteries - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Various - Panorama De Musique Concrète to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing The Nits - The Panorama Man to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Nick Höppner - Panorama Bar 04 to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Various - 2e Panorama De Musique Concrète to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Treponem Pal - Panorama Remixes to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Various - Panorama Électronique: Electronic Experimental Music to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing George Coleman - Manhattan Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Eddy Mitchell - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Chor Und Orchester George Martin (10) - Percussion Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Various - Panorama N° 3 to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Tire Le Coyote - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Duke Ellington And His Famous Orchestra* - A Duke Ellington Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Various - 1er Panorama De Musique Concrète to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Ferrin&Morris* - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing The Kai Winding Septet* - Trombone Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Icone - Panorama EP to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Cala Vento - Fruto Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing Amanaska - Panorama to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-INFO: Comparing August Engkilde Presents EPO (3) - Electronic Panorama Orchestra to Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:00-main.dgs_con-DEBUG: no values on output, error: 'metoda_master'
+
+2018.10.18 17:53:01-main.dgs_con-INFO: Master: Token
+2018.10.18 17:53:01-main.dgs_con-INFO: Connecting Discogs	Query: Alexjazz & The Cancel - Panorama
+2018.10.18 17:53:02-main.dgs_con-DEBUG: no values on output, error: 'metoda_master'
+
+2018.10.18 17:53:03-main.dgs_con-INFO: Master: Variations
+2018.10.18 17:53:03-main.dgs_con-INFO: Connecting Discogs	Query: Alexjazz & The Cancel
+2018.10.18 17:53:04-main.dgs_con-WARNING: No variations of Alexjazz & The Cancel found

@@ -1,0 +1,292 @@
+2018.10.19 00:02:56-main-INFO: OS : Windows
+2018.10.19 00:02:56-main.stocker-INFO: catalog_collector Function starts
+2018.10.19 00:02:56-main.stocker-DEBUG: Catalog Cache File founded
+2018.10.19 00:02:56-main.stocker-INFO: catalog_collector found 31435 dirs to check
+
+
+2018.10.19 00:02:56-main-INFO: Skipped 0 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 1 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 2 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 3 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 4 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 5 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 6 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 7 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 8 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 9 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 10 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 11 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 12 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 13 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 14 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 15 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 16 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 17 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 18 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 19 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 20 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 21 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 22 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 23 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 24 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 25 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 26 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 27 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 28 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 29 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 30 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 31 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 32 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 33 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 34 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 35 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 36 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 37 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 38 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 39 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 40 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 41 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 42 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 43 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 44 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 45 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 46 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 47 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 48 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 49 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 50 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 51 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 52 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 53 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 54 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 55 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 56 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 57 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 58 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 59 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 60 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 61 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 62 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 63 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 64 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 65 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 66 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 67 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 68 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 69 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 70 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 71 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 72 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 73 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 74 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 75 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 76 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 77 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 78 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 79 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 80 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 81 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 82 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 83 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 84 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 85 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 86 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 87 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 88 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 89 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 90 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 91 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 92 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 93 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 94 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 95 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 96 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 97 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 98 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 99 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 100 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 101 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 102 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 103 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 104 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 105 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 106 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 107 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 108 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 109 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 110 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 111 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 112 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 113 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 114 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 115 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 116 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 117 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 118 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 119 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 120 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 121 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 122 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 123 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 124 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 125 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 126 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 127 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 128 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 129 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 130 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 131 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 132 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 133 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 134 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 135 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 136 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 137 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 138 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 139 - it exist in DB
+2018.10.19 00:02:56-main-INFO: Skipped 140 - it exist in DB
+2018.10.19 00:02:56-main.stocker-INFO: Catalog Crawler starts
+2018.10.19 00:02:56-main.stocker-DEBUG: Files found in catalog : ['AlbumArtSmall.jpg', 'Energy 2000 - Hit Za Hitem vol. 01.mp3', 'Folder.jpg']
+2018.10.19 00:02:56-main.stocker-INFO: Starting loop through files
+
+2018.10.19 00:02:56-main.stocker-INFO: File Crawler for starts for file : D:\++WORKZONE++\!!! Pietnastak\ENERGY_2000_DYSKOGRAFIA-klawisz755\(2002) Energy 2000 - Hit Za Hitem vol. 01\Energy 2000 - Hit Za Hitem vol. 01.mp3
+2018.10.19 00:02:57-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.19 00:02:57-main.stocker-INFO: All file attributes collected correct
+2018.10.19 00:02:57-main.stocker-INFO: {'path': 'D:\\++WORKZONE++\\!!! Pietnastak\\ENERGY_2000_DYSKOGRAFIA-klawisz755\\(2002) Energy 2000 - Hit Za Hitem vol. 01\\Energy 2000 - Hit Za Hitem vol. 01.mp3', 'ext': 'mp3', 'album': 'BM3 Music', 'artist': 'Energy 2000', 'title': 'Hit Za Hitem vol. 01 - www.bm3music.com', 'date': '2007', 'length': 4444, 'bitrate': 128}
+
+2018.10.19 00:02:57-main.stocker-INFO: 
+
+2018.10.19 00:02:57-main.stocker-INFO: Loop through files ends succesfully
+
+2018.10.19 00:02:57-main.stocker-INFO: Determine Catalog Attributes function starts
+
+2018.10.19 00:02:57-main.stocker-DEBUG: Tries to guess Album name
+2018.10.19 00:02:57-main.stocker-DEBUG: Found 1 proposition(s) : ['BM3 Music']
+2018.10.19 00:02:57-main.stocker-DEBUG: Album found : BM3 Music
+2018.10.19 00:02:57-main.stocker-DEBUG: Tries to guess Artist name
+2018.10.19 00:02:57-main.stocker-DEBUG: Found 1 proposition(s) : ['Energy 2000']
+2018.10.19 00:02:57-main.stocker-DEBUG: Artist found : Energy 2000
+2018.10.19 00:02:57-main.stocker-DEBUG: Tries to guess date of album
+2018.10.19 00:02:57-main.stocker-DEBUG: Date recognized : 2007
+2018.10.19 00:02:57-main.stocker-DEBUG: Computing average bitrate of files
+2018.10.19 00:02:57-main.stocker-DEBUG: Computing total length of files
+2018.10.19 00:02:57-main.stocker-INFO: reckognized Catalog Attributes:
+Artist: Energy 2000        
+Album: BM3 Music
+Date: 2007
+AvgBitrate: 128.0
+CatalogSym        
+Total Tracks: 1
+Total Length: 1:14:04
+
+
+2018.10.19 00:02:57-main.stocker-DEBUG: returns {'album': 'BM3 Music', 'artist': 'Energy 2000', 'date': '2007', 'avg_bitrate': 128.0, 'total_length': 4444, 'catalog_mark': '', 'ext': 'mp3', 'total_tracks': 1, 'img_count': 2, 'path': 'D:\\++WORKZONE++\\!!! Pietnastak\\ENERGY_2000_DYSKOGRAFIA-klawisz755\\(2002) Energy 2000 - Hit Za Hitem vol. 01', 'comment': ''}
+2018.10.19 00:02:57-main.stocker-INFO: Catalog Crawler ends,
+
+2018.10.19 00:02:57-main.dgs_con-INFO: Query Discogs Func started
+2018.10.19 00:02:57-main.dgs_con-INFO: Working on D:\++WORKZONE++\!!! Pietnastak\ENERGY_2000_DYSKOGRAFIA-klawisz755\(2002) Energy 2000 - Hit Za Hitem vol. 01
+2018.10.19 00:02:57-main.dgs_con-INFO: Master: Album
+2018.10.19 00:02:57-main.dgs_con-INFO: Connecting Discogs	Query: BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Rhythm & Sound w/ Jah Batta - Music Hit You to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Zap-Pow* - This Is Reggae Music to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing The Weirdos - Destroy All Music to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Various - Black Music to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Desaparecidos - Read Music, Speak Spanish to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Gary Bartz NTU Troop - Harlem Bush Music to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Various - Blue Skied An' Clear A Morr Music Compilation to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing The Murder City Devils* - Dancehall Music to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing David Byrne - Music For The Knee Plays to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Thomas P. Heckmann - Body Music to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Bugz In The Attic - Don't Stop The Music to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Gordon Nelson Jr.* - Pump Up The Music to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing The Robert Cobert Orchestra Featuring Jonathan (Barnabas) Frid* And David (Quentin) Selby* - The Original Music From ABC-TV's Dark Shadows to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Ba-Benzélé Pygmies* - The Music Of The Ba-Benzélé Pygmies to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing The Nyingmapa Sect / The Kagyupa Sect - Tibet I to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Quincy Jones - Quincy Jones Explores The Music Of Henry Mancini to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Various - The Smithsonian Collection Of Classic Country Music to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Yannick Chevalier - Music Tracks Jingles (Jingles N° 12) to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Hausa - Nigeria-Hausa Music I to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Jon Batiste And Stay Human - Social Music to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Various - The Music Of Islām to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Van Dyke Parks - Super Chief: Music For The Silver Screen to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Black Monk* / Ras G - Day & Night EP to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing The Sound Stage Chorus - Favorite Songs From The Sound Of Music to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing K. S. Nārāyanaswāmi - India IV to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Gambus* - Music Eruption to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Mychaelangelo - Happy to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Big Moses Feat. Ja'Nel - For You to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Unknown Artist - Japanese Temple Music (Zen, Nembutsu And Yamabushi Chants) to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Johan Lindström Septett - Music For Empty Halls to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Alan Parker - Jaws 3-D to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Pearl Jam - Pearl Jam to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing The Stooges - Raw Mixes Vol. 2 (1970) to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Brion Gysin - Orgy Boys to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Cecil Taylor - Calling It The 8th to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Tangerine Dream - Dreaming On Danforth Avenue to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Joop Walvis - Metro Music to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Kurt Wege And His Orchestra* - The Music Of Leroy Anderson to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Blue Cheer - Outsideinside to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Bob Dylan - Dylan to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Chris Mack - Plenty More / Get It (Come) (Remix) to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Alain Daniélou - India II to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Georg Philipp Telemann, Concert Group Of The Schola Cantorum Basiliensis*, August Wenzinger / Nuremberg Chamber Music Ensemble - Water-Music "Hamburger Ebb Und Fluht" / Suite No. 6 In D Minor / Concerto No. 3 In A Major / Trio Sonata In E Flat Major to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Grateful Dead* - Wake Of The Flood to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Wintersleep - Untitled to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Winston Jarrett & The Righteous Flames - Man Of The Ghetto to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Editors - The Racing Rats to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing The Music Tapes - First Imaginary Symphony For Nomad to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Radio Futura - Música Moderna to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-INFO: Comparing Suzanne Ciani - Lixiviation (Ciani/Musica Inc. 1969-1985) to Energy 2000 - BM3 Music
+2018.10.19 00:02:59-main.dgs_con-DEBUG: no values on output, error: 'metoda_master'
+
+2018.10.19 00:03:00-main.dgs_con-INFO: Master: Token
+2018.10.19 00:03:00-main.dgs_con-INFO: Connecting Discogs	Query: Energy 2000 - BM3 Music
+2018.10.19 00:03:01-main.dgs_con-INFO: Various - History Of Dance 14 - The House Edition
+2018.10.19 00:03:01-main.dgs_con-INFO: Comparing Various - History Of Dance 14 to Energy 2000 - BM3 Music
+2018.10.19 00:03:01-main.dgs_con-INFO: Various - History Of Dance - 9 - The Techno Edition
+2018.10.19 00:03:01-main.dgs_con-INFO: Comparing Various - History Of Dance to Energy 2000 - BM3 Music
+2018.10.19 00:03:01-main.dgs_con-DEBUG: no values on output, error: 'metoda_master'
+
+2018.10.19 00:03:02-main.dgs_con-INFO: Master: Variations
+2018.10.19 00:03:02-main.dgs_con-INFO: Connecting Discogs	Query: Energy 2000
+2018.10.19 00:03:04-main.dgs_con-WARNING: No variations of <Artist 4781258 'Energy 2000'> found - Check LOG
+2018.10.19 00:03:04-main.dgs_con-DEBUG: no values on output, error: 'metoda_master'
+
+2018.10.19 00:03:05-main.dgs_con-INFO: Release: Album
+2018.10.19 00:03:05-main.dgs_con-INFO: Connecting Discogs	Query: BM3 Music
+2018.10.19 00:03:07-main.dgs_con-DEBUG: there is more than one artist in current release
+2018.10.19 00:03:07-main.dgs_con-INFO: Comparing <Artist 5137 'Rhythm & Sound'> - Music Hit You to Energy 2000 - BM3 Music
+2018.10.19 00:03:08-main.dgs_con-INFO: Comparing <Artist 22946 'Steve Reich'> - Music For 18 Musicians to Energy 2000 - BM3 Music
+2018.10.19 00:03:08-main.dgs_con-INFO: Comparing <Artist 194 'Various'> - Black Music to Energy 2000 - BM3 Music
+2018.10.19 00:03:09-main.dgs_con-INFO: Comparing <Artist 321 'LTJ Bukem'> - Music / Enchanted to Energy 2000 - BM3 Music
+2018.10.19 00:03:10-main.dgs_con-INFO: Comparing <Artist 39775 '10cc'> - Sheet Music to Energy 2000 - BM3 Music
+2018.10.19 00:03:11-main.dgs_con-INFO: Comparing <Artist 90418 'Experimental Audio Research'> - Millennium Music to Energy 2000 - BM3 Music
+2018.10.19 00:03:12-main.dgs_con-INFO: Comparing <Artist 11737 'Shannon'> - Let The Music Play to Energy 2000 - BM3 Music
+2018.10.19 00:03:12-main.dgs_con-INFO: Comparing <Artist 252856 'Murder City Devils'> - Dancehall Music to Energy 2000 - BM3 Music
+2018.10.19 00:03:13-main.dgs_con-INFO: Comparing <Artist 65427 'Teflon Dons'> - Worldship Music E.P. to Energy 2000 - BM3 Music
+2018.10.19 00:03:14-main.dgs_con-INFO: Comparing <Artist 18547 'Simple Minds'> - Big Music to Energy 2000 - BM3 Music
+2018.10.19 00:03:15-main.dgs_con-INFO: Comparing <Artist 261756 'The Weirdos'> - Destroy All Music to Energy 2000 - BM3 Music
+2018.10.19 00:03:16-main.dgs_con-INFO: Comparing <Artist 11879 'Lou Reed'> - Metal Machine Music to Energy 2000 - BM3 Music
+2018.10.19 00:03:17-main.dgs_con-INFO: Comparing <Artist 2725 'Depeche Mode'> - Music For The Masses to Energy 2000 - BM3 Music
+2018.10.19 00:03:17-main.dgs_con-INFO: Comparing <Artist 145602 'Zap Pow'> - This Is Reggae Music to Energy 2000 - BM3 Music
+2018.10.19 00:03:18-main.dgs_con-INFO: Comparing <Artist 11737 'Shannon'> - Let The Music Play to Energy 2000 - BM3 Music
+2018.10.19 00:03:18-main.dgs_con-DEBUG: no values on output, error: 'metoda_release'
+
+2018.10.19 00:03:19-main.dgs_con-INFO: Release: Token
+2018.10.19 00:03:19-main.dgs_con-INFO: Connecting Discogs	Query: Energy 2000 - BM3 Music
+2018.10.19 00:03:21-main.dgs_con-INFO: Comparing Artist 2099213 The Monoxides - The Free Release Of Energy to Energy 2000 - BM3 Music
+2018.10.19 00:03:22-main.dgs_con-INFO: Comparing Artist 194 Various - History Of Dance  9  The Techno Edition to Energy 2000 - BM3 Music
+2018.10.19 00:03:23-main.dgs_con-INFO: Comparing Artist 194 Various - History Of Dance 14  The House Edition to Energy 2000 - BM3 Music
+2018.10.19 00:03:24-main.dgs_con-INFO: Comparing Artist 194 Various - History Of Dance  9  The Techno Edition Top 100 to Energy 2000 - BM3 Music
+2018.10.19 00:03:25-main.dgs_con-INFO: Comparing Artist 8349 BK - BKollection to Energy 2000 - BM3 Music
+2018.10.19 00:03:26-main.dgs_con-INFO: Comparing Artist 194 Various - Future Trance Vol1 to Energy 2000 - BM3 Music
+2018.10.19 00:03:26-main.dgs_con-INFO: Comparing Artist 133707 The Offspring - The Offspring Mp3 to Energy 2000 - BM3 Music
+2018.10.19 00:03:26-main.dgs_con-DEBUG: no values on output, error: 'metoda_release'
+
+2018.10.19 00:03:27-main.dgs_con-INFO: Finshed querying Discogs, results are: , , , 
+2018.10.19 00:03:29-main.dbase-INFO: Save to DB started
+2018.10.19 00:03:29-main.dbase-INFO: Catalog data inserted successfully
+2018.10.19 00:03:29-main.dbase-DEBUG: Tries to insert : {'path': 'D:\\++WORKZONE++\\!!! Pietnastak\\ENERGY_2000_DYSKOGRAFIA-klawisz755\\(2002) Energy 2000 - Hit Za Hitem vol. 01\\Energy 2000 - Hit Za Hitem vol. 01.mp3', 'ext': 'mp3', 'album': 'BM3 Music', 'artist': 'Energy 2000', 'title': 'Hit Za Hitem vol. 01 - www.bm3music.com', 'date': '2007', 'length': 4444, 'bitrate': 128}
+2018.10.19 00:03:29-main.dbase-INFO: Catalog data inserted successfully
+2018.10.19 00:03:29-main.dbase-INFO: Data Commited
+
