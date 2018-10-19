@@ -27,7 +27,7 @@ def is_found(dictonary, key):
         return False
 
 
-def query_discogs(cat_attrs, f_attrs_list):
+def insert_ids(cat_attrs, f_attrs_list):
     log.info('Query Discogs Func started')
     log.info('Working on {0}'.format(cat_attrs['path']))
     if not is_found(cat_attrs, 'd_master'):
