@@ -12,7 +12,7 @@ if sys.platform == 'win32':
     inputpath = "D:\\++WORKZONE++"
     slasher = '\\'
     catalog_cache_file = 'win_catalogs.dat'
-    ratelimit = 1
+    ratelimit = 2
     databasefilename = 'database.db'
     refresh_catalogs_list = False
     refresh_database = False

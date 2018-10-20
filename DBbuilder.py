@@ -5,6 +5,7 @@ import time
 import logging
 import signal
 import requests
+import discogs_client
 
 import discogs_con
 import config
@@ -61,40 +62,42 @@ signal.signal(signal.SIGINT, signal_handler)
 
 interrupted = False
 
+
 def query_discogs(crawl_res_c, crawl_res_f):
     while True:
-    dynamic_ratelimit = 2
-    try:
-        if (crawl_res_c['artist'] != 'Unknown Artist' and
-                crawl_res_c['album'] != 'Unknown Album'):
-            req_res_c = discogs_con.insert_ids(crawl_res_c, crawl_res_f)
-            dynamic_ratelimit = 2
+        dynamic_ratelimit = 2
+        global interrupted
+        try:
+            if (crawl_res_c['artist'] != 'Unknown Artist' and
+                    crawl_res_c['album'] != 'Unknown Album'):
+                req_res_c = discogs_con.insert_ids(crawl_res_c, crawl_res_f)
+                dynamic_ratelimit = 2
+                time.sleep(dynamic_ratelimit)
+            else:
+                log.info(
+                    'Connecting to Discgos API Skipped, too less data')
+                req_res_c = crawl_res_c
+                for i in checklist:
+                    req_res_c[i] = ''
+        except (
+            requests.exceptions.ConnectionError,
+                discogs_client.exceptions.HTTPError) as e:
+            dynamic_ratelimit = dynamic_ratelimit**2
+            if dynamic_ratelimit > 10600:
+                interrupted = True
+                log.warning(
+                    'Check your connection. Closing script {0}'.format(e))
+            else:
+                log.warning('{}'.format(e))
+                log.warning(
+                    'Connection Broken. Trying to connect in\
+                    {0} seconds'.format(dynamic_ratelimit))
             time.sleep(dynamic_ratelimit)
+            if interrupted:
+                print("Exiting Script")
+                break
         else:
-            log.info(
-                'Connecting to Discgos API Skipped, too less data')
-            req_res_c = crawl_res_c
-            for i in checklist:
-                req_res_c[i] = ''
-    except (
-        requests.exceptions.ConnectionError,
-        discogs_client.exceptions.HTTPError) as e:
-        dynamic_ratelimit = dynamic_ratelimit**2
-        if dynamic_ratelimit > 10600:
-            interrupted = True
-            log.warning(
-            'Check your connection. Closing script {0}'.format(e))
-        else:
-            log.warning('{}'.format(e))
-            log.warning(
-                'Connection Broken. Trying to connect in {0} seconds'.format(
-                dynamic_ratelimit))
-        time.sleep(dynamic_ratelimit)
-        if interrupted:
-            print("Exiting Script")
-            j = range(STEPS)[-1]
             break
-        continue
     return req_res_c
 
 
@@ -117,12 +120,12 @@ for j in range(STEPS):
         if dbase.check_if_r_exist(j, cataloglist):
             log.info('Skipped {0} - it exist in DB'.format(j))
             continue
-    if not update_ids: 
+    if not update_ids:
         if dbase.check_if_ids_exist(j, cataloglist):
             log.info('Skipped {0} - it contains IDs'.format(j))
             continue
     crawl_res_c, crawl_res_f = data_stocker.catalog_crawler(
-                cataloglist[j])
+        cataloglist[j])
     req_res_c = query_discogs(crawl_res_c, crawl_res_f)
     dbase.save_to_db(req_res_c, crawl_res_f)
     if interrupted:
