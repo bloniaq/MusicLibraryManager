@@ -20,9 +20,12 @@ ratelimit = config.ratelimit
 checklist = config.discogs_checklist
 
 
-def is_found(dictonary, key):
-    if key in dictonary:
-        return True
+def is_found(dictionary, key):
+    if key in dictionary:
+        if dictionary[key] != '':
+            return True
+        else:
+            return False
     else:
         return False
 
@@ -73,11 +76,11 @@ def m_by_album(cat_attrs, res_tresh):
     outcome = d.search(cat_attrs['album'], type='master')
     for i in itertools.islice(outcome, 0, res_tresh):
         m_name = i.title.split(' - ')
-        m_artist = m_name[0]
+        s_artist = text_tools.rm_artist_num(m_name[0])
         m_album = m_name[1]
         log.info('Comparing {0} - {1} to {2} - {3}'.format(
-            m_artist, m_album, cat_attrs['artist'], cat_attrs['album']))
-        if m_artist == cat_attrs['artist'] and m_album == cat_attrs['album']:
+            s_artist, m_album, cat_attrs['artist'], cat_attrs['album']))
+        if s_artist == cat_attrs['artist'] and m_album == cat_attrs['album']:
             cat_attrs['metoda_master'] = cur_method
             cat_attrs['d_master'] = i.id
             log.info('Found ID : {0} by a {1} method\n'.format(
@@ -101,11 +104,11 @@ def m_by_token(cat_attrs, res_tresh):
     for i in itertools.islice(outcome, 0, res_tresh):
         log.info('{0}'.format(i.title))
         m_name = i.title.split(' - ')
-        m_artist = m_name[0]
+        s_artist = text_tools.rm_artist_num(m_name[0])
         m_album = m_name[1]
         log.info('Comparing {0} - {1} to {2} - {3}'.format(
-            m_artist, m_album, cat_attrs['artist'], cat_attrs['album']))
-        if m_artist == cat_attrs['artist'] and m_album == cat_attrs['album']:
+            s_artist, m_album, cat_attrs['artist'], cat_attrs['album']))
+        if s_artist == cat_attrs['artist'] and m_album == cat_attrs['album']:
             cat_attrs['metoda_master'] = cur_method
             cat_attrs['d_master'] = i.id
             log.info('Found ID : {0} by a {1} method\n'.format(
@@ -148,7 +151,8 @@ def m_by_variations(cat_attrs, res_tresh):
                     # m_artist = masterlist[0].split('*')[0]
                     # m_artist = martist.split(' (')[0]
                     log.info('Comparing {0} - {1} to {2} - {3}'.format(
-                        m_artist, m_album, cat_attrs['artist'], cat_attrs['album']))
+                        m_artist, m_album, cat_attrs['artist'],
+                        cat_attrs['album']))
                     if (m_artist == cat_attrs['artist'] and
                             m_album == cat_attrs['album']):
                         cat_attrs['metoda_master'] = cur_method
@@ -158,7 +162,8 @@ def m_by_variations(cat_attrs, res_tresh):
                         break
                 time.sleep(ratelimit)
         else:
-            log.warning('No variations of {0} found - Check LOG'.format(outcome[0]))
+            log.warning('No variations of {0} found - Check LOG'.format(
+                outcome[0]))
     try:
         log.debug('values on output: {0}, {1}\n'.format(
             cat_attrs['metoda_master'], cat_attrs['d_master']))
@@ -174,7 +179,7 @@ def m_by_variations(cat_attrs, res_tresh):
 
 
 def find_a_release(cat_attrs, f_attrs_list):
-    log.info('Find a master Func started')
+    log.info('Find a release Func started')
     while True:
         r_by_album(cat_attrs, 15)
         if is_found(cat_attrs, 'd_release'):
@@ -195,9 +200,11 @@ def r_by_album(cat_attrs, res_tresh):
     for i in itertools.islice(outcome, 0, res_tresh):
         if len(i.artists) > 1:
             log.debug('there is more than one artist in current release')
+        s_artist = text_tools.rm_artist_num(i.artists[0].name)
         log.info('Comparing {0} - {1} to {2} - {3}'.format(
-            i.artists[0], i.title, cat_attrs['artist'], cat_attrs['album']))
-        if (i.artists[0] == cat_attrs['artist'] and
+            s_artist, i.title, cat_attrs['artist'],
+            cat_attrs['album']))
+        if (s_artist == cat_attrs['artist'] and
                 i.title == cat_attrs['album']):
             cat_attrs['metoda_release'] = cur_method
             cat_attrs['d_release'] = i.id
@@ -212,6 +219,7 @@ def r_by_album(cat_attrs, res_tresh):
     time.sleep(ratelimit)
     return cat_attrs
 
+
 def r_by_token(cat_attrs, res_tresh):
     log.info('Release: Token')
     token = cat_attrs['artist'] + ' - ' + cat_attrs['album']
@@ -219,13 +227,13 @@ def r_by_token(cat_attrs, res_tresh):
     cur_method = 'Token'
     outcome = d.search(token, type='release')
     for i in itertools.islice(outcome, 0, res_tresh):
-        m_artist = str(i.artists[0]).translate(punctuationremover)
+        s_artist = text_tools.rm_artist_num(i.artists[0].name)
         m_album = str(i.title).translate(punctuationremover)
-        tran_artist = cat_attrs['artist'].translate(punctuationremover)
-        tran_album = cat_attrs['album'].translate(punctuationremover)
+        # tran_artist = cat_attrs['artist'].translate(punctuationremover)
+        # tran_album = cat_attrs['album'].translate(punctuationremover)
         log.info('Comparing {0} - {1} to {2} - {3}'.format(
-            m_artist, m_album, tran_artist, tran_album))
-        if m_artist == tran_artist and m_album == tran_album:
+            s_artist, m_album, cat_attrs['artist'], cat_attrs['album']))
+        if s_artist == cat_attrs['artist'] and m_album == cat_attrs['album']:
             cat_attrs['metoda_release'] = cur_method
             cat_attrs['d_release'] = i.id
             log.info('Found ID : {0} by a {1} method\n'.format(

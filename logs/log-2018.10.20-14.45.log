@@ -1,0 +1,581 @@
+2018.10.20 14:45:27-main-INFO: OS : Linux
+2018.10.20 14:45:27-main.stocker-INFO: catalog_collector Function starts
+2018.10.20 14:45:27-main.stocker-DEBUG: Catalog Cache File not found
+2018.10.20 14:45:27-main.stocker-DEBUG: Starting reading library
+2018.10.20 14:45:27-main.stocker-INFO: Library reading ended with 22 directories
+2018.10.20 14:45:27-main.stocker-INFO: catalog_collector found 16 dirs to check
+
+
+2018.10.20 14:45:27-main.stocker-INFO: Catalog Crawler starts
+2018.10.20 14:45:27-main.stocker-DEBUG: Files found in catalog : ['Chic - Chic (Original album).m3u', "09-Chic - São Paulo (7'' Version).mp3", '03-Chic - You Can Get By.mp3', 'front.jpg', '02-Chic - São Paulo.mp3', 'Chic - Chic (Original album + bonus tracks).m3u', "11-Chic - Everybody Dance (Alternate 7'' Version).mp3", "05-Chic - Est-Ce Que C'est Chic.mp3", '15-Chic - Everybody Dance (Glenn Friscia Hardhouse Mix).mp3', "13-Chic - You Can Get By (7'' Version).mp3", 'side 1.jpg', 'Chic - Everybody Dance (Single).m3u', "12-Chic - Everybody Dance (12'' Version).mp3", "01-Chic-Dance,Dance,Dance(Yowsah,Yowsah,Yowsah)(Album&12''Versio.mp3", '04-Chic - Everybody Dance.mp3', 'back.jpg', '14-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(PalJoeyMix).mp3', 'Chic - Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (Single).m3u', '07-Chic - Strike Up The Band.mp3', "10-Chic - Everybody Dance (7'' Version).mp3", '17-Chic - Strike Up The Band (Hifana Copa Mix).mp3', 'side 2.jpg', '06-Chic - Falling In Love With You.mp3', '16-Chic - Everybody Dance (Motiva Rpl Mix).mp3', "08-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(7''Version).mp3"]
+2018.10.20 14:45:27-main.stocker-INFO: Starting loop through files
+
+2018.10.20 14:45:27-main.stocker-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/09-Chic - São Paulo (7'' Version).mp3
+2018.10.20 14:45:27-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.20 14:45:27-main.stocker-INFO: All file attributes collected correct
+2018.10.20 14:45:27-main.stocker-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/09-Chic - São Paulo (7'' Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "São Paulo (7'' Version)", 'date': '1977', 'length': 195, 'bitrate': 320}
+
+2018.10.20 14:45:27-main.stocker-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/03-Chic - You Can Get By.mp3
+2018.10.20 14:45:27-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.20 14:45:27-main.stocker-INFO: All file attributes collected correct
+2018.10.20 14:45:27-main.stocker-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/03-Chic - You Can Get By.mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'You Can Get By', 'date': '1977', 'length': 336, 'bitrate': 320}
+
+2018.10.20 14:45:27-main.stocker-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/02-Chic - São Paulo.mp3
+2018.10.20 14:45:27-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.20 14:45:27-main.stocker-INFO: All file attributes collected correct
+2018.10.20 14:45:27-main.stocker-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/02-Chic - São Paulo.mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'São Paulo', 'date': '1977', 'length': 301, 'bitrate': 320}
+
+2018.10.20 14:45:27-main.stocker-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/11-Chic - Everybody Dance (Alternate 7'' Version).mp3
+2018.10.20 14:45:27-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.20 14:45:27-main.stocker-WARNING: Error : 'DATE'
+2018.10.20 14:45:27-main.stocker-INFO: All file attributes collected correct
+2018.10.20 14:45:27-main.stocker-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/11-Chic - Everybody Dance (Alternate 7'' Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Everybody Dance (Alternate 7'' Version)", 'date': '', 'length': 248, 'bitrate': 320}
+
+2018.10.20 14:45:27-main.stocker-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/05-Chic - Est-Ce Que C'est Chic.mp3
+2018.10.20 14:45:27-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.20 14:45:27-main.stocker-INFO: All file attributes collected correct
+2018.10.20 14:45:27-main.stocker-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/05-Chic - Est-Ce Que C'est Chic.mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Est-Ce Que C'est Chic", 'date': '1977', 'length': 233, 'bitrate': 320}
+
+2018.10.20 14:45:27-main.stocker-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/15-Chic - Everybody Dance (Glenn Friscia Hardhouse Mix).mp3
+2018.10.20 14:45:27-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.20 14:45:27-main.stocker-INFO: All file attributes collected correct
+2018.10.20 14:45:27-main.stocker-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/15-Chic - Everybody Dance (Glenn Friscia Hardhouse Mix).mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Everybody Dance (Glenn Friscia Hardhouse Mix)', 'date': '1977', 'length': 338, 'bitrate': 320}
+
+2018.10.20 14:45:27-main.stocker-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/13-Chic - You Can Get By (7'' Version).mp3
+2018.10.20 14:45:27-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.20 14:45:27-main.stocker-INFO: All file attributes collected correct
+2018.10.20 14:45:27-main.stocker-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/13-Chic - You Can Get By (7'' Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "You Can Get By (7'' Version)", 'date': '1977', 'length': 242, 'bitrate': 320}
+
+2018.10.20 14:45:27-main.stocker-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/12-Chic - Everybody Dance (12'' Version).mp3
+2018.10.20 14:45:27-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.20 14:45:27-main.stocker-INFO: All file attributes collected correct
+2018.10.20 14:45:27-main.stocker-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/12-Chic - Everybody Dance (12'' Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Everybody Dance (12'' Version)", 'date': '1977', 'length': 507, 'bitrate': 320}
+
+2018.10.20 14:45:27-main.stocker-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/01-Chic-Dance,Dance,Dance(Yowsah,Yowsah,Yowsah)(Album&12''Versio.mp3
+2018.10.20 14:45:27-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.20 14:45:27-main.stocker-WARNING: Error : 'DATE'
+2018.10.20 14:45:27-main.stocker-INFO: All file attributes collected correct
+2018.10.20 14:45:27-main.stocker-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/01-Chic-Dance,Dance,Dance(Yowsah,Yowsah,Yowsah)(Album&12''Versio.mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (Album & 12'' Version)", 'date': '', 'length': 502, 'bitrate': 320}
+
+2018.10.20 14:45:27-main.stocker-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/04-Chic - Everybody Dance.mp3
+2018.10.20 14:45:27-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.20 14:45:27-main.stocker-WARNING: Error : 'DATE'
+2018.10.20 14:45:27-main.stocker-INFO: All file attributes collected correct
+2018.10.20 14:45:27-main.stocker-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/04-Chic - Everybody Dance.mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Everybody Dance', 'date': '', 'length': 401, 'bitrate': 320}
+
+2018.10.20 14:45:27-main.stocker-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/14-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(PalJoeyMix).mp3
+2018.10.20 14:45:27-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.20 14:45:27-main.stocker-INFO: All file attributes collected correct
+2018.10.20 14:45:27-main.stocker-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/14-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(PalJoeyMix).mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (Pal Joey Mix)', 'date': '1977', 'length': 247, 'bitrate': 320}
+
+2018.10.20 14:45:27-main.stocker-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/07-Chic - Strike Up The Band.mp3
+2018.10.20 14:45:27-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.20 14:45:27-main.stocker-INFO: All file attributes collected correct
+2018.10.20 14:45:27-main.stocker-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/07-Chic - Strike Up The Band.mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Strike Up The Band', 'date': '1977', 'length': 272, 'bitrate': 320}
+
+2018.10.20 14:45:27-main.stocker-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/10-Chic - Everybody Dance (7'' Version).mp3
+2018.10.20 14:45:27-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.20 14:45:27-main.stocker-WARNING: Error : 'DATE'
+2018.10.20 14:45:27-main.stocker-INFO: All file attributes collected correct
+2018.10.20 14:45:27-main.stocker-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/10-Chic - Everybody Dance (7'' Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Everybody Dance (7'' Version)", 'date': '', 'length': 206, 'bitrate': 320}
+
+2018.10.20 14:45:27-main.stocker-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/17-Chic - Strike Up The Band (Hifana Copa Mix).mp3
+2018.10.20 14:45:27-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.20 14:45:27-main.stocker-INFO: All file attributes collected correct
+2018.10.20 14:45:27-main.stocker-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/17-Chic - Strike Up The Band (Hifana Copa Mix).mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Strike Up The Band (Hifana Copa Mix)', 'date': '1977', 'length': 229, 'bitrate': 320}
+
+2018.10.20 14:45:27-main.stocker-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/06-Chic - Falling In Love With You.mp3
+2018.10.20 14:45:27-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.20 14:45:27-main.stocker-INFO: All file attributes collected correct
+2018.10.20 14:45:27-main.stocker-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/06-Chic - Falling In Love With You.mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Falling In Love With You', 'date': '1977', 'length': 269, 'bitrate': 320}
+
+2018.10.20 14:45:27-main.stocker-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/16-Chic - Everybody Dance (Motiva Rpl Mix).mp3
+2018.10.20 14:45:27-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.20 14:45:27-main.stocker-INFO: All file attributes collected correct
+2018.10.20 14:45:27-main.stocker-INFO: {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/16-Chic - Everybody Dance (Motiva Rpl Mix).mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Everybody Dance (Motiva Rpl Mix)', 'date': '1977', 'length': 362, 'bitrate': 320}
+
+2018.10.20 14:45:27-main.stocker-INFO: File Crawler for starts for file : /home/kuba/Muzyka/Chic - (1977) Chic (kopia)/08-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(7''Version).mp3
+2018.10.20 14:45:27-main.stocker-DEBUG: Handling file by taglib - correct
+2018.10.20 14:45:27-main.stocker-WARNING: Error : 'DATE'
+2018.10.20 14:45:27-main.stocker-INFO: All file attributes collected correct
+2018.10.20 14:45:27-main.stocker-INFO: {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/08-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(7''Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (7'' Version)", 'date': '', 'length': 218, 'bitrate': 320}
+
+2018.10.20 14:45:27-main.stocker-INFO: 
+
+2018.10.20 14:45:27-main.stocker-INFO: Loop through files ends succesfully
+
+2018.10.20 14:45:27-main.stocker-INFO: Determine Catalog Attributes function starts
+
+2018.10.20 14:45:27-main.stocker-DEBUG: Tries to guess Album name
+2018.10.20 14:45:27-main.stocker-DEBUG: Found 1 proposition(s) : ['Chic']
+2018.10.20 14:45:27-main.stocker-DEBUG: Album found : Chic
+2018.10.20 14:45:27-main.stocker-DEBUG: Tries to guess Artist name
+2018.10.20 14:45:27-main.stocker-DEBUG: Found 1 proposition(s) : ['Chic']
+2018.10.20 14:45:27-main.stocker-DEBUG: Artist found : Chic
+2018.10.20 14:45:27-main.stocker-DEBUG: Tries to guess date of album
+2018.10.20 14:45:27-main.stocker-DEBUG: Date unreckognized
+2018.10.20 14:45:27-main.stocker-DEBUG: Computing average bitrate of files
+2018.10.20 14:45:27-main.stocker-DEBUG: Computing total length of files
+2018.10.20 14:45:27-main.stocker-INFO: reckognized Catalog Attributes:
+Artist: Chic        
+Album: Chic
+Date: 
+AvgBitrate: 320.0
+CatalogSym        
+Total Tracks: 17
+Total Length: 1:25:06
+
+
+2018.10.20 14:45:27-main.stocker-DEBUG: returns {'album': 'Chic', 'artist': 'Chic', 'date': '', 'avg_bitrate': 320.0, 'total_length': 5106, 'catalog_mark': '', 'ext': 'mp3', 'total_tracks': 17, 'img_count': 4, 'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)', 'comment': ''}
+2018.10.20 14:45:27-main.stocker-INFO: Catalog Crawler ends,
+
+2018.10.20 14:45:27-main.dgs_con-INFO: Query Discogs Func started
+2018.10.20 14:45:27-main.dgs_con-INFO: Working on /home/kuba/Muzyka/Chic - (1977) Chic (kopia)
+2018.10.20 14:45:27-main.dgs_con-INFO: Find a master Func started
+2018.10.20 14:45:27-main.dgs_con-INFO: Master: Album
+2018.10.20 14:45:27-main.dgs_con-INFO: Connecting Discogs	Query: Chic
+2018.10.20 14:45:28-main.dgs_con-INFO: Comparing Chic - Chic to Chic - Chic
+2018.10.20 14:45:28-main.dgs_con-INFO: Found ID : 53188 by a Album method
+
+2018.10.20 14:45:28-main.dgs_con-DEBUG: values on output: Album, 53188
+
+2018.10.20 14:45:30-main.dgs_con-INFO: Find a master Func ended
+
+2018.10.20 14:45:30-main.dgs_con-INFO: Find a release Func started
+2018.10.20 14:45:30-main.dgs_con-INFO: Release: Album
+2018.10.20 14:45:30-main.dgs_con-INFO: Connecting Discogs	Query: Chic
+2018.10.20 14:45:32-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:45:32-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - C'est Chic to Chic - Chic
+2018.10.20 14:45:33-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:45:34-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:45:35-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:45:36-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:45:37-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:45:37-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:45:38-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - C'est Chic to Chic - Chic
+2018.10.20 14:45:39-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:45:40-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Les Plus Grands Succes De Chic = Chic's Greatest Hits to Chic - Chic
+2018.10.20 14:45:41-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - C'est Chic to Chic - Chic
+2018.10.20 14:45:42-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:45:43-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:45:43-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:45:43-main.dgs_con-DEBUG: no values on output, error: 'metoda_release'
+
+2018.10.20 14:45:45-main.dgs_con-INFO: Release: Token
+2018.10.20 14:45:45-main.dgs_con-INFO: Connecting Discogs	Query: Chic - Chic
+2018.10.20 14:45:47-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:45:48-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:45:49-main.dgs_con-INFO: Comparing Artist 9081 Chic - Cest Chic to Chic - Chic
+2018.10.20 14:45:50-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:45:50-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:45:51-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:45:52-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:45:53-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:45:54-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:45:55-main.dgs_con-INFO: Comparing Artist 9081 Chic - Cest Chic to Chic - Chic
+2018.10.20 14:45:56-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:45:56-main.dgs_con-INFO: Comparing Artist 9081 Chic - Les Plus Grands Succes De Chic  Chics Greatest Hits to Chic - Chic
+2018.10.20 14:45:57-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:45:58-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:45:59-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:45:59-main.dgs_con-DEBUG: no values on output, error: 'metoda_release'
+
+2018.10.20 14:46:01-main.dgs_con-INFO: Find a release Func started
+
+2018.10.20 14:46:01-main.dgs_con-INFO: Finshed querying Discogs, results are: 53188, Album, , 
+
+
+2018.10.20 14:46:03-main.dgs_con-INFO: Query Discogs Func started
+2018.10.20 14:46:03-main.dgs_con-INFO: Working on /home/kuba/Muzyka/Chic - (1977) Chic (kopia)
+2018.10.20 14:46:03-main.dgs_con-INFO: Find a release Func started
+2018.10.20 14:46:03-main.dgs_con-INFO: Release: Album
+2018.10.20 14:46:03-main.dgs_con-INFO: Connecting Discogs	Query: Chic
+2018.10.20 14:46:05-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:46:06-main-WARNING: 429: You are making requests too quickly.
+2018.10.20 14:46:06-main-WARNING: Connection Broken.                     Trying to connect in 4 seconds
+2018.10.20 14:46:10-main.dgs_con-INFO: Query Discogs Func started
+2018.10.20 14:46:10-main.dgs_con-INFO: Working on /home/kuba/Muzyka/Chic - (1977) Chic (kopia)
+2018.10.20 14:46:10-main.dgs_con-INFO: Find a release Func started
+2018.10.20 14:46:10-main.dgs_con-INFO: Release: Album
+2018.10.20 14:46:10-main.dgs_con-INFO: Connecting Discogs	Query: Chic
+2018.10.20 14:46:12-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:46:13-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - C'est Chic to Chic - Chic
+2018.10.20 14:46:14-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:46:15-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:46:17-main-WARNING: 429: You are making requests too quickly.
+2018.10.20 14:46:17-main-WARNING: Connection Broken.                     Trying to connect in 4 seconds
+2018.10.20 14:46:21-main.dgs_con-INFO: Query Discogs Func started
+2018.10.20 14:46:21-main.dgs_con-INFO: Working on /home/kuba/Muzyka/Chic - (1977) Chic (kopia)
+2018.10.20 14:46:21-main.dgs_con-INFO: Find a release Func started
+2018.10.20 14:46:21-main.dgs_con-INFO: Release: Album
+2018.10.20 14:46:21-main.dgs_con-INFO: Connecting Discogs	Query: Chic
+2018.10.20 14:46:22-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:46:23-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - C'est Chic to Chic - Chic
+2018.10.20 14:46:24-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:46:25-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:46:26-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:46:27-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:46:28-main-WARNING: 429: You are making requests too quickly.
+2018.10.20 14:46:28-main-WARNING: Connection Broken.                     Trying to connect in 4 seconds
+2018.10.20 14:46:32-main.dgs_con-INFO: Query Discogs Func started
+2018.10.20 14:46:32-main.dgs_con-INFO: Working on /home/kuba/Muzyka/Chic - (1977) Chic (kopia)
+2018.10.20 14:46:32-main.dgs_con-INFO: Find a release Func started
+2018.10.20 14:46:32-main.dgs_con-INFO: Release: Album
+2018.10.20 14:46:32-main.dgs_con-INFO: Connecting Discogs	Query: Chic
+2018.10.20 14:46:34-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:46:35-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - C'est Chic to Chic - Chic
+2018.10.20 14:46:36-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:46:37-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:46:37-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:46:38-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:46:39-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:46:41-main-WARNING: 429: You are making requests too quickly.
+2018.10.20 14:46:41-main-WARNING: Connection Broken.                     Trying to connect in 4 seconds
+2018.10.20 14:46:45-main.dgs_con-INFO: Query Discogs Func started
+2018.10.20 14:46:45-main.dgs_con-INFO: Working on /home/kuba/Muzyka/Chic - (1977) Chic (kopia)
+2018.10.20 14:46:45-main.dgs_con-INFO: Find a release Func started
+2018.10.20 14:46:45-main.dgs_con-INFO: Release: Album
+2018.10.20 14:46:45-main.dgs_con-INFO: Connecting Discogs	Query: Chic
+2018.10.20 14:46:47-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:46:48-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - C'est Chic to Chic - Chic
+2018.10.20 14:46:48-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:46:49-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:46:50-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:46:51-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:46:52-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:46:53-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:46:53-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - C'est Chic to Chic - Chic
+2018.10.20 14:46:54-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:46:55-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Les Plus Grands Succes De Chic = Chic's Greatest Hits to Chic - Chic
+2018.10.20 14:46:56-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - C'est Chic to Chic - Chic
+2018.10.20 14:46:57-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:46:58-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:46:59-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:46:59-main.dgs_con-DEBUG: values on output: , 
+
+2018.10.20 14:47:01-main.dgs_con-INFO: Release: Token
+2018.10.20 14:47:01-main.dgs_con-INFO: Connecting Discogs	Query: Chic - Chic
+2018.10.20 14:47:01-main-WARNING: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2018.10.20 14:47:01-main-WARNING: Connection Broken.                     Trying to connect in 4 seconds
+2018.10.20 14:47:05-main.dgs_con-INFO: Query Discogs Func started
+2018.10.20 14:47:05-main.dgs_con-INFO: Working on /home/kuba/Muzyka/Chic - (1977) Chic (kopia)
+2018.10.20 14:47:05-main.dgs_con-INFO: Find a release Func started
+2018.10.20 14:47:05-main.dgs_con-INFO: Release: Album
+2018.10.20 14:47:05-main.dgs_con-INFO: Connecting Discogs	Query: Chic
+2018.10.20 14:47:07-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:47:08-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - C'est Chic to Chic - Chic
+2018.10.20 14:47:08-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:47:09-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:47:10-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:47:11-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:47:12-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:47:13-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:47:13-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - C'est Chic to Chic - Chic
+2018.10.20 14:47:14-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:47:15-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Les Plus Grands Succes De Chic = Chic's Greatest Hits to Chic - Chic
+2018.10.20 14:47:16-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - C'est Chic to Chic - Chic
+2018.10.20 14:47:17-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:47:18-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:47:19-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:47:19-main.dgs_con-DEBUG: values on output: , 
+
+2018.10.20 14:47:21-main.dgs_con-INFO: Release: Token
+2018.10.20 14:47:21-main.dgs_con-INFO: Connecting Discogs	Query: Chic - Chic
+2018.10.20 14:47:22-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:47:23-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:47:24-main.dgs_con-INFO: Comparing Artist 9081 Chic - Cest Chic to Chic - Chic
+2018.10.20 14:47:25-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:47:26-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:47:27-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:47:27-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:47:28-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:47:29-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:47:30-main.dgs_con-INFO: Comparing Artist 9081 Chic - Cest Chic to Chic - Chic
+2018.10.20 14:47:31-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:47:32-main.dgs_con-INFO: Comparing Artist 9081 Chic - Les Plus Grands Succes De Chic  Chics Greatest Hits to Chic - Chic
+2018.10.20 14:47:32-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:47:33-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:47:34-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:47:34-main.dgs_con-DEBUG: values on output: , 
+
+2018.10.20 14:47:36-main.dgs_con-INFO: Find a release Func started
+
+2018.10.20 14:47:36-main.dgs_con-INFO: Finshed querying Discogs, results are: 53188, Album, , 
+
+
+2018.10.20 14:47:38-main.dgs_con-INFO: Query Discogs Func started
+2018.10.20 14:47:38-main.dgs_con-INFO: Working on /home/kuba/Muzyka/Chic - (1977) Chic (kopia)
+2018.10.20 14:47:38-main.dgs_con-INFO: Find a release Func started
+2018.10.20 14:47:38-main.dgs_con-INFO: Release: Album
+2018.10.20 14:47:38-main.dgs_con-INFO: Connecting Discogs	Query: Chic
+2018.10.20 14:47:40-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:47:41-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - C'est Chic to Chic - Chic
+2018.10.20 14:47:42-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:47:42-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:47:43-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:47:44-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:47:45-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:47:46-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:47:47-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - C'est Chic to Chic - Chic
+2018.10.20 14:47:48-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:47:48-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Les Plus Grands Succes De Chic = Chic's Greatest Hits to Chic - Chic
+2018.10.20 14:47:49-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - C'est Chic to Chic - Chic
+2018.10.20 14:47:50-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:47:51-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:47:52-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:47:52-main.dgs_con-DEBUG: values on output: , 
+
+2018.10.20 14:47:54-main.dgs_con-INFO: Release: Token
+2018.10.20 14:47:54-main.dgs_con-INFO: Connecting Discogs	Query: Chic - Chic
+2018.10.20 14:47:55-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:47:56-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:47:57-main.dgs_con-INFO: Comparing Artist 9081 Chic - Cest Chic to Chic - Chic
+2018.10.20 14:47:58-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:47:59-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:48:00-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:48:01-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:48:01-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:48:02-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:48:03-main.dgs_con-INFO: Comparing Artist 9081 Chic - Cest Chic to Chic - Chic
+2018.10.20 14:48:04-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:48:05-main.dgs_con-INFO: Comparing Artist 9081 Chic - Les Plus Grands Succes De Chic  Chics Greatest Hits to Chic - Chic
+2018.10.20 14:48:06-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:48:07-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:48:07-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:48:07-main.dgs_con-DEBUG: values on output: , 
+
+2018.10.20 14:48:09-main.dgs_con-INFO: Find a release Func started
+
+2018.10.20 14:48:09-main.dgs_con-INFO: Finshed querying Discogs, results are: 53188, Album, , 
+
+
+2018.10.20 14:48:11-main.dgs_con-INFO: Query Discogs Func started
+2018.10.20 14:48:11-main.dgs_con-INFO: Working on /home/kuba/Muzyka/Chic - (1977) Chic (kopia)
+2018.10.20 14:48:11-main.dgs_con-INFO: Find a release Func started
+2018.10.20 14:48:11-main.dgs_con-INFO: Release: Album
+2018.10.20 14:48:11-main.dgs_con-INFO: Connecting Discogs	Query: Chic
+2018.10.20 14:48:13-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:48:14-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - C'est Chic to Chic - Chic
+2018.10.20 14:48:15-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:48:16-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:48:16-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:48:17-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:48:18-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:48:19-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:48:20-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - C'est Chic to Chic - Chic
+2018.10.20 14:48:21-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:48:22-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Les Plus Grands Succes De Chic = Chic's Greatest Hits to Chic - Chic
+2018.10.20 14:48:22-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - C'est Chic to Chic - Chic
+2018.10.20 14:48:23-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:48:24-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:48:25-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:48:25-main.dgs_con-DEBUG: values on output: , 
+
+2018.10.20 14:48:27-main.dgs_con-INFO: Release: Token
+2018.10.20 14:48:27-main.dgs_con-INFO: Connecting Discogs	Query: Chic - Chic
+2018.10.20 14:48:29-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:48:30-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:48:30-main.dgs_con-INFO: Comparing Artist 9081 Chic - Cest Chic to Chic - Chic
+2018.10.20 14:48:31-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:48:32-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:48:33-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:48:34-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:48:35-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:48:37-main-WARNING: 429: You are making requests too quickly.
+2018.10.20 14:48:37-main-WARNING: Connection Broken.                     Trying to connect in 4 seconds
+2018.10.20 14:48:41-main.dgs_con-INFO: Query Discogs Func started
+2018.10.20 14:48:41-main.dgs_con-INFO: Working on /home/kuba/Muzyka/Chic - (1977) Chic (kopia)
+2018.10.20 14:48:41-main.dgs_con-INFO: Find a release Func started
+2018.10.20 14:48:41-main.dgs_con-INFO: Release: Album
+2018.10.20 14:48:41-main.dgs_con-INFO: Connecting Discogs	Query: Chic
+2018.10.20 14:48:45-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:48:46-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - C'est Chic to Chic - Chic
+2018.10.20 14:48:47-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:48:48-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:48:48-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:48:49-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:48:50-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:48:51-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:48:52-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - C'est Chic to Chic - Chic
+2018.10.20 14:48:53-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:48:53-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Les Plus Grands Succes De Chic = Chic's Greatest Hits to Chic - Chic
+2018.10.20 14:48:54-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - C'est Chic to Chic - Chic
+2018.10.20 14:48:55-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:48:56-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:48:57-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:48:57-main.dgs_con-DEBUG: values on output: , 
+
+2018.10.20 14:48:59-main.dgs_con-INFO: Release: Token
+2018.10.20 14:48:59-main.dgs_con-INFO: Connecting Discogs	Query: Chic - Chic
+2018.10.20 14:49:01-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:49:01-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:49:02-main.dgs_con-INFO: Comparing Artist 9081 Chic - Cest Chic to Chic - Chic
+2018.10.20 14:49:03-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:49:04-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:49:05-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:49:06-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:49:07-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:49:07-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:49:08-main.dgs_con-INFO: Comparing Artist 9081 Chic - Cest Chic to Chic - Chic
+2018.10.20 14:49:09-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:49:10-main.dgs_con-INFO: Comparing Artist 9081 Chic - Les Plus Grands Succes De Chic  Chics Greatest Hits to Chic - Chic
+2018.10.20 14:49:11-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:49:12-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:49:12-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:49:12-main.dgs_con-DEBUG: values on output: , 
+
+2018.10.20 14:49:14-main.dgs_con-INFO: Find a release Func started
+
+2018.10.20 14:49:14-main.dgs_con-INFO: Finshed querying Discogs, results are: 53188, Album, , 
+
+
+2018.10.20 14:49:16-main.dgs_con-INFO: Query Discogs Func started
+2018.10.20 14:49:16-main.dgs_con-INFO: Working on /home/kuba/Muzyka/Chic - (1977) Chic (kopia)
+2018.10.20 14:49:16-main.dgs_con-INFO: Find a release Func started
+2018.10.20 14:49:16-main.dgs_con-INFO: Release: Album
+2018.10.20 14:49:16-main.dgs_con-INFO: Connecting Discogs	Query: Chic
+2018.10.20 14:49:18-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:49:19-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - C'est Chic to Chic - Chic
+2018.10.20 14:49:20-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:49:21-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:49:22-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:49:22-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:49:23-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:49:24-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:49:25-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - C'est Chic to Chic - Chic
+2018.10.20 14:49:26-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:49:27-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Les Plus Grands Succes De Chic = Chic's Greatest Hits to Chic - Chic
+2018.10.20 14:49:28-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - C'est Chic to Chic - Chic
+2018.10.20 14:49:28-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:49:29-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:49:30-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:49:30-main.dgs_con-DEBUG: values on output: , 
+
+2018.10.20 14:49:32-main.dgs_con-INFO: Release: Token
+2018.10.20 14:49:32-main.dgs_con-INFO: Connecting Discogs	Query: Chic - Chic
+2018.10.20 14:49:34-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:49:35-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:49:35-main.dgs_con-INFO: Comparing Artist 9081 Chic - Cest Chic to Chic - Chic
+2018.10.20 14:49:36-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:49:37-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:49:38-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:49:39-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:49:40-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:49:41-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:49:41-main.dgs_con-INFO: Comparing Artist 9081 Chic - Cest Chic to Chic - Chic
+2018.10.20 14:49:42-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:49:43-main.dgs_con-INFO: Comparing Artist 9081 Chic - Les Plus Grands Succes De Chic  Chics Greatest Hits to Chic - Chic
+2018.10.20 14:49:44-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:49:45-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:49:46-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:49:46-main.dgs_con-DEBUG: values on output: , 
+
+2018.10.20 14:49:48-main.dgs_con-INFO: Find a release Func started
+
+2018.10.20 14:49:48-main.dgs_con-INFO: Finshed querying Discogs, results are: 53188, Album, , 
+
+
+2018.10.20 14:49:50-main.dgs_con-INFO: Query Discogs Func started
+2018.10.20 14:49:50-main.dgs_con-INFO: Working on /home/kuba/Muzyka/Chic - (1977) Chic (kopia)
+2018.10.20 14:49:50-main.dgs_con-INFO: Find a release Func started
+2018.10.20 14:49:50-main.dgs_con-INFO: Release: Album
+2018.10.20 14:49:50-main.dgs_con-INFO: Connecting Discogs	Query: Chic
+2018.10.20 14:49:51-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:49:52-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - C'est Chic to Chic - Chic
+2018.10.20 14:49:53-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:49:54-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:49:55-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:49:56-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:49:56-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:49:57-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:49:58-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - C'est Chic to Chic - Chic
+2018.10.20 14:49:59-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:50:00-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Les Plus Grands Succes De Chic = Chic's Greatest Hits to Chic - Chic
+2018.10.20 14:50:01-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - C'est Chic to Chic - Chic
+2018.10.20 14:50:02-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:50:02-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:50:03-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:50:03-main.dgs_con-DEBUG: values on output: , 
+
+2018.10.20 14:50:05-main.dgs_con-INFO: Release: Token
+2018.10.20 14:50:05-main.dgs_con-INFO: Connecting Discogs	Query: Chic - Chic
+2018.10.20 14:50:07-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:50:08-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:50:09-main.dgs_con-INFO: Comparing Artist 9081 Chic - Cest Chic to Chic - Chic
+2018.10.20 14:50:09-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:50:10-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:50:11-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:50:12-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:50:13-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:50:14-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:50:14-main.dgs_con-INFO: Comparing Artist 9081 Chic - Cest Chic to Chic - Chic
+2018.10.20 14:50:15-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:50:16-main.dgs_con-INFO: Comparing Artist 9081 Chic - Les Plus Grands Succes De Chic  Chics Greatest Hits to Chic - Chic
+2018.10.20 14:50:17-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:50:18-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:50:19-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:50:19-main.dgs_con-DEBUG: values on output: , 
+
+2018.10.20 14:50:21-main.dgs_con-INFO: Find a release Func started
+
+2018.10.20 14:50:21-main.dgs_con-INFO: Finshed querying Discogs, results are: 53188, Album, , 
+
+
+2018.10.20 14:50:23-main.dgs_con-INFO: Query Discogs Func started
+2018.10.20 14:50:23-main.dgs_con-INFO: Working on /home/kuba/Muzyka/Chic - (1977) Chic (kopia)
+2018.10.20 14:50:23-main.dgs_con-INFO: Find a release Func started
+2018.10.20 14:50:23-main.dgs_con-INFO: Release: Album
+2018.10.20 14:50:23-main.dgs_con-INFO: Connecting Discogs	Query: Chic
+2018.10.20 14:50:24-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:50:25-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - C'est Chic to Chic - Chic
+2018.10.20 14:50:26-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:50:27-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:50:28-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:50:29-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:50:29-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:50:30-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:50:31-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - C'est Chic to Chic - Chic
+2018.10.20 14:50:32-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:50:33-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Les Plus Grands Succes De Chic = Chic's Greatest Hits to Chic - Chic
+2018.10.20 14:50:34-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - C'est Chic to Chic - Chic
+2018.10.20 14:50:35-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:50:35-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:50:36-main.dgs_con-INFO: Comparing <Artist 9081 'Chic'> - Chic to Chic - Chic
+2018.10.20 14:50:36-main.dgs_con-DEBUG: values on output: , 
+
+2018.10.20 14:50:38-main.dgs_con-INFO: Release: Token
+2018.10.20 14:50:38-main.dgs_con-INFO: Connecting Discogs	Query: Chic - Chic
+2018.10.20 14:50:40-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:50:41-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:50:42-main.dgs_con-INFO: Comparing Artist 9081 Chic - Cest Chic to Chic - Chic
+2018.10.20 14:50:42-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:50:43-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:50:44-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:50:45-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:50:46-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:50:47-main.dgs_con-INFO: Comparing Artist 9081 Chic - Chic to Chic - Chic
+2018.10.20 14:50:47-main.dgs_con-INFO: Comparing Artist 9081 Chic - Cest Chic to Chic - Chic
+2018.10.20 14:50:49-main-WARNING: 429: You are making requests too quickly.
+2018.10.20 14:50:49-main-WARNING: Connection Broken.                     Trying to connect in 4 seconds
+2018.10.20 14:50:53-main.dbase-INFO: Save to DB started
+2018.10.20 14:50:53-main.dbase-INFO: Catalog data inserted successfully
+2018.10.20 14:50:53-main.dbase-DEBUG: Tries to insert : {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/09-Chic - São Paulo (7'' Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "São Paulo (7'' Version)", 'date': '1977', 'length': 195, 'bitrate': 320}
+2018.10.20 14:50:53-main.dbase-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/03-Chic - You Can Get By.mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'You Can Get By', 'date': '1977', 'length': 336, 'bitrate': 320}
+2018.10.20 14:50:53-main.dbase-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/02-Chic - São Paulo.mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'São Paulo', 'date': '1977', 'length': 301, 'bitrate': 320}
+2018.10.20 14:50:53-main.dbase-DEBUG: Tries to insert : {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/11-Chic - Everybody Dance (Alternate 7'' Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Everybody Dance (Alternate 7'' Version)", 'date': '', 'length': 248, 'bitrate': 320}
+2018.10.20 14:50:53-main.dbase-DEBUG: Tries to insert : {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/05-Chic - Est-Ce Que C'est Chic.mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Est-Ce Que C'est Chic", 'date': '1977', 'length': 233, 'bitrate': 320}
+2018.10.20 14:50:53-main.dbase-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/15-Chic - Everybody Dance (Glenn Friscia Hardhouse Mix).mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Everybody Dance (Glenn Friscia Hardhouse Mix)', 'date': '1977', 'length': 338, 'bitrate': 320}
+2018.10.20 14:50:53-main.dbase-DEBUG: Tries to insert : {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/13-Chic - You Can Get By (7'' Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "You Can Get By (7'' Version)", 'date': '1977', 'length': 242, 'bitrate': 320}
+2018.10.20 14:50:53-main.dbase-DEBUG: Tries to insert : {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/12-Chic - Everybody Dance (12'' Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Everybody Dance (12'' Version)", 'date': '1977', 'length': 507, 'bitrate': 320}
+2018.10.20 14:50:53-main.dbase-DEBUG: Tries to insert : {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/01-Chic-Dance,Dance,Dance(Yowsah,Yowsah,Yowsah)(Album&12''Versio.mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (Album & 12'' Version)", 'date': '', 'length': 502, 'bitrate': 320}
+2018.10.20 14:50:53-main.dbase-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/04-Chic - Everybody Dance.mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Everybody Dance', 'date': '', 'length': 401, 'bitrate': 320}
+2018.10.20 14:50:53-main.dbase-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/14-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(PalJoeyMix).mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (Pal Joey Mix)', 'date': '1977', 'length': 247, 'bitrate': 320}
+2018.10.20 14:50:53-main.dbase-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/07-Chic - Strike Up The Band.mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Strike Up The Band', 'date': '1977', 'length': 272, 'bitrate': 320}
+2018.10.20 14:50:53-main.dbase-DEBUG: Tries to insert : {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/10-Chic - Everybody Dance (7'' Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Everybody Dance (7'' Version)", 'date': '', 'length': 206, 'bitrate': 320}
+2018.10.20 14:50:53-main.dbase-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/17-Chic - Strike Up The Band (Hifana Copa Mix).mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Strike Up The Band (Hifana Copa Mix)', 'date': '1977', 'length': 229, 'bitrate': 320}
+2018.10.20 14:50:53-main.dbase-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/06-Chic - Falling In Love With You.mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Falling In Love With You', 'date': '1977', 'length': 269, 'bitrate': 320}
+2018.10.20 14:50:53-main.dbase-DEBUG: Tries to insert : {'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/16-Chic - Everybody Dance (Motiva Rpl Mix).mp3', 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': 'Everybody Dance (Motiva Rpl Mix)', 'date': '1977', 'length': 362, 'bitrate': 320}
+2018.10.20 14:50:53-main.dbase-DEBUG: Tries to insert : {'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/08-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(7''Version).mp3", 'ext': 'mp3', 'album': 'Chic', 'artist': 'Chic', 'title': "Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (7'' Version)", 'date': '', 'length': 218, 'bitrate': 320}
+2018.10.20 14:50:53-main.dbase-INFO: Catalog data inserted successfully
+2018.10.20 14:50:53-main.dbase-INFO: Data Commited
+

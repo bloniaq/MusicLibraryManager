@@ -1,0 +1,665 @@
+2018.10.20 17:23:35-main-INFO: OS : Linux
+2018.10.20 17:23:35-main.stocker-INFO: catalog_collector Function starts
+2018.10.20 17:23:35-main.stocker-DEBUG: Catalog Cache File not found
+2018.10.20 17:23:35-main.stocker-DEBUG: Starting reading library
+2018.10.20 17:23:35-main.stocker-INFO: Library reading ended with 22 directories
+2018.10.20 17:23:35-main.stocker-INFO: catalog_collector found 16 dirs to check
+
+
+2018.10.20 17:23:35-main-INFO: There is [<sqlite3.Row object at 0x7f34a35c4ab0>, <sqlite3.Row object at 0x7f34a2720b50>, <sqlite3.Row object at 0x7f34a2720d30>, <sqlite3.Row object at 0x7f34a2720ed0>] masters, and [<sqlite3.Row object at 0x7f34a2720af0>, <sqlite3.Row object at 0x7f34a2720f70>, <sqlite3.Row object at 0x7f34a2720cd0>, <sqlite3.Row object at 0x7f34a2720b30>] releases recognizes in db
+2018.10.20 17:25:15-main-INFO: Skipped 0 - it contains both IDs
+2018.10.20 17:25:15-main.dbase-INFO: get a dict by id 2 started
+2018.10.20 17:25:15-main.dbase-INFO: Generated dictionary : {'id': 2, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans', 'artist': 'Grażyna Łobaszewska', 'album': 'Sklejam się', 'date': 2016, 'd_master': '', 'd_release': '', 'avg_bitrate': 831.5, 'total_length': 2704, 'total_tracks': 11, 'comment': 'unsupported format', 'ext': 'flac', 'catalog_mark': '', 'metoda_master': '', 'metoda_release': '', 'img_count': 8}
+
+
+2018.10.20 17:25:15-main.dbase-INFO: idx 0
+2018.10.20 17:25:15-main.dbase-INFO: col ('id', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column id
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 18
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f34a2720a70>
+2018.10.20 17:25:15-main.dbase-INFO: value: 18
+2018.10.20 17:25:15-main.dbase-INFO: idx 1
+2018.10.20 17:25:15-main.dbase-INFO: col ('sciezka', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column path
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 18
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f34a2720a70>
+2018.10.20 17:25:15-main.dbase-INFO: value: /home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/03 Pomost.flac
+2018.10.20 17:25:15-main.dbase-INFO: idx 2
+2018.10.20 17:25:15-main.dbase-INFO: col ('artysta', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column artist
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 18
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f34a2720a70>
+2018.10.20 17:25:15-main.dbase-INFO: value: Grażyna Łobaszewska
+2018.10.20 17:25:15-main.dbase-INFO: idx 3
+2018.10.20 17:25:15-main.dbase-INFO: col ('tytul', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column title
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 18
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f34a2720a70>
+2018.10.20 17:25:15-main.dbase-INFO: value: Pomost
+2018.10.20 17:25:15-main.dbase-INFO: idx 4
+2018.10.20 17:25:15-main.dbase-INFO: col ('katalog_id', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column catalog_id
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 18
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f34a2720a70>
+2018.10.20 17:25:15-main.dbase-INFO: value: 2
+2018.10.20 17:25:15-main.dbase-INFO: idx 5
+2018.10.20 17:25:15-main.dbase-INFO: col ('album', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column album
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 18
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f34a2720a70>
+2018.10.20 17:25:15-main.dbase-INFO: value: Sklejam się
+2018.10.20 17:25:15-main.dbase-INFO: idx 6
+2018.10.20 17:25:15-main.dbase-INFO: col ('format', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column ext
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 18
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f34a2720a70>
+2018.10.20 17:25:15-main.dbase-INFO: value: flac
+2018.10.20 17:25:15-main.dbase-INFO: idx 7
+2018.10.20 17:25:15-main.dbase-INFO: col ('dlugosc', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column length
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 18
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f34a2720a70>
+2018.10.20 17:25:15-main.dbase-INFO: value: 284
+2018.10.20 17:25:15-main.dbase-INFO: idx 8
+2018.10.20 17:25:15-main.dbase-INFO: col ('jakosc', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column bitrate
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 18
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f34a2720a70>
+2018.10.20 17:25:15-main.dbase-INFO: value: 813
+2018.10.20 17:25:15-main.dbase-INFO: idx 0
+2018.10.20 17:25:15-main.dbase-INFO: col ('id', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column id
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 19
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48090>
+2018.10.20 17:25:15-main.dbase-INFO: value: 19
+2018.10.20 17:25:15-main.dbase-INFO: idx 1
+2018.10.20 17:25:15-main.dbase-INFO: col ('sciezka', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column path
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 19
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48090>
+2018.10.20 17:25:15-main.dbase-INFO: value: /home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/01 Sklejam się.flac
+2018.10.20 17:25:15-main.dbase-INFO: idx 2
+2018.10.20 17:25:15-main.dbase-INFO: col ('artysta', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column artist
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 19
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48090>
+2018.10.20 17:25:15-main.dbase-INFO: value: Grażyna Łobaszewska
+2018.10.20 17:25:15-main.dbase-INFO: idx 3
+2018.10.20 17:25:15-main.dbase-INFO: col ('tytul', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column title
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 19
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48090>
+2018.10.20 17:25:15-main.dbase-INFO: value: Sklejam się
+2018.10.20 17:25:15-main.dbase-INFO: idx 4
+2018.10.20 17:25:15-main.dbase-INFO: col ('katalog_id', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column catalog_id
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 19
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48090>
+2018.10.20 17:25:15-main.dbase-INFO: value: 2
+2018.10.20 17:25:15-main.dbase-INFO: idx 5
+2018.10.20 17:25:15-main.dbase-INFO: col ('album', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column album
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 19
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48090>
+2018.10.20 17:25:15-main.dbase-INFO: value: Sklejam się
+2018.10.20 17:25:15-main.dbase-INFO: idx 6
+2018.10.20 17:25:15-main.dbase-INFO: col ('format', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column ext
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 19
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48090>
+2018.10.20 17:25:15-main.dbase-INFO: value: flac
+2018.10.20 17:25:15-main.dbase-INFO: idx 7
+2018.10.20 17:25:15-main.dbase-INFO: col ('dlugosc', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column length
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 19
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48090>
+2018.10.20 17:25:15-main.dbase-INFO: value: 209
+2018.10.20 17:25:15-main.dbase-INFO: idx 8
+2018.10.20 17:25:15-main.dbase-INFO: col ('jakosc', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column bitrate
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 19
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48090>
+2018.10.20 17:25:15-main.dbase-INFO: value: 876
+2018.10.20 17:25:15-main.dbase-INFO: idx 0
+2018.10.20 17:25:15-main.dbase-INFO: col ('id', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column id
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 20
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb480d0>
+2018.10.20 17:25:15-main.dbase-INFO: value: 20
+2018.10.20 17:25:15-main.dbase-INFO: idx 1
+2018.10.20 17:25:15-main.dbase-INFO: col ('sciezka', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column path
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 20
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb480d0>
+2018.10.20 17:25:15-main.dbase-INFO: value: /home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/05 Para-finał.flac
+2018.10.20 17:25:15-main.dbase-INFO: idx 2
+2018.10.20 17:25:15-main.dbase-INFO: col ('artysta', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column artist
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 20
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb480d0>
+2018.10.20 17:25:15-main.dbase-INFO: value: Grażyna Łobaszewska
+2018.10.20 17:25:15-main.dbase-INFO: idx 3
+2018.10.20 17:25:15-main.dbase-INFO: col ('tytul', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column title
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 20
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb480d0>
+2018.10.20 17:25:15-main.dbase-INFO: value: Para-finał
+2018.10.20 17:25:15-main.dbase-INFO: idx 4
+2018.10.20 17:25:15-main.dbase-INFO: col ('katalog_id', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column catalog_id
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 20
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb480d0>
+2018.10.20 17:25:15-main.dbase-INFO: value: 2
+2018.10.20 17:25:15-main.dbase-INFO: idx 5
+2018.10.20 17:25:15-main.dbase-INFO: col ('album', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column album
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 20
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb480d0>
+2018.10.20 17:25:15-main.dbase-INFO: value: Sklejam się
+2018.10.20 17:25:15-main.dbase-INFO: idx 6
+2018.10.20 17:25:15-main.dbase-INFO: col ('format', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column ext
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 20
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb480d0>
+2018.10.20 17:25:15-main.dbase-INFO: value: flac
+2018.10.20 17:25:15-main.dbase-INFO: idx 7
+2018.10.20 17:25:15-main.dbase-INFO: col ('dlugosc', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column length
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 20
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb480d0>
+2018.10.20 17:25:15-main.dbase-INFO: value: 218
+2018.10.20 17:25:15-main.dbase-INFO: idx 8
+2018.10.20 17:25:15-main.dbase-INFO: col ('jakosc', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column bitrate
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 20
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb480d0>
+2018.10.20 17:25:15-main.dbase-INFO: value: 872
+2018.10.20 17:25:15-main.dbase-INFO: idx 0
+2018.10.20 17:25:15-main.dbase-INFO: col ('id', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column id
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 21
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48130>
+2018.10.20 17:25:15-main.dbase-INFO: value: 21
+2018.10.20 17:25:15-main.dbase-INFO: idx 1
+2018.10.20 17:25:15-main.dbase-INFO: col ('sciezka', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column path
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 21
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48130>
+2018.10.20 17:25:15-main.dbase-INFO: value: /home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/02 Filozof.flac
+2018.10.20 17:25:15-main.dbase-INFO: idx 2
+2018.10.20 17:25:15-main.dbase-INFO: col ('artysta', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column artist
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 21
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48130>
+2018.10.20 17:25:15-main.dbase-INFO: value: Grażyna Łobaszewska
+2018.10.20 17:25:15-main.dbase-INFO: idx 3
+2018.10.20 17:25:15-main.dbase-INFO: col ('tytul', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column title
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 21
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48130>
+2018.10.20 17:25:15-main.dbase-INFO: value: Filozof
+2018.10.20 17:25:15-main.dbase-INFO: idx 4
+2018.10.20 17:25:15-main.dbase-INFO: col ('katalog_id', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column catalog_id
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 21
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48130>
+2018.10.20 17:25:15-main.dbase-INFO: value: 2
+2018.10.20 17:25:15-main.dbase-INFO: idx 5
+2018.10.20 17:25:15-main.dbase-INFO: col ('album', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column album
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 21
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48130>
+2018.10.20 17:25:15-main.dbase-INFO: value: Sklejam się
+2018.10.20 17:25:15-main.dbase-INFO: idx 6
+2018.10.20 17:25:15-main.dbase-INFO: col ('format', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column ext
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 21
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48130>
+2018.10.20 17:25:15-main.dbase-INFO: value: flac
+2018.10.20 17:25:15-main.dbase-INFO: idx 7
+2018.10.20 17:25:15-main.dbase-INFO: col ('dlugosc', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column length
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 21
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48130>
+2018.10.20 17:25:15-main.dbase-INFO: value: 275
+2018.10.20 17:25:15-main.dbase-INFO: idx 8
+2018.10.20 17:25:15-main.dbase-INFO: col ('jakosc', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column bitrate
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 21
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48130>
+2018.10.20 17:25:15-main.dbase-INFO: value: 771
+2018.10.20 17:25:15-main.dbase-INFO: idx 0
+2018.10.20 17:25:15-main.dbase-INFO: col ('id', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column id
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 22
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48190>
+2018.10.20 17:25:15-main.dbase-INFO: value: 22
+2018.10.20 17:25:15-main.dbase-INFO: idx 1
+2018.10.20 17:25:15-main.dbase-INFO: col ('sciezka', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column path
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 22
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48190>
+2018.10.20 17:25:15-main.dbase-INFO: value: /home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/08 Kurkuma.flac
+2018.10.20 17:25:15-main.dbase-INFO: idx 2
+2018.10.20 17:25:15-main.dbase-INFO: col ('artysta', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column artist
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 22
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48190>
+2018.10.20 17:25:15-main.dbase-INFO: value: Grażyna Łobaszewska
+2018.10.20 17:25:15-main.dbase-INFO: idx 3
+2018.10.20 17:25:15-main.dbase-INFO: col ('tytul', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column title
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 22
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48190>
+2018.10.20 17:25:15-main.dbase-INFO: value: Kurkuma
+2018.10.20 17:25:15-main.dbase-INFO: idx 4
+2018.10.20 17:25:15-main.dbase-INFO: col ('katalog_id', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column catalog_id
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 22
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48190>
+2018.10.20 17:25:15-main.dbase-INFO: value: 2
+2018.10.20 17:25:15-main.dbase-INFO: idx 5
+2018.10.20 17:25:15-main.dbase-INFO: col ('album', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column album
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 22
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48190>
+2018.10.20 17:25:15-main.dbase-INFO: value: Sklejam się
+2018.10.20 17:25:15-main.dbase-INFO: idx 6
+2018.10.20 17:25:15-main.dbase-INFO: col ('format', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column ext
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 22
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48190>
+2018.10.20 17:25:15-main.dbase-INFO: value: flac
+2018.10.20 17:25:15-main.dbase-INFO: idx 7
+2018.10.20 17:25:15-main.dbase-INFO: col ('dlugosc', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column length
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 22
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48190>
+2018.10.20 17:25:15-main.dbase-INFO: value: 273
+2018.10.20 17:25:15-main.dbase-INFO: idx 8
+2018.10.20 17:25:15-main.dbase-INFO: col ('jakosc', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column bitrate
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 22
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48190>
+2018.10.20 17:25:15-main.dbase-INFO: value: 817
+2018.10.20 17:25:15-main.dbase-INFO: idx 0
+2018.10.20 17:25:15-main.dbase-INFO: col ('id', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column id
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 23
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48070>
+2018.10.20 17:25:15-main.dbase-INFO: value: 23
+2018.10.20 17:25:15-main.dbase-INFO: idx 1
+2018.10.20 17:25:15-main.dbase-INFO: col ('sciezka', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column path
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 23
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48070>
+2018.10.20 17:25:15-main.dbase-INFO: value: /home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/04 Anglia wita.flac
+2018.10.20 17:25:15-main.dbase-INFO: idx 2
+2018.10.20 17:25:15-main.dbase-INFO: col ('artysta', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column artist
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 23
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48070>
+2018.10.20 17:25:15-main.dbase-INFO: value: Grażyna Łobaszewska
+2018.10.20 17:25:15-main.dbase-INFO: idx 3
+2018.10.20 17:25:15-main.dbase-INFO: col ('tytul', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column title
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 23
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48070>
+2018.10.20 17:25:15-main.dbase-INFO: value: Anglia wita
+2018.10.20 17:25:15-main.dbase-INFO: idx 4
+2018.10.20 17:25:15-main.dbase-INFO: col ('katalog_id', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column catalog_id
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 23
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48070>
+2018.10.20 17:25:15-main.dbase-INFO: value: 2
+2018.10.20 17:25:15-main.dbase-INFO: idx 5
+2018.10.20 17:25:15-main.dbase-INFO: col ('album', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column album
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 23
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48070>
+2018.10.20 17:25:15-main.dbase-INFO: value: Sklejam się
+2018.10.20 17:25:15-main.dbase-INFO: idx 6
+2018.10.20 17:25:15-main.dbase-INFO: col ('format', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column ext
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 23
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48070>
+2018.10.20 17:25:15-main.dbase-INFO: value: flac
+2018.10.20 17:25:15-main.dbase-INFO: idx 7
+2018.10.20 17:25:15-main.dbase-INFO: col ('dlugosc', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column length
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 23
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48070>
+2018.10.20 17:25:15-main.dbase-INFO: value: 335
+2018.10.20 17:25:15-main.dbase-INFO: idx 8
+2018.10.20 17:25:15-main.dbase-INFO: col ('jakosc', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column bitrate
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 23
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48070>
+2018.10.20 17:25:15-main.dbase-INFO: value: 773
+2018.10.20 17:25:15-main.dbase-INFO: idx 0
+2018.10.20 17:25:15-main.dbase-INFO: col ('id', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column id
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 24
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48210>
+2018.10.20 17:25:15-main.dbase-INFO: value: 24
+2018.10.20 17:25:15-main.dbase-INFO: idx 1
+2018.10.20 17:25:15-main.dbase-INFO: col ('sciezka', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column path
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 24
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48210>
+2018.10.20 17:25:15-main.dbase-INFO: value: /home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/07 Rzym płonie.flac
+2018.10.20 17:25:15-main.dbase-INFO: idx 2
+2018.10.20 17:25:15-main.dbase-INFO: col ('artysta', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column artist
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 24
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48210>
+2018.10.20 17:25:15-main.dbase-INFO: value: Grażyna Łobaszewska
+2018.10.20 17:25:15-main.dbase-INFO: idx 3
+2018.10.20 17:25:15-main.dbase-INFO: col ('tytul', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column title
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 24
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48210>
+2018.10.20 17:25:15-main.dbase-INFO: value: Rzym płonie
+2018.10.20 17:25:15-main.dbase-INFO: idx 4
+2018.10.20 17:25:15-main.dbase-INFO: col ('katalog_id', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column catalog_id
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 24
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48210>
+2018.10.20 17:25:15-main.dbase-INFO: value: 2
+2018.10.20 17:25:15-main.dbase-INFO: idx 5
+2018.10.20 17:25:15-main.dbase-INFO: col ('album', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column album
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 24
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48210>
+2018.10.20 17:25:15-main.dbase-INFO: value: Sklejam się
+2018.10.20 17:25:15-main.dbase-INFO: idx 6
+2018.10.20 17:25:15-main.dbase-INFO: col ('format', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column ext
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 24
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48210>
+2018.10.20 17:25:15-main.dbase-INFO: value: flac
+2018.10.20 17:25:15-main.dbase-INFO: idx 7
+2018.10.20 17:25:15-main.dbase-INFO: col ('dlugosc', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column length
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 24
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48210>
+2018.10.20 17:25:15-main.dbase-INFO: value: 235
+2018.10.20 17:25:15-main.dbase-INFO: idx 8
+2018.10.20 17:25:15-main.dbase-INFO: col ('jakosc', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column bitrate
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 24
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48210>
+2018.10.20 17:25:15-main.dbase-INFO: value: 711
+2018.10.20 17:25:15-main.dbase-INFO: idx 0
+2018.10.20 17:25:15-main.dbase-INFO: col ('id', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column id
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 25
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48250>
+2018.10.20 17:25:15-main.dbase-INFO: value: 25
+2018.10.20 17:25:15-main.dbase-INFO: idx 1
+2018.10.20 17:25:15-main.dbase-INFO: col ('sciezka', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column path
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 25
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48250>
+2018.10.20 17:25:15-main.dbase-INFO: value: /home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/10 Szpilki.flac
+2018.10.20 17:25:15-main.dbase-INFO: idx 2
+2018.10.20 17:25:15-main.dbase-INFO: col ('artysta', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column artist
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 25
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48250>
+2018.10.20 17:25:15-main.dbase-INFO: value: Grażyna Łobaszewska
+2018.10.20 17:25:15-main.dbase-INFO: idx 3
+2018.10.20 17:25:15-main.dbase-INFO: col ('tytul', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column title
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 25
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48250>
+2018.10.20 17:25:15-main.dbase-INFO: value: Szpilki
+2018.10.20 17:25:15-main.dbase-INFO: idx 4
+2018.10.20 17:25:15-main.dbase-INFO: col ('katalog_id', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column catalog_id
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 25
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48250>
+2018.10.20 17:25:15-main.dbase-INFO: value: 2
+2018.10.20 17:25:15-main.dbase-INFO: idx 5
+2018.10.20 17:25:15-main.dbase-INFO: col ('album', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column album
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 25
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48250>
+2018.10.20 17:25:15-main.dbase-INFO: value: Sklejam się
+2018.10.20 17:25:15-main.dbase-INFO: idx 6
+2018.10.20 17:25:15-main.dbase-INFO: col ('format', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column ext
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 25
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48250>
+2018.10.20 17:25:15-main.dbase-INFO: value: flac
+2018.10.20 17:25:15-main.dbase-INFO: idx 7
+2018.10.20 17:25:15-main.dbase-INFO: col ('dlugosc', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column length
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 25
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48250>
+2018.10.20 17:25:15-main.dbase-INFO: value: 204
+2018.10.20 17:25:15-main.dbase-INFO: idx 8
+2018.10.20 17:25:15-main.dbase-INFO: col ('jakosc', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column bitrate
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 25
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48250>
+2018.10.20 17:25:15-main.dbase-INFO: value: 917
+2018.10.20 17:25:15-main.dbase-INFO: idx 0
+2018.10.20 17:25:15-main.dbase-INFO: col ('id', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column id
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 26
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48290>
+2018.10.20 17:25:15-main.dbase-INFO: value: 26
+2018.10.20 17:25:15-main.dbase-INFO: idx 1
+2018.10.20 17:25:15-main.dbase-INFO: col ('sciezka', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column path
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 26
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48290>
+2018.10.20 17:25:15-main.dbase-INFO: value: /home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/06 Pełnia szczęść.flac
+2018.10.20 17:25:15-main.dbase-INFO: idx 2
+2018.10.20 17:25:15-main.dbase-INFO: col ('artysta', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column artist
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 26
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48290>
+2018.10.20 17:25:15-main.dbase-INFO: value: Grażyna Łobaszewska
+2018.10.20 17:25:15-main.dbase-INFO: idx 3
+2018.10.20 17:25:15-main.dbase-INFO: col ('tytul', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column title
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 26
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48290>
+2018.10.20 17:25:15-main.dbase-INFO: value: Pełnia szczęść
+2018.10.20 17:25:15-main.dbase-INFO: idx 4
+2018.10.20 17:25:15-main.dbase-INFO: col ('katalog_id', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column catalog_id
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 26
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48290>
+2018.10.20 17:25:15-main.dbase-INFO: value: 2
+2018.10.20 17:25:15-main.dbase-INFO: idx 5
+2018.10.20 17:25:15-main.dbase-INFO: col ('album', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column album
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 26
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48290>
+2018.10.20 17:25:15-main.dbase-INFO: value: Sklejam się
+2018.10.20 17:25:15-main.dbase-INFO: idx 6
+2018.10.20 17:25:15-main.dbase-INFO: col ('format', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column ext
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 26
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48290>
+2018.10.20 17:25:15-main.dbase-INFO: value: flac
+2018.10.20 17:25:15-main.dbase-INFO: idx 7
+2018.10.20 17:25:15-main.dbase-INFO: col ('dlugosc', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column length
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 26
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48290>
+2018.10.20 17:25:15-main.dbase-INFO: value: 213
+2018.10.20 17:25:15-main.dbase-INFO: idx 8
+2018.10.20 17:25:15-main.dbase-INFO: col ('jakosc', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column bitrate
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 26
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48290>
+2018.10.20 17:25:15-main.dbase-INFO: value: 931
+2018.10.20 17:25:15-main.dbase-INFO: idx 0
+2018.10.20 17:25:15-main.dbase-INFO: col ('id', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column id
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 27
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb482d0>
+2018.10.20 17:25:15-main.dbase-INFO: value: 27
+2018.10.20 17:25:15-main.dbase-INFO: idx 1
+2018.10.20 17:25:15-main.dbase-INFO: col ('sciezka', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column path
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 27
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb482d0>
+2018.10.20 17:25:15-main.dbase-INFO: value: /home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/11 Pełnoletni.flac
+2018.10.20 17:25:15-main.dbase-INFO: idx 2
+2018.10.20 17:25:15-main.dbase-INFO: col ('artysta', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column artist
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 27
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb482d0>
+2018.10.20 17:25:15-main.dbase-INFO: value: Grażyna Łobaszewska
+2018.10.20 17:25:15-main.dbase-INFO: idx 3
+2018.10.20 17:25:15-main.dbase-INFO: col ('tytul', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column title
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 27
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb482d0>
+2018.10.20 17:25:15-main.dbase-INFO: value: Pełnoletni
+2018.10.20 17:25:15-main.dbase-INFO: idx 4
+2018.10.20 17:25:15-main.dbase-INFO: col ('katalog_id', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column catalog_id
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 27
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb482d0>
+2018.10.20 17:25:15-main.dbase-INFO: value: 2
+2018.10.20 17:25:15-main.dbase-INFO: idx 5
+2018.10.20 17:25:15-main.dbase-INFO: col ('album', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column album
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 27
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb482d0>
+2018.10.20 17:25:15-main.dbase-INFO: value: Sklejam się
+2018.10.20 17:25:15-main.dbase-INFO: idx 6
+2018.10.20 17:25:15-main.dbase-INFO: col ('format', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column ext
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 27
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb482d0>
+2018.10.20 17:25:15-main.dbase-INFO: value: flac
+2018.10.20 17:25:15-main.dbase-INFO: idx 7
+2018.10.20 17:25:15-main.dbase-INFO: col ('dlugosc', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column length
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 27
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb482d0>
+2018.10.20 17:25:15-main.dbase-INFO: value: 221
+2018.10.20 17:25:15-main.dbase-INFO: idx 8
+2018.10.20 17:25:15-main.dbase-INFO: col ('jakosc', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column bitrate
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 27
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb482d0>
+2018.10.20 17:25:15-main.dbase-INFO: value: 797
+2018.10.20 17:25:15-main.dbase-INFO: idx 0
+2018.10.20 17:25:15-main.dbase-INFO: col ('id', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column id
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 28
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48310>
+2018.10.20 17:25:15-main.dbase-INFO: value: 28
+2018.10.20 17:25:15-main.dbase-INFO: idx 1
+2018.10.20 17:25:15-main.dbase-INFO: col ('sciezka', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column path
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 28
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48310>
+2018.10.20 17:25:15-main.dbase-INFO: value: /home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/09 Ole gondola.flac
+2018.10.20 17:25:15-main.dbase-INFO: idx 2
+2018.10.20 17:25:15-main.dbase-INFO: col ('artysta', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column artist
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 28
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48310>
+2018.10.20 17:25:15-main.dbase-INFO: value: Grażyna Łobaszewska
+2018.10.20 17:25:15-main.dbase-INFO: idx 3
+2018.10.20 17:25:15-main.dbase-INFO: col ('tytul', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column title
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 28
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48310>
+2018.10.20 17:25:15-main.dbase-INFO: value: Ole gondola
+2018.10.20 17:25:15-main.dbase-INFO: idx 4
+2018.10.20 17:25:15-main.dbase-INFO: col ('katalog_id', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column catalog_id
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 28
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48310>
+2018.10.20 17:25:15-main.dbase-INFO: value: 2
+2018.10.20 17:25:15-main.dbase-INFO: idx 5
+2018.10.20 17:25:15-main.dbase-INFO: col ('album', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column album
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 28
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48310>
+2018.10.20 17:25:15-main.dbase-INFO: value: Sklejam się
+2018.10.20 17:25:15-main.dbase-INFO: idx 6
+2018.10.20 17:25:15-main.dbase-INFO: col ('format', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column ext
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 28
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48310>
+2018.10.20 17:25:15-main.dbase-INFO: value: flac
+2018.10.20 17:25:15-main.dbase-INFO: idx 7
+2018.10.20 17:25:15-main.dbase-INFO: col ('dlugosc', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column length
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 28
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48310>
+2018.10.20 17:25:15-main.dbase-INFO: value: 237
+2018.10.20 17:25:15-main.dbase-INFO: idx 8
+2018.10.20 17:25:15-main.dbase-INFO: col ('jakosc', None, None, None, None, None, None)
+2018.10.20 17:25:15-main.dbase-INFO: column bitrate
+2018.10.20 17:25:15-main.dbase-INFO: file[0]: 28
+2018.10.20 17:25:15-main.dbase-INFO: file: <sqlite3.Row object at 0x7f349eb48310>
+2018.10.20 17:25:15-main.dbase-INFO: value: 868
+2018.10.20 17:25:15-main.dbase-INFO: Generated list : [{'id': 18, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/03 Pomost.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Pomost', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 284, 'bitrate': 813}, {'id': 19, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/01 Sklejam się.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Sklejam się', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 209, 'bitrate': 876}, {'id': 20, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/05 Para-finał.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Para-finał', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 218, 'bitrate': 872}, {'id': 21, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/02 Filozof.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Filozof', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 275, 'bitrate': 771}, {'id': 22, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/08 Kurkuma.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Kurkuma', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 273, 'bitrate': 817}, {'id': 23, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/04 Anglia wita.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Anglia wita', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 335, 'bitrate': 773}, {'id': 24, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/07 Rzym płonie.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Rzym płonie', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 235, 'bitrate': 711}, {'id': 25, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/10 Szpilki.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Szpilki', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 204, 'bitrate': 917}, {'id': 26, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/06 Pełnia szczęść.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Pełnia szczęść', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 213, 'bitrate': 931}, {'id': 27, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/11 Pełnoletni.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Pełnoletni', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 221, 'bitrate': 797}, {'id': 28, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/09 Ole gondola.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Ole gondola', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 237, 'bitrate': 868}]
+
+
+2018.10.20 17:25:15-main.dgs_con-INFO: Query Discogs Func started
+2018.10.20 17:25:15-main.dgs_con-INFO: Working on /home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans
+2018.10.20 17:25:15-main.dgs_con-INFO: Find a master Func started
+2018.10.20 17:25:15-main.dgs_con-INFO: Master: Album
+2018.10.20 17:25:15-main.dgs_con-INFO: Connecting Discogs	Query: Sklejam się
+2018.10.20 17:25:17-main.dgs_con-DEBUG: values on output: , 
+
+2018.10.20 17:25:21-main.dgs_con-INFO: Master: Token
+2018.10.20 17:25:21-main.dgs_con-INFO: Connecting Discogs	Query: Grażyna Łobaszewska - Sklejam się
+2018.10.20 17:25:21-main.dgs_con-DEBUG: values on output: , 
+
+2018.10.20 17:25:25-main.dgs_con-INFO: Master: Variations
+2018.10.20 17:25:25-main.dgs_con-INFO: Connecting Discogs	Query: Grażyna Łobaszewska
+2018.10.20 17:25:27-main.dgs_con-INFO: Found <Artist 852231 'Grażyna Łobaszewska'> aliases : ['G. Łobaszewska', 'Grazyna Lobaszewska']
+2018.10.20 17:25:27-main.dgs_con-INFO: Connecting Discogs	Query: G. Łobaszewska - Sklejam się
+2018.10.20 17:25:32-main.dgs_con-INFO: Connecting Discogs	Query: Grazyna Lobaszewska - Sklejam się
+2018.10.20 17:25:37-main.dgs_con-DEBUG: values on output: , 
+
+2018.10.20 17:25:41-main.dgs_con-INFO: Find a master Func ended
+
+2018.10.20 17:25:41-main.dgs_con-INFO: Find a release Func started
+2018.10.20 17:25:41-main.dgs_con-INFO: Release: Album
+2018.10.20 17:25:41-main.dgs_con-INFO: Connecting Discogs	Query: Sklejam się
+2018.10.20 17:25:43-main.dgs_con-DEBUG: there is more than one artist in current release
+2018.10.20 17:25:43-main.dgs_con-INFO: Comparing Grażyna Łobaszewska - Sklejam Się to Grażyna Łobaszewska - Sklejam się
+2018.10.20 17:25:43-main.dgs_con-INFO: Comparing Hurt (3) - Nowy Początek to Grażyna Łobaszewska - Sklejam się
+2018.10.20 17:25:43-main.dgs_con-DEBUG: values on output: , 
+
+2018.10.20 17:25:47-main.dgs_con-INFO: Release: Token
+2018.10.20 17:25:47-main.dgs_con-INFO: Connecting Discogs	Query: Grażyna Łobaszewska - Sklejam się
+2018.10.20 17:25:49-main.dgs_con-INFO: Comparing Grażyna Łobaszewska - Sklejam Się to Grażyna Łobaszewska - Sklejam się
+2018.10.20 17:25:49-main.dgs_con-DEBUG: values on output: , 
+
+2018.10.20 17:25:53-main.dgs_con-INFO: Find a release Func started
+
+2018.10.20 17:25:53-main.dgs_con-INFO: Finshed querying Discogs, results are: , , , 
+
+
+2018.10.20 17:25:55-main.dbase-INFO: Save to DB started
+2018.10.20 17:25:55-main.dbase-INFO: Catalog data inserted successfully
+2018.10.20 17:25:55-main.dbase-DEBUG: Tries to insert : {'id': 18, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/03 Pomost.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Pomost', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 284, 'bitrate': 813}
+2018.10.20 17:25:55-main.dbase-DEBUG: Tries to insert : {'id': 19, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/01 Sklejam się.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Sklejam się', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 209, 'bitrate': 876}
+2018.10.20 17:25:55-main.dbase-DEBUG: Tries to insert : {'id': 20, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/05 Para-finał.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Para-finał', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 218, 'bitrate': 872}
+2018.10.20 17:25:55-main.dbase-DEBUG: Tries to insert : {'id': 21, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/02 Filozof.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Filozof', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 275, 'bitrate': 771}
+2018.10.20 17:25:55-main.dbase-DEBUG: Tries to insert : {'id': 22, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/08 Kurkuma.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Kurkuma', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 273, 'bitrate': 817}
+2018.10.20 17:25:55-main.dbase-DEBUG: Tries to insert : {'id': 23, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/04 Anglia wita.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Anglia wita', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 335, 'bitrate': 773}
+2018.10.20 17:25:55-main.dbase-DEBUG: Tries to insert : {'id': 24, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/07 Rzym płonie.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Rzym płonie', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 235, 'bitrate': 711}
+2018.10.20 17:25:55-main.dbase-DEBUG: Tries to insert : {'id': 25, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/10 Szpilki.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Szpilki', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 204, 'bitrate': 917}
+2018.10.20 17:25:55-main.dbase-DEBUG: Tries to insert : {'id': 26, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/06 Pełnia szczęść.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Pełnia szczęść', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 213, 'bitrate': 931}
+2018.10.20 17:25:55-main.dbase-DEBUG: Tries to insert : {'id': 27, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/11 Pełnoletni.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Pełnoletni', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 221, 'bitrate': 797}
+2018.10.20 17:25:55-main.dbase-DEBUG: Tries to insert : {'id': 28, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/09 Ole gondola.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Ole gondola', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 237, 'bitrate': 868}
+2018.10.20 17:25:55-main.dbase-INFO: Files data inserted successfully
+2018.10.20 17:25:55-main.dbase-INFO: Data Commited
+
