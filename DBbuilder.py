@@ -64,9 +64,9 @@ interrupted = False
 
 
 def query_discogs(crawl_res_c, crawl_res_f):
+    global interrupted
     while True:
         dynamic_ratelimit = 2
-        global interrupted
         try:
             if (crawl_res_c['artist'] != 'Unknown Artist' and
                     crawl_res_c['album'] != 'Unknown Album'):
@@ -90,14 +90,15 @@ def query_discogs(crawl_res_c, crawl_res_f):
             else:
                 log.warning('{}'.format(e))
                 log.warning(
-                    'Connection Broken. Trying to connect in\
-                    {0} seconds'.format(dynamic_ratelimit))
+                    'Connection Broken. \
+                    Trying to connect in {0} seconds'.format(
+                        dynamic_ratelimit))
             time.sleep(dynamic_ratelimit)
             if interrupted:
                 print("Exiting Script")
                 break
-        else:
-            break
+            continue
+        break
     return req_res_c
 
 
@@ -112,23 +113,38 @@ STEPS = len(cataloglist)
 
 dbase.create_tables()
 
+in_masters, in_releases = dbase.get_discogs_stats()
+log.info('There is {0} masters, and {1} releases recognizes in db'.format(
+    in_masters, in_releases))
+
 if refresh_database:
     dbase.clear_db()
 
 for j in range(STEPS):
-    if not refresh_database and not update_ids:
-        if dbase.check_if_r_exist(j, cataloglist):
-            log.info('Skipped {0} - it exist in DB'.format(j))
+    if not update_ids and dbase.check_if_r_exist(
+            j, cataloglist):
+        log.info('Skipped {0} - it exist in DB'.format(j))
+        continue
+    if update_ids and dbase.check_if_r_exist(j, cataloglist):
+        current_id = dbase.get_id_by_path(cataloglist[j])
+        if (dbase.check_if_id_has_value(current_id, 'discogs_master') and
+                dbase.check_if_id_has_value(current_id, 'discogs_release')):
+            log.info('Skipped {0} - it contains both IDs'.format(j))
             continue
-    if not update_ids:
-        if dbase.check_if_ids_exist(j, cataloglist):
-            log.info('Skipped {0} - it contains IDs'.format(j))
-            continue
-    crawl_res_c, crawl_res_f = data_stocker.catalog_crawler(
-        cataloglist[j])
+        else:
+            crawl_res_c = dbase.get_a_dict_by_id(current_id)
+            crawl_res_f = dbase.get_f_dict_by_id(current_id)
+    if not dbase.check_if_r_exist(j, cataloglist):
+        crawl_res_c, crawl_res_f = data_stocker.catalog_crawler(
+            cataloglist[j])
     req_res_c = query_discogs(crawl_res_c, crawl_res_f)
     dbase.save_to_db(req_res_c, crawl_res_f)
     if interrupted:
-        print("Exiting Script")
-        j = range(STEPS)[-1]
         break
+
+print("Exiting Script")
+out_masters, out_releases = dbase.get_discogs_stats()
+log.info('There is {0} masters, and {1} releases recognizes in db'.format(
+    out_masters, out_releases))
+log.info('In this session found {0} masters and {1} releases'.format(
+    out_masters - in_masters, out_releases - in_releases))
