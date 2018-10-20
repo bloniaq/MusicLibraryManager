@@ -1,0 +1,116 @@
+2018.10.20 17:51:02-main-INFO: OS : Linux
+2018.10.20 17:51:02-main.stocker-INFO: catalog_collector Function starts
+2018.10.20 17:51:02-main.stocker-DEBUG: Catalog Cache File not found
+2018.10.20 17:51:02-main.stocker-DEBUG: Starting reading library
+2018.10.20 17:51:02-main.stocker-INFO: Library reading ended with 22 directories
+2018.10.20 17:51:02-main.stocker-INFO: catalog_collector found 16 dirs to check
+
+
+2018.10.20 17:51:02-main-INFO: There is 4 masters, and 4 releases recognizes in db
+2018.10.20 17:51:02-main.dbase-INFO: get a dict by id 1 started
+2018.10.20 17:51:02-main.dbase-INFO: Generated dictionary : {'id': 1, 'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)', 'artist': 'Chic', 'album': 'Chic', 'date': '', 'd_master': '53188', 'd_release': '', 'avg_bitrate': 320, 'total_length': 5106, 'total_tracks': 17, 'comment': '', 'ext': 'mp3', 'catalog_mark': '', 'metoda_master': 'Album', 'metoda_release': 'Album', 'img_count': 4}
+
+
+2018.10.20 17:51:02-main.dbase-INFO: Generated list : [{'id': 1, 'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/09-Chic - São Paulo (7'' Version).mp3", 'artist': 'Chic', 'title': "São Paulo (7'' Version)", 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 195, 'bitrate': 320}, {'id': 2, 'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/03-Chic - You Can Get By.mp3', 'artist': 'Chic', 'title': 'You Can Get By', 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 336, 'bitrate': 320}, {'id': 3, 'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/02-Chic - São Paulo.mp3', 'artist': 'Chic', 'title': 'São Paulo', 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 301, 'bitrate': 320}, {'id': 4, 'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/11-Chic - Everybody Dance (Alternate 7'' Version).mp3", 'artist': 'Chic', 'title': "Everybody Dance (Alternate 7'' Version)", 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 248, 'bitrate': 320}, {'id': 5, 'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/05-Chic - Est-Ce Que C'est Chic.mp3", 'artist': 'Chic', 'title': "Est-Ce Que C'est Chic", 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 233, 'bitrate': 320}, {'id': 6, 'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/15-Chic - Everybody Dance (Glenn Friscia Hardhouse Mix).mp3', 'artist': 'Chic', 'title': 'Everybody Dance (Glenn Friscia Hardhouse Mix)', 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 338, 'bitrate': 320}, {'id': 7, 'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/13-Chic - You Can Get By (7'' Version).mp3", 'artist': 'Chic', 'title': "You Can Get By (7'' Version)", 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 242, 'bitrate': 320}, {'id': 8, 'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/12-Chic - Everybody Dance (12'' Version).mp3", 'artist': 'Chic', 'title': "Everybody Dance (12'' Version)", 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 507, 'bitrate': 320}, {'id': 9, 'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/01-Chic-Dance,Dance,Dance(Yowsah,Yowsah,Yowsah)(Album&12''Versio.mp3", 'artist': 'Chic', 'title': "Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (Album & 12'' Version)", 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 502, 'bitrate': 320}, {'id': 10, 'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/04-Chic - Everybody Dance.mp3', 'artist': 'Chic', 'title': 'Everybody Dance', 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 401, 'bitrate': 320}, {'id': 11, 'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/14-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(PalJoeyMix).mp3', 'artist': 'Chic', 'title': 'Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (Pal Joey Mix)', 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 247, 'bitrate': 320}, {'id': 12, 'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/07-Chic - Strike Up The Band.mp3', 'artist': 'Chic', 'title': 'Strike Up The Band', 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 272, 'bitrate': 320}, {'id': 13, 'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/10-Chic - Everybody Dance (7'' Version).mp3", 'artist': 'Chic', 'title': "Everybody Dance (7'' Version)", 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 206, 'bitrate': 320}, {'id': 14, 'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/17-Chic - Strike Up The Band (Hifana Copa Mix).mp3', 'artist': 'Chic', 'title': 'Strike Up The Band (Hifana Copa Mix)', 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 229, 'bitrate': 320}, {'id': 15, 'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/06-Chic - Falling In Love With You.mp3', 'artist': 'Chic', 'title': 'Falling In Love With You', 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 269, 'bitrate': 320}, {'id': 16, 'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/16-Chic - Everybody Dance (Motiva Rpl Mix).mp3', 'artist': 'Chic', 'title': 'Everybody Dance (Motiva Rpl Mix)', 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 362, 'bitrate': 320}, {'id': 17, 'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/08-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(7''Version).mp3", 'artist': 'Chic', 'title': "Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (7'' Version)", 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 218, 'bitrate': 320}]
+
+
+2018.10.20 17:51:02-main.dgs_con-INFO: Query Discogs Func started
+2018.10.20 17:51:02-main.dgs_con-INFO: Working on /home/kuba/Muzyka/Chic - (1977) Chic (kopia)
+2018.10.20 17:51:02-main.dgs_con-INFO: Find a release Func started
+2018.10.20 17:51:02-main.dgs_con-INFO: Release: Album
+2018.10.20 17:51:02-main.dgs_con-INFO: Connecting Discogs	Query: Chic
+2018.10.20 17:51:04-main.dgs_con-INFO: Comparing Chic - Chic to Chic - Chic
+2018.10.20 17:51:04-main.dgs_con-INFO: Found ID : 162452 by a Album method
+
+2018.10.20 17:51:04-main.dgs_con-DEBUG: values on output: Album, 162452
+
+2018.10.20 17:51:06-main.dgs_con-INFO: Find a release Func started
+
+2018.10.20 17:51:06-main.dgs_con-INFO: Finshed querying Discogs, results are: 53188, Album, 162452, Album
+
+
+2018.10.20 17:51:08-main.dbase-INFO: Save to DB started
+2018.10.20 17:51:08-main.dbase-INFO: Catalog data inserted successfully
+2018.10.20 17:51:08-main.dbase-DEBUG: Tries to insert : {'id': 1, 'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/09-Chic - São Paulo (7'' Version).mp3", 'artist': 'Chic', 'title': "São Paulo (7'' Version)", 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 195, 'bitrate': 320}
+2018.10.20 17:51:08-main.dbase-DEBUG: Tries to insert : {'id': 2, 'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/03-Chic - You Can Get By.mp3', 'artist': 'Chic', 'title': 'You Can Get By', 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 336, 'bitrate': 320}
+2018.10.20 17:51:08-main.dbase-DEBUG: Tries to insert : {'id': 3, 'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/02-Chic - São Paulo.mp3', 'artist': 'Chic', 'title': 'São Paulo', 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 301, 'bitrate': 320}
+2018.10.20 17:51:08-main.dbase-DEBUG: Tries to insert : {'id': 4, 'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/11-Chic - Everybody Dance (Alternate 7'' Version).mp3", 'artist': 'Chic', 'title': "Everybody Dance (Alternate 7'' Version)", 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 248, 'bitrate': 320}
+2018.10.20 17:51:08-main.dbase-DEBUG: Tries to insert : {'id': 5, 'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/05-Chic - Est-Ce Que C'est Chic.mp3", 'artist': 'Chic', 'title': "Est-Ce Que C'est Chic", 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 233, 'bitrate': 320}
+2018.10.20 17:51:08-main.dbase-DEBUG: Tries to insert : {'id': 6, 'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/15-Chic - Everybody Dance (Glenn Friscia Hardhouse Mix).mp3', 'artist': 'Chic', 'title': 'Everybody Dance (Glenn Friscia Hardhouse Mix)', 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 338, 'bitrate': 320}
+2018.10.20 17:51:08-main.dbase-DEBUG: Tries to insert : {'id': 7, 'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/13-Chic - You Can Get By (7'' Version).mp3", 'artist': 'Chic', 'title': "You Can Get By (7'' Version)", 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 242, 'bitrate': 320}
+2018.10.20 17:51:08-main.dbase-DEBUG: Tries to insert : {'id': 8, 'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/12-Chic - Everybody Dance (12'' Version).mp3", 'artist': 'Chic', 'title': "Everybody Dance (12'' Version)", 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 507, 'bitrate': 320}
+2018.10.20 17:51:08-main.dbase-DEBUG: Tries to insert : {'id': 9, 'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/01-Chic-Dance,Dance,Dance(Yowsah,Yowsah,Yowsah)(Album&12''Versio.mp3", 'artist': 'Chic', 'title': "Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (Album & 12'' Version)", 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 502, 'bitrate': 320}
+2018.10.20 17:51:08-main.dbase-DEBUG: Tries to insert : {'id': 10, 'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/04-Chic - Everybody Dance.mp3', 'artist': 'Chic', 'title': 'Everybody Dance', 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 401, 'bitrate': 320}
+2018.10.20 17:51:08-main.dbase-DEBUG: Tries to insert : {'id': 11, 'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/14-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(PalJoeyMix).mp3', 'artist': 'Chic', 'title': 'Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (Pal Joey Mix)', 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 247, 'bitrate': 320}
+2018.10.20 17:51:08-main.dbase-DEBUG: Tries to insert : {'id': 12, 'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/07-Chic - Strike Up The Band.mp3', 'artist': 'Chic', 'title': 'Strike Up The Band', 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 272, 'bitrate': 320}
+2018.10.20 17:51:08-main.dbase-DEBUG: Tries to insert : {'id': 13, 'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/10-Chic - Everybody Dance (7'' Version).mp3", 'artist': 'Chic', 'title': "Everybody Dance (7'' Version)", 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 206, 'bitrate': 320}
+2018.10.20 17:51:08-main.dbase-DEBUG: Tries to insert : {'id': 14, 'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/17-Chic - Strike Up The Band (Hifana Copa Mix).mp3', 'artist': 'Chic', 'title': 'Strike Up The Band (Hifana Copa Mix)', 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 229, 'bitrate': 320}
+2018.10.20 17:51:08-main.dbase-DEBUG: Tries to insert : {'id': 15, 'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/06-Chic - Falling In Love With You.mp3', 'artist': 'Chic', 'title': 'Falling In Love With You', 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 269, 'bitrate': 320}
+2018.10.20 17:51:08-main.dbase-DEBUG: Tries to insert : {'id': 16, 'path': '/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/16-Chic - Everybody Dance (Motiva Rpl Mix).mp3', 'artist': 'Chic', 'title': 'Everybody Dance (Motiva Rpl Mix)', 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 362, 'bitrate': 320}
+2018.10.20 17:51:08-main.dbase-DEBUG: Tries to insert : {'id': 17, 'path': "/home/kuba/Muzyka/Chic - (1977) Chic (kopia)/08-Chic - Dance, Dance, Dance (Yowsah,Yowsah,Yowsah)(7''Version).mp3", 'artist': 'Chic', 'title': "Dance, Dance, Dance (Yowsah, Yowsah, Yowsah) (7'' Version)", 'catalog_id': 1, 'album': 'Chic', 'ext': 'mp3', 'length': 218, 'bitrate': 320}
+2018.10.20 17:51:08-main.dbase-INFO: Files data inserted successfully
+2018.10.20 17:51:08-main.dbase-INFO: Data Commited
+
+2018.10.20 17:51:08-main.dbase-INFO: get a dict by id 2 started
+2018.10.20 17:51:08-main.dbase-INFO: Generated dictionary : {'id': 2, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans', 'artist': 'Grażyna Łobaszewska', 'album': 'Sklejam się', 'date': 2016, 'd_master': '', 'd_release': '', 'avg_bitrate': 831.5, 'total_length': 2704, 'total_tracks': 11, 'comment': 'unsupported format', 'ext': 'flac', 'catalog_mark': '', 'metoda_master': '', 'metoda_release': '', 'img_count': 8}
+
+
+2018.10.20 17:51:08-main.dbase-INFO: Generated list : [{'id': 18, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/03 Pomost.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Pomost', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 284, 'bitrate': 813}, {'id': 19, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/01 Sklejam się.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Sklejam się', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 209, 'bitrate': 876}, {'id': 20, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/05 Para-finał.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Para-finał', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 218, 'bitrate': 872}, {'id': 21, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/02 Filozof.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Filozof', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 275, 'bitrate': 771}, {'id': 22, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/08 Kurkuma.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Kurkuma', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 273, 'bitrate': 817}, {'id': 23, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/04 Anglia wita.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Anglia wita', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 335, 'bitrate': 773}, {'id': 24, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/07 Rzym płonie.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Rzym płonie', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 235, 'bitrate': 711}, {'id': 25, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/10 Szpilki.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Szpilki', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 204, 'bitrate': 917}, {'id': 26, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/06 Pełnia szczęść.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Pełnia szczęść', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 213, 'bitrate': 931}, {'id': 27, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/11 Pełnoletni.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Pełnoletni', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 221, 'bitrate': 797}, {'id': 28, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/09 Ole gondola.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Ole gondola', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 237, 'bitrate': 868}]
+
+
+2018.10.20 17:51:08-main.dgs_con-INFO: Query Discogs Func started
+2018.10.20 17:51:08-main.dgs_con-INFO: Working on /home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans
+2018.10.20 17:51:08-main.dgs_con-INFO: Find a master Func started
+2018.10.20 17:51:08-main.dgs_con-INFO: Master: Album
+2018.10.20 17:51:08-main.dgs_con-INFO: Connecting Discogs	Query: Sklejam się
+2018.10.20 17:51:09-main.dgs_con-DEBUG: values on output: , 
+
+2018.10.20 17:51:11-main.dgs_con-INFO: Master: Token
+2018.10.20 17:51:11-main.dgs_con-INFO: Connecting Discogs	Query: Grażyna Łobaszewska - Sklejam się
+2018.10.20 17:51:12-main.dgs_con-DEBUG: values on output: , 
+
+2018.10.20 17:51:14-main.dgs_con-INFO: Master: Variations
+2018.10.20 17:51:14-main.dgs_con-INFO: Connecting Discogs	Query: Grażyna Łobaszewska
+2018.10.20 17:51:15-main.dgs_con-INFO: Found <Artist 852231 'Grażyna Łobaszewska'> aliases : ['G. Łobaszewska', 'Grazyna Lobaszewska']
+2018.10.20 17:51:15-main.dgs_con-INFO: Connecting Discogs	Query: G. Łobaszewska - Sklejam się
+2018.10.20 17:51:19-main.dgs_con-INFO: Connecting Discogs	Query: Grazyna Lobaszewska - Sklejam się
+2018.10.20 17:51:22-main.dgs_con-DEBUG: values on output: , 
+
+2018.10.20 17:51:24-main.dgs_con-INFO: Find a master Func ended
+
+2018.10.20 17:51:24-main.dgs_con-INFO: Find a release Func started
+2018.10.20 17:51:24-main.dgs_con-INFO: Release: Album
+2018.10.20 17:51:24-main.dgs_con-INFO: Connecting Discogs	Query: Sklejam się
+2018.10.20 17:51:26-main.dgs_con-DEBUG: there is more than one artist in current release
+2018.10.20 17:51:26-main.dgs_con-INFO: Comparing Grażyna Łobaszewska - Sklejam Się to Grażyna Łobaszewska - Sklejam się
+2018.10.20 17:51:27-main.dgs_con-INFO: Comparing Hurt (3) - Nowy Początek to Grażyna Łobaszewska - Sklejam się
+2018.10.20 17:51:27-main.dgs_con-DEBUG: values on output: , 
+
+2018.10.20 17:51:29-main.dgs_con-INFO: Release: Token
+2018.10.20 17:51:29-main.dgs_con-INFO: Connecting Discogs	Query: Grażyna Łobaszewska - Sklejam się
+2018.10.20 17:51:31-main.dgs_con-INFO: Comparing Grażyna Łobaszewska - Sklejam Się to Grażyna Łobaszewska - Sklejam się
+2018.10.20 17:51:31-main.dgs_con-DEBUG: values on output: , 
+
+2018.10.20 17:51:33-main.dgs_con-INFO: Find a release Func started
+
+2018.10.20 17:51:33-main.dgs_con-INFO: Finshed querying Discogs, results are: , , , 
+
+
+2018.10.20 17:51:35-main.dbase-INFO: Save to DB started
+2018.10.20 17:51:35-main.dbase-INFO: Catalog data inserted successfully
+2018.10.20 17:51:35-main.dbase-DEBUG: Tries to insert : {'id': 18, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/03 Pomost.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Pomost', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 284, 'bitrate': 813}
+2018.10.20 17:51:35-main.dbase-DEBUG: Tries to insert : {'id': 19, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/01 Sklejam się.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Sklejam się', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 209, 'bitrate': 876}
+2018.10.20 17:51:35-main.dbase-DEBUG: Tries to insert : {'id': 20, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/05 Para-finał.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Para-finał', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 218, 'bitrate': 872}
+2018.10.20 17:51:35-main.dbase-DEBUG: Tries to insert : {'id': 21, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/02 Filozof.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Filozof', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 275, 'bitrate': 771}
+2018.10.20 17:51:35-main.dbase-DEBUG: Tries to insert : {'id': 22, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/08 Kurkuma.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Kurkuma', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 273, 'bitrate': 817}
+2018.10.20 17:51:35-main.dbase-DEBUG: Tries to insert : {'id': 23, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/04 Anglia wita.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Anglia wita', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 335, 'bitrate': 773}
+2018.10.20 17:51:35-main.dbase-DEBUG: Tries to insert : {'id': 24, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/07 Rzym płonie.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Rzym płonie', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 235, 'bitrate': 711}
+2018.10.20 17:51:35-main.dbase-DEBUG: Tries to insert : {'id': 25, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/10 Szpilki.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Szpilki', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 204, 'bitrate': 917}
+2018.10.20 17:51:35-main.dbase-DEBUG: Tries to insert : {'id': 26, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/06 Pełnia szczęść.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Pełnia szczęść', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 213, 'bitrate': 931}
+2018.10.20 17:51:35-main.dbase-DEBUG: Tries to insert : {'id': 27, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/11 Pełnoletni.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Pełnoletni', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 221, 'bitrate': 797}
+2018.10.20 17:51:35-main.dbase-DEBUG: Tries to insert : {'id': 28, 'path': '/home/kuba/Muzyka/Grażyna Łobaszewska-2016-Sklejam się-Scans/09 Ole gondola.flac', 'artist': 'Grażyna Łobaszewska', 'title': 'Ole gondola', 'catalog_id': 2, 'album': 'Sklejam się', 'ext': 'flac', 'length': 237, 'bitrate': 868}
+2018.10.20 17:51:35-main.dbase-INFO: Files data inserted successfully
+2018.10.20 17:51:35-main.dbase-INFO: Data Commited
+
+2018.10.20 17:51:35-main-INFO: There is 4 masters, and 5 releases recognizes in db
+2018.10.20 17:51:35-main-INFO: In this session found 0 masters and 1 releases

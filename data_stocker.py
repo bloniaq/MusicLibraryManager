@@ -3,10 +3,7 @@ import os
 import logging
 import taglib
 import ntpath
-import discogs_client
 import pickle
-import time
-from difflib import SequenceMatcher
 
 import config
 import text_tools
@@ -22,10 +19,6 @@ ratelimit = config.ratelimit
 
 
 log = logging.getLogger('main.stocker')
-
-d = discogs_client.Client(
-    'bloniaqsMusicLibraryManager/0.1',
-    user_token="BxpsPOkQpsQzPnUErhoQchKfkTIhGxdnzAHhyybD")
 
 
 def catalog_collector(refresh, path=inputpath):
@@ -56,6 +49,7 @@ def catalog_collector(refresh, path=inputpath):
         'catalog_collector found {0} dirs to check\n\n'.format(len(result)))
     return result
 
+
 '''
 dirs = []
 for _, x, _ in os.walk(path):
@@ -68,6 +62,7 @@ for j in dirs:
             result.append(x)
             break
 '''
+
 
 def get_extension(file):
     filename, tail = os.path.splitext(file)
@@ -88,7 +83,6 @@ def extension_check(file, extension_list):
 #############################################
 # CATALOG OPERATIONS FUNCTIONS DEFINITIONS
 #############################################
-
 
 
 def catalog_crawler(path):
@@ -224,7 +218,7 @@ def determine_cat_attr(f_attr_list):
         try:
             if i['date'] not in cat_date_tags:
                 cat_date_tags.append(i['date'])
-        except KeyError as e:
+        except KeyError:
             cat_date_tags.append('')
     if len(cat_date_tags) == 1:
         log.debug('Date recognized : {0}'.format(cat_date_tags[0]))

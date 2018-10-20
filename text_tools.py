@@ -12,6 +12,13 @@ d = discogs_client.Client(
     'bloniaqsMusicLibraryManager/0.1',
     user_token="BxpsPOkQpsQzPnUErhoQchKfkTIhGxdnzAHhyybD")
 
+
+def rm_artist_num(artist):
+    if artist[-1] == ')' and (artist[-3] or artist[-4]):
+        artist, _ = artist.split(' (')
+    return artist
+
+
 def find_longest_substring(str1, str2):
     '''Getting the longest substring of two inputs strings
     '''
@@ -58,7 +65,7 @@ def handle_multiple_artist(alist):
                 firstshot = ''
             else:
                 log.debug('Found an artist in discogs database : {0}'.format(
-                firstshot))
+                    firstshot))
             log.debug(
                 'Checking if my match {0} fits to {1}'.format(
                     j, firstshot))
