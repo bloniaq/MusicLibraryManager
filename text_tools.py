@@ -2,6 +2,9 @@ import logging
 import discogs_client
 import time
 from difflib import SequenceMatcher
+from fuzzywuzzy import fuzz
+from fuzzywuzzy import process
+
 
 import config
 
@@ -12,11 +15,102 @@ d = discogs_client.Client(
     'bloniaqsMusicLibraryManager/0.1',
     user_token="BxpsPOkQpsQzPnUErhoQchKfkTIhGxdnzAHhyybD")
 
+substr_to_exclude = [
+    'CDM',
+    'Vinyl',
+    '[Japan]',
+    '(Japan Edition)',
+    '(Maxi CD)',
+    '(CDS)',
+    '(Single)',
+    '(CD Single)',
+    'VLS',
+    'Cd1',
+    'CD1',
+    '(CD 1)',
+    ' - CD 1',
+    '(Disc 1)',
+    '[Disc 2]',
+    'Cd2',
+    'CD2',
+    '(CD 2)',
+    ' - CD 2',
+    '(Disc 2)',
+    '[Disc 2]',
+    '[CD1]',
+    '[CD2]',
+    '[CD3]',
+    '[CD4]',
+    ' - EP',
+    '[EP]',
+    '(EP)',
+    'WEB'
+]
+
 
 def rm_artist_num(artist):
     if artist[-1] == ')' and (artist[-3] or artist[-4]):
-        artist, _ = artist.split(' (')
+        log.info('splitting artist: {0}'.format(artist))
+        artist, *_ = artist.split(' (')
+    artist = artist.replace("*", "")
     return artist
+
+
+def find_match_artists(artists, s_artist):
+    log.info('Finding matching artists starts')
+    names = {}
+    counter = 0
+    for artist in artists:
+        log.debug('input artist: {0}'.format(artist.name))
+        names[str(artist.id)] = rm_artist_num(artist.name)
+        counter += 1
+    log.info('there were {0} artist checked'.format(counter))
+    log.debug('names dict: {0}'.format(names))
+    extract_output = process.extract(s_artist, names)
+    log.debug('output: {0}'.format(extract_output))
+    ids = []
+    for artist in extract_output:
+        if artist[1] > 85:
+            log.info('matched artist: {0}. {1}'.format(artist[2], artist[0]))
+            ids.append(artist[2])
+    return ids
+
+
+def check_artist_similarity(tag_artist, rel_artist):
+    rel_artist_ = rm_artist_num(rel_artist)
+    log.debug('Finding checking artists starts')
+    log.debug('tag artist: {0}'.format(tag_artist))
+    log.debug('release artist: {0}, corrected to: {1}'.format(
+        rel_artist, rel_artist_))
+    ratio_full = fuzz.ratio(tag_artist, rel_artist_)
+    ratio_part = fuzz.partial_ratio(tag_artist, rel_artist_)
+    log.debug('Ratio : {0}'.format(ratio_full))
+    log.debug('Ratio Partial : {0}'.format(ratio_part))
+    if ratio_full > 85 or ratio_part > 96:
+        return True
+    else:
+        return False
+
+
+def check_album_similarity(tag_album, rel_title):
+    tag_album_ = fm_album_suffixes(tag_album)
+    log.debug('Checking album title similarity')
+    log.debug('tag album: {}, corrected to: {}'.format(tag_album, tag_album_))
+    ratio_full = fuzz.ratio(tag_album_, rel_title)
+    ratio_part = fuzz.partial_ratio(tag_album_, rel_title)
+    log.debug('Ratio : {0}'.format(ratio_full))
+    log.debug('Ratio Partial : {0}'.format(ratio_part))
+    time.sleep(0.7 * ratelimit)
+    if ratio_full > 80 or ratio_part > 90:
+        return True
+    else:
+        return False
+
+
+def fm_album_suffixes(album):
+    album, *_ = album.split(' (')
+    album, *_ = album.split(' [')
+    return album
 
 
 def find_longest_substring(str1, str2):

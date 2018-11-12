@@ -1,5 +1,6 @@
 import sqlite3
 import logging
+from datetime import datetime
 
 import config
 
@@ -27,7 +28,8 @@ translate_c = {
     'katalog': 'catalog_mark',
     'metoda_master': 'metoda_master',
     'metoda_release': 'metoda_release',
-    'obrazki': 'img_count'
+    'obrazki': 'img_count',
+    'data_dod': 'insert_date'
 }
 
 translate_f = {
@@ -41,6 +43,7 @@ translate_f = {
     'katalog': 'catalog_mark',
     'dlugosc': 'length',
     'jakosc': 'bitrate',
+    'data_dod': 'insert_date'
 }
 
 
@@ -54,6 +57,10 @@ def clear_db():
 
 def get_discogs_stats():
     cursor.execute(
+        "SELECT id FROM katalogi WHERE id != ?", ('',))
+    rows = cursor.fetchall()
+    rows = len(rows)
+    cursor.execute(
         "SELECT discogs_master FROM katalogi WHERE discogs_master != ?", ('',))
     masters = cursor.fetchall()
     masters = len(masters)
@@ -62,8 +69,7 @@ def get_discogs_stats():
         katalogi WHERE discogs_release != ?""", ('',))
     releases = cursor.fetchall()
     releases = len(releases)
-    print(releases)
-    return masters, releases
+    return rows, masters, releases
 
 
 def check_if_r_exist(iterator, cat_list):
@@ -123,6 +129,15 @@ def check_if_id_has_value(row, column):
     return flag
 
 
+def add_column():
+    cursor.executescript("""
+        ALTER TABLE katalogi
+            ADD data_dod DATE;
+        ALTER TABLE pliki
+            ADD data_dod DATE;
+        """)
+
+
 def create_tables():
     cursor.executescript("""
         CREATE TABLE IF NOT EXISTS katalogi (
@@ -136,12 +151,13 @@ def create_tables():
             jakosc INTEGER NOT NULL,
             dlugosc INTEGER,
             liczba_utworow INTEGER NOT NULL,
-            uwagi varchar(400),
+            uwagi varchar(1400),
             format varchar(20),
             katalog varchar(200),
             metoda_master varchar(100),
             metoda_release varchar(100),
-            obrazki INTEGER
+            obrazki INTEGER,
+            data_dod DATE
         )
         """)
 
@@ -156,16 +172,18 @@ def create_tables():
             format varchar(20),
             dlugosc INTEGER,
             jakosc INTEGER NOT NULL,
+            data_dod DATE,
             FOREIGN KEY(katalog_id) REFERENCES katalogi(id)
         )""")
 
 
 def save_to_db(cat_attrs, f_attrs_list):
     mod_log.info('Save to DB started')
-    if cat_attrs['id']:
+    if 'id' in cat_attrs:
+        cat_attrs['insert_date'] = datetime.now().strftime('%Y.%m.%d-%H.%M')
         cursor.execute("""
             REPLACE INTO katalogi
-            VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);""",
+            VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);""",
                        (cat_attrs['id'],
                         cat_attrs['path'],
                         cat_attrs['artist'],
@@ -181,9 +199,12 @@ def save_to_db(cat_attrs, f_attrs_list):
                            cat_attrs['catalog_mark'],
                            cat_attrs['metoda_master'],
                            cat_attrs['metoda_release'],
-                           cat_attrs['img_count']))
+                           cat_attrs['img_count'],
+                           cat_attrs['insert_date']))
         mod_log.info('Catalog data inserted successfully')
         for i in range(len(f_attrs_list)):
+            f_attrs_list[i]['insert_date'] = datetime.now().strftime(
+                '%Y.%m.%d-%H.%M')
             mod_log.debug('Tries to insert : {0}'.format(f_attrs_list[i]))
             cursor.execute(
                 'REPLACE INTO pliki VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?);',
@@ -195,13 +216,15 @@ def save_to_db(cat_attrs, f_attrs_list):
                  f_attrs_list[i]['album'],
                  f_attrs_list[i]['ext'],
                  f_attrs_list[i]['length'],
-                 f_attrs_list[i]['bitrate']
+                 f_attrs_list[i]['bitrate'],
+                 f_attrs_list[i]['insert_date']
                  ))
         mod_log.info('Files data inserted successfully')
     else:
+        cat_attrs['insert_date'] = datetime.now().strftime('%Y.%m.%d-%H.%M')
         cursor.execute("""
             INSERT INTO katalogi
-            VALUES(NULL, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);""",
+            VALUES(NULL, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);""",
                        (cat_attrs['path'],
                         cat_attrs['artist'],
                            cat_attrs['album'],
@@ -216,13 +239,16 @@ def save_to_db(cat_attrs, f_attrs_list):
                            cat_attrs['catalog_mark'],
                            cat_attrs['metoda_master'],
                            cat_attrs['metoda_release'],
-                           cat_attrs['img_count']))
+                           cat_attrs['img_count'],
+                           cat_attrs['insert_date']))
         mod_log.info('Catalog data inserted successfully')
         catalogid = cursor.lastrowid
         for i in range(len(f_attrs_list)):
             mod_log.debug('Tries to insert : {0}'.format(f_attrs_list[i]))
+            f_attrs_list[i]['insert_date'] = datetime.now().strftime(
+                '%Y.%m.%d-%H.%M')
             cursor.execute(
-                'INSERT INTO pliki VALUES(NULL, ?, ?, ?, ?, ?, ?, ?, ?);',
+                'INSERT INTO pliki VALUES(NULL, ?, ?, ?, ?, ?, ?, ?, ?, ?);',
                 (f_attrs_list[i]['path'],
                  f_attrs_list[i]['artist'],
                  f_attrs_list[i]['title'],
@@ -230,7 +256,8 @@ def save_to_db(cat_attrs, f_attrs_list):
                  f_attrs_list[i]['album'],
                  f_attrs_list[i]['ext'],
                  f_attrs_list[i]['length'],
-                 f_attrs_list[i]['bitrate']
+                 f_attrs_list[i]['bitrate'],
+                 f_attrs_list[i]['insert_date']
                  ))
         mod_log.info('Files data inserted successfully')
     con.commit()

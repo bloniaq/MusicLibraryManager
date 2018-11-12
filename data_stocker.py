@@ -20,6 +20,8 @@ ratelimit = config.ratelimit
 
 log = logging.getLogger('main.stocker')
 
+config.signal_trig()
+
 
 def catalog_collector(refresh, path=inputpath):
     '''Loads or creates a list od every catalog in path containg audio file

@@ -1,11 +1,9 @@
 import discogs_client
 import logging
-import itertools
-import time
-import string
-
 import config
-import text_tools
+
+import discogs_tools
+import discogs_meths
 
 
 log = logging.getLogger('main.dgs_con')
@@ -14,33 +12,28 @@ d = discogs_client.Client(
     'bloniaqsMusicLibraryManager/0.1',
     user_token="BxpsPOkQpsQzPnUErhoQchKfkTIhGxdnzAHhyybD")
 
-punctuationremover = str.maketrans('', '', string.punctuation)
-
 ratelimit = config.ratelimit
 checklist = config.discogs_checklist
 
-
-def is_found(dictionary, key):
-    if key in dictionary:
-        if dictionary[key] != '':
-            return True
-        else:
-            return False
-    else:
-        return False
+config.signal_trig()
 
 
 def insert_ids(cat_attrs, f_attrs_list):
     log.info('Query Discogs Func started')
-    log.info('Working on {0}'.format(cat_attrs['path']))
-    if not is_found(cat_attrs, 'd_master'):
+    log.info('Working on {}\n'.format(cat_attrs['path']))
+    cat_attrs['comment'] += ''
+    if not discogs_tools.is_found(cat_attrs, 'd_master'):
         cat_attrs = find_a_master(cat_attrs, f_attrs_list)
-    if not is_found(cat_attrs, 'd_release'):
+    if config.is_interrupted():
+        return cat_attrs
+    if not discogs_tools.is_found(cat_attrs, 'd_release', 'd_master'):
         cat_attrs = find_a_release(cat_attrs, f_attrs_list)
+    if config.is_interrupted():
+        return cat_attrs
     for i in checklist:
         cat_attrs[i] = cat_attrs.get(i, '')
     log.info(
-        'Finshed querying Discogs, results are: {0}, {1}, {2}, {3}\n\n'.format(
+        'Finshed querying Discogs, results are: {}, {}, {}, {}\n\n'.format(
             cat_attrs['d_master'], cat_attrs['metoda_master'],
             cat_attrs['d_release'], cat_attrs['metoda_release']))
     return cat_attrs
@@ -51,198 +44,56 @@ def insert_ids(cat_attrs, f_attrs_list):
 ##########################################
 
 
-def find_a_master(cat_attrs, f_attrs_list):
-    log.info('Find a master Func started')
-    while True:
-        m_by_album(cat_attrs, 50)
-        if is_found(cat_attrs, 'd_master'):
-            break
-        m_by_token(cat_attrs, 15)
-        if is_found(cat_attrs, 'd_master'):
-            break
-        m_by_variations(cat_attrs, 100)
-        if is_found(cat_attrs, 'd_master'):
-            break
-        break
-    log.info('Find a master Func ended\n')
+def find_a_master(cat_attrs, f_attrs_list, skip=False):
+    log.info('Find a master Func started\n')
+    discogs_meths.m_by_token(cat_attrs, 10)
+    if discogs_tools.is_found(cat_attrs, 'd_master'):
+        return cat_attrs
+    if config.is_interrupted():
+        return cat_attrs
+    discogs_meths.m_by_album(cat_attrs, 50)
+    if discogs_tools.is_found(cat_attrs, 'd_master'):
+        return cat_attrs
+    if config.is_interrupted():
+        return cat_attrs
+    discogs_meths.m_by_variations(cat_attrs, 100)
+    if discogs_tools.is_found(cat_attrs, 'd_master'):
+        return cat_attrs
+    if config.is_interrupted():
+        return cat_attrs
+    discogs_meths.m_by_token_cut(cat_attrs, 10)
+    if discogs_tools.is_found(cat_attrs, 'd_master'):
+        return cat_attrs
+    if config.is_interrupted():
+        return cat_attrs
+    discogs_meths.m_by_album_fuzz(cat_attrs)
+    if discogs_tools.is_found(cat_attrs, 'd_master', 'd_release'):
+        return cat_attrs
+    if config.is_interrupted():
+        return cat_attrs
+    discogs_meths.m_by_album_fuzz_excl(cat_attrs)
+    if discogs_tools.is_found(cat_attrs, 'd_master', 'd_release'):
+        return cat_attrs
+    if config.is_interrupted():
+        return cat_attrs
+    if config.manual_mode:
+        discogs_meths.m_by_manual(cat_attrs)
+    if discogs_tools.is_found(cat_attrs, 'd_master'):
+        return cat_attrs
+    discogs_meths.m_by_artist(cat_attrs)
+    if config.is_interrupted():
+        return cat_attrs
+    log.info('Find a master Func ended\n\n')
     return cat_attrs
-
-
-def m_by_album(cat_attrs, res_tresh):
-    log.info('Master: Album')
-    log.info('Connecting Discogs\tQuery: {0}'.format(
-        cat_attrs['album']))
-    cur_method = 'Album'
-    outcome = d.search(cat_attrs['album'], type='master')
-    for i in itertools.islice(outcome, 0, res_tresh):
-        m_name = i.title.split(' - ')
-        s_artist = text_tools.rm_artist_num(m_name[0])
-        m_album = m_name[1]
-        log.info('Comparing {0} - {1} to {2} - {3}'.format(
-            s_artist, m_album, cat_attrs['artist'], cat_attrs['album']))
-        if s_artist == cat_attrs['artist'] and m_album == cat_attrs['album']:
-            cat_attrs['metoda_master'] = cur_method
-            cat_attrs['d_master'] = i.id
-            log.info('Found ID : {0} by a {1} method\n'.format(
-                i.id, cat_attrs['metoda_master']))
-            break
-    try:
-        log.debug('values on output: {0}, {1}\n'.format(
-            cat_attrs['metoda_master'], cat_attrs['d_master']))
-    except BaseException as e:
-        log.debug('no values on output, error: {0}\n'.format(e))
-    time.sleep(ratelimit)
-    return cat_attrs
-
-
-def m_by_token(cat_attrs, res_tresh):
-    log.info('Master: Token')
-    token = cat_attrs['artist'] + ' - ' + cat_attrs['album']
-    log.info('Connecting Discogs\tQuery: {0}'.format(token))
-    cur_method = 'Token'
-    outcome = d.search(token, type='master')
-    for i in itertools.islice(outcome, 0, res_tresh):
-        log.info('{0}'.format(i.title))
-        m_name = i.title.split(' - ')
-        s_artist = text_tools.rm_artist_num(m_name[0])
-        m_album = m_name[1]
-        log.info('Comparing {0} - {1} to {2} - {3}'.format(
-            s_artist, m_album, cat_attrs['artist'], cat_attrs['album']))
-        if s_artist == cat_attrs['artist'] and m_album == cat_attrs['album']:
-            cat_attrs['metoda_master'] = cur_method
-            cat_attrs['d_master'] = i.id
-            log.info('Found ID : {0} by a {1} method\n'.format(
-                i.id, cat_attrs['metoda_master']))
-            break
-    try:
-        log.debug('values on output: {0}, {1}\n'.format(
-            cat_attrs['metoda_master'], cat_attrs['d_master']))
-    except BaseException as e:
-        log.debug('no values on output, error: {0}\n'.format(e))
-    time.sleep(ratelimit)
-    return cat_attrs
-
-
-def m_by_variations(cat_attrs, res_tresh):
-    log.info('Master: Variations')
-    log.info('Connecting Discogs\tQuery: {0}'.format(
-        cat_attrs['artist']))
-    cur_method = 'Variations'
-    outcome = d.search(cat_attrs['artist'], type='artist')
-    try:
-        variations = outcome[0].name_variations
-    except IndexError as e:
-        variations = None
-        log.warning('No variations of {0} found'.format(cat_attrs['artist']))
-    else:
-        if variations is not None:
-            log.info('Found {0} aliases : {1}'.format(outcome[0], variations))
-            for k in variations:
-                if is_found(cat_attrs, 'd_master'):
-                    break
-                variations_query = k + ' - ' + cat_attrs['album']
-                log.info('Connecting Discogs\tQuery: {0}'.format(
-                    variations_query))
-                outcome = d.search(variations_query, type='master')
-                for i in itertools.islice(outcome, 0, res_tresh):
-                    m_name = i.title.split(' - ')
-                    m_artist = m_name[0]
-                    m_album = m_name[1]
-                    # m_artist = masterlist[0].split('*')[0]
-                    # m_artist = martist.split(' (')[0]
-                    log.info('Comparing {0} - {1} to {2} - {3}'.format(
-                        m_artist, m_album, cat_attrs['artist'],
-                        cat_attrs['album']))
-                    if (m_artist == cat_attrs['artist'] and
-                            m_album == cat_attrs['album']):
-                        cat_attrs['metoda_master'] = cur_method
-                        cat_attrs['d_master'] = i.id
-                        log.info('Found ID : {0} by a {1} method\n'.format(
-                            i.id, cat_attrs['metoda_master']))
-                        break
-                time.sleep(ratelimit)
-        else:
-            log.warning('No variations of {0} found - Check LOG'.format(
-                outcome[0]))
-    try:
-        log.debug('values on output: {0}, {1}\n'.format(
-            cat_attrs['metoda_master'], cat_attrs['d_master']))
-    except BaseException as e:
-        log.debug('no values on output, error: {0}\n'.format(e))
-    time.sleep(ratelimit)
-    return cat_attrs
-
-
-##########################################
-# FINDING RELEASE
-##########################################
 
 
 def find_a_release(cat_attrs, f_attrs_list):
-    log.info('Find a release Func started')
-    while True:
-        r_by_album(cat_attrs, 15)
-        if is_found(cat_attrs, 'd_release'):
-            break
-        r_by_token(cat_attrs, 15)
-        if is_found(cat_attrs, 'd_release'):
-            break
-        break
     log.info('Find a release Func started\n')
-    return cat_attrs
-
-
-def r_by_album(cat_attrs, res_tresh):
-    log.info('Release: Album')
-    log.info('Connecting Discogs\tQuery: {0}'.format(cat_attrs['album']))
-    cur_method = 'Album'
-    outcome = d.search(cat_attrs['album'], type='release')
-    for i in itertools.islice(outcome, 0, res_tresh):
-        if len(i.artists) > 1:
-            log.debug('there is more than one artist in current release')
-        s_artist = text_tools.rm_artist_num(i.artists[0].name)
-        log.info('Comparing {0} - {1} to {2} - {3}'.format(
-            s_artist, i.title, cat_attrs['artist'],
-            cat_attrs['album']))
-        if (s_artist == cat_attrs['artist'] and
-                i.title == cat_attrs['album']):
-            cat_attrs['metoda_release'] = cur_method
-            cat_attrs['d_release'] = i.id
-            log.info('Found ID : {0} by a {1} method\n'.format(
-                i.id, cat_attrs['metoda_release']))
-            break
-    try:
-        log.debug('values on output: {0}, {1}\n'.format(
-            cat_attrs['metoda_release'], cat_attrs['d_release']))
-    except BaseException as e:
-        log.debug('no values on output, error: {0}\n'.format(e))
-    time.sleep(ratelimit)
-    return cat_attrs
-
-
-def r_by_token(cat_attrs, res_tresh):
-    log.info('Release: Token')
-    token = cat_attrs['artist'] + ' - ' + cat_attrs['album']
-    log.info('Connecting Discogs\tQuery: {0}'.format(token))
-    cur_method = 'Token'
-    outcome = d.search(token, type='release')
-    for i in itertools.islice(outcome, 0, res_tresh):
-        s_artist = text_tools.rm_artist_num(i.artists[0].name)
-        m_album = str(i.title).translate(punctuationremover)
-        # tran_artist = cat_attrs['artist'].translate(punctuationremover)
-        # tran_album = cat_attrs['album'].translate(punctuationremover)
-        log.info('Comparing {0} - {1} to {2} - {3}'.format(
-            s_artist, m_album, cat_attrs['artist'], cat_attrs['album']))
-        if s_artist == cat_attrs['artist'] and m_album == cat_attrs['album']:
-            cat_attrs['metoda_release'] = cur_method
-            cat_attrs['d_release'] = i.id
-            log.info('Found ID : {0} by a {1} method\n'.format(
-                i.id, cat_attrs['metoda_release']))
-            break
-    try:
-        log.debug('values on output: {0}, {1}\n'.format(
-            cat_attrs['metoda_release'], cat_attrs['d_release']))
-    except BaseException as e:
-        log.debug('no values on output, error: {0}\n'.format(e))
-    time.sleep(ratelimit)
+    discogs_meths.r_by_token(cat_attrs, 15)
+    if discogs_tools.is_found(cat_attrs, 'd_release'):
+        return cat_attrs
+    discogs_meths.r_by_album(cat_attrs, 15)
+    if discogs_tools.is_found(cat_attrs, 'd_release'):
+        return cat_attrs
+    log.info('Find a release Func started\n\n')
     return cat_attrs

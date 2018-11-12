@@ -4,10 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-requests = "*"
+requests = "~=2.20.0"
 pytaglib = "==1.4.3"
 discogs-client = "*"
 cython = "*"
+fuzzywuzzy = "*"
+python-levenshtein = "*"
 
 [dev-packages]
 
