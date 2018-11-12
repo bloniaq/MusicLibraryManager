@@ -1,10 +1,9 @@
 import discogs_client
 import logging
-import config
 
-import discogs_tools
-import discogs_meths
-
+import modules.config as config
+import modules.discogs_tools as discogs_tools
+import modules.discogs_meths as discogs_meths
 
 log = logging.getLogger('main.dgs_con')
 

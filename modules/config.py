@@ -41,7 +41,7 @@ def term_handler(signal, frame):
 
 def signal_trig():
     signal.signal(signal.SIGINT, signal_handler)
-    signal.signal(signal.SIGQUIT, term_handler)
+    signal.signal(signal.SIGBREAK, term_handler)
 
 
 def is_interrupted():

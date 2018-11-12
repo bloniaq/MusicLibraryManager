@@ -2,7 +2,7 @@ import sqlite3
 import logging
 from datetime import datetime
 
-import config
+import modules.config as config
 
 databasefilename = config.databasefilename
 

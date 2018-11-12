@@ -3,10 +3,10 @@ import sys
 import time
 import logging
 
-import discogs_con
-import config
-import dbase
-import data_stocker
+import modules.discogs_con as discogs_con
+import modules.config as config
+import modules.dbase as dbase
+import modules.data_stocker as data_stocker
 
 
 #############################################

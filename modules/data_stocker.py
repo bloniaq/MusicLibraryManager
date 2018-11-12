@@ -5,8 +5,8 @@ import taglib
 import ntpath
 import pickle
 
-import config
-import text_tools
+import modules.config as config
+import modules.text_tools as text_tools
 
 inputpath = config.inputpath
 catalog_cache_file = config.catalog_cache_file

@@ -2,11 +2,10 @@ import logging
 import discogs_client
 import time
 
-import config
-import text_tools
+import modules.config as config
+import modules.text_tools as text_tools
 
 log = logging.getLogger('main.dgs_tls')
-
 
 ratelimit = config.ratelimit
 checklist = config.discogs_checklist

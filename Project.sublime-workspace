@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"SIG",
+				"SIGTERM\tinstance"
+			],
+			[
+				"list",
+				"list_item\tparam"
+			],
+			[
+				"lsit",
+				"list_item\tparam"
+			],
+			[
+				"is",
+				"is_interupeted\tfunction"
+			],
+			[
 				"skip",
 				"skip_flag\tstatement"
 			],
@@ -143,60 +159,24 @@
 			"file": "DBbuilder.py",
 			"settings":
 			{
-				"buffer_size": 4024,
+				"buffer_size": 4248,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "discogs_con.py",
+			"file": "modules/config.py",
 			"settings":
 			{
-				"buffer_size": 29485,
-				"encoding": "UTF-8",
+				"buffer_size": 1263,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "logs/log-2018.11.10-10.52.log",
-			"settings":
-			{
-				"buffer_size": 361210,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "dbase.py",
-			"settings":
-			{
-				"buffer_size": 8788,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "data_stocker.py",
+			"file": "modules/data_stocker.py",
 			"settings":
 			{
 				"buffer_size": 9075,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "text_tools.py",
-			"settings":
-			{
-				"buffer_size": 4931,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "config.py",
-			"settings":
-			{
-				"buffer_size": 987,
 				"line_ending": "Windows"
 			}
 		}
@@ -243,10 +223,20 @@
 	"expanded_folders":
 	[
 		"/E/# PROGRAMOWANIE/MusicLibraryManager",
-		"/E/# PROGRAMOWANIE/MusicLibraryManager/logs"
+		"/E/# PROGRAMOWANIE/MusicLibraryManager/logs",
+		"/E/# PROGRAMOWANIE/MusicLibraryManager/modules"
 	],
 	"file_history":
 	[
+		"/E/# PROGRAMOWANIE/MusicLibraryManager/modules/dbase.py",
+		"/E/# PROGRAMOWANIE/MusicLibraryManager/modules/discogs_con.py",
+		"/E/# PROGRAMOWANIE/MusicLibraryManager/modules/discogs_meths.py",
+		"/E/# PROGRAMOWANIE/MusicLibraryManager/modules/discogs_tools.py",
+		"/E/# PROGRAMOWANIE/MusicLibraryManager/modules/text_tools.py",
+		"/E/# PROGRAMOWANIE/MusicLibraryManager/modules/config.py",
+		"/E/# PROGRAMOWANIE/MusicLibraryManager/.gitignore",
+		"/E/# PROGRAMOWANIE/MusicLibraryManager/data_stocker.py",
+		"/E/# PROGRAMOWANIE/MusicLibraryManager/dbase.py",
 		"/E/# PROGRAMOWANIE/MusicLibraryManager/config.py",
 		"/E/# PROGRAMOWANIE/MusicLibraryManager/logs/log-2018.11.08-20.49.log",
 		"/E/# PROGRAMOWANIE/MusicLibraryManager/logs/log-2018.11.05-23.26.log",
@@ -257,7 +247,6 @@
 		"/E/# PROGRAMOWANIE/Pompa/models.py",
 		"/E/# PROGRAMOWANIE/Pompa/Pompa.py",
 		"/E/# PROGRAMOWANIE/MusicLibraryManager/logs/log-2018.11.05-07.01.log",
-		"/E/# PROGRAMOWANIE/MusicLibraryManager/dbase.py",
 		"/E/# PROGRAMOWANIE/MusicLibraryManager/discogs_con.py",
 		"/E/# PROGRAMOWANIE/MusicLibraryManager/logs/log-2018.10.31-18.18.log",
 		"/C/Users/blons/;",
@@ -294,7 +283,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 41.0
 	},
 	"find_in_files":
 	{
@@ -308,6 +297,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"d.",
+			"search",
+			"split",
+			"log.info('')",
 			"interrupted",
 			"day by day vol.",
 			"strawberry lane",
@@ -347,7 +340,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -356,57 +349,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4024,
+						"buffer_size": 4248,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3511,
-								3511
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								}
-							],
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1554.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "discogs_con.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 29485,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								15663,
-								15663
+								598,
+								598
 							]
 						],
 						"settings":
@@ -424,14 +375,6 @@
 								{
 									"characters": ".",
 									"selector": "source.python - string - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
 								}
 							],
 							"git_gutter_is_enabled": true,
@@ -440,19 +383,19 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6834.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "logs/log-2018.11.10-10.52.log",
-					"semi_transient": true,
+					"buffer": 1,
+					"file": "modules/config.py",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 361210,
+						"buffer_size": 1263,
 						"regions":
 						{
 						},
@@ -466,35 +409,6 @@
 						"settings":
 						{
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 94016.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "dbase.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8788,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4118,
-								4118
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
 							"syntax": "Packages/Python/Python.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
@@ -503,12 +417,12 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "data_stocker.py",
+					"buffer": 2,
+					"file": "modules/data_stocker.py",
 					"semi_transient": false,
 					"settings":
 					{
@@ -519,68 +433,6 @@
 						"selection":
 						[
 							[
-								417,
-								417
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 54.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "text_tools.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4931,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								214,
-								221
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 216.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "config.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 987,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
 								0,
 								0
 							]
@@ -596,7 +448,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -604,7 +456,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -645,7 +497,7 @@
 	"project": "Project.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":

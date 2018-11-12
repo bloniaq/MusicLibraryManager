@@ -6,7 +6,7 @@ from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 
 
-import config
+import modules.config as config
 
 log = logging.getLogger('main.txttools')
 ratelimit = config.ratelimit

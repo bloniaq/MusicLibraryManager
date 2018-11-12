@@ -9,9 +9,9 @@ from datetime import timedelta
 from fuzzywuzzy import fuzz
 from json import decoder
 
-import config
-import text_tools
-import discogs_tools
+import modules.config as config
+import modules.text_tools as text_tools
+import modules.discogs_tools as discogs_tools
 
 log = logging.getLogger('main.dgs_meths')
 
